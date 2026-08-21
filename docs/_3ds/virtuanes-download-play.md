@@ -22,7 +22,7 @@ image_length: 18664
 layout: app
 llm_generation: 'yes'
 source: https://github.com/b00t3r/emus3ds-download-play
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: VirtuaNES Download Play

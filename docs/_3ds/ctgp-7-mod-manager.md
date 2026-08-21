@@ -39,7 +39,7 @@ prerelease:
   version: pre1
   version_title: Prerelease 1
 source: https://github.com/NitroShellMKDS/CTGP-7-Mod-Manager
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: CTGP-7 Mod Manager
