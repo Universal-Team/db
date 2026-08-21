@@ -14,22 +14,22 @@ downloads:
   virtuanes_3ds.3dsx:
     size: 1156640
     size_str: 1 MiB
-    url: https://github.com/bOOt3r/emus3ds-download-play/releases/download/v1.02-dp1/virtuanes_3ds.3dsx
+    url: https://github.com/b00t3r/emus3ds-download-play/releases/download/v1.02-dp1/virtuanes_3ds.3dsx
 github: bOOt3r/emus3ds-download-play
 icon: https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/src/cores/virtuanes/assets/icon.png
 image: https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/virtuanes_3ds_top.png
 image_length: 18664
 layout: app
 llm_generation: 'yes'
-source: https://github.com/bOOt3r/emus3ds-download-play
+source: https://github.com/b00t3r/emus3ds-download-play
 stars: 2
 systems:
 - 3DS
 title: VirtuaNES Download Play
-update_notes: '<p dir="auto">VirtuaNES for 3DS with download play support.</p>
+update_notes: '<p>VirtuaNES for 3DS with download play support.</p>
 
-  <p dir="auto">This fork is based on upstream VirtuaNES v1.02 and adds local multiplayer
-  through Download Play.</p>'
+  <p>This fork is based on upstream VirtuaNES v1.02 and adds local multiplayer through
+  Download Play.</p>'
 updated: '2026-08-18T19:36:50Z'
 version: v1.02-dp1
 version_title: VirtuaNES 1.02 Download Play 1
