@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 216576
-    size_str: 211 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.4-impidimp/cart_flasher.nds
+    size: 236032
+    size_str: 230 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.6-shiinotic/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -30,27 +30,42 @@ stars: 2
 systems:
 - DS
 title: cart-flasher
-update_notes: '<p dir="auto"><strong>Fixed</strong><br>
+update_notes: '<h3 dir="auto">Recovery</h3>
 
-  Acekard 2i HW-81 carts were treated as 16MB when the flash chip is really 2MB. That
-  made backups eight times bigger than they should be, and restoring one often had
-  to be repeated before it stuck, sometimes leaving the cart in a bad state. Backups
-  are now the right size and restore in one go. Old 16MB backups should still work
-  fine.</p>
+  <ul dir="auto">
 
-  <p dir="auto">Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ApacheThunder/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>
-  for spotting it and testing the fix on real hardware.</p>
+  <li>Added recovery for 2 MiB Ace3DS+/R4iLS carts using the SpongeBob <code class="notranslate">AL3E</code>
+  boot profile.</li>
 
-  <p dir="auto"><strong>Changed</strong><br>
+  <li>Recovery now tries the validated Deep Labyrinth <code class="notranslate">ADLE</code>
+  and SpongeBob <code class="notranslate">AL3E</code> profiles.</li>
 
-  Updated DS banner and dev/nightly builds formatting.</p>
+  <li>Both profiles verify the expected flash capacity before enabling backup or write,
+  and keep ntrboot injection disabled during recovery.</li>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.3-comfey...v0.5.4-impidimp"><tt>v0.5.3-comfey...v0.5.4-impidimp</tt></a></p>'
-updated: '2026-08-19T04:07:51Z'
-version: v0.5.4-impidimp
-version_title: v0.5.4-impidimp
+  </ul>
+
+  <h3 dir="auto">Reliability</h3>
+
+  <ul dir="auto">
+
+  <li>Cart command failures now stop the affected operation instead of continuing
+  with stale results.</li>
+
+  </ul>
+
+  <h3 dir="auto">Interface</h3>
+
+  <ul dir="auto">
+
+  <li>Improved recovery, backup, write, progress, and error-screen layout.</li>
+
+  <li>Improved cart driver-credit display.</li>
+
+  </ul>'
+updated: '2026-08-22T05:53:26Z'
+version: v0.6-shiinotic
+version_title: v0.6-shiinotic
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
