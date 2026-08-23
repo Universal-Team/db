@@ -27,16 +27,16 @@ license: other
 license_name: Other
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-171194
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-c7d00d
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 6104872
+      size: 6037028
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
-      size: 4457408
+      size: 4432832
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -50,41 +50,34 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/cia.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/cia.png"
     alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/3dsx.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/3dsx.png"
     alt="3DSX Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-69edbe">Nightly-69edbe</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-171194">Nightly-171194</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/171194259ef26a090867baded3c8aeebb3b20a27">17119425</a>
-    - Readded B2F underwater hearts in Deku tree (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4923315463" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/847"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/847/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/847">#847</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/c7d00d45b4fadbf063e37be931044d7e27998f31">c7d00d45</a>
+    - Improvements for traps, add new curse types (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="5124889892" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/850"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/850/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/850">#850</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/46511f9b1c1adda9002ef9b120e5a0c43e865a8d">46511f9b</a>
-    - Add sub-option for Playthrough Hints Specificity (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4914183483" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/846"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/846/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/846">#846</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/abb3721490afa34f6f298bcaf0e7deb06198bb90">abb37214</a>
-    - Add initialization checks for location table (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4914149199" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/845"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/845/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/845">#845</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/acd0e7123667667c4a01adc6e2461bb4634b8e1f">acd0e712</a>
+    - Added a time multiplier for the final frog song to make it more lenient (<a
+    class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5103291457"
+    data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/849"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/849/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/849">#849</a>)</li>
 
     </ul>'
   update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
@@ -98,27 +91,24 @@ prerelease:
 
     CIA QR Code:
 
-    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/cia.png)
+    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/cia.png)
 
     3DSX QR Code:
 
-    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-171194/3dsx.png)
+    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-c7d00d/3dsx.png)
 
 
-    Changes Since [Nightly-69edbe](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-69edbe)
+    Changes Since [Nightly-171194](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-171194)
     🛠:
 
-    - [17119425](http://github.com/gamestabled/OoT3D_Randomizer/commit/171194259ef26a090867baded3c8aeebb3b20a27)
-    - Readded B2F underwater hearts in Deku tree (#847)
+    - [c7d00d45](http://github.com/gamestabled/OoT3D_Randomizer/commit/c7d00d45b4fadbf063e37be931044d7e27998f31)
+    - Improvements for traps, add new curse types (#850)
 
-    - [46511f9b](http://github.com/gamestabled/OoT3D_Randomizer/commit/46511f9b1c1adda9002ef9b120e5a0c43e865a8d)
-    - Add sub-option for Playthrough Hints Specificity (#846)
-
-    - [abb37214](http://github.com/gamestabled/OoT3D_Randomizer/commit/abb3721490afa34f6f298bcaf0e7deb06198bb90)
-    - Add initialization checks for location table (#845)'
-  updated: '2026-07-19T21:59:16Z'
-  version: Nightly-171194
-  version_title: Nightly-171194
+    - [acd0e712](http://github.com/gamestabled/OoT3D_Randomizer/commit/acd0e7123667667c4a01adc6e2461bb4634b8e1f)
+    - Added a time multiplier for the final frog song to make it more lenient (#849)'
+  updated: '2026-08-23T16:36:40Z'
+  version: Nightly-c7d00d
+  version_title: Nightly-c7d00d
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
