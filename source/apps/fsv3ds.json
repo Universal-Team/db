@@ -1,0 +1,14 @@
+{
+	"github": "Bruce303lee/fsv3ds",
+	"author": "Bruce303lee",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/Bruce303lee/fsv3ds/main/forwarder/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/Bruce303lee/fsv3ds/main/forwarder/assets/banner.png",
+	"long_description": "A homebrew 3DS port of fsv, the '3D File System Visualizer' -- the file-browser-as-a-cyberspace-city thing from Jurassic Park (SGI's fsn). Point it at a folder on your SD card and it lays out directories and files as a 3D treemap you fly around with the circle pad, in stereoscopic 3D, on real 3DS hardware.\n\nFeatures MapV (treemap) and TreeV (cylindrical) rendering modes, real per-extension file coloring, a touch-driven bottom screen with folder browsing and settings, text/hex/image (BMP/PNG/JPEG) file viewers, and the ability to launch other .3dsx homebrew directly from the file browser."
+}

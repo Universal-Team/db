@@ -3,25 +3,25 @@ author: Just-a-Spider
 avatar: https://avatars.githubusercontent.com/u/120763283?v=4
 categories:
 - utility
-color: '#0a0f0d'
-color_bg: '#0a0f0d'
+color: '#1c4c53'
+color_bg: '#1c4c53'
 created: '2025-02-10T01:38:42Z'
 description: Vide-coded app that allows to see RAM, GPU and CPU stats from a linux
   PC in a browser or a 3DS console.
 download_page: https://github.com/Just-a-Spider/SysMon/releases
 downloads:
   sysmon-3ds.3dsx:
-    size: 4473500
+    size: 4512088
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/Latest/sysmon-3ds.3dsx
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.3dsx
   sysmon-3ds.cia:
-    size: 240064
-    size_str: 234 KiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/Latest/sysmon-3ds.cia
+    size: 4522944
+    size_str: 4 MiB
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.cia
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
-image_length: 12390
+image_length: 25608
 layout: app
 llm_generation: 'yes'
 qr:
@@ -36,9 +36,51 @@ systems:
 title: SysMon
 unique_ids:
 - '0x1337'
+update_notes: '<h2 dir="auto">SysMon v0.3.1</h2>
+
+  <h3 dir="auto">3DS Client</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed Monocraft font loading in <code class="notranslate">.cia</code> builds
+  by embedding RomFS partition in application metadata.</li>
+
+  <li>Added text wrapping and truncation for long track titles in the Media tab.</li>
+
+  <li>Replaced unprintable control characters in the Settings tab with standard ASCII
+  indicators.</li>
+
+  <li>Updated 3DS HOME Menu icon and banner to flat vector designs.</li>
+
+  <li>Added Level tab for per-application audio mixer control.</li>
+
+  <li>Added Ctrl tab for UDP virtual gamepad input to Linux host.</li>
+
+  <li>Added DSP hardware audio feedback for tab switching and actions.</li>
+
+  <li>Added multi-server profile manager in Settings.</li>
+
+  </ul>
+
+  <h3 dir="auto">Linux Server</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed system tray icon on Linux Wayland/COSMIC sessions by setting X11 backend
+  fallback for GDK.</li>
+
+  <li>Screen streaming (CAM) moved to optional <code class="notranslate">--features
+  cam</code> build; default release is a lightweight binary without streaming dependencies.</li>
+
+  <li>Added uinput gamepad driver integration for 3DS controller input.</li>
+
+  <li>Added dynamic hiding of streaming controls in web config dashboard on standard
+  builds.</li>
+
+  </ul>'
 updated: '2026-07-22T23:02:15Z'
-version: Latest
-version_title: v0.1.0
+version: v0.3.1
+version_title: v0.3.1
 ---
 **IMPORTANT: This app requires the companion server to be running on your PC!**
 

@@ -25,6 +25,52 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/Unitendo/aurorachat/releases/tag/pre2-v7.0
+  downloads:
+    aurorachat.3dsx:
+      size: 180756
+      size_str: 176 KiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/pre2-v7.0/aurorachat.3dsx
+    aurorachat.cia:
+      size: 522688
+      size_str: 510 KiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/pre2-v7.0/aurorachat.cia
+  qr:
+    aurorachat.cia: https://db.universal-team.net/assets/images/qr/prerelease/aurorachat-cia.png
+  update_notes: '<h1 dir="auto">Changelog</h1>
+
+    <ul dir="auto">
+
+    <li><em><strong>Changed GUI</strong></em></li>
+
+    <li>Resentfully added a form of socket buffering</li>
+
+    <li>Changed the way data is received</li>
+
+    <li><em><strong>Added message history</strong></em></li>
+
+    <li><em><strong>Added themes</strong></em></li>
+
+    <li>and more! (probably)</li>
+
+    </ul>'
+  update_notes_md: '# Changelog
+
+    - _**Changed GUI**_
+
+    - Resentfully added a form of socket buffering
+
+    - Changed the way data is received
+
+    - _**Added message history**_
+
+    - _**Added themes**_
+
+    - and more! (probably)'
+  updated: '2026-08-21T21:13:56Z'
+  version: pre2-v7.0
+  version_title: 'v7 Pre-release 2: Glow-up'
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat

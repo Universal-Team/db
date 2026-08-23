@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 216576
-    size_str: 211 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.3-comfey/cart_flasher.nds
+    size: 236032
+    size_str: 230 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.6-shiinotic/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -26,24 +26,46 @@ llm_generation: 'yes'
 qr:
   cart_flasher.nds: https://db.universal-team.net/assets/images/qr/cart_flasher-nds.png
 source: https://github.com/tasken/cart-flasher
-stars: 0
+stars: 2
 systems:
 - DS
 title: cart-flasher
-update_notes: '<ul dir="auto">
+update_notes: '<h3 dir="auto">Recovery</h3>
 
-  <li>Fixed firmware writes to use safe 64 KiB chunks, preventing partial-page corruption
-  on Acekard 2i, DSTT, R4i Gold 3DS, and R4 SDHC Dual-Core carts.</li>
+  <ul dir="auto">
 
-  <li>Removed two vendor build warnings: an incompatible libncgc reset-callback cast
-  and an unused R4 SDHC Dual-Core local.</li>
+  <li>Added recovery for 2 MiB Ace3DS+/R4iLS carts using the SpongeBob <code class="notranslate">AL3E</code>
+  boot profile.</li>
+
+  <li>Recovery now tries the validated Deep Labyrinth <code class="notranslate">ADLE</code>
+  and SpongeBob <code class="notranslate">AL3E</code> profiles.</li>
+
+  <li>Both profiles verify the expected flash capacity before enabling backup or write,
+  and keep ntrboot injection disabled during recovery.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.2-comfey...v0.5.3-comfey"><tt>v0.5.2-comfey...v0.5.3-comfey</tt></a></p>'
-updated: '2026-08-01T20:04:29Z'
-version: v0.5.3-comfey
-version_title: v0.5.3-comfey
+  <h3 dir="auto">Reliability</h3>
+
+  <ul dir="auto">
+
+  <li>Cart command failures now stop the affected operation instead of continuing
+  with stale results.</li>
+
+  </ul>
+
+  <h3 dir="auto">Interface</h3>
+
+  <ul dir="auto">
+
+  <li>Improved recovery, backup, write, progress, and error-screen layout.</li>
+
+  <li>Improved cart driver-credit display.</li>
+
+  </ul>'
+updated: '2026-08-22T05:53:26Z'
+version: v0.6-shiinotic
+version_title: v0.6-shiinotic
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 

@@ -20,7 +20,7 @@ image_length: 6953
 layout: app
 llm_generation: 'no'
 source: https://github.com/mainexploit/mk7-tt-revamp
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: Time Trials Revamped

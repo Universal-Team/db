@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   3dsc2_calib.cia: https://db.universal-team.net/assets/images/qr/3dsc2_calib-cia.png
 source: https://github.com/cylin577/3DSC2
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DSC2

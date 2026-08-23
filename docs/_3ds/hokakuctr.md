@@ -20,7 +20,7 @@ image_length: 3197
 layout: app
 llm_generation: unknown
 source: https://github.com/PretendoNetwork/HokakuCTR
-stars: 47
+stars: 46
 systems:
 - 3DS
 title: HokakuCTR

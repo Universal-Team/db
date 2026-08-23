@@ -11,22 +11,14 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
   sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
 download_page: https://github.com/patausx/descry/releases
 downloads:
-  SHA256SUMS:
-    size: 325
-    size_str: 325 Bytes
-    url: https://github.com/patausx/descry/releases/download/v1.0.6/SHA256SUMS
-  descry-v1.0.6-IRONLUNG.zip:
-    size: 113925
-    size_str: 111 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry-v1.0.6-IRONLUNG.zip
   descry.3dsx:
-    size: 529624
-    size_str: 517 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry.3dsx
+    size: 535528
+    size_str: 522 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.3dsx
   descry.cia:
-    size: 562112
-    size_str: 548 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry.cia
+    size: 566208
+    size_str: 552 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -51,181 +43,109 @@ screenshots:
 - description: Song view
   url: https://db.universal-team.net/assets/images/screenshots/descry/song-view.png
 source: https://github.com/patausx/descry
-stars: 20
+stars: 22
 systems:
 - 3DS
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<h1 dir="auto">descry v1.0.6 — one clock, honest renders, sharper tools</h1>
+update_notes: '<h1 dir="auto">descry v1.0.7 — precise cuts, dry stems</h1>
 
-  <p dir="auto">this release attacks the parts of a tracker that absolutely cannot
-  lie: time, playback position, undo and export. it also ships the first proper flagship
-  demo — a copyright-clean jungle track built to show what the sampler and sequencer
-  actually do.</p>
+  <p dir="auto">this one came from actually using the sampler instead of inventing
+  another synth engine for the feature list. long breaks can now be cropped and sliced
+  precisely, and finished arrangements can leave the 3DS as clean, synchronized tracks
+  for a DAW.</p>
 
-  <h2 dir="auto">one Song clock</h2>
+  <h2 dir="auto">dry stem export</h2>
 
-  <p dir="auto">Song rows used to advance independently on every track. put a one-phrase
-  drum chain next to a four-phrase bass chain and the drums reached the next arrangement
-  row three phrases early; an <code class="notranslate">EMPTY</code> cell raced ahead
-  even faster. the arrangement could look aligned and still dissolve during playback.</p>
+  <p dir="auto">hold <strong>ZL+SELECT</strong> in the PROJECT view to export one
+  synchronized set:</p>
 
-  <p dir="auto">v1.0.6 gives every Song row one shared boundary, derived from the
-  longest chain in that row. shorter chains loop inside it, <code class="notranslate">EMPTY</code>
-  cells wait silently, and all eight tracks enter the next row together. the same
-  boundary now drives end-of-song detection and offline export, so an unused track
-  can no longer truncate a render.</p>
+  <pre lang="text" class="notranslate"><code class="notranslate">NAME_mix.wav
 
-  <h2 dir="auto">exports you can trust</h2>
+  NAME_t1.wav
 
-  <p dir="auto">WAV export now uses the same mixer state as live playback:</p>
+  NAME_t2.wav
 
-  <ul dir="auto">
+  ...
 
-  <li>channel faders, master volume and persisted mutes</li>
-
-  <li>delay time / feedback / wet, reverb wet / size / damping</li>
-
-  <li>sends and sidechain ducking</li>
-
-  <li>long rests and sparse sections without false early-stop</li>
-
-  <li>the complete Song pass plus roughly three seconds of FX tail</li>
-
-  </ul>
-
-  <p dir="auto">renders stream straight to the SD card instead of accumulating the
-  whole WAV in RAM, with a ten-minute safety cap. at the shared wrap boundary the
-  sequencer releases the current voices without triggering row 0 again, so the tail
-  belongs to the song you rendered — not the next loop.</p>
-
-  <h2 dir="auto">IRONLUNG</h2>
-
-  <p dir="auto">IRONLUNG is a 174 BPM jungle demo built entirely from descry''s own
-  engines and procedural drum generator:</p>
-
-  <ul dir="auto">
-
-  <li>copyright-clean two-bar break, sliced into 32 chromatic sixteenth-note chops</li>
-
-  <li>step-programmed rearrangements, retrigger rolls and reverse fills</li>
-
-  <li>reese bass, sine sub, pads, stabs and sidechain ducking</li>
-
-  </ul>
-
-  <p dir="auto">install all three demo files together in <code class="notranslate">/3ds/descry/</code>:</p>
-
-  <pre lang="text" class="notranslate"><code class="notranslate">project_00.tr3d
-
-  sample_63.s16
-
-  sample_63.name
+  NAME_t8.wav
 
   </code></pre>
 
-  <p dir="auto"><code class="notranslate">.tr3d</code> files do not embed sample audio.
-  slot 63 is reserved for IRONLUNG; the optional BMT add-on now occupies slots 32–62
-  only.</p>
+  <p dir="auto">only tracks used by the arrangement are written. the files are captured
+  in one playback pass, so note timing, chance events, noise and sidechain movement
+  stay aligned.</p>
 
-  <h2 dir="auto">Phrase Tools, inspector and editing</h2>
+  <p dir="auto">track stems keep the instrument, note FX, filter, bitcrush/downsample,
+  channel fader, pan and sidechain duck. global delay, reverb and master processing
+  are deliberately left out — the point is to get clean material into a DAW and choose
+  those effects there. the reference mix still includes the full descry mix and roughly
+  three seconds of global FX tail.</p>
 
-  <p dir="auto">Phrase view now keeps a permanent inspector beside the grid. it resolves
-  the<br>
+  <p dir="auto">all files begin together and have the same length. a stem set reserves
+  one shared take suffix, writes through temporary files and removes partial output
+  if the SD write fails. normal <strong>SELECT</strong> mix export remains available.</p>
 
-  sticky/inherited instrument, shows its source and live envelope, exposes ALWAYS<br>
-
-  defaults and the mod table that can otherwise make a patch sound mysteriously<br>
-
-  processed, and decodes all three FX slots. press <strong>SELECT</strong> on the
-  instrument<br>
-
-  column to jump straight into that instrument''s editor.</p>
-
-  <p dir="auto">Phrase Tools adds deterministic generators alongside rotate, reverse,
-  transpose,<br>
-
-  octave and velocity transforms:</p>
+  <h2 dir="auto">sampler precision</h2>
 
   <ul dir="auto">
 
-  <li>Euclidean rhythms and density gating</li>
+  <li>fixed <code class="notranslate">CROP</code> on long samples: its 32-bit position
+  multiply overflowed after a few seconds and could keep one unrelated hit instead
+  of the selected region</li>
 
-  <li>humanize and ratchets</li>
+  <li>crop now works in frame coordinates with correct mono/stereo boundaries</li>
 
-  <li>random notes and scale-aware mutation</li>
+  <li>both <strong>WAVE</strong> and <strong>SLICE</strong> have a real editor viewport:
+  Circle Pad up/down zooms up to 256×, left/right pans</li>
 
-  <li>trigger-chance spread and <code class="notranslate">EVN</code> cycle conditions</li>
+  <li>touch marker selection and dragging use the zoomed frame range; zooming never
+  changes playback <code class="notranslate">START/LENGTH</code></li>
+
+  <li>changing the instrument <code class="notranslate">TYPE</code> still works with
+  WAVE/SLICE/LOAD open instead of firing the panel action under the same button</li>
+
+  <li>WAV browser preview now decodes two seconds instead of five, cutting the wait
+  and temporary memory for long files while full import keeps its 15-second capacity</li>
 
   </ul>
 
-  <p dir="auto">random operations use an explicit seed, stay inside the selected rows,
-  respect the active key/scale and leave unrelated FX alone. every operation is one
-  undo step.</p>
+  <p dir="auto">crop overflow and precision zoom were reported by <strong><a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/HexManic/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HexManic">@HexManic</a></strong>
+  in <a href="https://github.com/patausx/descry/issues/7" data-hovercard-type="issue"
+  data-hovercard-url="/patausx/descry/issues/7/hovercard">issue #7</a>. thanks for
+  the clear report — it pointed straight at a real long-sample bug and made the sampler
+  editor better in the same pass.</p>
 
-  <p dir="auto">analog controls are editing tools now: the circle pad accelerates
-  Song navigation<br>
-
-  and scrubs/zooms the sampler window; the C-stick is a relative fine/coarse value<br>
-
-  encoder. this replaces the old left-stick-as-KAOSS and right-stick sends/crush<br>
-
-  mappings, and the KAOSS <code class="notranslate">STK</code> toggle is gone. START
-  in Song view plays from the<br>
-
-  cursor row; hold <strong>L+START</strong> to start from the top.</p>
-
-  <h2 dir="auto">undo, playheads and visible state</h2>
+  <h2 dir="auto">export and UI cleanup</h2>
 
   <ul dir="auto">
 
-  <li>preset loads, instrument type changes and instrument clones are undoable as
-  whole snapshots</li>
+  <li>offline export now advances at tick boundaries instead of quantizing events
+  to 1024-frame blocks</li>
 
-  <li>replacing or loading a project clears old history, preventing undo from splicing
-  data from the previous project</li>
+  <li>export renders from a private project snapshot, so tempo commands cannot mutate
+  the live project</li>
 
-  <li>phrase and chain playheads report the position that actually sounded, including
-  phrase boundaries and tracks other than track 0</li>
+  <li>the in-app guide opens only from the visible <code class="notranslate">?</code>
+  button — the whole hint strip is no longer an invisible hit target</li>
 
-  <li>Song and Chain edits finally mark the project dirty</li>
+  <li>mixer faders have restrained theme-derived depth and highlights instead of flat
+  single-colour fills</li>
 
-  <li>mute/solo state, Song end, active playhead owner and the unsaved marker are
-  visible in the views where they matter</li>
-
-  <li>track mutes persist across save/load; PLAY and leaving solo no longer wipe them</li>
+  <li>help and the full guide document sampler zoom, fast preview and dry stems</li>
 
   </ul>
 
-  <h2 dir="auto">UI fixes and maintenance</h2>
+  <h2 dir="auto">verification</h2>
 
-  <ul dir="auto">
+  <p dir="auto">the full host regression suite passes, including long mono/stereo
+  crop and dry stem tap coverage. the release build was compiled with devkitARM and
+  tested on a New 3DS.</p>
 
-  <li>theme switching now reaches touch keys, pads, filter tints and confirmation
-  states instead of leaving cretaceous-coloured strays</li>
-
-  <li>overlays animate closed while remaining input-opaque, so the dismiss button
-  cannot hit the screen underneath</li>
-
-  <li>leaving KAOSS mode during a held gesture performs the normal release ramp instead
-  of freezing performance parameters</li>
-
-  <li>grid lines no longer shout louder than dim data in every theme</li>
-
-  <li><code class="notranslate">DTIM</code> is shown in milliseconds</li>
-
-  <li>removed the nonexistent <code class="notranslate">GRAN</code> instrument label
-  and cleaned the full-build warnings</li>
-
-  <li>split the UI monolith into per-screen translation units</li>
-
-  <li>CI now runs all 15 host regressions, builds IRONLUNG and performs a clean devkitARM
-  build on every push and pull request</li>
-
-  </ul>
-
-  <h2 dir="auto">files</h2>
+  <h2 dir="auto">file</h2>
 
   <markdown-accessiblity-table><table role="table">
 
@@ -247,7 +167,7 @@ update_notes: '<h1 dir="auto">descry v1.0.6 — one clock, honest renders, sharp
 
   <td><code class="notranslate">descry.cia</code></td>
 
-  <td>install to the Home Menu with FBI</td>
+  <td>Home Menu install with FBI</td>
 
   </tr>
 
@@ -263,15 +183,7 @@ update_notes: '<h1 dir="auto">descry v1.0.6 — one clock, honest renders, sharp
 
   <td><code class="notranslate">descry.3ds</code></td>
 
-  <td>flashcart / Citra / Azahar</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">descry-v1.0.6-IRONLUNG.zip</code></td>
-
-  <td>complete demo bundle for project slot 00 and sample slot 63</td>
+  <td>compatible flashcart / emulator</td>
 
   </tr>
 
@@ -279,22 +191,10 @@ update_notes: '<h1 dir="auto">descry v1.0.6 — one clock, honest renders, sharp
 
   </table></markdown-accessiblity-table>
 
-  <p dir="auto">New 3DS / New 2DS only.</p>
-
-  <h2 dir="auto">checksums</h2>
-
-  <pre lang="text" class="notranslate"><code class="notranslate">fe5eac672dac3b5c66ccc62de2617d8a251d047473d088ba9175f013f974a3db  descry.3dsx
-
-  ab20c8e0d0d0c0e5a9f20907d8d4cd5b710609db4bdba341cb67557d3ba65086  descry.cia
-
-  2063e92e63e91250f1123556a32bcd1cd082ffc402d055a6db822c834187fec1  descry.3ds
-
-  23f73f5278336ef87aaa2a7dc85672c6a541f6f275912e5ff1360ef9345de5d1  descry-v1.0.6-IRONLUNG.zip
-
-  </code></pre>'
-updated: '2026-08-15T08:30:07Z'
-version: v1.0.6
-version_title: descry v1.0.6
+  <p dir="auto">New 3DS / New 2DS only.</p>'
+updated: '2026-08-19T23:10:13Z'
+version: v1.0.7
+version_title: descry v1.0.7
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 

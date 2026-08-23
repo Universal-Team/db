@@ -1,0 +1,21 @@
+{
+	"github": "atticpad/atticpad",
+	"title": "AtticPad",
+	"description": "Use your 3DS as a gamepad for a Windows or Linux PC over Wi-Fi.",
+	"author": "ProPaint",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/atticpad/atticpad/main/clients/3ds/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/atticpad/atticpad/main/clients/3ds/meta/banner3d/preview.png",
+	"unique_ids": [
+		685852
+	],
+	"long_description": "Use your 3DS as a gamepad for your PC, over Wi-Fi.\n\n**You need the server too.** It runs on the PC you want to play on, and it is\nwhat creates the virtual controller:\nhttps://github.com/atticpad/atticpad/releases\n\nWindows and Linux. One file, no installer.\n\n## What the 3DS sends\n\n- All buttons, Circle Pad, and C-Stick on a New 3DS\n- Gyro, for motion aiming\n- The touch screen, configurable via profiles on the server.\n- Its battery level, shown on the PC.\n\n## Setting it up\n\n1. Run the server on your PC. It shows you an address.\n2. Open AtticPad on the 3DS and scan the QR code the\n   server shows on screen. (or type the IP)\n3. Play.\n\n## Good to know\n\nEverything stays on your own network. No account, no internet, no cloud.\n\nPairing is a QR code. By default the server accepts any device\non your LAN without one, so run it on a network you trust.\n\nTested on a New 3DS. The Old 3DS should work but has never been tried.\n\nMIT licensed. Source, docs and issues:\nhttps://github.com/atticpad/atticpad",
+	"download_filter": "3dsx|cia",
+	"preinstall_message": "Install AtticPad server on your PC first, this app is a controller for it. github.com/atticpad/atticpad"
+}
