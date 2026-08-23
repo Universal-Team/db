@@ -10,9 +10,13 @@ description: Run full RISCV Linux on (almost) every single Nintendo console
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 57500649
-    size_str: 54 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/4.0/3ds_cli.zip
+    size: 60157458
+    size_str: 57 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/4.1/3ds_cli.zip
+  Image:
+    size: 59691300
+    size_str: 56 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/4.1/Image
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -110,6 +114,13 @@ update_notes: '<h2 dir="auto">Setup</h2>
 
   </table></markdown-accessiblity-table>
 
+  <p dir="auto">On the 3DS, Wii U and Switch you can skip the <code class="notranslate">Image</code>
+  step: launch<br>
+
+  the app with none on the card and it offers to download this<br>
+
+  release''s over WiFi.</p>
+
   <p dir="auto">The Image has the root filesystem bundled in: on first boot the app<br>
 
   unpacks it to <code class="notranslate">rootfs.ext2</code> on the card, which stays
@@ -120,9 +131,9 @@ update_notes: '<h2 dir="auto">Setup</h2>
   Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
 
   procps, util-linux.</p>'
-updated: '2026-08-21T19:15:34Z'
-version: '4.0'
-version_title: V4.0 - Wii U, Switch, Wii and GameCube
+updated: '2026-08-22T21:48:29Z'
+version: '4.1'
+version_title: V4.1 - download the Image from the app
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
@@ -166,6 +177,12 @@ Features a custom ANSI/xterm terminal emulator on the top screen with full 16/25
 <li>Extract <code>/Image</code> from the zip to <code>/Image</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/3ds-cli.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Image</summary>
+<ol>
+<li>Download <code>Image</code> to <code>/Image</code> on your SD card</li>
 </ol>
 </details>
 
