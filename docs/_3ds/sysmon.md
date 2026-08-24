@@ -23,7 +23,36 @@ icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sys
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
 image_length: 25608
 layout: app
+license: mit
+license_name: MIT License
 llm_generation: 'yes'
+prerelease:
+  download_page: https://github.com/Just-a-Spider/SysMon/releases/tag/v0.3.2-dev.2
+  downloads:
+    SHA256SUMS.txt:
+      size: 559
+      size_str: 559 Bytes
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/SHA256SUMS.txt
+    sysmon-3ds.3dsx:
+      size: 4512576
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-3ds.3dsx
+    sysmon-3ds.cia:
+      size: 4522944
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-3ds.cia
+    sysmon-server_0.3.2-1_amd64.deb:
+      size: 3848724
+      size_str: 3 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-server_0.3.2-1_amd64.deb
+  qr:
+    sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
+  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.1...v0.3.2-dev.2"><tt>v0.3.2-dev.1...v0.3.2-dev.2</tt></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.1...v0.3.2-dev.2'
+  updated: '2026-08-24T17:54:28Z'
+  version: v0.3.2-dev.2
+  version_title: v0.3.2-dev.2
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
 screenshots:
