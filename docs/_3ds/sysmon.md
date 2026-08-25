@@ -10,14 +10,22 @@ description: Vide-coded app that allows to see RAM, GPU and CPU stats from a lin
   PC in a browser or a 3DS console.
 download_page: https://github.com/Just-a-Spider/SysMon/releases
 downloads:
+  SHA256SUMS.txt:
+    size: 559
+    size_str: 559 Bytes
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/SHA256SUMS.txt
   sysmon-3ds.3dsx:
-    size: 4512088
+    size: 4512576
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.3dsx
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.3dsx
   sysmon-3ds.cia:
     size: 4522944
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.cia
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.cia
+  sysmon-server_0.3.2-1_amd64.deb:
+    size: 3855772
+    size_str: 3 MiB
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-server_0.3.2-1_amd64.deb
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
@@ -26,33 +34,6 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: 'yes'
-prerelease:
-  download_page: https://github.com/Just-a-Spider/SysMon/releases/tag/v0.3.2-dev.2
-  downloads:
-    SHA256SUMS.txt:
-      size: 559
-      size_str: 559 Bytes
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/SHA256SUMS.txt
-    sysmon-3ds.3dsx:
-      size: 4512576
-      size_str: 4 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-3ds.3dsx
-    sysmon-3ds.cia:
-      size: 4522944
-      size_str: 4 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-3ds.cia
-    sysmon-server_0.3.2-1_amd64.deb:
-      size: 3848724
-      size_str: 3 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2-dev.2/sysmon-server_0.3.2-1_amd64.deb
-  qr:
-    sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
-  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.1...v0.3.2-dev.2"><tt>v0.3.2-dev.1...v0.3.2-dev.2</tt></a></p>'
-  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.1...v0.3.2-dev.2'
-  updated: '2026-08-24T17:54:28Z'
-  version: v0.3.2-dev.2
-  version_title: v0.3.2-dev.2
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
 screenshots:
@@ -65,51 +46,11 @@ systems:
 title: SysMon
 unique_ids:
 - '0x1337'
-update_notes: '<h2 dir="auto">SysMon v0.3.1</h2>
-
-  <h3 dir="auto">3DS Client</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed Monocraft font loading in <code class="notranslate">.cia</code> builds
-  by embedding RomFS partition in application metadata.</li>
-
-  <li>Added text wrapping and truncation for long track titles in the Media tab.</li>
-
-  <li>Replaced unprintable control characters in the Settings tab with standard ASCII
-  indicators.</li>
-
-  <li>Updated 3DS HOME Menu icon and banner to flat vector designs.</li>
-
-  <li>Added Level tab for per-application audio mixer control.</li>
-
-  <li>Added Ctrl tab for UDP virtual gamepad input to Linux host.</li>
-
-  <li>Added DSP hardware audio feedback for tab switching and actions.</li>
-
-  <li>Added multi-server profile manager in Settings.</li>
-
-  </ul>
-
-  <h3 dir="auto">Linux Server</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed system tray icon on Linux Wayland/COSMIC sessions by setting X11 backend
-  fallback for GDK.</li>
-
-  <li>Screen streaming (CAM) moved to optional <code class="notranslate">--features
-  cam</code> build; default release is a lightweight binary without streaming dependencies.</li>
-
-  <li>Added uinput gamepad driver integration for 3DS controller input.</li>
-
-  <li>Added dynamic hiding of streaming controls in web config dashboard on standard
-  builds.</li>
-
-  </ul>'
-updated: '2026-07-22T23:02:15Z'
-version: v0.3.1
-version_title: v0.3.1
+update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+  href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>'
+updated: '2026-08-24T18:43:32Z'
+version: v0.3.2
+version_title: v0.3.2
 ---
 **IMPORTANT: This app requires the companion server to be running on your PC!**
 

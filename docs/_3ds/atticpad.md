@@ -31,7 +31,7 @@ preinstall_message: Install AtticPad server on your PC first, this app is a cont
 qr:
   atticpad-3ds.cia: https://db.universal-team.net/assets/images/qr/atticpad-3ds-cia.png
 source: https://github.com/atticpad/atticpad
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: AtticPad
