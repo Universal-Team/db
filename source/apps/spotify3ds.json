@@ -1,0 +1,17 @@
+{
+	"github": "avncharlie/spotify3ds",
+	"author": "avncharlie",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/avncharlie/spotify3ds/refs/heads/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/avncharlie/spotify3ds/refs/heads/main/assets/banner.png",
+	"unique_ids": [
+		254394
+	],
+	"long_description": "Spotify3DS is a Spotify remote for the Nintendo 3DS.\n\n- **Top screen:** album cover, artist, album/track name\n- **Bottom screen (touch):** previous / play-pause / next, plus a seek scrubber\n- **Library:** recently played collections, playlists, saved albums, and their individual tracks\n- **Lyrics:** synchronized lyrics (from LRCLIB)\n\nUse the L/R shoulder buttons from any screen to decrease or increase active device's volume.\n\nAudio keeps playing on your phone or desktop — this controls Spotify's *active device* via the official Web API. It is a remote, not a player."
+}
