@@ -9,14 +9,14 @@ created: '2026-03-14T01:11:35Z'
 description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
-  aurorachat-3ds.3dsx:
-    size: 8975720
-    size_str: 8 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.1.0/aurorachat-3ds.3dsx
+  aurorachat.3dsx:
+    size: 180920
+    size_str: 176 KiB
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.0/aurorachat.3dsx
   aurorachat.cia:
-    size: 9544640
-    size_str: 9 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.1.0/aurorachat.cia
+    size: 522688
+    size_str: 510 KiB
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.0/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -80,42 +80,77 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<p dir="auto">6.1!<br>
+update_notes: '<p dir="auto">Introducing the full, proper release of v7 for Nintendo
+  3DS.</p>
 
-  The original 6.1 got cancelled, actually... did you know that?<br>
+  <p dir="auto">v7: The Better One does not introduce too much more from its pre-releases,
+  mostly because the pre-releases were so good that there was practically nothing
+  to add without wasting time!</p>
 
-  Fixes everything.</p>
+  <p dir="auto">Aurorachat v7 will be taking over COMPLETELY from v6. v6 will receive
+  no new support and will be shut down in due time.</p>
 
-  <h2 dir="auto">What''s Changed</h2>
+  <h1 dir="auto">v7 Overall Changelog</h1>
 
-  <ul dir="auto">
-
-  <li>Update README.md by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/iModIt/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/iModIt">@iModIt</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5023742971"
-  data-permission-text="Title is private" data-url="https://github.com/Unitendo/aurorachat/issues/4"
-  data-hovercard-type="pull_request" data-hovercard-url="/Unitendo/aurorachat/pull/4/hovercard"
-  href="https://github.com/Unitendo/aurorachat/pull/4">#4</a></li>
-
-  </ul>
-
-  <h2 dir="auto">New Contributors</h2>
+  <p dir="auto"><a href="https://github.com/Unitendo/aurorachat-server-v7">The changes
+  listed can be found at this repository.</a></p>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/iModIt/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/iModIt">@iModIt</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="5023742971" data-permission-text="Title is private" data-url="https://github.com/Unitendo/aurorachat/issues/4"
-  data-hovercard-type="pull_request" data-hovercard-url="/Unitendo/aurorachat/pull/4/hovercard"
-  href="https://github.com/Unitendo/aurorachat/pull/4">#4</a></li>
+  <li>Switch back entirely to sockets, it is purely pointless to still be receiving
+  from them while using HTTP for requests, especially considering HTTP is basically
+  just sockets with some fancy formatting added.</li>
+
+  <li>Add VPN detection, this is to stop people from easily bypassing IP bans, we
+  apologize if you want to use a VPN but cannot due to this security measure, it has
+  been taken only because of issues with spammers on the platform.</li>
+
+  <li>Rewrite server codebase, make it much more modular.</li>
+
+  <li>Plugin support.</li>
+
+  <li>and a lot more, why don''t you play around to find out?</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Unitendo/aurorachat/compare/v0.6.0.9...v0.6.1.0"><tt>v0.6.0.9...v0.6.1.0</tt></a></p>'
-updated: '2026-08-02T00:24:57Z'
-version: v0.6.1.0
-version_title: 'v0.6.1.0: After 9000 years in development...'
+  <h1 dir="auto">v7 3DS Changelog</h1>
+
+  <p dir="auto"><a href="https://github.com/Unitendo/aurorachat-3ds/tree/v7">The changes
+  listed can be found at this repository.</a></p>
+
+  <ul dir="auto">
+
+  <li>Rewrite codebase, optimize stability and usability</li>
+
+  <li>Reduce executable size (removes large audio files that were not in use...)</li>
+
+  <li>Rewrite GUI</li>
+
+  <li>Re-introduce themes in a brand new, modular system.</li>
+
+  <li>Switch to v7 server protocol (including switching to sockets)</li>
+
+  <li>and probably more!</li>
+
+  </ul>
+
+  <h1 dir="auto">Contributors</h1>
+
+  <p dir="auto">These are people who have helped develop this update:</p>
+
+  <ul dir="auto">
+
+  <li><a href="https://github.com/VirtuallyExisting">Virtualle</a> wrote the 3DS client</li>
+
+  <li><a href="https://github.com/JakubKwantowy">KwTheDsGuy/jakubkwantowy</a> wrote
+  the v7 server</li>
+
+  <li><a href="https://github.com/3pm-on-github">3pm</a> contributed some code and/or
+  files to the 3DS v7 repository, v7 server work</li>
+
+  </ul>'
+updated: '2026-08-25T22:23:39Z'
+version: v7.0.0
+version_title: 'v7: The Better One'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.

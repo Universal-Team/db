@@ -1,6 +1,6 @@
 ---
 author: NitroShell and Contributors
-avatar: https://avatars.githubusercontent.com/u/80786423?v=4
+avatar: https://avatars.githubusercontent.com/u/228052744?v=4
 categories:
 - utility
 - app
@@ -18,14 +18,13 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: minor
 prerelease:
-  download_page: https://github.com/NitroShellMKDS/CTGP-7-Mod-Manager/releases/tag/pre1
+  download_page: https://github.com/Team-BrewSearch/CTGP-7-Mod-Manager/releases/tag/pre1
   downloads:
     CTGP-7-Mod-Manager.3dsx:
       size: 3195056
       size_str: 3 MiB
-      url: https://github.com/NitroShellMKDS/CTGP-7-Mod-Manager/releases/download/pre1/CTGP-7-Mod-Manager.3dsx
-  update_notes: '<p dir="auto">This is the first public release on Github for CTGP-7
-    Mod Manager.<br>
+      url: https://github.com/Team-BrewSearch/CTGP-7-Mod-Manager/releases/download/pre1/CTGP-7-Mod-Manager.3dsx
+  update_notes: '<p>This is the first public release on Github for CTGP-7 Mod Manager.<br>
 
     The CIA version does not work yet so we are not adding that to the release until
     1.0.0 which will fix the banner issue which is the next update, we''re just putting
@@ -38,15 +37,14 @@ prerelease:
   updated: '2026-08-20T04:44:40Z'
   version: pre1
   version_title: Prerelease 1
-source: https://github.com/NitroShellMKDS/CTGP-7-Mod-Manager
+source: https://github.com/Team-BrewSearch/CTGP-7-Mod-Manager
 stars: 4
 systems:
 - 3DS
 title: CTGP-7 Mod Manager
 unique_ids:
 - '0xEFD7E'
-update_notes: '<p dir="auto">This is the first public release on Github for CTGP-7
-  Mod Manager.<br>
+update_notes: '<p>This is the first public release on Github for CTGP-7 Mod Manager.<br>
 
   The CIA version does not work yet so we are not adding that to the release until
   1.0.0 which will fix the banner issue which is the next update, we''re just putting
