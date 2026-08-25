@@ -32,7 +32,7 @@ preinstall_message: 'An existing copy of LEGO Island is required to use this pro
 qr:
   isle.cia: https://db.universal-team.net/assets/images/qr/isle-cia.png
 source: https://github.com/isledecomp/isle-portable
-stars: 1036
+stars: 1037
 systems:
 - 3DS
 title: LEGO Island
