@@ -15,17 +15,17 @@ downloads:
     size_str: 559 Bytes
     url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/SHA256SUMS.txt
   sysmon-3ds.3dsx:
-    size: 4512576
+    size: 4512568
     size_str: 4 MiB
     url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.3dsx
   sysmon-3ds.cia:
     size: 4522944
     size_str: 4 MiB
     url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.cia
-  sysmon-server_0.3.2-1_amd64.deb:
-    size: 3855772
+  sysmon-server-0.3.2-1_amd64.deb:
+    size: 3858488
     size_str: 3 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-server_0.3.2-1_amd64.deb
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-server-0.3.2-1_amd64.deb
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
@@ -47,7 +47,9 @@ title: SysMon
 unique_ids:
 - '0x1337'
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>'
+  href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>'
 updated: '2026-08-24T18:43:32Z'
 version: v0.3.2
 version_title: v0.3.2
