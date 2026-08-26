@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 236032
-    size_str: 230 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.6-shiinotic/cart_flasher.nds
+    size: 252416
+    size_str: 246 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.7-kirlia/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -30,42 +30,26 @@ stars: 3
 systems:
 - DS
 title: cart-flasher
-update_notes: '<h3 dir="auto">Recovery</h3>
+update_notes: '<h3 dir="auto">DS banner tools</h3>
 
   <ul dir="auto">
 
-  <li>Added recovery for 2 MiB Ace3DS+/R4iLS carts using the SpongeBob <code class="notranslate">AL3E</code>
-  boot profile.</li>
+  <li>Added <strong>Back up DS banner</strong> and <strong>Write DS banner</strong>
+  for supported Ace3DS+ and R4iSDHC carts.</li>
 
-  <li>Recovery now tries the validated Deep Labyrinth <code class="notranslate">ADLE</code>
-  and SpongeBob <code class="notranslate">AL3E</code> profiles.</li>
+  <li>Banner backups are validated and saved in <code class="notranslate">cart-backups/banners</code>
+  without replacing older backups.</li>
 
-  <li>Both profiles verify the expected flash capacity before enabling backup or write,
-  and keep ntrboot injection disabled during recovery.</li>
+  <li>Banner writes validate the selected Regular DS v1 banner and the cart''s known
+  layout before changing anything, update only the banner blocks, and verify the result
+  afterward.</li>
 
   </ul>
 
-  <h3 dir="auto">Reliability</h3>
-
-  <ul dir="auto">
-
-  <li>Cart command failures now stop the affected operation instead of continuing
-  with stale results.</li>
-
-  </ul>
-
-  <h3 dir="auto">Interface</h3>
-
-  <ul dir="auto">
-
-  <li>Improved recovery, backup, write, progress, and error-screen layout.</li>
-
-  <li>Improved cart driver-credit display.</li>
-
-  </ul>'
-updated: '2026-08-22T05:53:26Z'
-version: v0.6-shiinotic
-version_title: v0.6-shiinotic
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.6-shiinotic...v0.7-kirlia"><tt>v0.6-shiinotic...v0.7-kirlia</tt></a></p>'
+updated: '2026-08-26T05:02:27Z'
+version: v0.7-kirlia
+version_title: v0.7-kirlia
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
