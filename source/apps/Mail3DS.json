@@ -5,7 +5,7 @@
   "github": "BladeWheat/Mail3DS",
   "systems": ["3DS"],
   "categories": ["Utilities"],
-  "icon": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/main/icon.png",
-  "image": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/main/screenshots/02-reading.png",
+  "icon": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/icon.png",
+  "image": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/screenshots/02-reading.png",
   "priority": true
 }
