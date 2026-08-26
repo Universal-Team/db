@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   lynx3ds.cia: https://db.universal-team.net/assets/images/qr/lynx3ds-cia.png
 source: https://github.com/PeterWarrington/lynx3ds
-stars: 2
+stars: 1
 systems:
 - 3DS
 title: lynx3ds
