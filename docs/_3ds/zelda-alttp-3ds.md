@@ -66,8 +66,17 @@ prerelease:
 
     </ul>
 
-    <p dir="auto">If you run into any issues, press L + R + A, save a dump to your
-    Zelda 3DS folder, and send it to me. That way, I can help you more easily.</p>'
+    <h2 dir="auto">Bug reports</h2>
+
+    <p dir="auto">If you run into any problem, press <code class="notranslate">L +
+    R + A</code> while the issue is visible to create a diagnostic dump.</p>
+
+    <p dir="auto">The dump will be saved to:</p>
+
+    <p dir="auto"><code class="notranslate">sdmc:/3ds/gamefolder/dumps/</code></p>
+
+    <p dir="auto">Please attach that dump when reporting the bug. It contains useful
+    information that can help me reproduce and fix the issue.</p>'
   update_notes_md: '> [!WARNING]
 
     > This is an experimental release. You may encounter bugs, crashes, graphical
@@ -89,8 +98,21 @@ prerelease:
     - Saves screen settings
 
 
-    If you run into any issues, press L + R + A, save a dump to your Zelda 3DS folder,
-    and send it to me. That way, I can help you more easily.'
+    ## Bug reports
+
+
+    If you run into any problem, press `L + R + A` while the issue is visible to create
+    a diagnostic dump.
+
+
+    The dump will be saved to:
+
+
+    `sdmc:/3ds/gamefolder/dumps/`
+
+
+    Please attach that dump when reporting the bug. It contains useful information
+    that can help me reproduce and fix the issue.'
   updated: '2026-08-11T18:39:29Z'
   version: v3.0-E3
   version_title: v3.0-E3
