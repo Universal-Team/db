@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9886088
+    size: 9886148
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10048448
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -41,7 +41,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>リプレイ時にタッチしてないのにタッチエフェクトが表示される不具合の修正</li>
+  <li>段位道場に関する仕様変更<br>
+
+  今後はTJAPlayer(TNDE/OpenTaiko/TJAHandler)版、または大次郎版のみ動作する様になります。<br>
+
+  TJAP_3DS v2.3.1 から v2.3.3(A) 専用に作られた段位に関しては<br>
+
+  お手数ですが、再ダウンロードを行うか譜面の作成者にお問い合わせ下さい。</li>
 
   </ul>
 
@@ -49,13 +55,20 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug where touch effects were displayed during replays even when the
-  player was not touching the screen.</li>
+  <li>Changes to the Dan Rank Dojo Specification<br>
+
+  From now on, it will only work with the TJAPlayer(TNDE/OpenTaiko/TJAHandler) version
+  or the Daijiro version.<br>
+
+  For ranks created specifically for TJAP_3DS v2.3.1 to v2.3.3(A),<br>
+
+  we apologize for the inconvenience, but please re-download the files or contact
+  the score creator.</li>
 
   </ul>'
-updated: '2026-08-18T01:02:41Z'
-version: v2.3.3A
-version_title: TJAPlayer for 3DS v2.3.3(A)
+updated: '2026-08-27T11:41:50Z'
+version: v2.3.3B
+version_title: TJAPlayer for 3DS v2.3.3(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
