@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 180920
+    size: 180944
     size_str: 176 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.1/aurorachat.3dsx
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.2/aurorachat.3dsx
   aurorachat.cia:
-    size: 522688
+    size: 523200
     size_str: 510 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.1/aurorachat.cia
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.2/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat
-stars: 21
+stars: 22
 systems:
 - 3DS
 title: aurorachat
@@ -38,14 +38,14 @@ update_notes: '<h1 dir="auto">Changelog</h1>
 
   <ul dir="auto">
 
-  <li>Fixed an oversight where the text buffer was considerably small for the amount
-  of text it needed to render.</li>
+  <li>Added message culling</li>
 
-  <li>Fixed an oversight where a button was unable to be navigated to (logout button)</li>
+  <li>Instead of wiping all previous messages when the buffer gets too full, just
+  delete the one at the very back.</li>
 
   </ul>'
-updated: '2026-08-27T01:16:02Z'
-version: v7.0.1
-version_title: 'v7.0.1: The Button You Can''t Interact With'
+updated: '2026-08-27T20:41:51Z'
+version: v7.0.2
+version_title: 'v7.0.2: Dude...'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
