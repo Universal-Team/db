@@ -1,6 +1,6 @@
 ---
 author: NetPass
-avatar: https://gitlab.com//uploads/-/system/group/avatar/87104415/icon.png
+avatar: https://gitlab.com//uploads/-/system/group/avatar/87104415/icon.png?v=1716030859
 categories:
 - utility
 color: '#87d6c8'
