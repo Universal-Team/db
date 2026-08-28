@@ -10,13 +10,13 @@ description: Run full RISCV Linux on many game consoles
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 62771845
-    size_str: 59 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0/3ds_cli.zip
+    size: 63347209
+    size_str: 60 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0.1/3ds_cli.zip
   Image:
     size: 59691300
     size_str: 56 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0/Image
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0.1/Image
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -132,16 +132,40 @@ update_notes: '<h2 dir="auto">Install</h2>
 
   </tr>
 
+  <tr>
+
+  <td>PS3</td>
+
+  <td><code class="notranslate">ps3/3ds-cli.pkg</code></td>
+
+  <td>install it from the XMB</td>
+
+  </tr>
+
   </tbody>
 
   </table></markdown-accessiblity-table>
 
+  <p dir="auto">The PS3 is the exception to step 2: it has no removable card, so<br>
+
+  its <code class="notranslate">Image</code> goes to <code class="notranslate">/dev_hdd0/3ds-cli/</code>
+  on the internal drive,<br>
+
+  which is easiest to fill over FTP. It also needs a display that can<br>
+
+  do 720p, the only mode the terminal is laid out for. There is a<br>
+
+  <code class="notranslate">ps3/3ds-cli.self</code> in the zip too, for loaders that
+  want one<br>
+
+  instead of the <code class="notranslate">.pkg</code>.</p>
+
   <p dir="auto">That''s it. The other zips below are for the Open Shop Channel and<br>
 
   the Homebrew App Store to install from, not for copying by hand.</p>'
-updated: '2026-08-27T21:56:09Z'
-version: '5.0'
-version_title: V5.0 Sony Handheld Support!!
+updated: '2026-08-28T16:45:35Z'
+version: 5.0.1
+version_title: V5.0.1 - Wii U fixes
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
