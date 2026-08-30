@@ -45,7 +45,7 @@ prerelease:
   version: Beta-v0.8.1
   version_title: Doors 3DS Beta v0.8.1
 source: https://github.com/Doors-3ds-Development-Team/Doors-3DS
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: Doors-3DS

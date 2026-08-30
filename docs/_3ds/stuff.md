@@ -22,7 +22,7 @@ llm_generation: 'no'
 qr:
   nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menu-cia.png
 source: https://github.com/zoogie/Stuff
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: Stuff
