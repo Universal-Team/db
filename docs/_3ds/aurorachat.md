@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 180944
-    size_str: 176 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.2/aurorachat.3dsx
+    size: 199380
+    size_str: 194 KiB
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.1/aurorachat.3dsx
   aurorachat.cia:
-    size: 523200
-    size_str: 510 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v7.0.2/aurorachat.cia
+    size: 533952
+    size_str: 521 KiB
+    url: https://github.com/Unitendo/aurorachat/releases/download/v7.1/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -34,18 +34,26 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<h1 dir="auto">Changelog</h1>
+update_notes: '<p dir="auto">This release may have bugs and crashes, although most
+  portions of the app have been tested there is still possibility for instability.</p>
+
+  <h1 dir="auto">Changelog</h1>
 
   <ul dir="auto">
 
-  <li>Added message culling</li>
+  <li>Add MOTD support</li>
 
-  <li>Instead of wiping all previous messages when the buffer gets too full, just
-  delete the one at the very back.</li>
+  <li>Add DMs</li>
+
+  <li>Add multi-room support</li>
+
+  <li>Add saving account data and settings</li>
+
+  <li>Added more settings + a settings menu</li>
 
   </ul>'
-updated: '2026-08-27T20:41:51Z'
-version: v7.0.2
-version_title: 'v7.0.2: Dude...'
+updated: '2026-08-30T21:08:27Z'
+version: v7.1
+version_title: 'v7.1: Risky'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.

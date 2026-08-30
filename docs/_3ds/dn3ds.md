@@ -12,15 +12,15 @@ downloads:
   DUKE.RTS:
     size: 188954
     size_str: 184 KiB
-    url: https://github.com/cmdada/dn3ds/releases/download/v1.1/DUKE.RTS
+    url: https://github.com/cmdada/dn3ds/releases/download/v1.2/DUKE.RTS
   DUKE3D.GRP:
     size: 26524524
     size_str: 25 MiB
-    url: https://github.com/cmdada/dn3ds/releases/download/v1.1/DUKE3D.GRP
+    url: https://github.com/cmdada/dn3ds/releases/download/v1.2/DUKE3D.GRP
   dn3ds.cia:
     size: 2419136
     size_str: 2 MiB
-    url: https://github.com/cmdada/dn3ds/releases/download/v1.1/dn3ds.cia
+    url: https://github.com/cmdada/dn3ds/releases/download/v1.2/dn3ds.cia
 github: cmdada/dn3ds
 icon: https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/icon.png
 image: https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/banner.png
@@ -38,9 +38,9 @@ systems:
 title: dn3ds
 unique_ids:
 - '0xD3D5'
-updated: '2026-08-04T05:28:59Z'
-version: v1.1
-version_title: V1.1
+updated: '2026-08-30T20:51:54Z'
+version: v1.2
+version_title: V1.2
 ---
 Duke Nukem 3D on the New Nintendo 3DS, ported from
 [the 2003 GPL source release](https://github.com/videogamepreservation/dukenukem3d), with stereoscopic 3D and a few other improvements for the 3ds.
