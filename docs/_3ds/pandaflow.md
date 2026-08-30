@@ -23,7 +23,7 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: 'yes'
 source: https://github.com/PandaAkiraNakai/PandaFlow
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: PandaFlow
