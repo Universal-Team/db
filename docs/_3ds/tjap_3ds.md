@@ -23,6 +23,63 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9891128
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10052544
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>TJAHandlerからの移植？「エンドレス」モードの実装<br>
+
+    指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！</li>
+
+    <li>段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Transplantation from TJAHandler? Implementation of "Endless" mode.<br>
+
+    Continuously clear randomly selected songs while completing the specified conditions!</li>
+
+    <li>Fixed a bug that could not fail if you put BAD with the "perfection" option
+    on Dan-i Dojo.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - TJAHandlerからの移植？「エンドレス」モードの実装
+
+    指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！
+
+    - 段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正
+
+
+    ## Changelog
+
+    - Transplantation from TJAHandler? Implementation of "Endless" mode.
+
+    Continuously clear randomly selected songs while completing the specified conditions!
+
+    - Fixed a bug that could not fail if you put BAD with the "perfection" option
+    on Dan-i Dojo.'
+  updated: '2026-08-30T22:50:46Z'
+  version: v2.4.0
+  version_title: TJAPlayer for 3DS v2.4.0
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
