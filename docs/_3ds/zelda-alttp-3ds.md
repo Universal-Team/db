@@ -28,18 +28,18 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
 prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E4
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E6
   downloads:
-    zelda3-3ds-v3.0-E4.3dsx:
-      size: 5692584
+    zelda3-3ds-v3.0-E6.3dsx:
+      size: 5697384
       size_str: 5 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/zelda3-3ds-v3.0-E4.3dsx
-    zelda3-3ds-v3.0-E4.cia:
-      size: 5211072
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E6/zelda3-3ds-v3.0-E6.3dsx
+    zelda3-3ds-v3.0-E6.cia:
+      size: 5215168
       size_str: 4 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/zelda3-3ds-v3.0-E4.cia
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E6/zelda3-3ds-v3.0-E6.cia
   qr:
-    zelda3-3ds-v3.0-E4.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e4-cia.png
+    zelda3-3ds-v3.0-E6.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e6-cia.png
   update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p
     class="markdown-alert-title" dir="auto"><svg data-component="Octicon" class="octicon
     octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
@@ -52,9 +52,9 @@ prerelease:
 
     </div>
 
-    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png"><img
-    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png"
-    alt="QR-v3.0-E4-github.png" style="max-width: 100%;"></a></p>
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E6/QR-v3.0-E6-github.png"><img
+    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E6/QR-v3.0-E6-github.png"
+    alt="QR-v3.0-E6-github.png" style="max-width: 100%;"></a></p>
 
     <h2 dir="auto">Changelog</h2>
 
@@ -87,16 +87,41 @@ prerelease:
 
     quick-dump checkpoint, protected against corrupt or wrong-ROM states.</li>
 
+    <li>Made the Old 3DS Developer overlay event-driven and fixed the blue/glitched<br>
+
+    bottom screen shown when Developer/FPS diagnostics were enabled.</li>
+
+    <li>Kept the top counter as <code class="notranslate">FPS &lt;value&gt;</code>
+    without CPU/GPU suffixes and fixed the<br>
+
+    truncated <code class="notranslate">DUMP SAVED</code> text.</li>
+
+    <li>Restored E4''s verified BGRX top-screen path and corrected the PPU output<br>
+
+    origin that corrupted E5''s ORIGINAL and WIDE images.</li>
+
+    <li>Restored full tile-row caches and added conservative, full-quality PPU fast<br>
+
+    paths for the Old 3DS profile.</li>
+
+    <li>Replaced logical-canvas screenshots with physical 400x240 and 320x240 GSP<br>
+
+    display captures plus raw framebuffer files.</li>
+
+    <li>Paused queued NDSP audio for the complete dump transaction and excluded the<br>
+
+    dump I/O frame from later performance metrics.</li>
+
     </ul>
 
     <h2 dir="auto">Bug reports</h2>
 
     <p dir="auto">If a problem occurs, press <code class="notranslate">L + R + A</code>
     while it is visible and attach the dump from <code class="notranslate">sdmc:/3ds/Zelda
-    3DS/dumps/</code>. Completed dumps include <code class="notranslate">load-state.bin</code>
-    for Developer &gt; Load State.</p>'
+    3DS/dumps/</code>. Completed E6 dumps include physical screen captures, raw framebuffers
+    and <code class="notranslate">load-state.bin</code> for Developer &gt; Load State.</p>'
   update_notes_md: "> [!WARNING]\n> This is an experimental release. You may encounter\
-    \ bugs, crashes, graphical issues, or other unexpected behavior.\n\n![QR-v3.0-E4-github.png](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png)\n\
+    \ bugs, crashes, graphical issues, or other unexpected behavior.\n\n![QR-v3.0-E6-github.png](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E6/QR-v3.0-E6-github.png)\n\
     \n## Changelog\n\n- Fixed the WIDE + FIXED camera map.\n- Added the custom 3D\
     \ HOME Menu logo.\n- Improved Old 3DS bottom-screen responsiveness.\n- Updated\
     \ and reduced the 3D HOME Menu logo model.\n- Added saved bottom-screen display\
@@ -106,12 +131,22 @@ prerelease:
     \ output.\n- Removed unused build sections.\n- Added the Minish Cap-style `DUMP\
     \ SAVED` notice and optional top-screen FPS.\n- Added a confirmed Developer >\
     \ Load State action for the newest validated\n  quick-dump checkpoint, protected\
-    \ against corrupt or wrong-ROM states.\n\n## Bug reports\n\nIf a problem occurs,\
-    \ press `L + R + A` while it is visible and attach the dump from `sdmc:/3ds/Zelda\
-    \ 3DS/dumps/`. Completed dumps include `load-state.bin` for Developer > Load State.\n"
-  updated: '2026-08-31T01:12:49Z'
-  version: v3.0-E4
-  version_title: v3.0-E4
+    \ against corrupt or wrong-ROM states.\n- Made the Old 3DS Developer overlay event-driven\
+    \ and fixed the blue/glitched\n  bottom screen shown when Developer/FPS diagnostics\
+    \ were enabled.\n- Kept the top counter as `FPS <value>` without CPU/GPU suffixes\
+    \ and fixed the\n  truncated `DUMP SAVED` text.\n- Restored E4's verified BGRX\
+    \ top-screen path and corrected the PPU output\n  origin that corrupted E5's ORIGINAL\
+    \ and WIDE images.\n- Restored full tile-row caches and added conservative, full-quality\
+    \ PPU fast\n  paths for the Old 3DS profile.\n- Replaced logical-canvas screenshots\
+    \ with physical 400x240 and 320x240 GSP\n  display captures plus raw framebuffer\
+    \ files.\n- Paused queued NDSP audio for the complete dump transaction and excluded\
+    \ the\n  dump I/O frame from later performance metrics.\n\n## Bug reports\n\n\
+    If a problem occurs, press `L + R + A` while it is visible and attach the dump\
+    \ from `sdmc:/3ds/Zelda 3DS/dumps/`. Completed E6 dumps include physical screen\
+    \ captures, raw framebuffers and `load-state.bin` for Developer > Load State.\n"
+  updated: '2026-08-31T10:25:02Z'
+  version: v3.0-E6
+  version_title: v3.0-E6
 qr:
   zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
