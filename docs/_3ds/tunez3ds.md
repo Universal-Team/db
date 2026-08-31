@@ -1,5 +1,5 @@
 ---
-author: uchu
+author: ihatenosebleedz
 avatar: https://avatars.githubusercontent.com/u/278255537?v=4
 categories:
 - utility
@@ -12,11 +12,11 @@ downloads:
   Tunez3DS.3dsx:
     size: 894064
     size_str: 873 KiB
-    url: https://github.com/uchumeow/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.3dsx
+    url: https://github.com/ihatenosebleedz/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.3dsx
   Tunez3DS.cia:
     size: 1176000
     size_str: 1 MiB
-    url: https://github.com/uchumeow/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.cia
+    url: https://github.com/ihatenosebleedz/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.cia
 github: veylo-3DS/Tunez-3DS
 icon: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/icon.png
 image: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/banner.png
@@ -25,7 +25,7 @@ layout: app
 llm_generation: 'yes'
 qr:
   Tunez3DS.cia: https://db.universal-team.net/assets/images/qr/tunez3ds-cia.png
-source: https://github.com/uchumeow/Tunez-3DS
+source: https://github.com/ihatenosebleedz/Tunez-3DS
 stars: 9
 systems:
 - 3DS
@@ -66,5 +66,5 @@ update_notes: '<h3>v3.1.8 - Audio &amp; Input Optimization</h3>
 updated: '2026-05-27T18:30:37Z'
 version: v2.1.0
 version_title: Tunez3DS v3.1.8
-wiki: https://github.com/uchumeow/Tunez-3DS/wiki
+wiki: https://github.com/ihatenosebleedz/Tunez-3DS/wiki
 ---

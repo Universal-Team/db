@@ -28,18 +28,18 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
 prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E3
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E4
   downloads:
-    zelda3-3ds-v3.0-E3.3dsx:
-      size: 5684612
+    zelda3-3ds-v3.0-E4.3dsx:
+      size: 5692584
       size_str: 5 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.3dsx
-    zelda3-3ds-v3.0-E3.cia:
-      size: 5231552
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/zelda3-3ds-v3.0-E4.3dsx
+    zelda3-3ds-v3.0-E4.cia:
+      size: 5211072
       size_str: 4 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.cia
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/zelda3-3ds-v3.0-E4.cia
   qr:
-    zelda3-3ds-v3.0-E3.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e3-cia.png
+    zelda3-3ds-v3.0-E4.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e4-cia.png
   update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p
     class="markdown-alert-title" dir="auto"><svg data-component="Octicon" class="octicon
     octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
@@ -52,74 +52,70 @@ prerelease:
 
     </div>
 
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png"><img
+    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png"
+    alt="QR-v3.0-E4-github.png" style="max-width: 100%;"></a></p>
 
     <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
-    <li>Adds bottom screen settings by tapping the Triforce in the main menu</li>
+    <li>Fixed the WIDE + FIXED camera map.</li>
 
-    <li>Improves the bottom-screen HUD layout so hearts, magic, and equipped item
-    spacing stay clean.</li>
+    <li>Added the custom 3D HOME Menu logo.</li>
 
-    <li>Saves screen settings</li>
+    <li>Improved Old 3DS bottom-screen responsiveness.</li>
+
+    <li>Updated and reduced the 3D HOME Menu logo model.</li>
+
+    <li>Added saved bottom-screen display and turbo settings.</li>
+
+    <li>Improved bottom-HUD spacing.</li>
+
+    <li>Reduced GPU and PCM-audio cache-clean overhead on Old 3DS.</li>
+
+    <li>Removed the normal full linear-heap frame flush.</li>
+
+    <li>Reduced render-target bandwidth and VRAM use with color-only RGB565 output.</li>
+
+    <li>Removed unused build sections.</li>
+
+    <li>Added the Minish Cap-style <code class="notranslate">DUMP SAVED</code> notice
+    and optional top-screen FPS.</li>
+
+    <li>Added a confirmed Developer &gt; Load State action for the newest validated<br>
+
+    quick-dump checkpoint, protected against corrupt or wrong-ROM states.</li>
 
     </ul>
 
     <h2 dir="auto">Bug reports</h2>
 
-    <p dir="auto">If you run into any problem, press <code class="notranslate">L +
-    R + A</code> while the issue is visible to create a diagnostic dump.</p>
-
-    <p dir="auto">The dump will be saved to:</p>
-
-    <p dir="auto"><code class="notranslate">sdmc:/3ds/gamefolder/dumps/</code></p>
-
-    <p dir="auto">Please attach that dump when reporting the bug. It contains useful
-    information that can help me reproduce and fix the issue.</p>'
-  update_notes_md: '> [!WARNING]
-
-    > This is an experimental release. You may encounter bugs, crashes, graphical
-    issues, or other unexpected behavior.
-
-
-    <img width="500" height="500" alt="qr" src="https://github.com/user-attachments/assets/16559ce0-c7e3-46b6-b6b8-d21ffead42ed"
-    />
-
-
-    ## Changelog
-
-
-    - Adds bottom screen settings by tapping the Triforce in the main menu
-
-    - Improves the bottom-screen HUD layout so hearts, magic, and equipped item spacing
-    stay clean.
-
-    - Saves screen settings
-
-
-    ## Bug reports
-
-
-    If you run into any problem, press `L + R + A` while the issue is visible to create
-    a diagnostic dump.
-
-
-    The dump will be saved to:
-
-
-    `sdmc:/3ds/gamefolder/dumps/`
-
-
-    Please attach that dump when reporting the bug. It contains useful information
-    that can help me reproduce and fix the issue.'
-  updated: '2026-08-11T18:39:29Z'
-  version: v3.0-E3
-  version_title: v3.0-E3
+    <p dir="auto">If a problem occurs, press <code class="notranslate">L + R + A</code>
+    while it is visible and attach the dump from <code class="notranslate">sdmc:/3ds/Zelda
+    3DS/dumps/</code>. Completed dumps include <code class="notranslate">load-state.bin</code>
+    for Developer &gt; Load State.</p>'
+  update_notes_md: "> [!WARNING]\n> This is an experimental release. You may encounter\
+    \ bugs, crashes, graphical issues, or other unexpected behavior.\n\n![QR-v3.0-E4-github.png](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E4/QR-v3.0-E4-github.png)\n\
+    \n## Changelog\n\n- Fixed the WIDE + FIXED camera map.\n- Added the custom 3D\
+    \ HOME Menu logo.\n- Improved Old 3DS bottom-screen responsiveness.\n- Updated\
+    \ and reduced the 3D HOME Menu logo model.\n- Added saved bottom-screen display\
+    \ and turbo settings.\n- Improved bottom-HUD spacing.\n- Reduced GPU and PCM-audio\
+    \ cache-clean overhead on Old 3DS.\n- Removed the normal full linear-heap frame\
+    \ flush.\n- Reduced render-target bandwidth and VRAM use with color-only RGB565\
+    \ output.\n- Removed unused build sections.\n- Added the Minish Cap-style `DUMP\
+    \ SAVED` notice and optional top-screen FPS.\n- Added a confirmed Developer >\
+    \ Load State action for the newest validated\n  quick-dump checkpoint, protected\
+    \ against corrupt or wrong-ROM states.\n\n## Bug reports\n\nIf a problem occurs,\
+    \ press `L + R + A` while it is visible and attach the dump from `sdmc:/3ds/Zelda\
+    \ 3DS/dumps/`. Completed dumps include `load-state.bin` for Developer > Load State.\n"
+  updated: '2026-08-31T01:12:49Z'
+  version: v3.0-E4
+  version_title: v3.0-E4
 qr:
   zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 630
+stars: 629
 systems:
 - 3DS
 title: zelda-alttp-3ds
