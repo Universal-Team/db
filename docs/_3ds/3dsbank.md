@@ -23,7 +23,7 @@ llm_generation: 'no'
 qr:
   3DSBank.cia: https://db.universal-team.net/assets/images/qr/3dsbank-cia.png
 source: https://github.com/RocketRobz/3DSBank
-stars: 100
+stars: 101
 systems:
 - 3DS
 title: 3DSBank
