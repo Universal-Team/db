@@ -19,63 +19,103 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-177-g5da31305a
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-184-g00c9414cb
   downloads:
-    Angband-4.2.6-177-g5da31305a-3ds.zip:
-      size: 24698515
+    Angband-4.2.6-184-g00c9414cb-3ds.zip:
+      size: 24698541
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-177-g5da31305a/Angband-4.2.6-177-g5da31305a-3ds.zip
-    Angband-4.2.6-177-g5da31305a-nds.zip:
-      size: 23330266
+      url: https://github.com/angband/angband/releases/download/4.2.6-184-g00c9414cb/Angband-4.2.6-184-g00c9414cb-3ds.zip
+    Angband-4.2.6-184-g00c9414cb-nds.zip:
+      size: 23330398
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-177-g5da31305a/Angband-4.2.6-177-g5da31305a-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-184-g00c9414cb/Angband-4.2.6-184-g00c9414cb-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: first step in addressing <a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="5120505537" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6683"
-    data-hovercard-type="issue" data-hovercard-url="/angband/angband/issues/6683/hovercard"
-    href="https://github.com/angband/angband/issues/6683">#6683</a> by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/905bdcf7ea1dff101c64c5747d57f892254ad8c0/hovercard"
-    href="https://github.com/angband/angband/commit/905bdcf7ea1dff101c64c5747d57f892254ad8c0"><tt>905bdcf</tt></a></li>
-
-    <li>borg: a few problems sent to me by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    <li>Allow ^g to invoke autopickup by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5187043848" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6686"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6686/hovercard"
-    href="https://github.com/angband/angband/pull/6686">#6686</a></li>
+    data-id="5205164802" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6689"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6689/hovercard"
+    href="https://github.com/angband/angband/pull/6689">#6689</a></li>
 
-    <li>Small optimization for make_noise() by <a class="user-mention notranslate"
+    <li>Reduce check_break() overhead in process_monsters() by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5207598769" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6690"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6690/hovercard"
+    href="https://github.com/angband/angband/pull/6690">#6690</a></li>
+
+    <li>Combine a loop and other small optimizations for update_view() by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5208882996" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6691"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6691/hovercard"
+    href="https://github.com/angband/angband/pull/6691">#6691</a></li>
+
+    <li>Avoid my_strcat() sequence in write_flags() by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5187162410" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6687"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6687/hovercard"
-    href="https://github.com/angband/angband/pull/6687">#6687</a></li>
+    data-id="5223099467" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6693"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6693/hovercard"
+    href="https://github.com/angband/angband/pull/6693">#6693</a></li>
+
+    <li>Simplify constructing message for picking up gold by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5223343836" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6694"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6694/hovercard"
+    href="https://github.com/angband/angband/pull/6694">#6694</a></li>
+
+    <li>Ignore autorepeating key after an input flush up to the first new keypress
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5239493577" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6697"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6697/hovercard"
+    href="https://github.com/angband/angband/pull/6697">#6697</a></li>
+
+    <li>Convert signal_count to a volatile sig_atomic_t by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5247706219" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6699"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6699/hovercard"
+    href="https://github.com/angband/angband/pull/6699">#6699</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-174-g5c45eb958...4.2.6-177-g5da31305a"><tt>4.2.6-174-g5c45eb958...4.2.6-177-g5da31305a</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-177-g5da31305a...4.2.6-184-g00c9414cb"><tt>4.2.6-177-g5da31305a...4.2.6-184-g00c9414cb</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * borg: first step in addressing https://github.com/angband/angband/issues/6683
-    by @agoodman00 in https://github.com/angband/angband/commit/905bdcf7ea1dff101c64c5747d57f892254ad8c0
+    * Allow ^g to invoke autopickup by @backwardsEric in https://github.com/angband/angband/pull/6689
 
-    * borg: a few problems sent to me by @agoodman00 in https://github.com/angband/angband/pull/6686
+    * Reduce check_break() overhead in process_monsters() by @backwardsEric in https://github.com/angband/angband/pull/6690
 
-    * Small optimization for make_noise() by @backwardsEric in https://github.com/angband/angband/pull/6687
+    * Combine a loop and other small optimizations for update_view() by @backwardsEric
+    in https://github.com/angband/angband/pull/6691
+
+    * Avoid my_strcat() sequence in write_flags() by @backwardsEric in https://github.com/angband/angband/pull/6693
+
+    * Simplify constructing message for picking up gold by @backwardsEric in https://github.com/angband/angband/pull/6694
+
+    * Ignore autorepeating key after an input flush up to the first new keypress by
+    @backwardsEric in https://github.com/angband/angband/pull/6697
+
+    * Convert signal_count to a volatile sig_atomic_t by @backwardsEric in https://github.com/angband/angband/pull/6699
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-174-g5c45eb958...4.2.6-177-g5da31305a'
-  updated: '2026-08-25T12:47:57Z'
-  version: 4.2.6-177-g5da31305a
-  version_title: 4.2.6-177-g5da31305a
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-177-g5da31305a...4.2.6-184-g00c9414cb'
+  updated: '2026-09-01T12:26:11Z'
+  version: 4.2.6-184-g00c9414cb
+  version_title: 4.2.6-184-g00c9414cb
 source: https://github.com/angband/angband
 stars: 1557
 systems:
@@ -191,28 +231,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-177-g5da31305a.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-184-g00c9414cb.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-177-g5da31305a-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-177-g5da31305a.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-177-g5da31305a.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-184-g00c9414cb-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-184-g00c9414cb.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-184-g00c9414cb.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-177-g5da31305a.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-184-g00c9414cb.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-177-g5da31305a-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-177-g5da31305a.cia</code> from the zip to <code>/cias/Angband-4.2.6-177-g5da31305a.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-184-g00c9414cb-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-184-g00c9414cb.cia</code> from the zip to <code>/cias/Angband-4.2.6-184-g00c9414cb.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-177-g5da31305a.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-184-g00c9414cb.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-177-g5da31305a.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-184-g00c9414cb.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-177-g5da31305a-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-177-g5da31305a.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-184-g00c9414cb-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-184-g00c9414cb.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

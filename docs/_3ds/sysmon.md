@@ -13,19 +13,19 @@ downloads:
   SHA256SUMS.txt:
     size: 559
     size_str: 559 Bytes
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/SHA256SUMS.txt
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/SHA256SUMS.txt
   sysmon-3ds.3dsx:
-    size: 4512568
+    size: 4516468
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.3dsx
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-3ds.3dsx
   sysmon-3ds.cia:
-    size: 4522944
+    size: 4527040
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-3ds.cia
-  sysmon-server-0.3.2-1_amd64.deb:
-    size: 3858488
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-3ds.cia
+  sysmon-server-0.3.3-1_amd64.deb:
+    size: 3868656
     size_str: 3 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.2/sysmon-server-0.3.2-1_amd64.deb
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-server-0.3.3-1_amd64.deb
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
@@ -34,38 +34,6 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: 'yes'
-prerelease:
-  download_page: https://github.com/Just-a-Spider/SysMon/releases/tag/v0.3.3-dev.1
-  downloads:
-    SHA256SUMS.txt:
-      size: 559
-      size_str: 559 Bytes
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3-dev.1/SHA256SUMS.txt
-    sysmon-3ds.3dsx:
-      size: 4516468
-      size_str: 4 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3-dev.1/sysmon-3ds.3dsx
-    sysmon-3ds.cia:
-      size: 4527040
-      size_str: 4 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3-dev.1/sysmon-3ds.cia
-    sysmon-server_0.3.3-1_amd64.deb:
-      size: 3855592
-      size_str: 3 MiB
-      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3-dev.1/sysmon-server_0.3.3-1_amd64.deb
-  qr:
-    sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
-  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.2...v0.3.3-dev.1"><tt>v0.3.2-dev.2...v0.3.3-dev.1</tt></a></p>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.2...v0.3.3-dev.1"><tt>v0.3.2-dev.2...v0.3.3-dev.1</tt></a></p>'
-  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.2...v0.3.3-dev.1
-
-
-    **Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.2-dev.2...v0.3.3-dev.1'
-  updated: '2026-08-28T18:58:04Z'
-  version: v0.3.3-dev.1
-  version_title: v0.3.3-dev.1
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
 screenshots:
@@ -78,13 +46,36 @@ systems:
 title: SysMon
 unique_ids:
 - '0x1337'
-update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>
+update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.1...v0.3.2"><tt>v0.3.1...v0.3.2</tt></a></p>'
-updated: '2026-08-24T18:43:32Z'
-version: v0.3.2
-version_title: v0.3.2
+  <ul dir="auto">
+
+  <li>Dev by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Just-a-Spider/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Just-a-Spider">@Just-a-Spider</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5313619698"
+  data-permission-text="Title is private" data-url="https://github.com/Just-a-Spider/SysMon/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/Just-a-Spider/SysMon/pull/1/hovercard"
+  href="https://github.com/Just-a-Spider/SysMon/pull/1">#1</a></li>
+
+  </ul>
+
+  <h2 dir="auto">New Contributors</h2>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Just-a-Spider/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Just-a-Spider">@Just-a-Spider</a>
+  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="5313619698" data-permission-text="Title is private" data-url="https://github.com/Just-a-Spider/SysMon/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/Just-a-Spider/SysMon/pull/1/hovercard"
+  href="https://github.com/Just-a-Spider/SysMon/pull/1">#1</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2...v0.3.3"><tt>v0.3.2...v0.3.3</tt></a></p>'
+updated: '2026-09-01T15:42:19Z'
+version: v0.3.3
+version_title: v0.3.3
 ---
 **IMPORTANT: This app requires the companion server to be running on your PC!**
 
