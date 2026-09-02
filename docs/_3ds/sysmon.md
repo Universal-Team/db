@@ -40,7 +40,7 @@ screenshots:
 - description: Sysmon
   url: https://db.universal-team.net/assets/images/screenshots/sysmon/sysmon.png
 source: https://github.com/Just-a-Spider/SysMon
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: SysMon
