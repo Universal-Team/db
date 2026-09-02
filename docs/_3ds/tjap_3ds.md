@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9891128
+      size: 9891376
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -46,6 +46,8 @@ prerelease:
 
     <li>段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正</li>
 
+    <li><code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>タグの対応</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -59,6 +61,9 @@ prerelease:
     <li>Fixed a bug that could not fail if you put BAD with the "perfection" option
     on Dan-i Dojo.</li>
 
+    <li>Support for <code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>
+    tags.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -68,6 +73,8 @@ prerelease:
 
     - 段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正
 
+    - `TITLEEN:` `SUBTITLEEN:`タグの対応
+
 
     ## Changelog
 
@@ -76,7 +83,9 @@ prerelease:
     Continuously clear randomly selected songs while completing the specified conditions!
 
     - Fixed a bug that could not fail if you put BAD with the "perfection" option
-    on Dan-i Dojo.'
+    on Dan-i Dojo.
+
+    - Support for `TITLEEN:` `SUBTITLEEN:` tags.'
   updated: '2026-08-30T22:50:46Z'
   version: v2.4.0
   version_title: TJAPlayer for 3DS v2.4.0
