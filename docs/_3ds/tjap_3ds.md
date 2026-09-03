@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9891376
+      size: 9891672
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -48,6 +48,8 @@ prerelease:
 
     <li><code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>タグの対応</li>
 
+    <li><code class="notranslate">#NEXTSONG</code>を使用した曲間での配点変更の実装</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -64,6 +66,8 @@ prerelease:
     <li>Support for <code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>
     tags.</li>
 
+    <li>Implementation of score changes between songs using <code class="notranslate">#NEXTSONG</code></li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -75,6 +79,8 @@ prerelease:
 
     - `TITLEEN:` `SUBTITLEEN:`タグの対応
 
+    - `#NEXTSONG`を使用した曲間での配点変更の実装
+
 
     ## Changelog
 
@@ -85,7 +91,9 @@ prerelease:
     - Fixed a bug that could not fail if you put BAD with the "perfection" option
     on Dan-i Dojo.
 
-    - Support for `TITLEEN:` `SUBTITLEEN:` tags.'
+    - Support for `TITLEEN:` `SUBTITLEEN:` tags.
+
+    - Implementation of score changes between songs using `#NEXTSONG`'
   updated: '2026-08-30T22:50:46Z'
   version: v2.4.0
   version_title: TJAPlayer for 3DS v2.4.0
