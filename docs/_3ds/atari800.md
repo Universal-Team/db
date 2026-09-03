@@ -17,7 +17,6 @@ forgejo: asie/atari800-3ds
 forgejo_host: codeberg.org
 icon: https://codeberg.org/asie/atari800-3ds/raw/branch/port-3ds/src/3ds/banner/atari800-icon.png
 image: https://codeberg.org/asie/atari800-3ds/raw/branch/port-3ds/src/3ds/banner/atari800-icon.png
-image_length: 3089
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
