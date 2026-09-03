@@ -36,7 +36,7 @@ llm_generation: unknown
 qr:
   BlockamokRemix-v1.2-3ds.cia: https://db.universal-team.net/assets/images/qr/blockamokremix-v1-2-3ds-cia.png
 source: https://github.com/Mode8fx/blockamok
-stars: 16
+stars: 15
 systems:
 - 3DS
 title: Blockamok Remix
