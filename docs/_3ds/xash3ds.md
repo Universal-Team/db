@@ -45,7 +45,7 @@ preinstall_message: 'You will need to copy the "valve" directory from
 qr:
   Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
 source: https://github.com/masterfeizz/Xash3DS
-stars: 177
+stars: 178
 systems:
 - 3DS
 title: Xash3DS
