@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_generation: 'no'
 source: https://github.com/Stewmath/GameYob
-stars: 321
+stars: 322
 systems:
 - DS
 title: GameYob
