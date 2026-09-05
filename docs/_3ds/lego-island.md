@@ -32,14 +32,14 @@ preinstall_message: 'An existing copy of LEGO Island is required to use this pro
 qr:
   isle.cia: https://db.universal-team.net/assets/images/qr/isle-cia.png
 source: https://github.com/isledecomp/isle-portable
-stars: 1044
+stars: 1043
 systems:
 - 3DS
 title: LEGO Island
 unique_ids:
 - '0x76E7E'
-update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/33939600573">https://github.com/isledecomp/isle-portable/actions/runs/33939600573</a></p>'
-updated: '2026-09-05T02:53:40Z'
+update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/33982643092">https://github.com/isledecomp/isle-portable/actions/runs/33982643092</a></p>'
+updated: '2026-09-05T18:12:40Z'
 version: continuous
 version_title: Continuous build
 wiki: https://github.com/isledecomp/isle-portable/wiki
