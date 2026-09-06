@@ -3,8 +3,8 @@ author: Saiitanaa
 avatar: https://avatars.githubusercontent.com/u/112180175?v=4
 categories:
 - app
-color: '#3c4037'
-color_bg: '#3c4037'
+color: '#2d1e3b'
+color_bg: '#2d1e3b'
 created: '2026-06-01T16:33:12Z'
 description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases

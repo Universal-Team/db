@@ -102,15 +102,15 @@ This a CTRPluginFramework for the Mario Kart 7 Time Trials Community
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>JPN</summary>
-<ol>
-<li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030600/mk7-tt-revamp.3gx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>EUR</summary>
 <ol>
 <li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030700/mk7-tt-revamp.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>JPN</summary>
+<ol>
+<li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030600/mk7-tt-revamp.3gx</code> on your SD card</li>
 </ol>
 </details>
 
