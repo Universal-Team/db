@@ -12,15 +12,15 @@ downloads:
   ReSharp3DS.3dsx:
     size: 323952
     size_str: 316 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.5/ReSharp3DS.3dsx
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/ReSharp3DS.3dsx
   ReSharp3DS.cia:
     size: 608192
     size_str: 593 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.5/ReSharp3DS.cia
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/ReSharp3DS.cia
   mscorlib.pe:
     size: 31028
     size_str: 30 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.5/mscorlib.pe
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/mscorlib.pe
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -40,25 +40,32 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b16772a6-9a63-49eb-a931-f4ae9e6908db"><img
-  width="284" height="459" alt="image" src="https://github.com/user-attachments/assets/b16772a6-9a63-49eb-a931-f4ae9e6908db"
+update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1177410a-fd5c-44e5-afc4-af6e982c9d28"><img
+  width="284" height="459" alt="image" src="https://github.com/user-attachments/assets/1177410a-fd5c-44e5-afc4-af6e982c9d28"
   style="max-width: 100%; height: auto; max-height: 459px;; aspect-ratio: 284 / 459;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 
   <h2>Fast CIA Installation</h2>
 
-  <h2>ReSharp3DS Runtime Update</h2>
+  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ae545b8c-c0a2-4eb6-b395-22a6e629297b"><img
+  width="246" height="246" alt="qr-code(1)" src="https://github.com/user-attachments/assets/ae545b8c-c0a2-4eb6-b395-22a6e629297b"
+  style="max-width: 100%; height: auto; max-height: 246px;; aspect-ratio: 246 / 246;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+
+  <h2>ReSharp3DS Launcher Update</h2>
 
   <ul>
 
-  <li>Remove <code class="notranslate">Updater.cpp</code>, <code class="notranslate">Updater.h</code></li>
+  <li>Improve UI</li>
 
-  <li>Fix compile crash</li>
+  <li>Improve french translation</li>
+
+  <li>Add new icon</li>
 
   </ul>'
-updated: '2026-09-05T13:40:04Z'
-version: v2.2.5
-version_title: v2.2.5
+updated: '2026-09-06T14:19:00Z'
+version: v2.2.6
+version_title: v2.2.6
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
 # Runtime & SDK for C#

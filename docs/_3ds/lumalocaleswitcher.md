@@ -29,7 +29,7 @@ llm_generation: 'no'
 qr:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0-04-nightly-cia.png
 source: https://github.com/Possum/LumaLocaleSwitcher
-stars: 148
+stars: 149
 systems:
 - 3DS
 title: LumaLocaleSwitcher
