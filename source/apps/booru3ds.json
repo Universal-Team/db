@@ -1,0 +1,14 @@
+{
+	"github": "Misakii-P/Booru3DS",
+	"description": "A Safebooru and Konachan API client for the Nintendo 3DS. (SFW)",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"media"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Misakii-P/Booru3DS/refs/heads/master/assets/booru3ds.png",
+	"image": "https://raw.githubusercontent.com/Misakii-P/Booru3DS/refs/heads/master/assets/ciabanner.png",
+	"long_description": "A booru image board browser for the **Nintendo 3DS**, written in C with\ncitro2d/citro3d. Browse Safebooru or Konachan, view images on the top\nscreen, and save full-size originals to your SD card — or install them\nstraight into the Nintendo 3DS Camera app."
+}
