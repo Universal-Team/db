@@ -1,0 +1,19 @@
+{
+	"forgejo": "sorunome/bosstool",
+	"forgejo_host": "codeberg.org",
+	"title": "BOSS Tool",
+	"description": "BOSS Tool is a utility to help you debug your BOSS/SpotPass data",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		1009014
+	]
+	"author": "Sorunome",
+	"icon": "https://codeberg.org/Sorunome/bosstool/raw/branch/main/meta/icon.png",
+	"image": "https://codeberg.org/Sorunome/bosstool/raw/branch/main/meta/banner.png",
+	"llm_generation": "no"
+}
