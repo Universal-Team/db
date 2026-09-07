@@ -1,0 +1,17 @@
+{
+	"github": "verypedro/Comet",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"media"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/verypedro/Comet/main/icon.png",
+	"image": "https://raw.githubusercontent.com/verypedro/Comet/main/meta/banner.png",
+	"unique_ids": [
+		1045418
+	],
+	"long_description": "All-in-one screenshot manager for the 3DS, inspired by the Switch's Album app. Browse 3DS screenshots in real stereoscopic 3D, or manage DS screenshots. Filter, delete, and copy to the 3DS Camera Album individually or in batches."
+}
