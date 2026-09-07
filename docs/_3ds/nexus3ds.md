@@ -24,48 +24,60 @@ preinstall_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS
   If you experience any issues please reinstall the normal "Luma3DS" before anything
   else.'
 prerelease:
-  download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.3.0
+  download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.4.0
   downloads:
+    boot.3nr:
+      size: 162771
+      size_str: 158 KiB
+      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.0/boot.3nr
     boot.firm:
-      size: 334848
-      size_str: 327 KiB
-      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.3.0/boot.firm
+      size: 336896
+      size_str: 329 KiB
+      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.0/boot.firm
   update_notes: '<h1 dir="auto">What''s new?</h1>
 
     <ul dir="auto">
 
-    <li>Merged with the latest Luma3DS commits (custom home menu using layeredfs doesn''t
-    crash anymore!)</li>
+    <li>Added support to load the new Sysplugins <code class="notranslate">.3nx</code>
+    file format. This new system allows external code to attach directly onto Loader
+    and Rosalina, extending the features of Nexus3DS.</li>
 
-    <li>Display Nexus3DS version in Rosalina menu</li>
+    <li>Place any amount of <code class="notranslate">.3nx</code> files in <code class="notranslate">/luma/plugins/</code>
+    to dynamically load these. ''<strong>Load external FIRMs and modules</strong>''
+    must be enabled for Sysplugins to take effect.<br>Check out the <a href="https://github.com/Blurro/3NX-Plugin-DevKit">3NX
+    Documentation and Development Kit here</a></li>
 
-    <li>Add customizable LCD backlight toggle (does not work on old 2DS)</li>
+    <li><code class="notranslate">boot.firm</code> now comes with a pair file <code
+    class="notranslate">boot.3nr</code>, this allows Sysplugins to repair themselves
+    against the current Nexus3DS build.<br><strong>This <code class="notranslate">.3nr</code>
+    file can be ignored if you do not intend to use Sysplugins.</strong></li>
 
-    <li>Add experimental fast boot time for big sd cards (may corrupt your sd card,
-    this is an advanced option disabled by default)</li>
+    </ul>
 
-    <li>Removed advanced options from the config menu (refer to the readme for more
-    info)</li>
-
-    </ul>'
+    <h3 dir="auto">Place both <code class="notranslate">boot.firm</code> and <code
+    class="notranslate">boot.3nr</code> on your SD root, or download from Universal
+    Updater!</h3>'
   update_notes_md: '# What''s new?
 
 
-    - Merged with the latest Luma3DS commits (custom home menu using layeredfs doesn''t
-    crash anymore!)
+    - Added support to load the new Sysplugins `.3nx` file format. This new system
+    allows external code to attach directly onto Loader and Rosalina, extending the
+    features of Nexus3DS.
 
-    - Display Nexus3DS version in Rosalina menu
+    - Place any amount of `.3nx` files in `/luma/plugins/` to dynamically load these.
+    ''**Load external FIRMs and modules**'' must be enabled for Sysplugins to take
+    effect.<br>Check out the [3NX Documentation and Development Kit here](https://github.com/Blurro/3NX-Plugin-DevKit)
 
-    - Add customizable LCD backlight toggle (does not work on old 2DS)
+    - `boot.firm` now comes with a pair file `boot.3nr`, this allows Sysplugins to
+    repair themselves against the current Nexus3DS build.<br>**This `.3nr` file can
+    be ignored if you do not intend to use Sysplugins.**
 
-    - Add experimental fast boot time for big sd cards (may corrupt your sd card,
-    this is an advanced option disabled by default)
 
-    - Removed advanced options from the config menu (refer to the readme for more
-    info)'
-  updated: '2026-03-16T16:44:14Z'
-  version: 0.3.0
-  version_title: Nexus3DS v0.3.0
+    ### Place both `boot.firm` and `boot.3nr` on your SD root, or download from Universal
+    Updater!'
+  updated: '2026-09-07T18:35:33Z'
+  version: 0.4.0
+  version_title: Nexus3DS v0.4.0
 screenshots:
 - description: Config menu
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/config-menu.png
@@ -80,23 +92,27 @@ update_notes: '<h1 dir="auto">What''s new?</h1>
 
   <ul dir="auto">
 
-  <li>Merged with the latest Luma3DS commits (custom home menu using layeredfs doesn''t
-  crash anymore!)</li>
+  <li>Added support to load the new Sysplugins <code class="notranslate">.3nx</code>
+  file format. This new system allows external code to attach directly onto Loader
+  and Rosalina, extending the features of Nexus3DS.</li>
 
-  <li>Display Nexus3DS version in Rosalina menu</li>
+  <li>Place any amount of <code class="notranslate">.3nx</code> files in <code class="notranslate">/luma/plugins/</code>
+  to dynamically load these. ''<strong>Load external FIRMs and modules</strong>''
+  must be enabled for Sysplugins to take effect.<br>Check out the <a href="https://github.com/Blurro/3NX-Plugin-DevKit">3NX
+  Documentation and Development Kit here</a></li>
 
-  <li>Add customizable LCD backlight toggle (does not work on old 2DS)</li>
+  <li><code class="notranslate">boot.firm</code> now comes with a pair file <code
+  class="notranslate">boot.3nr</code>, this allows Sysplugins to repair themselves
+  against the current Nexus3DS build.<br><strong>This <code class="notranslate">.3nr</code>
+  file can be ignored if you do not intend to use Sysplugins.</strong></li>
 
-  <li>Add experimental fast boot time for big sd cards (may corrupt your sd card,
-  this is an advanced option disabled by default)</li>
+  </ul>
 
-  <li>Removed advanced options from the config menu (refer to the readme for more
-  info)</li>
-
-  </ul>'
-updated: '2026-03-16T16:44:14Z'
-version: 0.3.0
-version_title: Nexus3DS v0.3.0
+  <h3 dir="auto">Place both <code class="notranslate">boot.firm</code> and <code class="notranslate">boot.3nr</code>
+  on your SD root, or download from Universal Updater!</h3>'
+updated: '2026-09-07T18:35:33Z'
+version: 0.4.0
+version_title: Nexus3DS v0.4.0
 website: https://discord.gg/StUs5bsw2S
 ---
 Please refer to the README on the github repo for more info: https://github.com/2b-zipper/Nexus3DS/blob/master/README.md

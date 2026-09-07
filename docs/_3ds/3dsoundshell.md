@@ -11,14 +11,14 @@ description: Un lecteur de musique pour 2/3DS avec eqaliser visuel, playlist, pa
   de vitesse et bien plus..
 download_page: https://github.com/Adritrain09/3DSoundShell/releases
 downloads:
-  3DSoundShell-V0.97.3dsx:
-    size: 2209700
+  3DSoundShell-V0.98.3dsx:
+    size: 2860064
     size_str: 2 MiB
-    url: https://github.com/Adritrain09/3DSoundShell/releases/download/Old_Alpha/3DSoundShell-V0.97.3dsx
-  3DSoundShell-V0.97.cia:
-    size: 2479040
+    url: https://github.com/Adritrain09/3DSoundShell/releases/download/Latest/3DSoundShell-V0.98.3dsx
+  3DSoundShell-V0.98.cia:
+    size: 3101632
     size_str: 2 MiB
-    url: https://github.com/Adritrain09/3DSoundShell/releases/download/Old_Alpha/3DSoundShell-V0.97.cia
+    url: https://github.com/Adritrain09/3DSoundShell/releases/download/Latest/3DSoundShell-V0.98.cia
 github: Adritrain09/3DSoundShell
 icon: https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/3DSoundShell.png
 image: https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/romfs/gfx/banner.png
@@ -28,7 +28,7 @@ license: apache-2.0
 license_name: Apache License 2.0
 llm_generation: 'yes'
 qr:
-  3DSoundShell-V0.97.cia: https://db.universal-team.net/assets/images/qr/3dsoundshell-v0-97-cia.png
+  3DSoundShell-V0.98.cia: https://db.universal-team.net/assets/images/qr/3dsoundshell-v0-98-cia.png
 screenshots:
 - description: Presentation
   url: https://db.universal-team.net/assets/images/screenshots/3dsoundshell/presentation.png
@@ -39,18 +39,18 @@ systems:
 title: 3DSoundShell
 unique_ids:
 - '0xFF3D5'
-update_notes: '<p dir="auto">V0.97 - ancienne version  (sleep timer ajouté, 4 nouveaux
-  visuelle, menu paramètre avec 2 manières d''organisé, mode eco modifié pour plus
-  d''option (et pour contourné les restrictions de nintendo), nouveau controle pour
-  l''écran eco, bug d''ordre de lecture corrigé, plusieurs correctif diverses)</p>
+update_notes: '<p dir="auto">V0.98 - version en test (ajout d''un réveil, lecture
+  clapet fermé (en jack seulement, restriction Nintendo), dossier custom de départ,
+  vitesse et pitch séparer si on veut avec SoundTouch + opti part l''IA donc tourne
+  bien meme sur Old 3DS, nouveau viz et pas mal de correctif)</p>
 
-  <p dir="auto">V0.97 - old version  (sleep timer added, 4 new skins, settings menu
-  with 2 layout options, eco mode modified to include more options (and to bypass
-  Nintendo''s restrictions), new control for the eco screen, playback order bug fixed,
-  various other fixes)</p>'
-updated: '2026-06-02T16:07:45Z'
-version: Old_Alpha
-version_title: 3DSoundShell - V0.97 - Old Alpha
+  <p dir="auto">V0.98 - beta version (added an alarm, playback with the lid closed
+  [via jack only—Nintendo restriction], custom startup folder, separate speed and
+  pitch controls if desired with SoundTouch, plus AI optimization so it runs smoothly
+  even on the Old 3DS, new visuals, and quite a few bug fixes)</p>'
+updated: '2026-09-07T19:12:21Z'
+version: Latest
+version_title: 3DSoundShell - V0.98 - Alpha
 website: https://3DSoundShell.hosten.uk
 ---
 Un lecteur de music et d'audio avec des equaliseurs visuel, des equalisers audio, une interfaces acceptant la 3D, la possibilité de changer la vitesse de la music/audio, d'avoir des themes customs (lire le GitHub et aller sur le site indiquer sur la page de l'app ou sur le GitHub), une playlist pour écouter que les musiques favorie et et bien plus! (Cette application a était faite avec de l'IA, elle n'est donc pas parfaite et je n'ai pas les compétence pour coder moi même l'application, si vous rencontrez des bugs merci de bien vouloir les signaler sur le site officiel 3DSoundShell)
