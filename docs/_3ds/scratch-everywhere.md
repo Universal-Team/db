@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 10933032
+    size: 10953068
     size_str: 10 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-3ds.3dsx
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.1/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 9257920
+    size: 9282496
     size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.1/scratch-3ds.cia
   scratch-ds.nds:
-    size: 5633536
+    size: 5669376
     size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.1/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -41,23 +41,18 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<p dir="auto"><strong>After 451 days and 1,545 commits from 36 contributors,
-  SE! is finally at 1.0!</strong></p>
+update_notes: '<p dir="auto">Due to Nate''s current absence, Dogo and I will be making
+  releases from this point onward (until Nate returns).</p>
 
   <h2 dir="auto">Parity Changes</h2>
 
   <ul dir="auto">
 
-  <li>Add default costume rotation center if one is not present in project.json</li>
+  <li>Fixed volume of new sounds not being set correctly</li>
 
-  <li>Add default sample count and sample rate</li>
+  <li>Fixed missing input resets on some C blocks</li>
 
-  <li>Fix TextToSpeech blocks not waiting to finish speaking until continuing</li>
-
-  <li>Fix being able to click through Sprites</li>
-
-  <li>Fix <code class="notranslate">Stop ''other scripts in sprite''</code> Block
-  being wrong if ran in a custom block</li>
+  <li>Fixed clones being able to call threads after being deleted</li>
 
   </ul>
 
@@ -65,63 +60,72 @@ update_notes: '<p dir="auto"><strong>After 451 days and 1,545 commits from 36 co
 
   <ul dir="auto">
 
-  <li>Fix SVG costumes being super pixelated sometimes</li>
+  <li>Fixed incorrect scaling of vector costumes on initial load</li>
 
-  <li>Optimized block inputs and fields</li>
+  <li>Optimized collision</li>
 
-  <li>Fix collision with flipped Sprites</li>
+  <li>Optimized input fetching</li>
 
-  <li>Fix audio not working in Unzipped projects</li>
-
-  <li>Fix <code class="notranslate">Volume</code> block not working</li>
-
-  <li>Fix speech bubbles not getting removed when its Sprite is deleted</li>
-
-  <li>Refactored a bunch of input code internally (Via <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4512817721" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/695"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/695/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/695">#695</a>)</li>
+  <li>Optimized number parsing</li>
 
   </ul>
 
-  <h2 dir="auto">Menu Changes</h2>
+  <h2 dir="auto">3DS/DS Changes</h2>
 
   <ul dir="auto">
 
-  <li>Add Romanian translation (Via <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4811030362" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/722"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/722/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/722">#722</a>)</li>
+  <li>Fixed <code class="notranslate">any</code> key not working correctly</li>
 
-  <li>Fix controls menu not working correctly</li>
+  <li>Improved SVG quality in dual screen mode</li>
 
   </ul>
 
-  <h2 dir="auto">Wii &amp; GameCube Changes</h2>
+  <h2 dir="auto">PC Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fix crash on startup</li>
+  <li>
 
-  <li>No longer embed assets inside .dol</li>
+  <p dir="auto">Changed the default renderer to OpenGL Core</p>
+
+  <p dir="auto">Due to this change, PC now supports all looks effects (including shader-based
+  ones like whirl, fisheye, etc.)</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Changed the default window size to 480x360 to match Scratch''s stage
+  size</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Added support for using the native file selector when changing the
+  project directory</p>
+
+  </li>
 
   </ul>
 
-  <h2 dir="auto">Windows &amp; PS4 Changes</h2>
+  <h2 dir="auto">webOS Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fix crash on startup</li>
+  <li>Fixed crash at startup</li>
 
   </ul>
 
-  <h2 dir="auto">NDS Changes</h2>
+  <h2 dir="auto">Internal Changes</h2>
 
   <ul dir="auto">
 
-  <li>Don''t render Sprites if <code class="notranslate">ghost</code> effect is over
-  70%</li>
+  <li>Changed the dependency system to use <a href="https://github.com/catalog-cmake/catalog">Catalog</a>.
+  This means building from source should now be easier and faster.</li>
+
+  <li>Added support for SE! to be built as a library. This is the very beginnings
+  of a potential (seperate) editor application in the future.</li>
 
   </ul>
 
@@ -130,18 +134,18 @@ update_notes: '<p dir="auto"><strong>After 451 days and 1,545 commits from 36 co
   data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
   <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DarkerSparks/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DarkerSparks">@DarkerSparks</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Starlii10/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Starlii10">@Starlii10</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/fridayfunkgaming291-cloud/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/fridayfunkgaming291-cloud">@fridayfunkgaming291-cloud</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/samuelvenable/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/samuelvenable">@samuelvenable</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/iCraft7773/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/iCraft7773">@iCraft7773</a>,
   and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
-updated: '2026-07-26T17:25:29Z'
-version: '1.0'
-version_title: '1.0'
+updated: '2026-09-07T05:22:27Z'
+version: '1.1'
+version_title: Release 1.1
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
