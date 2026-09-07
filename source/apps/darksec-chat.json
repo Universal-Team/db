@@ -1,0 +1,32 @@
+{
+	"title": "DarkSec Chat",
+	"author": "DarkSec",
+	"description": "Live chat client for darksec.uk",
+	"long_description": "A native Nintendo 3DS homebrew client for the live chat at [darksec.uk/chat](https://darksec.uk/chat).\n\nThe top screen shows the live message log; the bottom screen is a touch terminal keyboard for sending messages. Fully native 3DS controls with scroll, handle entry and a persistent connection.\n\n* Live log on the top screen\n* Touch keyboard terminal on the bottom screen\n* Scroll with UP / DOWN, handle with SELECT\n* Auto-reconnect",
+	"website": "https://darksec.uk/3ds",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [1018391],
+	"version": "v1.0.0",
+	"updated": "2026-09-02T07:26:00Z",
+	"image": "https://darksec.uk/3ds/chat-banner.png",
+	"icon": "https://darksec.uk/3ds/chat-icon.png",
+	"license": "MIT",
+	"license_name": "MIT License",
+	"color": "#6c5ce7",
+	"downloads": {
+		"darksec-chat.zip": {
+			"url": "https://darksec.uk/3ds/darksec-chat.zip"
+		}
+	},
+	"archive": {
+		"darksec-chat\\.zip": {
+			"DarkSec Chat (.cia)": [
+				"darksecchat.cia"
+			],
+			"DarkSec Chat (.3dsx)": [
+				"darksecchat.3dsx"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"title": "N3DS Weather",
+	"author": "DarkSec",
+	"description": "Live 3D weather for the New 3DS XL",
+	"long_description": "A modern weather app for the New 3DS XL. The top screen is an animated **stereoscopic 3D** scene of the current conditions - drifting clouds, rain, snow and storm lightning - and the bottom screen is the full forecast: a 7-day strip, hour-by-hour detail, city search and Celsius/Fahrenheit toggle.\n\n* Top screen: live 3D weather scene (rain / snow / storm / sun / stars)\n* Bottom screen: current conditions + 7-day + hourly forecast\n* City search with an on-screen keyboard\n* Alerts derived from the forecast (wind, storms, heat)\n* Settings and location save to the SD card\n* Data from [Open-Meteo](https://open-meteo.com), no account needed",
+	"website": "https://darksec.uk/3ds",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [320675],
+	"version": "v1.0.0",
+	"updated": "2026-09-02T10:53:00Z",
+	"image": "https://darksec.uk/3ds/banner.png",
+	"icon": "https://darksec.uk/3ds/icon.png",
+	"license": "MIT",
+	"license_name": "MIT License",
+	"color": "#2e86de",
+	"downloads": {
+		"n3ds-weather.zip": {
+			"url": "https://darksec.uk/3ds/n3ds-weather.zip"
+		}
+	},
+	"archive": {
+		"n3ds-weather\\.zip": {
+			"N3DS Weather (.cia)": [
+				"n3ds-weather.cia"
+			],
+			"N3DS Weather (.3dsx)": [
+				"n3ds-weather.3dsx"
+			]
+		}
+	}
+}
