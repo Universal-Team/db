@@ -22,7 +22,7 @@ image_length: 2363
 layout: app
 llm_generation: unknown
 source: https://github.com/DefeatOf13/RollTheDice-3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: RollTheDice-3DS
