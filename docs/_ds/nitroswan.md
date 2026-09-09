@@ -37,7 +37,7 @@ update_notes: '<p dir="auto">Not much new in this release, changed from devkitAR
   </ul>'
 updated: '2026-08-12T15:02:55Z'
 version: v0.7.7
-version_title: V0.7.7
+version_title: NitroSwan V0.7.7
 ---
 ### Installation instructions
 

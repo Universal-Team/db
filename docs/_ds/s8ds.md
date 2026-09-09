@@ -43,7 +43,7 @@ update_notes: '<ul dir="auto">
   </ul>'
 updated: '2026-07-30T11:09:21Z'
 version: v1.1.8
-version_title: V1.1.8
+version_title: S8DS V1.1.8
 ---
 ### Installation instructions
 
