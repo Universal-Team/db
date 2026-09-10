@@ -10,93 +10,19 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9886148
+    size: 9892060
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3B/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10048448
+    size: 10052544
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3B/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 9892132
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10056640
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>TJAHandlerからの移植？「エンドレス」モードの実装<br>
-
-    指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！</li>
-
-    <li>段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正</li>
-
-    <li><code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>タグの対応</li>
-
-    <li><code class="notranslate">#NEXTSONG</code>を使用した曲間での配点変更の実装</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Transplantation from TJAHandler? Implementation of "Endless" mode.<br>
-
-    Continuously clear randomly selected songs while completing the specified conditions!</li>
-
-    <li>Fixed a bug that could not fail if you put BAD with the "perfection" option
-    on Dan-i Dojo.</li>
-
-    <li>Support for <code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>
-    tags.</li>
-
-    <li>Implementation of score changes between songs using <code class="notranslate">#NEXTSONG</code></li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - TJAHandlerからの移植？「エンドレス」モードの実装
-
-    指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！
-
-    - 段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正
-
-    - `TITLEEN:` `SUBTITLEEN:`タグの対応
-
-    - `#NEXTSONG`を使用した曲間での配点変更の実装
-
-
-    ## Changelog
-
-    - Transplantation from TJAHandler? Implementation of "Endless" mode.
-
-    Continuously clear randomly selected songs while completing the specified conditions!
-
-    - Fixed a bug that could not fail if you put BAD with the "perfection" option
-    on Dan-i Dojo.
-
-    - Support for `TITLEEN:` `SUBTITLEEN:` tags.
-
-    - Implementation of score changes between songs using `#NEXTSONG`'
-  updated: '2026-08-30T22:50:46Z'
-  version: v2.4.0
-  version_title: TJAPlayer for 3DS v2.4.0
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -115,13 +41,17 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>段位道場に関する仕様変更<br>
+  <li>TJAHandlerからの移植？「エンドレス」モードの実装<br>
 
-  今後はTJAPlayer(TNDE/OpenTaiko/TJAHandler)版、または大次郎版のみ動作する様になります。<br>
+  指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！</li>
 
-  TJAP_3DS v2.3.1 から v2.3.3(A) 専用に作られた段位に関しては<br>
+  <li>段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正</li>
 
-  お手数ですが、再ダウンロードを行うか譜面の作成者にお問い合わせ下さい。</li>
+  <li><code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>タグの対応</li>
+
+  <li><code class="notranslate">#NEXTSONG</code>を使用した曲間での配点変更の実装</li>
+
+  <li><code class="notranslate">#SUDDEN 0 0</code>が実行された際の動作が異なっていたのを修正</li>
 
   </ul>
 
@@ -129,20 +59,25 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Changes to the Dan Rank Dojo Specification<br>
+  <li>Transplantation from TJAHandler? Implementation of "Endless" mode.<br>
 
-  From now on, it will only work with the TJAPlayer(TNDE/OpenTaiko/TJAHandler) version
-  or the Daijiro version.<br>
+  Continuously clear randomly selected songs while completing the specified conditions!</li>
 
-  For ranks created specifically for TJAP_3DS v2.3.1 to v2.3.3(A),<br>
+  <li>Fixed a bug that could not fail if you put BAD with the "perfection" option
+  on Dan-i Dojo.</li>
 
-  we apologize for the inconvenience, but please re-download the files or contact
-  the score creator.</li>
+  <li>Support for <code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>
+  tags.</li>
+
+  <li>Implementation of score changes between songs using <code class="notranslate">#NEXTSONG</code></li>
+
+  <li>Fixed the different behavior when <code class="notranslate">#SUDDEN 0 0</code>
+  was executed</li>
 
   </ul>'
-updated: '2026-08-27T11:41:50Z'
-version: v2.3.3B
-version_title: TJAPlayer for 3DS v2.3.3(B)
+updated: '2026-08-30T22:50:46Z'
+version: v2.4.0
+version_title: TJAPlayer for 3DS v2.4.0
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
