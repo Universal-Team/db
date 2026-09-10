@@ -3,6 +3,8 @@ author: Atari800 development team, asie
 avatar: https://codeberg.org/avatars/a12b4a53b6daa4d94a62f3bdba03756e74ee2dd8a56f0c47ee041e43ab693583
 categories:
 - emulator
+color: '#bebebe'
+color_bg: '#808080'
 created: '2026-01-03T20:16:33Z'
 description: Atari 8-bit computer and 5200 console emulator - 3DS port
 download_page: https://codeberg.org/asie/atari800-3ds/releases
