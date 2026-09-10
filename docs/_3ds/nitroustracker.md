@@ -3,6 +3,8 @@ author: NitrousTracker contributors - original by Tobias Weyand
 avatar: https://codeberg.org/avatars/dfbeab2ccbd74b48c2eded683b6fc5fe8c64ad01d4a41725cc263d2522c26b4e
 categories:
 - app
+color: '#876f18'
+color_bg: '#806917'
 created: '2026-07-24T13:42:31Z'
 description: Unofficial fork of 0xtob's NitroTracker, a Fasttracker II-style tracker
   for the DS.
@@ -21,6 +23,7 @@ forgejo: NitrousTracker/NitrousTracker
 forgejo_host: codeberg.org
 icon: https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png
 image: https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png
+image_length: 1291
 layout: app
 llm_generation: unknown
 source: https://codeberg.org/NitrousTracker/nitroustracker

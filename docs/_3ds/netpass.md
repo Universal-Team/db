@@ -34,17 +34,9 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: '<ul>
-
-  <li>Fix Poke Transporter</li>
-
-  <li>Hide error 1 that some are experiencing</li>
-
-  <li>Update Back Alley music</li>
-
-  </ul>
-
-  '
+update_notes: <ul data-sourcepos="1:2-3:26" dir="auto">&#x000A;<li data-sourcepos="1:2-1:23">Fix
+  Poke Transporter</li>&#x000A;<li data-sourcepos="2:2-2:42">Hide error 1 that some
+  are experiencing</li>&#x000A;<li data-sourcepos="3:2-3:26">Update Back Alley music</li>&#x000A;</ul>
 updated: '2026-08-27T10:15:45.000Z'
 version: v2.1.1
 version_title: v2.1.1
