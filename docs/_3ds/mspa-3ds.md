@@ -10,9 +10,9 @@ description: A Homestuck (and other MSPA's) reader for the 3DS
 download_page: https://github.com/Animalino5/MSPA-3DS/releases
 downloads:
   MSPA-3DS.3dsx:
-    size: 256032
+    size: 256588
     size_str: 250 KiB
-    url: https://github.com/Animalino5/MSPA-3DS/releases/download/v1.0.0/MSPA-3DS.3dsx
+    url: https://github.com/Animalino5/MSPA-3DS/releases/download/v1.1.0/MSPA-3DS.3dsx
 github: Animalino5/MSPA-3DS
 icon: https://db.universal-team.net/assets/images/icons/mspa-3ds.png
 image: https://db.universal-team.net/assets/images/icons/mspa-3ds.png
@@ -25,37 +25,25 @@ stars: 4
 systems:
 - 3DS
 title: MSPA-3DS
-update_notes: '<h2 dir="auto">What''s new in v1.0.0</h2>
+update_notes: '<p dir="auto">fixed most bugs in the issues tab!!</p>
+
+  <p dir="auto">this includes:</p>
 
   <ul dir="auto">
 
-  <li><strong>MSPFA support</strong> -- build packs from any fan adventure on mspfa.com
-  via the JSON API</li>
+  <li>Back Button bugging out</li>
 
-  <li><strong>SWF conversion</strong> -- <code class="notranslate">[S]</code> page
-  Flash animations are automatically extracted to frame sequences using JPEXS FFDec
-  (auto-downloaded on first run)</li>
+  <li>Flashes failing to download</li>
 
-  <li><strong>YouTube support</strong> -- MSPFA pages with YouTube embeds are automatically
-  downloaded via yt-dlp</li>
+  <li>Audio not playing</li>
 
-  <li><strong>Direct video support</strong> -- MSPFA pages with <code class="notranslate">&lt;video&gt;</code>
-  tags (MP4/WebM) are downloaded and converted</li>
+  <li>MPFA CSS showing</li>
 
-  <li><strong>Per-pack bookmarks</strong> -- the 3DS app remembers where you left
-  off in each pack individually</li>
+  </ul>
 
-  <li><strong>Auto-downloaded FFDec</strong> -- no manual installation needed, the
-  builder fetches it from GitHub</li>
-
-  <li><strong>Two-column builder GUI</strong> -- compact layout that fits on smaller
-  screens</li>
-
-  <li><strong>Builder EXE</strong> -- for those who hate python!</li>
-
-  </ul>'
-updated: '2026-06-27T19:48:19Z'
-version: v1.0.0
-version_title: RELEASE 1
+  <p dir="auto">and a few more too!!</p>'
+updated: '2026-09-10T17:37:52Z'
+version: v1.1.0
+version_title: BUG FIXES!!
 ---
 This is a Homestuck 3DS reader which works by fetching data from a Homestuck Mirror then displaying said data. (YOU NEED WIFI FOR THIS TO WORK)
