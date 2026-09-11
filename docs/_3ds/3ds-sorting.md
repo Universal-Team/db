@@ -20,7 +20,6 @@ downloads:
 github: memeToasty/3ds_sorting
 icon: https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/icon.png
 image: https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/banner.png
-image_length: 252030
 layout: app
 llm_generation: unknown
 qr:
