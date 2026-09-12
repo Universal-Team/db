@@ -1,0 +1,269 @@
+{
+	"github": "BolgarMaxym97/3ds-ua",
+	"title": "Українізатор 3DS/2DS",
+	"author": "Max Bolhar",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "Українська мова для системного інтерфейсу Nintendo 3DS/2DS.",
+	"long_description": "Перекладає системний інтерфейс Nintendo 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL і New 2DS XL українською: Меню HOME, Налаштування системи, Інтернет-браузер, eShop, Камеру, Звук, Mii Maker, Журнал дій, електронні довідники та решту системних застосунків.\n\nУкраїнська стає на місце російського або англійського мовного слота - який саме, питає під час установки. Потрібна Luma3DS з увімкненим Enable game patching і консоль європейського (EUR) регіону.",
+	"website": "https://github.com/BolgarMaxym97/3ds-ua",
+	"icon": "https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png",
+	"llm_generation": "yes",
+	"preinstall_message": "Потрібна Luma3DS з увімкненим Enable game patching.\nПісля встановлення перемкніть мову консолі:\nНалаштування системи -> Iнші налаштування -> Мова,\nі перезапустіть консоль.\n\nВидалення перепитує про кожну папку - їх до 32.\nUniversal-Updater інакше теки видаляти не вміє.",
+	"installed_files": [
+		"/luma/titles/0004003000009802/banner_22800.bin",
+		"/luma/titles/0004003000009B02/romfs/2000"
+	],
+	"scripts": {
+		"New 3DS / New 2DS XL - замість російської": [
+			{
+				"type": "downloadRelease",
+				"repo": "BolgarMaxym97/3ds-ua",
+				"file": "3ds-ua-from-ru-.*-new3ds\\.zip",
+				"output": "/3ds/3ds-ua.zip",
+				"message": "Завантаження архіву (~23 МБ)...",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "/3ds/3ds-ua.zip",
+				"input": "^luma/",
+				"output": "/luma/",
+				"message": "Розпакування..."
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/3ds-ua.zip"
+			}
+		],
+		"New 3DS / New 2DS XL - замість англійської": [
+			{
+				"type": "downloadRelease",
+				"repo": "BolgarMaxym97/3ds-ua",
+				"file": "3ds-ua-from-en-.*-new3ds\\.zip",
+				"output": "/3ds/3ds-ua.zip",
+				"message": "Завантаження архіву (~23 МБ)...",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "/3ds/3ds-ua.zip",
+				"input": "^luma/",
+				"output": "/luma/",
+				"message": "Розпакування..."
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/3ds-ua.zip"
+			}
+		],
+		"Old 3DS / Old 2DS - замість російської": [
+			{
+				"type": "downloadRelease",
+				"repo": "BolgarMaxym97/3ds-ua",
+				"file": "3ds-ua-from-ru-.*-old3ds\\.zip",
+				"output": "/3ds/3ds-ua.zip",
+				"message": "Завантаження архіву (~23 МБ)...",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "/3ds/3ds-ua.zip",
+				"input": "^luma/",
+				"output": "/luma/",
+				"message": "Розпакування..."
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/3ds-ua.zip"
+			}
+		],
+		"Old 3DS / Old 2DS - замість англійської": [
+			{
+				"type": "downloadRelease",
+				"repo": "BolgarMaxym97/3ds-ua",
+				"file": "3ds-ua-from-en-.*-old3ds\\.zip",
+				"output": "/3ds/3ds-ua.zip",
+				"message": "Завантаження архіву (~23 МБ)...",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "/3ds/3ds-ua.zip",
+				"input": "^luma/",
+				"output": "/luma/",
+				"message": "Розпакування..."
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/3ds-ua.zip"
+			}
+		],
+		"Видалити українізатор": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022000",
+				"message": "Видаляю /luma/titles/0004001000022000"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022100",
+				"message": "Видаляю /luma/titles/0004001000022100"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022200",
+				"message": "Видаляю /luma/titles/0004001000022200"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022300",
+				"message": "Видаляю /luma/titles/0004001000022300"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022400",
+				"message": "Видаляю /luma/titles/0004001000022400"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022500",
+				"message": "Видаляю /luma/titles/0004001000022500"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022700",
+				"message": "Видаляю /luma/titles/0004001000022700"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022800",
+				"message": "Видаляю /luma/titles/0004001000022800"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022900",
+				"message": "Видаляю /luma/titles/0004001000022900"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022A00",
+				"message": "Видаляю /luma/titles/0004001000022A00"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022B00",
+				"message": "Видаляю /luma/titles/0004001000022B00"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022D00",
+				"message": "Видаляю /luma/titles/0004001000022D00"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022E00",
+				"message": "Видаляю /luma/titles/0004001000022E00"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400100002C100",
+				"message": "Видаляю /luma/titles/000400100002C100"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001020022300",
+				"message": "Видаляю /luma/titles/0004001020022300"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009802",
+				"message": "Видаляю /luma/titles/0004003000009802"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009902",
+				"message": "Видаляю /luma/titles/0004003000009902"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009B02",
+				"message": "Видаляю /luma/titles/0004003000009B02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009C02",
+				"message": "Видаляю /luma/titles/0004003000009C02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009D02",
+				"message": "Видаляю /luma/titles/0004003000009D02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003000009F02",
+				"message": "Видаляю /luma/titles/0004003000009F02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000A002",
+				"message": "Видаляю /luma/titles/000400300000A002"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000B902",
+				"message": "Видаляю /luma/titles/000400300000B902"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000BA02",
+				"message": "Видаляю /luma/titles/000400300000BA02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000BE02",
+				"message": "Видаляю /luma/titles/000400300000BE02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000C502",
+				"message": "Видаляю /luma/titles/000400300000C502"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000CD02",
+				"message": "Видаляю /luma/titles/000400300000CD02"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000D002",
+				"message": "Видаляю /luma/titles/000400300000D002"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000D102",
+				"message": "Видаляю /luma/titles/000400300000D102"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000D602",
+				"message": "Видаляю /luma/titles/000400300000D602"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/000400300000F602",
+				"message": "Видаляю /luma/titles/000400300000F602"
+			},
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004003020009D02",
+				"message": "Видаляю /luma/titles/0004003020009D02"
+			}
+		]
+	}
+}
