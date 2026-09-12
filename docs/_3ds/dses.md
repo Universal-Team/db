@@ -32,7 +32,7 @@ llm_generation: unknown
 qr:
   DSES.cia: https://db.universal-team.net/assets/images/qr/dses-cia.png
 source: https://github.com/noirscape/dses
-stars: 68
+stars: 69
 systems:
 - 3DS
 title: dses
