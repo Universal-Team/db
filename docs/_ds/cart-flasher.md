@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 252416
-    size_str: 246 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.7-kirlia/cart_flasher.nds
+    size: 255488
+    size_str: 249 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.8-tinkatuff/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -30,26 +30,48 @@ stars: 4
 systems:
 - DS
 title: cart-flasher
-update_notes: '<h3 dir="auto">DS banner tools</h3>
+update_notes: '<h3 dir="auto">Ace3DS+ support</h3>
 
   <ul dir="auto">
 
-  <li>Added <strong>Back up DS banner</strong> and <strong>Write DS banner</strong>
-  for supported Ace3DS+ and R4iSDHC carts.</li>
+  <li>Added support for the 2 MiB Tsingteng TH25Q16 Ace3DS+ variant.</li>
 
-  <li>Banner backups are validated and saved in <code class="notranslate">cart-backups/banners</code>
-  without replacing older backups.</li>
+  <li><code class="notranslate">Back up DS banner</code> and <code class="notranslate">Write
+  DS banner</code> now work with its verified Deep Labyrinth <code class="notranslate">ADLE</code>
+  layout.</li>
 
-  <li>Banner writes validate the selected Regular DS v1 banner and the cart''s known
-  layout before changing anything, update only the banner blocks, and verify the result
-  afterward.</li>
+  <li>Cart information now names the known Tsingteng and Macronix 2 MiB variants.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.6-shiinotic...v0.7-kirlia"><tt>v0.6-shiinotic...v0.7-kirlia</tt></a></p>'
-updated: '2026-08-26T05:02:27Z'
-version: v0.7-kirlia
-version_title: v0.7-kirlia
+  <h3 dir="auto">Cart detection</h3>
+
+  <ul dir="auto">
+
+  <li>A nonresponsive cart no longer leaves Cart-Flasher stuck during detection or
+  reset. It returns to the detection-failure screen instead.</li>
+
+  <li>Press <code class="notranslate">&lt;SELECT&gt;</code> on the cart list to open
+  Hardware probe.</li>
+
+  </ul>
+
+  <h3 dir="auto">Ease of use</h3>
+
+  <ul dir="auto">
+
+  <li>Overall verbiage clearer and more consistent.</li>
+
+  <li>A wrong key combo immediately shows a new sequence.</li>
+
+  <li>Improved the layout of flash-backup and destructive confirmation screens.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.7-kirlia...v0.8-tinkatuff"><tt>v0.7-kirlia...v0.8-tinkatuff</tt></a></p>'
+updated: '2026-09-12T01:55:03Z'
+version: v0.8-tinkatuff
+version_title: v0.8-tinkatuff
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
