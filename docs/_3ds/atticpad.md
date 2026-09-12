@@ -29,16 +29,16 @@ llm_generation: 'yes'
 preinstall_message: Install AtticPad server on your PC first, this app is a controller
   for it. github.com/atticpad/atticpad
 prerelease:
-  download_page: https://github.com/atticpad/atticpad/releases/tag/v0.6.0-rc2
+  download_page: https://github.com/atticpad/atticpad/releases/tag/v0.6.0-rc3
   downloads:
     atticpad-3ds.3dsx:
       size: 366704
       size_str: 358 KiB
-      url: https://github.com/atticpad/atticpad/releases/download/v0.6.0-rc2/atticpad-3ds.3dsx
+      url: https://github.com/atticpad/atticpad/releases/download/v0.6.0-rc3/atticpad-3ds.3dsx
     atticpad-3ds.cia:
       size: 420800
       size_str: 410 KiB
-      url: https://github.com/atticpad/atticpad/releases/download/v0.6.0-rc2/atticpad-3ds.cia
+      url: https://github.com/atticpad/atticpad/releases/download/v0.6.0-rc3/atticpad-3ds.cia
   qr:
     atticpad-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/atticpad-3ds-cia.png
   update_notes: '<h3 dir="auto">Added</h3>
@@ -169,6 +169,19 @@ prerelease:
 
     </li>
 
+    <li>
+
+    <p dir="auto"><strong>A profile can map a button to a trigger.</strong> <code
+    class="notranslate">"L": "LT"</code> in a profile''s<br>
+
+    buttons map gives a device with no analog triggers, such as the PSP, a<br>
+
+    full-pull LT while the button is held; the web editor offers LT and RT<br>
+
+    in the button dropdown.</p>
+
+    </li>
+
     </ul>
 
     <h3 dir="auto">Changed</h3>
@@ -228,7 +241,7 @@ prerelease:
     <p dir="auto"><strong>Linux:</strong> download <code class="notranslate">atticpad-server-linux-x86_64</code>,
     <code class="notranslate">chmod +x</code> it, and run it.<br>
 
-    It needs access to <code class="notranslate">/dev/uinput</code> — <a href="https://github.com/atticpad/atticpad/blob/v0.6.0-rc2/docs/INSTALL.md">INSTALL.md</a>
+    It needs access to <code class="notranslate">/dev/uinput</code> — <a href="https://github.com/atticpad/atticpad/blob/v0.6.0-rc3/docs/INSTALL.md">INSTALL.md</a>
     has the<br>
 
     one-line udev rule.</p>
@@ -254,8 +267,8 @@ prerelease:
 
     → Scan QR Code</strong> and scan this. No SD card, no cable:</p>
 
-    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc2/docs/img/fbi-install-qr.png"><img
-    src="https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc2/docs/img/fbi-install-qr.png"
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc3/docs/img/fbi-install-qr.png"><img
+    src="https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc3/docs/img/fbi-install-qr.png"
     alt="QR code that installs the AtticPad .cia from the latest release" width="200"
     style="max-width: 100%;"></a>
 
@@ -308,7 +321,7 @@ prerelease:
     <code class="notranslate">atticpad-nds.nds</code> to the card and launch it. In
     DS mode the console can only<br>
 
-    join an open or WEP network; <a href="https://github.com/atticpad/atticpad/blob/v0.6.0-rc2/docs/SETUP-DS.md">SETUP-DS.md</a>
+    join an open or WEP network; <a href="https://github.com/atticpad/atticpad/blob/v0.6.0-rc3/docs/SETUP-DS.md">SETUP-DS.md</a>
     shows how to<br>
 
     run a small isolated one. In DSi mode it joins WPA2 and pairs by scanning<br>
@@ -381,28 +394,31 @@ prerelease:
     \ server's QR\n  with the camera. The server ships a `ds-default` profile that\
     \ drives the\n  left stick from the touchscreen. Hardware-proven in both modes\
     \ — see\n  `docs/SUPPORT-TIERS.md`, `docs/INSTALL.md` and `docs/SETUP-DS.md` for\n\
-    \  the open-or-WEP constraint of DS mode.\n\n### Changed\n\n- **Discovery on the\
-    \ 3DS and DS prefers the server you last used.** When\n  more than one server\
-    \ answers a LAN DISCOVER, the console now picks the one\n  whose address it saved\
-    \ after its last session (or picked last time) rather\n  than whichever answered\
-    \ first; the first responder only wins when the\n  remembered one stays silent\
-    \ for the whole window. On a LAN with two\n  servers the faster machine used to\
-    \ win every boot and look hardcoded.\n  Nothing is hardcoded: a fresh unit still\
-    \ starts empty. The Android\n  address field's placeholder no longer looks like\
-    \ a real address.\n\n\n---\n\n## Install\n\n**Server** — on the PC that needs\
-    \ a controller. Pick one:\n\n- **Windows:** download `atticpad-server-windows-x86_64.exe`\
+    \  the open-or-WEP constraint of DS mode.\n\n- **A profile can map a button to\
+    \ a trigger.** `\"L\": \"LT\"` in a profile's\n  buttons map gives a device with\
+    \ no analog triggers, such as the PSP, a\n  full-pull LT while the button is held;\
+    \ the web editor offers LT and RT\n  in the button dropdown.\n\n### Changed\n\n\
+    - **Discovery on the 3DS and DS prefers the server you last used.** When\n  more\
+    \ than one server answers a LAN DISCOVER, the console now picks the one\n  whose\
+    \ address it saved after its last session (or picked last time) rather\n  than\
+    \ whichever answered first; the first responder only wins when the\n  remembered\
+    \ one stays silent for the whole window. On a LAN with two\n  servers the faster\
+    \ machine used to win every boot and look hardcoded.\n  Nothing is hardcoded:\
+    \ a fresh unit still starts empty. The Android\n  address field's placeholder\
+    \ no longer looks like a real address.\n\n\n---\n\n## Install\n\n**Server** —\
+    \ on the PC that needs a controller. Pick one:\n\n- **Windows:** download `atticpad-server-windows-x86_64.exe`\
     \ and run it. It needs\n  the ViGEmBus driver, which is easiest to install with\
     \ winget:\n\n  ```\n  winget install ViGEm.ViGEmBus\n  ```\n\n  or grab the installer\
     \ from\n  [its releases page](https://github.com/nefarius/ViGEmBus/releases).\
     \ SmartScreen\n  will warn about AtticPad's unsigned binary (*More info → Run\
     \ anyway*).\n- **Linux:** download `atticpad-server-linux-x86_64`, `chmod +x`\
-    \ it, and run it.\n  It needs access to `/dev/uinput` — [INSTALL.md](https://github.com/atticpad/atticpad/blob/v0.6.0-rc2/docs/INSTALL.md)\
+    \ it, and run it.\n  It needs access to `/dev/uinput` — [INSTALL.md](https://github.com/atticpad/atticpad/blob/v0.6.0-rc3/docs/INSTALL.md)\
     \ has the\n  one-line udev rule.\n\nThe server prints the address to type into\
     \ a client, and serves a local page on\n<http://127.0.0.1:21150/> for pad status,\
     \ round-trip latency and profile editing.\n\n**Client** — on the device you want\
     \ to hold:\n\n- **Nintendo 3DS** (needs Luma3DS custom firmware) — open **FBI\
     \ → Remote Install\n  → Scan QR Code** and scan this. No SD card, no cable:\n\n\
-    \  <img src=\"https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc2/docs/img/fbi-install-qr.png\"\
+    \  <img src=\"https://raw.githubusercontent.com/atticpad/atticpad/v0.6.0-rc3/docs/img/fbi-install-qr.png\"\
     \ alt=\"QR code that installs the AtticPad .cia from the latest release\" width=\"\
     200\">\n\n  If that image does not load, the same code is attached to this release\
     \ as\n  `atticpad-3ds-install-qr.png`, and FBI's *Receive URLs over the network*\
@@ -416,7 +432,7 @@ prerelease:
     \ the PSP speaks WEP and WPA over 802.11b, so a WPA2-only\n  router will refuse\
     \ it.\n- **Nintendo DS / DSi** (flashcart or homebrew launcher) — copy\n  `atticpad-nds.nds`\
     \ to the card and launch it. In DS mode the console can only\n  join an open or\
-    \ WEP network; [SETUP-DS.md](https://github.com/atticpad/atticpad/blob/v0.6.0-rc2/docs/SETUP-DS.md)\
+    \ WEP network; [SETUP-DS.md](https://github.com/atticpad/atticpad/blob/v0.6.0-rc3/docs/SETUP-DS.md)\
     \ shows how to\n  run a small isolated one. In DSi mode it joins WPA2 and pairs\
     \ by scanning\n  the QR with the camera.\n\nThen pair once. On the 3DS that means\
     \ scanning the QR code the server shows —\nthe console has no PIN keypad, so the\
@@ -426,9 +442,9 @@ prerelease:
     PIN.\n\nVerify what you downloaded:\n\n```\nsha256sum -c SHA256SUMS\n```\n\n---\n\
     \n**This is a release candidate for 0.6.0, not a final release.** Please report\
     \ anything that behaves differently from the notes above.\n"
-  updated: '2026-09-12T11:22:21Z'
-  version: v0.6.0-rc2
-  version_title: AtticPad v0.6.0-rc2
+  updated: '2026-09-12T22:50:42Z'
+  version: v0.6.0-rc3
+  version_title: AtticPad v0.6.0-rc3
 qr:
   atticpad-3ds.cia: https://db.universal-team.net/assets/images/qr/atticpad-3ds-cia.png
 source: https://github.com/atticpad/atticpad
