@@ -46,7 +46,7 @@ screenshots:
 - description: Smbx title
   url: https://db.universal-team.net/assets/images/screenshots/thextech/smbx-title.png
 source: https://github.com/TheXTech/TheXTech
-stars: 414
+stars: 415
 systems:
 - 3DS
 title: TheXTech

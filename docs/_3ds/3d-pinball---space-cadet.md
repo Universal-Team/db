@@ -28,7 +28,7 @@ screenshots:
 - description: Awaiting deployment
   url: https://db.universal-team.net/assets/images/screenshots/3d-pinball---space-cadet/awaiting-deployment.png
 source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
-stars: 116
+stars: 117
 systems:
 - 3DS
 title: 3D Pinball - Space Cadet
