@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/46397838?v=4
 categories:
 - utility
 - save-tool
+color: '#46a2cb'
+color_bg: '#2c6680'
 created: '2025-11-16T04:15:26Z'
 description: Allows you to copy saves from one 3DS or emulator to another easily
 download_page: https://github.com/coolguy1842/SaveSync/releases
