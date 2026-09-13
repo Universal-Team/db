@@ -105,7 +105,7 @@ prerelease:
 qr:
   zelda3-3ds-v3.1.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v3-1-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 674
+stars: 675
 systems:
 - 3DS
 title: zelda-alttp-3ds
