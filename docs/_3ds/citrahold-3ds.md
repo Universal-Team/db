@@ -30,7 +30,7 @@ preinstall_message: Please visit https://www.citrahold.com/ to get set-up
 qr:
   Citrahold-3DS.cia: https://db.universal-team.net/assets/images/qr/citrahold-3ds-cia.png
 source: https://github.com/regimensocial/Citrahold-3DS
-stars: 49
+stars: 50
 systems:
 - 3DS
 title: Citrahold-3DS

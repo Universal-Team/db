@@ -168,16 +168,16 @@ You can listen to the game music through the Music Player submenu, located in th
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>breaking-bad-ds.nds</summary>
+<ol>
+<li>Download <code>breaking-bad-ds.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>[git] breaking-bad-ds.nds</summary>
 <ol>
 <li>Download <code>Breaking%20Bad%20DS.zip</code></li>
 <li>Extract <code>/breaking-bad-ds.nds</code> from the zip to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>breaking-bad-ds.nds</summary>
-<ol>
-<li>Download <code>breaking-bad-ds.nds</code> to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

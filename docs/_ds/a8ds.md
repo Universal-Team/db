@@ -38,7 +38,7 @@ qr:
   A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
   A8DSi.nds: https://db.universal-team.net/assets/images/qr/a8dsi-nds.png
 source: https://github.com/wavemotion-dave/A8DS
-stars: 37
+stars: 38
 systems:
 - DS
 title: A8DS
