@@ -22,7 +22,6 @@ downloads:
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
-image_length: 431
 layout: app
 llm_generation: unknown
 qr:
