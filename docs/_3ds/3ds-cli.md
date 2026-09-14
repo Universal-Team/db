@@ -10,13 +10,13 @@ description: Run full RISCV Linux on many game consoles
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 63052752
+    size: 63095493
     size_str: 60 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/5.1/3ds_cli.zip
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.2/3ds_cli.zip
   Image:
     size: 59691262
     size_str: 56 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/5.1/Image
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.2/Image
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -146,12 +146,12 @@ update_notes: '<h2 dir="auto">Install</h2>
 
   </table></markdown-accessiblity-table>
 
-  <p dir="auto">That''s it. The other zips below are for the Open Shop Channel and<br>
+  <p dir="auto">That''s it. The other zips below are for the Homebrew App Store<br>
 
-  the Homebrew App Store to install from, not for copying by hand.</p>'
-updated: '2026-09-10T13:42:07Z'
-version: '5.1'
-version_title: V5.1 - USB keyboards, Old 3DS bottom screen fix
+  to install from, not for copying by hand.</p>'
+updated: '2026-09-14T00:56:29Z'
+version: '5.2'
+version_title: V5.2 - Analytics
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
