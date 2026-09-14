@@ -88,7 +88,7 @@ prerelease:
   version: 4.2.6-196-g533e1522f
   version_title: 4.2.6-196-g533e1522f
 source: https://github.com/angband/angband
-stars: 1559
+stars: 1560
 systems:
 - 3DS
 - DS
