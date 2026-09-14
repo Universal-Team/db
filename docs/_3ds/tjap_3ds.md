@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9892060
+    size: 9892208
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10052544
+    size: 10056640
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -41,17 +41,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>TJAHandlerからの移植？「エンドレス」モードの実装<br>
-
-  指定された条件をこなしつつランダムで選ばれる曲達を連続クリアせよ！</li>
-
-  <li>段位道場で「かんぺき」オプションを付けた状態で不可を出すと不合格にならない可能性がある不具合の修正</li>
-
-  <li><code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>タグの対応</li>
-
-  <li><code class="notranslate">#NEXTSONG</code>を使用した曲間での配点変更の実装</li>
-
-  <li><code class="notranslate">#SUDDEN 0 0</code>が実行された際の動作が異なっていたのを修正</li>
+  <li>細かな不具合の修正</li>
 
   </ul>
 
@@ -59,25 +49,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Transplantation from TJAHandler? Implementation of "Endless" mode.<br>
-
-  Continuously clear randomly selected songs while completing the specified conditions!</li>
-
-  <li>Fixed a bug that could not fail if you put BAD with the "perfection" option
-  on Dan-i Dojo.</li>
-
-  <li>Support for <code class="notranslate">TITLEEN:</code> <code class="notranslate">SUBTITLEEN:</code>
-  tags.</li>
-
-  <li>Implementation of score changes between songs using <code class="notranslate">#NEXTSONG</code></li>
-
-  <li>Fixed the different behavior when <code class="notranslate">#SUDDEN 0 0</code>
-  was executed</li>
+  <li>Minor bug fixes.</li>
 
   </ul>'
-updated: '2026-08-30T22:50:46Z'
-version: v2.4.0
-version_title: TJAPlayer for 3DS v2.4.0
+updated: '2026-09-14T21:21:51Z'
+version: v2.4.0A
+version_title: TJAPlayer for 3DS v2.4.0(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
