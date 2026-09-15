@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9892208
+    size: 9892232
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -43,6 +43,8 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>細かな不具合の修正</li>
 
+  <li>HBSCROLL時に音符が意図しない挙動をする不具合の修正</li>
+
   </ul>
 
   <h2 dir="auto">Changelog</h2>
@@ -50,6 +52,8 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
   <ul dir="auto">
 
   <li>Minor bug fixes.</li>
+
+  <li>Fixed a bug in which notes behaved unintendedly during HBSCROLL.</li>
 
   </ul>'
 updated: '2026-09-14T21:21:51Z'
