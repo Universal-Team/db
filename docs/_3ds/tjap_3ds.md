@@ -49,7 +49,7 @@ prerelease:
     <ul dir="auto">
 
     <li>Support for the <code class="notranslate">#JPOSSCROLL</code> instruction using
-    complex numbers</li>
+    complex numbers.</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
@@ -59,7 +59,7 @@ prerelease:
 
     ## Changelog
 
-    - Support for the `#JPOSSCROLL` instruction using complex numbers'
+    - Support for the `#JPOSSCROLL` instruction using complex numbers.'
   updated: '2026-09-16T02:14:18Z'
   version: v2.4.0B
   version_title: TJAPlayer for 3DS v2.4.0(B)
