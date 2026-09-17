@@ -15,7 +15,11 @@ downloads:
   postal1-3ds.3dsx:
     size: 2429928
     size_str: 2 MiB
-    url: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases/download/1.0.0/postal1-3ds.3dsx
+    url: https://github.com/Taifuoguru/Postal-1-3DS/releases/download/1.0.0/postal1-3ds.3dsx
+  postal1-3ds.cia:
+    size: 1466304
+    size_str: 1 MiB
+    url: https://github.com/Taifuoguru/Postal-1-3DS/releases/download/1.0.0/postal1-3ds.cia
 github: Taifuoguru/Postal-1-New-3DS-Port-Alpha-
 icon: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png
 image: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png
@@ -30,15 +34,17 @@ preinstall_message: 'Note: You will need to copy the assets from your PC copy of
 
   You should have "PostalPlus", "res", and "title" folders, "POSTAL.INI" and a copy
   of the ini renamed to "postal_plus.ini".'
-source: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-
+qr:
+  postal1-3ds.cia: https://db.universal-team.net/assets/images/qr/postal1-3ds-cia.png
+source: https://github.com/Taifuoguru/Postal-1-3DS
 stars: 4
 systems:
 - 3DS
 title: Postal 1 Engine Port for New3ds Alpha
-update_notes: <p dir="auto">Hi everyone! This is a completely new port compared to
-  the old one—please read the updated instructions. If you get a black screen on startup,
-  press Start to continue. I suspect it should work on Old 3DS models, but I don't
-  have one to test it on. Please report any bugs if you find them!</p>
+update_notes: <p>Hi everyone! This is a completely new port compared to the old one—please
+  read the updated instructions. If you get a black screen on startup, press Start
+  to continue. I suspect it should work on Old 3DS models, but I don't have one to
+  test it on. Please report any bugs if you find them!</p>
 updated: '2026-09-17T20:33:40Z'
 version: 1.0.0
 version_title: 'Postal 1 Engine Port for 3DS '
