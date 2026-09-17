@@ -11,6 +11,11 @@ description: A homebrew engine port of the original Postal 1 (1997) for New Nint
   3DS. Features Circle Pad/D-Pad movement and full C-Stick aiming support. (Early
   Alpha / Playable Demo - Original game assets required).
 download_page: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases
+downloads:
+  postal1-3ds.3dsx:
+    size: 2429928
+    size_str: 2 MiB
+    url: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases/download/1.0.0/postal1-3ds.3dsx
 github: Taifuoguru/Postal-1-New-3DS-Port-Alpha-
 icon: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png
 image: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png
@@ -25,32 +30,16 @@ preinstall_message: 'Note: You will need to copy the assets from your PC copy of
 
   You should have "PostalPlus", "res", and "title" folders, "POSTAL.INI" and a copy
   of the ini renamed to "postal_plus.ini".'
-prerelease:
-  download_page: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases/tag/Alpha_1.0.0
-  downloads:
-    README.txt:
-      size: 3769
-      size_str: 3 KiB
-      url: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases/download/Alpha_1.0.0/README.txt
-    postal1-3ds.3dsx:
-      size: 1166372
-      size_str: 1 MiB
-      url: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases/download/Alpha_1.0.0/postal1-3ds.3dsx
-  update_notes: <p dir="auto"><a href="https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/blob/main/README.md">https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/blob/main/README.md</a></p>
-  update_notes_md: 'https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/blob/main/README.md
-
-
-    '
-  updated: '2026-07-06T18:32:59Z'
-  version: Alpha_1.0.0
-  version_title: Postal 1 Engine Port for New 3DS (Alpha - Playable Demo)
 source: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-
 stars: 4
 systems:
 - 3DS
 title: Postal 1 Engine Port for New3ds Alpha
-update_notes: <p dir="auto"><a href="https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/blob/main/README.md">https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/blob/main/README.md</a></p>
-updated: '2026-07-06T18:32:59Z'
-version: Alpha_1.0.0
-version_title: Postal 1 Engine Port for New 3DS (Alpha - Playable Demo)
+update_notes: <p dir="auto">Hi everyone! This is a completely new port compared to
+  the old one—please read the updated instructions. If you get a black screen on startup,
+  press Start to continue. I suspect it should work on Old 3DS models, but I don't
+  have one to test it on. Please report any bugs if you find them!</p>
+updated: '2026-09-17T20:33:40Z'
+version: 1.0.0
+version_title: 'Postal 1 Engine Port for 3DS '
 ---
