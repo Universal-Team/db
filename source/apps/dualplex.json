@@ -1,0 +1,19 @@
+{
+	"github": "thoughts3rased/DualPlex",
+	"description": "Plex music client for 3DS",
+	"author": "thoughts3rased",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"media"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/thoughts3rased/DualPlex/main/logo.png",
+	"image": "https://raw.githubusercontent.com/thoughts3rased/DualPlex/main/Banner.png",
+	"unique_ids": [
+		975616
+	],
+	"license": "mit",
+	"license_name": "MIT License"
+}
