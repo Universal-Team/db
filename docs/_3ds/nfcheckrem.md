@@ -29,7 +29,7 @@ preinstall_message: 'You will need to have "Game Patching" and "Loading external
 
   enabled in LumaCFW settings (hold select on boot)'
 source: https://github.com/Golem642/NFCheckRem
-stars: 15
+stars: 16
 systems:
 - 3DS
 title: NFCheckRem

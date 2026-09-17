@@ -36,21 +36,17 @@ unique_ids:
 - '0xF8C10'
 update_notes: '<p dir="auto">New Features</p>
 
-  <ul dir="auto">
+  <p dir="auto">you can move the  clock on screen with L1 + Analog (L1 + A will center
+  the position)<br>
 
-  <li>you can move clock on screen with L1 + Analog (L1 + A center position)</li>
+  added Notes and Calendar (in Calendar section you can take a diary)<br>
 
-  <li>added Notes and Calendar (in calendar you can take a diary)</li>
+  added a new launch sound (replaced the default sound with a nightish one)<br>
 
-  <li>added a splash screen night sound (replace the default sould with a nightish
-  one)</li>
+  added battery percentage on main screen (also a + symbol if 3ds is on charge)<br>
 
-  <li>added battery percentage on main screen (also a + symbol if 3ds is on charge)</li>
-
-  <li>improvements in Alarm and Timer menus (added + and - buttons, alarm and timer
-  if setted up can be seen and tapped also on lower screen)</li>
-
-  </ul>'
+  improvements in Alarm and Timer menus (added + and - buttons, alarm and timer if
+  setted up can be seen and tapped also on lower screen)</p>'
 updated: '2026-09-16T10:22:50Z'
 version: NightClock1.04
 version_title: NightClock version 1.04

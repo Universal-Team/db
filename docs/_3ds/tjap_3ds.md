@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0B
   downloads:
     TJAP_3DS.3dsx:
-      size: 9892528
+      size: 9892672
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0B/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -42,6 +42,8 @@ prerelease:
 
     <li>複素数を使用した<code class="notranslate">#JPOSSCROLL</code>の対応</li>
 
+    <li>段位道場の条件に「叩いた爆弾」の追加</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -51,15 +53,21 @@ prerelease:
     <li>Support for the <code class="notranslate">#JPOSSCROLL</code> instruction using
     complex numbers.</li>
 
+    <li>Add "Bombs hit" to the Dan-i Dojo conditions.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
     - 複素数を使用した`#JPOSSCROLL`の対応
 
+    - 段位道場の条件に「叩いた爆弾」の追加
+
 
     ## Changelog
 
-    - Support for the `#JPOSSCROLL` instruction using complex numbers.'
+    - Support for the `#JPOSSCROLL` instruction using complex numbers.
+
+    - Add "Bombs hit" to the Dan-i Dojo conditions.'
   updated: '2026-09-16T02:14:18Z'
   version: v2.4.0B
   version_title: TJAPlayer for 3DS v2.4.0(B)
