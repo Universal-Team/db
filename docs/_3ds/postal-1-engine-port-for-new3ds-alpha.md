@@ -7,9 +7,10 @@ categories:
 color: '#313131'
 color_bg: '#313131'
 created: '2026-07-04T17:51:09Z'
-description: A homebrew engine port of the original Postal 1 (1997) for New Nintendo
-  3DS. Features Circle Pad/D-Pad movement and full C-Stick aiming support. (Early
-  Alpha / Playable Demo - Original game assets required).
+description: An open-source, work-in-progress port of Postal 1 for Nintendo 3DS, built
+  from the publicly available Postal source code. It supports original game archives,
+  touch and C-Stick aiming, custom bottom-screen HUD controls, and external game data
+  loaded from the SD card. Original Postal 1 assets are required and are not included.
 download_page: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases
 downloads:
   postal1-3ds.3dsx:
