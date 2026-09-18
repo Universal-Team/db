@@ -1,0 +1,15 @@
+{
+	"github": "quatric/3DS-DNS-Switcher",
+	"title": "3DS-DNS-Switcher",
+	"description": "A Nintendo 3DS application for quickly switching the DNS used by existing Wi-Fi connections.",
+	"systems": [
+		"3DS"
+	],
+	"llm_generation": "yes",
+	"categories": [
+		"utility"
+	],
+	"banner": "https://raw.githubusercontent.com/quatric/3DS-DNS-Switcher/main/standalone/assets/banner-v3.png",
+	"icon": "https://raw.githubusercontent.com/quatric/3DS-DNS-Switcher/main/standalone/assets/icon-v2.png",
+	"long_description": "A Nintendo 3DS application for quickly switching the DNS used by existing Wi-Fi connections.\n\nFeatures\n\n- Saves named primary-DNS profiles on the SD card.\n- Shows the profile list on every launch, including first setup.\n- Press R to choose and remember the target: all configured Wi-Fi slots or connection slot 1, 2, or 3.\n- Press A to apply the highlighted profile immediately.\n- Always uses 1.1.1.1 as the secondary DNS.\n- Exits automatically after a successful change.\n- Preserves SSIDs, passwords, DHCP, proxy, and other connection settings.\n\nProfiles are stored at sdmc:/3ds/dns-switcher/profiles.txt, and the target is stored at sdmc:/3ds/dns-switcher/settings.txt."
+}
