@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 2002840
+    size: 1721156
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -41,14 +41,6 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <hr>
 
-  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
-  rel="nofollow">Universal-Updater</a></strong></h3>
-
-  <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
-  named files as they will conflict with the download</em></p>
-
-  <h1 dir="auto"></h1>
-
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
   0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0
@@ -63,37 +55,34 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </div>
 
-  <h2 dir="auto">Changelog since release</h2>
+  <h2 dir="auto">Changelog since the current release</h2>
 
   <blockquote>
 
-  <p dir="auto">Latest change: 07/17/2026</p>
+  <p dir="auto">Latest change: 09/18/2026</p>
 
   </blockquote>
 
   <ul dir="auto">
 
-  <li>Added particle anti freeze which can occur in DK Pass and Mushroom Gorge</li>
+  <li>Added a new feature: <code class="notranslate">Custom Sections</code></li>
 
-  <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
+  <li>Added all custom <code class="notranslate">Community Ghosts</code></li>
 
-  <li>Fixed a crash that could occur when you are powering off your system</li>
+  <li>Improved the security and the stability</li>
 
-  <li>Added basic translation (JPN -&gt; japanese, EUR &amp; USA -&gt; english)</li>
+  <li>Fixed under-the-hood bugs and issues</li>
 
-  <li>Added hotkey filter checks when loading the configuration file</li>
+  <li>Reworked other sections of the project</li>
 
-  <li>Fixed frames desync on time splits during practice mode</li>
+  <li>Added NTR-HR v0.3.8.1 support</li>
 
-  </ul>
+  <li>Dropped old NTR-CFW support</li>
 
-  <hr>
+  <li>Fixed a file loading issue</li>
 
-  <pre class="notranslate"><code class="notranslate">The plugin is getting rewritten
-  for a more stable core system, any updates will be halted till then.
-
-  </code></pre>'
-updated: '2026-07-12T00:08:35Z'
+  </ul>'
+updated: '2026-09-18T19:33:22Z'
 version: latest
 version_title: v1.0.0
 ---
@@ -102,15 +91,15 @@ This a CTRPluginFramework for the Mario Kart 7 Time Trials Community
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>EUR</summary>
-<ol>
-<li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030700/mk7-tt-revamp.3gx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>JPN</summary>
 <ol>
 <li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030600/mk7-tt-revamp.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>EUR</summary>
+<ol>
+<li>Download <code>mk7-tt-revamp.3gx</code> to <code>/luma/plugins/0004000000030700/mk7-tt-revamp.3gx</code> on your SD card</li>
 </ol>
 </details>
 
