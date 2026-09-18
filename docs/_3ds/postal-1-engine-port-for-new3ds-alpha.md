@@ -7,12 +7,15 @@ categories:
 color: '#313131'
 color_bg: '#313131'
 created: '2026-07-04T17:51:09Z'
-description: An open-source, work-in-progress port of Postal 1 for Nintendo 3DS, built
-  from the publicly available Postal source code. It supports original game archives,
-  touch and C-Stick aiming, custom bottom-screen HUD controls, and external game data
-  loaded from the SD card. Original Postal 1 assets are required and are not included.
+description: 'An open-source, work-in-progress port of Postal 1 for Nintendo 3DS,
+  built from the publicly available Postal source code. Original Postal 1 assets are
+  required and are not included. (When the black screen appears, press START.) '
 download_page: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/releases
 downloads:
+  When.the.black.screen.appears.press.START.txt:
+    size: 43
+    size_str: 43 Bytes
+    url: https://github.com/Taifuoguru/Postal-1-3DS/releases/download/1.0.0/When.the.black.screen.appears.press.START.txt
   postal1-3ds.3dsx:
     size: 2429928
     size_str: 2 MiB
@@ -38,7 +41,7 @@ preinstall_message: 'Note: You will need to copy the assets from your PC copy of
 qr:
   postal1-3ds.cia: https://db.universal-team.net/assets/images/qr/postal1-3ds-cia.png
 source: https://github.com/Taifuoguru/Postal-1-3DS
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Postal 1 Engine Port for New3ds Alpha
