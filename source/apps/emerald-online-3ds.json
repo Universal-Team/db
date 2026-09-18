@@ -1,0 +1,14 @@
+{
+  "github": "xlindseyj/emerald-online-3ds",
+  "systems": [
+    "3DS"
+  ],
+  "categories": [
+    "game"
+  ],
+  "llm_generation": "yes",
+  "icon": "https://raw.githubusercontent.com/xlindseyj/emerald-online-3ds/main/assets/emerald-online-3ds-icon-512.png",
+  "image": "https://raw.githubusercontent.com/xlindseyj/emerald-online-3ds/main/assets/emerald-online-3ds-banner-720.png",
+  "download_filter": "emerald-online-3ds\\.(cia|3dsx)",
+  "long_description": "Emerald Online 3DS is a clean-room homebrew framework that adds online presence to your own legally obtained Pokémon Emerald (US) cartridge dump running on Nintendo 3DS.\n\nFeatures:\n- Same-map trainer overlays with smooth interpolation, facing frames, and emote bubbles\n- Map-local and global chat\n- Online user roster with roles\n- Browser-paired community forums and opt-in leaderboards\n- Interactive quest log with NPCs and resource nodes\n- Friends, guilds, and titles\n- In-app updater and FBI-installable CIA\n\nThe ROM and save stay on your SD card; the app never ships with copyrighted game data. The public server code is open source and the game endpoint can be changed via online.cfg.\n"
+}
