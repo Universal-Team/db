@@ -24,7 +24,7 @@ image_length: 7049
 layout: app
 llm_generation: 'no'
 source: https://github.com/nop90/ZeldaROTH
-stars: 31
+stars: 30
 systems:
 - 3DS
 title: ZeldaROTH
