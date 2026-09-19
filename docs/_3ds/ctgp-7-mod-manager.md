@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/228052744?v=4
 categories:
 - utility
 - app
-color: '#77848b'
-color_bg: '#6d7980'
 created: '2026-07-21T18:50:03Z'
 description: Homebrew application for managing mods from GameBanana for CTGP-7.
 download_page: https://github.com/NitroShellMKDS/CTGP-7-Mod-Manager/releases
