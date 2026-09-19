@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 681272
+    size: 681280
     size_str: 665 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.3/red-viper.3dsx
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.4/red-viper.3dsx
   red-viper.cia:
     size: 701376
     size_str: 684 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.3/red-viper.cia
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.4/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -35,27 +35,21 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 1047
+stars: 1046
 systems:
 - 3DS
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This release brings Dragon Hopper to playable status
-  on both new and old 3DS, including when 3D is enabled. I haven''t been able to test
-  this as thoroughly as I usually do, so please let me know if there are still issues!</p>
-
-  <ul dir="auto">
-
-  <li>Optimize rendering of affine worlds covering multiple background maps (such
-  as those in Dragon Hopper)</li>
-
-  <li>Improved accuracy of draw sorting replacement in Virtual League Baseball 2</li>
-
-  </ul>'
-updated: '2026-09-18T17:01:15Z'
-version: v1.3.3
-version_title: v1.3.3
+update_notes: <p dir="auto">This release fixes a graphical issue with Virtual Bowling
+  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5508779925"
+  data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/111"
+  data-hovercard-type="issue" data-hovercard-url="/skyfloogle/red-viper/issues/111/hovercard"
+  href="https://github.com/skyfloogle/red-viper/issues/111">#111</a>), introduced
+  in v1.3.3.</p>
+updated: '2026-09-19T14:58:23Z'
+version: v1.3.4
+version_title: v1.3.4
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
