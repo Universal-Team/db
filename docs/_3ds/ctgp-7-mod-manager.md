@@ -36,7 +36,7 @@ prerelease:
   version: pre1
   version_title: Prerelease 1
 source: https://github.com/Team-BrewSearch/CTGP-7-Mod-Manager
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: CTGP-7 Mod Manager
