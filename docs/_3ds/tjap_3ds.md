@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.0B
   downloads:
     TJAP_3DS.3dsx:
-      size: 9892672
+      size: 9895852
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.0B/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,6 +44,10 @@ prerelease:
 
     <li>段位道場の条件に「叩いた爆弾」の追加</li>
 
+    <li>紫音符(カドン)の追加<br>
+
+    ドンとカッを同時押しすると反応します。</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -55,6 +59,10 @@ prerelease:
 
     <li>Add "Bombs hit" to the Dan-i Dojo conditions.</li>
 
+    <li>Added purple note (KaDon)<br>
+
+    It responds when you press Don and Ka simultaneously.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -62,12 +70,20 @@ prerelease:
 
     - 段位道場の条件に「叩いた爆弾」の追加
 
+    - 紫音符(カドン)の追加
+
+    ドンとカッを同時押しすると反応します。
+
 
     ## Changelog
 
     - Support for the `#JPOSSCROLL` instruction using complex numbers.
 
-    - Add "Bombs hit" to the Dan-i Dojo conditions.'
+    - Add "Bombs hit" to the Dan-i Dojo conditions.
+
+    - Added purple note (KaDon)
+
+    It responds when you press Don and Ka simultaneously.'
   updated: '2026-09-16T02:14:18Z'
   version: v2.4.0B
   version_title: TJAPlayer for 3DS v2.4.0(B)

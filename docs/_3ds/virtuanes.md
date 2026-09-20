@@ -20,7 +20,7 @@ image_length: 2631
 layout: app
 llm_generation: 'no'
 source: https://github.com/bubble2k16/emus3ds
-stars: 270
+stars: 271
 systems:
 - 3DS
 title: VirtuaNES
