@@ -34,7 +34,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/bcstm-player/main-menu.png
 source: https://github.com/npid7/BCSTM-Player
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: BCSTM-Player

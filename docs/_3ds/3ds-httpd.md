@@ -49,7 +49,7 @@ prerelease:
   version: nightly
   version_title: Nightly Build
 source: https://github.com/dimaguy/3ds-httpd
-stars: 18
+stars: 19
 systems:
 - 3DS
 title: 3ds-httpd
