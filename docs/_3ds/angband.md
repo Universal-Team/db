@@ -108,7 +108,7 @@ prerelease:
   version: 4.2.6-203-g167ba295d
   version_title: 4.2.6-203-g167ba295d
 source: https://github.com/angband/angband
-stars: 1561
+stars: 1562
 systems:
 - 3DS
 - DS
