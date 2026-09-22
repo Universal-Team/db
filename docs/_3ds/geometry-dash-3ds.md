@@ -94,6 +94,7 @@ update_notes: '<p dir="auto">This release contains the following:</p>
 updated: '2026-08-15T16:57:44Z'
 version: v1.1
 version_title: Geometry Dash 3DS 1.1
+wiki: https://github.com/AleFunky/gd3ds/wiki
 ---
 Jump and fly your way through danger in this rhythm-based action platformer - now on 3DS! This fan-made port is in no way affiliated with RobTop Games, the creator of Geometry Dash, and all in game assets belong to their respective owners. If you want to get the full experience, please buy the original game!
 
