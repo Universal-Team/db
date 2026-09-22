@@ -45,7 +45,7 @@ screenshots:
 - description: Statistics
   url: https://db.universal-team.net/assets/images/screenshots/wordle-ds/statistics.png
 source: https://github.com/Epicpkmn11/WordleDS
-stars: 72
+stars: 73
 systems:
 - DS
 title: Wordle DS
