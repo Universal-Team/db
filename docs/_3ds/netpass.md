@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 76
+stars: 77
 systems:
 - 3DS
 title: NetPass
