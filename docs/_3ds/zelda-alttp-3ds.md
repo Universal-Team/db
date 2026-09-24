@@ -30,7 +30,7 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
 qr:
   zelda3-3ds-v3.2.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v3-2-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 682
+stars: 683
 systems:
 - 3DS
 title: zelda-alttp-3ds
