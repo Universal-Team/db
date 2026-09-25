@@ -1,0 +1,15 @@
+{
+	"github": "Omni-3DS/Omni10-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		983307
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/Omni-3DS/Omni10-3DS/main/assets/icon.png",
+	"license": "GPL v3"
+}
