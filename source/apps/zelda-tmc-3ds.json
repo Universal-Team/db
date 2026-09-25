@@ -1,0 +1,20 @@
+{
+	"github": "EstebanPdN/zelda-tmc-3ds",
+	"description": "Native Nintendo 3DS port of The Legend of Zelda: The Minish Cap based on Project Picori.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/EstebanPdN/zelda-tmc-3ds/main/platform/3ds/assets/icon-48.png",
+	"image": "https://raw.githubusercontent.com/EstebanPdN/zelda-tmc-3ds/main/platform/3ds/assets/banner.png",
+	"unique_ids": [
+		369197
+	],
+	"license": "GPL-3.0",
+	"license_name": "GNU General Public License v3.0",
+	"download_filter": "^tmc-3ds-v.*\\.(cia|3dsx)$",
+	"preinstall_message": "You will need to provide your own ROM and place it in sd:/3ds/The Minish Cap 3DS/"
+}
