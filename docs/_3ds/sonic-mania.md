@@ -42,7 +42,7 @@ screenshots:
 - description: Studiopolis
   url: https://db.universal-team.net/assets/images/screenshots/sonic-mania/studiopolis.png
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
-stars: 106
+stars: 107
 systems:
 - 3DS
 title: Sonic Mania
