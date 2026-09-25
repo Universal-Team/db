@@ -1,0 +1,12 @@
+{
+	"github": "Cracko298/Bad3DSGame",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/Cracko298/Bad3DSGame/refs/heads/main/icon.png",
+	"license": "MIT"
+}
