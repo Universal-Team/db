@@ -1,0 +1,21 @@
+{
+	"github": "Memetrix/telegram-3ds",
+	"title": "AAhead Unofficial Telegram",
+	"author": "Memetrix",
+	"description": "Telegram for New Nintendo 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"unique_ids": [
+		516582
+	],
+	"icon": "https://raw.githubusercontent.com/Memetrix/telegram-3ds/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/Memetrix/telegram-3ds/main/docs/images/aahead-banner.png",
+	"long_description": "AAhead brings Telegram to New Nintendo 3DS: chats, photos, stickers, voice messages and audio calls, with native touch controls and QR sign-in",
+	"download_filter": "^Telegram-3DS\\.cia$",
+	"preinstall_message": "Requires a New Nintendo 3DS, New 3DS XL or New 2DS XL. Original 3DS/2DS models are not supported."
+}
