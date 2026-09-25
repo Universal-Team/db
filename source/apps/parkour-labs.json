@@ -1,0 +1,17 @@
+{
+	"github": "soykhaler/ParkourLabs_godot",
+	"title": "Parkour Labs",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/soykhaler/ParkourLabs_godot/main/res/3ds/icon.png",
+	"image": "https://raw.githubusercontent.com/soykhaler/ParkourLabs_godot/main/res/3ds/banner.png",
+	"unique_ids": [
+		1014321
+	],
+	"long_description": "A port of the videogame Parkour Labs made for godot, was a homebrew port for PSVita"
+}
