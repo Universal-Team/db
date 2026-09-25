@@ -1,0 +1,14 @@
+{
+	"github": "nohsaidnottoplay-blip/Roku-Remote-3DS",
+	"description": "A personal Nintendo 3DS homebrew remote for a Roku device on your home network.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/nohsaidnottoplay-blip/Roku-Remote-3DS/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/nohsaidnottoplay-blip/Roku-Remote-3DS/refs/heads/main/banner.png",
+	"long_description": "A personal Nintendo 3DS homebrew remote for a Roku device on your home network. The video stays on your TV. The 3DS acts as the remote. There was help from ChatGPT 6 Astra. Help can also be found in the application itself."
+}
