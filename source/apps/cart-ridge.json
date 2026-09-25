@@ -1,0 +1,15 @@
+{
+	"github": "bigtuna824/cart-ridge",
+	"title": "cart ridge",
+	"description": "fps homebrew game involving hardware components in reloading. coded by a robot, everything else by an artist.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [828017],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/bigtuna824/cart-ridge/master/gfx/icon.png",
+	"image": "https://raw.githubusercontent.com/bigtuna824/cart-ridge/master/gfx/title.png"
+}
