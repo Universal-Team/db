@@ -31,8 +31,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749
   0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69
   1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1
-  1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This is
-  release version is considered experimental as its a <em>open beta</em></strong><br>
+  1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This release
+  version is considered experimental as its an <em>open beta</em></strong><br>
 
   Expect issues or bugs and make sure to <strong><a href="https://github.com/mainexploit/mk7-tt-revamp/blob/main/README.md#any-questions-or-ran-into-issues">report
   them</a></strong> accordingly</p>
