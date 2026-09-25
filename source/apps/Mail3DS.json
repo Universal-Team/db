@@ -10,7 +10,7 @@
 	],
 	"llm_generation": "yes",
 	"icon": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/icon.png",
-	"image": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/screenshots/02-reading.png",
+	"image": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/cia_build/banner_256x128.png",
 	"unique_ids": [
 		237936
 	]
