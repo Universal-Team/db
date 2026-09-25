@@ -1,0 +1,12 @@
+{
+	"github": "Project-Rose/Roseverse3DSPatcher",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [11427],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/Project-Rose/Roseverse3DSPatcher/refs/heads/main/meta/icon.png"
+}
