@@ -6,8 +6,8 @@ categories:
 color: '#1c4c53'
 color_bg: '#1c4c53'
 created: '2025-02-10T01:38:42Z'
-description: Vide-coded app that allows to see RAM, GPU and CPU stats from a linux
-  PC in a browser or a 3DS console.
+description: Turn your Nintendo 3DS into a secondary PC hardware monitor, macro pad,
+  and virtual gamepad controller.
 download_page: https://github.com/Just-a-Spider/SysMon/releases
 downloads:
   SHA256SUMS.txt:
@@ -77,18 +77,23 @@ updated: '2026-09-01T15:42:19Z'
 version: v0.3.3
 version_title: v0.3.3
 ---
-**IMPORTANT: This app requires the companion server to be running on your PC!**
+**Note: This application requires sysmon-server running on a Linux PC.**
 
-SysMon is a hardware monitor and macro executor that turns your Nintendo 3DS into a secondary dashboard for your PC.
+SysMon connects a Nintendo 3DS to a Linux PC over local Wi-Fi to display system telemetry and provide remote input controls.
 
 ### Features
-* **Live Telemetry:** View your PC's CPU/GPU temperatures, RAM usage, and Fan speeds in real-time on the top screen.
-* **Process Manager:** View the heaviest processes running on your PC and tap them to instantly kill frozen applications.
-* **Productivity:** Includes a built-in Pomodoro timer to help you focus.
-* **Media Controls:** Native MPRIS integration to play, pause, and skip music running on your host system.
-* **Custom Macros:** Map your physical 3DS buttons (A, B, X, Y) or on-screen touch buttons to execute bash scripts, terminal commands, or keyboard shortcuts directly on your PC.
+* **Telemetry:** Displays PC CPU usage, CPU/GPU temperatures, clock frequencies, fan speeds, free RAM, uptime, and weather.
+* **Gamepad Controller (CTRL):** Low-latency UDP controller mapped to the Linux uinput virtual gamepad driver.
+* **Macro Deck (MACRO):** Triggers custom commands, shell scripts, and keyboard shortcuts via touch buttons or 3DS buttons (A/B/X/Y).
+* **Audio Level Mixer (LEVEL):** Adjusts volume and mute states for active audio applications via PulseAudio or PipeWire.
+* **Media Controls (MEDIA):** Controls playback (play, pause, skip) and displays track metadata via MPRIS.
+* **Process Manager (KILL):** Displays high-CPU processes and allows terminating unresponsive applications.
+* **Focus Timer (POMO):** Built-in Pomodoro timer.
+* **Settings (SET):** Supports multiple server profiles, theme switching, and audio feedback.
 
-**Setup Instructions:**
-To use this app, you must download and run the lightweight `sysmon-server` background service on your PC (currently supports Linux).
+### Setup
+1. Download and run `sysmon-server` on your Linux PC (`cargo build --release` or install the RPM package).
+2. Open the SET tab in SysMon on your 3DS and enter your PC IP address and port (default: 7341).
+3. For gamepad functionality, ensure your Linux user account has write access to `/dev/uinput`.
 
-Visit the official [GitHub Repository](https://github.com/Just-a-Spider/SysMon) to download the server and for complete configuration instructions
+Source code and server downloads are available at the [GitHub Repository](https://github.com/Just-a-Spider/SysMon).
