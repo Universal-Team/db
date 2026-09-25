@@ -21,10 +21,10 @@
 	},
 	"archive": {
 		"darksec-chat\\.zip": {
-			"DarkSec Chat (.cia)": [
+			"darksecchat.cia": [
 				"darksecchat.cia"
 			],
-			"DarkSec Chat (.3dsx)": [
+			"darksecchat.3dsx": [
 				"darksecchat.3dsx"
 			]
 		}
