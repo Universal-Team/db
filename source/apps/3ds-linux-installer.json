@@ -1,0 +1,12 @@
+{
+	"github": "Rib8653/3DS-linux-installer",
+	"description": "Installs the linux bootchain straight on your 3DS with no additional setup.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"exploit",
+		"plugin"
+	],
+	"llm_generation": "no"
+}
