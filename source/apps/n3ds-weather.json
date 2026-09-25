@@ -21,10 +21,10 @@
 	},
 	"archive": {
 		"n3ds-weather\\.zip": {
-			"N3DS Weather (.cia)": [
+			"n3ds-weather.cia": [
 				"n3ds-weather.cia"
 			],
-			"N3DS Weather (.3dsx)": [
+			"n3ds-weather.3dsx": [
 				"n3ds-weather.3dsx"
 			]
 		}
