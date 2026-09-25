@@ -1,0 +1,16 @@
+{
+	"github": "s4ammy/3DSLink",
+	"description": "3DSLink lets you upload and download files from your 3DS SD card through a phone or computer browser over Wi-Fi. Includes a four-digit PIN, QR access, screenshot previews, and an upload queue. No companion app needed.",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/s4ammy/3DSLink/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/s4ammy/3DSLink/main/meta/banner.png",
+	"unique_ids": [
+		998737
+	]
+}
