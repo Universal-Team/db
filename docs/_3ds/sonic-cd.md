@@ -44,7 +44,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/sonic-cd/title-screen.png
 source: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux
-stars: 35
+stars: 36
 systems:
 - 3DS
 title: Sonic CD
