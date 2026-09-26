@@ -3,8 +3,8 @@ author: Max Bolhar
 avatar: https://avatars.githubusercontent.com/u/38209425?v=4
 categories:
 - utility
-color: '#707a67'
-color_bg: '#707a67'
+color: '#67705e'
+color_bg: '#67705e'
 created: '2026-07-30T15:37:14Z'
 description: Українська мова для системного інтерфейсу Nintendo 3DS/2DS.
 download_page: https://github.com/BolgarMaxym97/3ds-ua/releases
@@ -28,7 +28,7 @@ downloads:
 github: BolgarMaxym97/3ds-ua
 icon: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
 image: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
-image_length: 616
+image_length: 782
 layout: app
 license: other
 license_name: Other
@@ -156,8 +156,12 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
   </ul>
 
   <p dir="auto">Решта перекладу не змінилася. Через Universal-Updater достатньо ще
-  раз запустити <code class="notranslate">1. Встановити / оновити</code> — видаляти
-  попередню версію не треба.</p>
+  раз запустити той самий варіант — видаляти попередню версію не треба.</p>
+
+  <p dir="auto"><strong>Українізатор тепер в основному магазині Universal-Updater
+  — Universal-DB.</strong> Додавати окреме посилання більше не треба: знайдіть <strong>Українізатор
+  3DS/2DS</strong> пошуком і виберіть свій варіант. Старий магазин <code class="notranslate">3ds-ua.unistore</code>
+  і далі працює, якщо ви його вже додали.</p>
 
   <h2 dir="auto">Що вже українською</h2>
 
@@ -229,14 +233,27 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
   <h2 dir="auto">Встановлення</h2>
 
   <p dir="auto"><strong>Найпростіше — через Universal-Updater</strong>, картку виймати
-  не треба: додайте магазин<br>
+  не треба, і нічого додавати теж: українізатор є в основному магазині Universal-DB.</p>
 
-  <code class="notranslate">https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/unistore/3ds-ua.unistore</code><br>
+  <ol dir="auto">
 
-  (Settings → Select UniStore → Add new → Add with keyboard), відкрийте <strong>Українізатор
-  3DS/2DS</strong> і запустіть <code class="notranslate">1. Встановити / оновити</code>.
-  Universal-Updater виконує роботу в черзі — відкрийте її третьою іконкою в лівій
-  панелі, там будуть два питання: про модель консолі й про мовний слот.</p>
+  <li>Відкрийте Universal-Updater і знайдіть <strong>Українізатор 3DS/2DS</strong>
+  — лупою в лівій панелі, введіть «Українізатор».</li>
+
+  <li>Відкрийте другу іконку згори — «Доступні для завантаження» — і виберіть свій
+  рядок: <code class="notranslate">New 3DS / New 2DS XL</code> або <code class="notranslate">Old
+  3DS / Old 2DS</code>, <code class="notranslate">замість російської</code> або <code
+  class="notranslate">замість англійської</code>.</li>
+
+  <li>Підтвердьте нагадування кнопкою <strong>A</strong>. Далі нічого не питає — завантаження
+  видно в черзі (третя іконка).</li>
+
+  </ol>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/pictures/universal-updater-downloads.png"><img
+  src="https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/pictures/universal-updater-downloads.png"
+  alt="Universal-Updater: вибір варіанта в «Доступні для завантаження»" style="max-width:
+  100%;"></a></p>
 
   <p dir="auto">Далі однаково для обох шляхів: увімкнути <code class="notranslate">Enable
   game patching</code> у Luma і вибрати мову. Нижче — як зробити те саме вручну.</p>
