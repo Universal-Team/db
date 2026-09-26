@@ -16,7 +16,7 @@ image_length: 102768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: unknown
+llm_generation: minor
 preinstall_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can
   cause system instability and other unexpected issues.
 
@@ -115,4 +115,15 @@ version: 0.4.0
 version_title: Nexus3DS v0.4.0
 website: https://discord.gg/StUs5bsw2S
 ---
-Please refer to the README on the github repo for more info: https://github.com/2b-zipper/Nexus3DS/blob/master/README.md
+Please refer to the README on the github repo for more info: https://github.com/2b-zipper/Nexus3DS/blob/dev/README.md
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[latest] boot.firm + boot.3nr</summary>
+<ol>
+<li>Download <code>boot.firm</code> to <code>/boot.firm</code> on your SD card</li>
+<li>Download <code>boot.3nr</code> to <code>/boot.3nr</code> on your SD card</li>
+</ol>
+</details>
+
