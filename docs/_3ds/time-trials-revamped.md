@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1721156
+    size: 1795764
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -59,30 +59,23 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 09/18/2026</p>
+  <p dir="auto">Latest change: 09/27/2026</p>
 
   </blockquote>
 
   <ul dir="auto">
 
-  <li>Added a new feature: <code class="notranslate">Custom Sections</code></li>
+  <li>Added new feature: <code class="notranslate">Online Time Trials</code><br>
 
-  <li>Added all custom <code class="notranslate">Community Ghosts</code></li>
+  <strong>Online shortcuts stayed disabled on request, everything else is as faithful
+  as it gets for time trials</strong><br>
 
-  <li>Improved the security and the stability</li>
+  <em>Found any oddities? Make sure to report them to us ASAP so we can fix it</em></li>
 
-  <li>Fixed under-the-hood bugs and issues</li>
-
-  <li>Reworked other sections of the project</li>
-
-  <li>Added NTR-HR v0.3.8.1 support</li>
-
-  <li>Dropped old NTR-CFW support</li>
-
-  <li>Fixed a file loading issue</li>
+  <li>Under-the-hood changes for overall stability</li>
 
   </ul>'
-updated: '2026-09-18T19:33:22Z'
+updated: '2026-09-27T21:28:23Z'
 version: latest
 version_title: v1.0.0
 ---
