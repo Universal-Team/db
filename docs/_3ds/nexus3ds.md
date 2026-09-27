@@ -24,16 +24,16 @@ preinstall_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS
   If you experience any issues please reinstall the normal "Luma3DS" before anything
   else.'
 prerelease:
-  download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.4.0
+  download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.4.1
   downloads:
     boot.3nr:
-      size: 162771
-      size_str: 158 KiB
-      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.0/boot.3nr
+      size: 164087
+      size_str: 160 KiB
+      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.1/boot.3nr
     boot.firm:
       size: 336896
       size_str: 329 KiB
-      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.0/boot.firm
+      url: https://github.com/2b-zipper/Nexus3DS/releases/download/0.4.1/boot.firm
   update_notes: '<h1 dir="auto">What''s new?</h1>
 
     <ul dir="auto">
@@ -76,8 +76,8 @@ prerelease:
     ### Place both `boot.firm` and `boot.3nr` on your SD root, or download from Universal
     Updater!'
   updated: '2026-09-07T18:35:33Z'
-  version: 0.4.0
-  version_title: Nexus3DS v0.4.0
+  version: 0.4.1
+  version_title: Nexus3DS v0.4.1
 screenshots:
 - description: Config menu
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/config-menu.png
@@ -111,8 +111,8 @@ update_notes: '<h1 dir="auto">What''s new?</h1>
   <h3 dir="auto">Place both <code class="notranslate">boot.firm</code> and <code class="notranslate">boot.3nr</code>
   on your SD root, or download from Universal Updater!</h3>'
 updated: '2026-09-07T18:35:33Z'
-version: 0.4.0
-version_title: Nexus3DS v0.4.0
+version: 0.4.1
+version_title: Nexus3DS v0.4.1
 website: https://discord.gg/StUs5bsw2S
 ---
 Please refer to the README on the github repo for more info: https://github.com/2b-zipper/Nexus3DS/blob/dev/README.md
