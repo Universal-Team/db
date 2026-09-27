@@ -9,22 +9,22 @@ created: '2026-07-30T15:37:14Z'
 description: Українська мова для системного інтерфейсу Nintendo 3DS/2DS.
 download_page: https://github.com/BolgarMaxym97/3ds-ua/releases
 downloads:
-  3ds-ua-from-en-1.10.0-new3ds.zip:
-    size: 24123367
+  3ds-ua-from-en-1.11.0-new3ds.zip:
+    size: 24121902
     size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.10.0/3ds-ua-from-en-1.10.0-new3ds.zip
-  3ds-ua-from-en-1.10.0-old3ds.zip:
-    size: 22275866
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-en-1.11.0-new3ds.zip
+  3ds-ua-from-en-1.11.0-old3ds.zip:
+    size: 22275044
     size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.10.0/3ds-ua-from-en-1.10.0-old3ds.zip
-  3ds-ua-from-ru-1.10.0-new3ds.zip:
-    size: 24394606
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-en-1.11.0-old3ds.zip
+  3ds-ua-from-ru-1.11.0-new3ds.zip:
+    size: 24393148
     size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.10.0/3ds-ua-from-ru-1.10.0-new3ds.zip
-  3ds-ua-from-ru-1.10.0-old3ds.zip:
-    size: 22586450
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-ru-1.11.0-new3ds.zip
+  3ds-ua-from-ru-1.11.0-old3ds.zip:
+    size: 22585534
     size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.10.0/3ds-ua-from-ru-1.10.0-old3ds.zip
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-ru-1.11.0-old3ds.zip
 github: BolgarMaxym97/3ds-ua
 icon: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
 image: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
@@ -50,7 +50,7 @@ stars: 5
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
-update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</h1>
+update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</h1>
 
   <p dir="auto"><strong>Українська мова для Nintendo 3DS.</strong> Мод стає на місце
   однієї з мов консолі: у списку мов з''являється «Українська», і система починає
@@ -82,7 +82,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-1.10.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-1.11.0-old3ds.zip</code></td>
 
   <td>російської</td>
 
@@ -92,7 +92,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-1.10.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-1.11.0-new3ds.zip</code></td>
 
   <td>російської</td>
 
@@ -102,7 +102,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-1.10.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-1.11.0-old3ds.zip</code></td>
 
   <td>англійської</td>
 
@@ -112,7 +112,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-1.10.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-1.11.0-new3ds.zip</code></td>
 
   <td>англійської</td>
 
@@ -129,43 +129,41 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <hr>
 
-  <h2 dir="auto">Що нового після 1.9.0</h2>
+  <h2 dir="auto">Що нового після 1.10.0</h2>
 
-  <p dir="auto"><strong>Виправлення в Камері Nintendo 3DS за відгуком користувача.</strong>
-  Дякуємо за фото з консолі!</p>
+  <p dir="auto"><strong>Стабільний реліз: перевірено кожен напис на ширину й переноси.</strong></p>
 
   <ul dir="auto">
 
-  <li>Кнопки й підписи, що переносилися на два-три рядки, тепер уміщаються в один:
-  «Закрити», «Зняти ще одне фото», «Запис призупинено», «Зйомка за часом», перехід
-  «Розчинення» в опціях слайд-шоу та інші.</li>
+  <li>Жоден напис більше не ширший за найширший, який Nintendo сама поставила в ту
+  саму кнопку чи рамку. Кнопки, що на 1–8 пікселів вилазили за край, скорочено або
+  трохи стиснуто.</li>
 
-  <li>Довгі повідомлення й підказки папуги трохи стиснуто (на 1–3 %), щоб жоден рядок
-  не вилазив за рамку.</li>
+  <li>Переписано рядки з некрасивими переносами: висячі «з», «в», «на» в кінці рядка,
+  розірвані «Nintendo 3DS», «меню HOME», «карта SD». Довгі тексти Перенесення даних
+  і Здоров''я і безпеки переверстано без «драбинок».</li>
 
-  <li>Режим камери тепер <strong>«Звичайний»</strong>, а не «Звичайне» — узгоджено
-  з «режим».</li>
+  <li>Назви додатків усередині програм тепер ті самі, що під іконками: <strong>Сповіщення</strong>,
+  <strong>Налаштування amiibo</strong>, <strong>Перенесення даних</strong>, <strong>Електронний
+  посібник</strong>, <strong>Камера Nintendo 3DS</strong>, <strong>Звук Nintendo 3DS</strong>,
+  <strong>Mii Maker</strong>.</li>
 
-  <li>Кнопка ручних налаштувань стала <strong>«Ручні налаштунки»</strong> — так вона
-  вміщається без надмірного стиснення. Назву змінено скрізь, де вона трапляється:
-  на екрані налаштувань, у підказках і в довіднику Камери.</li>
+  <li>У довідниках нічого не обрізається за краєм колонки.</li>
 
-  <li>Сортування слайд-шоу <strong>«Підряд»</strong> замість «За порядком», яке не
-  вміщалося навіть стиснутим.</li>
+  <li>Карта StreetPass: назви регіонів тепер ті самі, що в налаштуваннях профілю (було
+  «Вена», «Юг-Піренеї»).</li>
+
+  <li>Дрібні виправлення: «80-ті» у Звуку, «ту саму IP-адресу», «Маріо і Боузер»,
+  лапки «» і три крапки «…».</li>
 
   </ul>
 
-  <p dir="auto">Решта перекладу не змінилася. Через Universal-Updater достатньо ще
-  раз запустити той самий варіант — видаляти попередню версію не треба.</p>
-
-  <p dir="auto"><strong>Українізатор тепер в основному магазині Universal-Updater
-  — Universal-DB.</strong> Додавати окреме посилання більше не треба: знайдіть <strong>Українізатор
-  3DS/2DS</strong> пошуком і виберіть свій варіант. Старий магазин <code class="notranslate">3ds-ua.unistore</code>
-  і далі працює, якщо ви його вже додали.</p>
+  <p dir="auto">Через Universal-Updater достатньо ще раз запустити той самий варіант
+  — видаляти попередню версію не треба.</p>
 
   <h2 dir="auto">Що вже українською</h2>
 
-  <p dir="auto"><strong>31 частина системи:</strong> Меню HOME (разом з назвами додатків
+  <p dir="auto"><strong>32 частини системи:</strong> Меню HOME (разом з назвами додатків
   під іконками й банерами на верхньому екрані) · Налаштування системи (разом з назвами
   програм у <strong>Керуванні даними</strong>) · Mii Maker · Журнал дій · Електронний
   посібник · Гра по завантаженню · екранна клавіатура з українською розкладкою · Список
@@ -182,11 +180,11 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
   (інтерфейс, вбудована клавіатура, назва додатка, окремий довідник) і Здоров''я і
   безпеки (переглядач і сам документ).</p>
 
-  <p dir="auto"><strong>Одинадцять електронних довідників</strong> — тих, що відкриваються
-  кнопкою «Довідник» у меню HOME: Інтернет-браузера, Налаштувань системи, Журналу
+  <p dir="auto"><strong>Дванадцять електронних довідників</strong> — тих, що відкриваються
+  кнопкою «Посібник» у меню HOME: Інтернет-браузера, Налаштувань системи, Журналу
   дій, Гри по завантаженню, Камери, Звуку, Mii Maker, Площі StreetPass Mii, Nintendo
-  eShop, Face Raiders і AR Games. Над кожною сторінкою стоїть українська назва додатка,
-  а в перемикачі мови документа є пункт <strong>Українська</strong>.</p>
+  eShop, Face Raiders, AR Games та Інтернет-браузера New 3DS. Над кожною сторінкою
+  стоїть українська назва додатка, а в перемикачі мови документа є пункт <strong>Українська</strong>.</p>
 
   <p dir="auto"><strong>Обмін частинками.</strong> Назва панелі «Маріо і Боузер».
   Решта шість панелей — назви ігор, вони лишаються як є.</p>
@@ -272,7 +270,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
   чи об''єднати папки — погодьтеся. Наявні файли не постраждають.</p>
 
   <p dir="auto">Якщо ставите поверх 1.6.0 або новішої — просто розпакуйте зверху,
-  файли перезапишуться. Видаляти нічого не треба: набір файлів у 1.10.0 той самий.</p>
+  файли перезапишуться. Видаляти нічого не треба: набір файлів у 1.11.0 той самий.</p>
 
   <p dir="auto">Якщо ставите поверх 1.5.0 або старішої — <strong>спершу видаліть папки
   мода з <code class="notranslate">luma/titles/</code></strong>, і аж тоді розпаковуйте.
@@ -737,11 +735,17 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <ol dir="auto">
 
+  <li><strong>У Universal-Updater</strong> → <strong>Українізатор 3DS/2DS</strong>
+  → вкладка завантажень → <code class="notranslate">Видалити українізатор</code>.
+  Universal-Updater перепитає про кожну папку окремо — їх до 32; тримайте <strong>A</strong>.
+  Після видалення перезапустіть консоль.</li>
+
   <li><strong>Змінити мову консолі</strong> на будь-яку іншу — переклад просто не
   застосується.</li>
 
   <li><strong>Видалити папки мода</strong> з <code class="notranslate">luma/titles/</code>
-  на SD-карті.</li>
+  на SD-карті — усі 32 перелічені в <a href="https://github.com/BolgarMaxym97/3ds-ua/blob/main/docs/internals.md#%D1%89%D0%BE-%D0%B7%D0%B0-%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8-%D0%B2-lumatitles">таблиці</a>
+  (на Old 3DS їх 30).</li>
 
   <li><strong>Вимкнути <code class="notranslate">Enable game patching</code></strong>
   у меню Luma (це вимкне й інші моди).</li>
@@ -753,8 +757,8 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
   <p dir="auto"><strong>Один виняток — підказки у Сповіщеннях.</strong> Їх мод переписує
   в базі листів у NAND, бо іншого способу до них дістатися немає. Після видалення
   мода вони лишаться українськими — не зіпсованими, просто українськими, і консоль
-  з ними працює нормально. Нові листи (SpotPass, повідомлення від Nintendo) мод не
-  чіпає взагалі.</p>
+  з ними працює нормально. Нові листи (SpotPass, сповіщення від Nintendo) мод не чіпає
+  взагалі.</p>
 
   <p dir="auto">Якщо цього не хочеться — видаліть <code class="notranslate">luma/titles/0004003000009802/code.ips</code>
   <strong>до</strong> першого запуску з модом. Тоді підказки лишаться мовою, місце
@@ -767,9 +771,9 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.10.0 🇺🇦</
 
   <p dir="auto">Ліцензія MIT. Файлів Nintendo в репозиторії немає. Проєкт неофіційний,
   з Nintendo не пов''язаний.</p>'
-updated: '2026-09-26T12:53:35Z'
-version: v1.10.0
-version_title: v1.10.0
+updated: '2026-09-27T10:43:02Z'
+version: v1.11.0
+version_title: v1.11.0
 website: https://github.com/BolgarMaxym97/3ds-ua
 ---
 Перекладає системний інтерфейс Nintendo 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL і New 2DS XL українською: Меню HOME, Налаштування системи, Інтернет-браузер, eShop, Камеру, Звук, Mii Maker, Журнал дій, електронні довідники та решту системних застосунків.
