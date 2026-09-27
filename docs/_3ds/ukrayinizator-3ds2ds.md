@@ -46,7 +46,7 @@ preinstall_message: 'Потрібна Luma3DS з увімкненим Enable gam
 
   Universal-Updater інакше теки видаляти не вміє.'
 source: https://github.com/BolgarMaxym97/3ds-ua
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
