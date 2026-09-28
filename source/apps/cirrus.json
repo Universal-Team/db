@@ -1,68 +1,24 @@
 {
-  "github": "SamtendoNetwork/cirrus",
-  "title": "Cirrus",
-  "description": "3DS switcher for Samtendo Network",
-  "systems": ["3DS"],
-  "categories": ["utility"],
-  "unique_ids": [868563],
-  "llm_generation": "no",
-  "icon": "https://cdn.samtendo.net/images/Cirrus.png",
-  "scripts": {
-    "cirrus.3dsx": [
-      {
-        "type": "downloadRelease",
-        "repo": "SamtendoNetwork/cirrus",
-        "file": "3dsx.zip",
-        "output": "/cirrus-3dsx.zip"
-      },
-      {
-        "type": "extractFile",
-        "file": "/cirrus-3dsx.zip",
-        "input": "^3ds/cirrus/",
-        "output": "/3ds/cirrus/"
-      },
-      {
-        "type": "extractFile",
-        "file": "/cirrus-3dsx.zip",
-        "input": "^(3ds/)?cirrus\\.3dsx$",
-        "output": "/3ds/cirrus.3dsx"
-      },
-      {
-        "type": "deleteFile",
-        "file": "/cirrus-3dsx.zip"
-      }
-    ],
-    "cirrus.cia": [
-      {
-        "type": "downloadRelease",
-        "repo": "SamtendoNetwork/cirrus",
-        "file": "cia.zip",
-        "output": "/cirrus-cia.zip"
-      },
-      {
-        "type": "extractFile",
-        "file": "/cirrus-cia.zip",
-        "input": "^3ds/cirrus/",
-        "output": "/3ds/cirrus/"
-      },
-      {
-        "type": "extractFile",
-        "file": "/cirrus-cia.zip",
-        "input": "^(cias/)?cirrus\\.cia$",
-        "output": "/cirrus.cia"
-      },
-      {
-        "type": "installCia",
-        "file": "/cirrus.cia"
-      },
-      {
-        "type": "deleteFile",
-        "file": "/cirrus.cia"
-      },
-      {
-        "type": "deleteFile",
-        "file": "/cirrus-cia.zip"
-      }
-    ]
-  }
+	"github": "SamtendoNetwork/cirrus",
+	"title": "Cirrus",
+	"description": "3DS switcher for Samtendo Network",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [868563],
+	"llm_generation": "no",
+	"icon": "https://cdn.samtendo.net/images/Cirrus.png",
+	"archive": {
+		"3dsx.zip": {
+			"cirrus.3dsx": [
+				"3ds/cirrus.3dsx",
+				"3ds/cirrus"
+			]
+		},
+		"cia.zip": {
+			"cirrus.cia": [
+				"cias/cirrus.cia",
+				"3ds/cirrus"
+			]
+		}
+	}
 }
