@@ -10,7 +10,7 @@ description: A Safebooru and Konachan API client for the Nintendo 3DS. (SFW)
 download_page: https://github.com/Misakii-P/Booru3DS/releases
 downloads:
   booru3ds.3dsx:
-    size: 2598416
+    size: 2602380
     size_str: 2 MiB
     url: https://github.com/Misakii-P/Booru3DS/releases/download/v1.4/booru3ds.3dsx
   booru3ds.cia:

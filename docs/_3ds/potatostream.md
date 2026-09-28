@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   streampotato.cia: https://db.universal-team.net/assets/images/qr/streampotato-cia.png
 source: https://github.com/PainDe0Mie/PotatoStream
-stars: 16
+stars: 17
 systems:
 - 3DS
 title: PotatoStream

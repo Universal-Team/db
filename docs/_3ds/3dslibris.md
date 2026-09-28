@@ -11,29 +11,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14401128
+    size: 14414984
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13145024
+    size: 13251520
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66978777
-    size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris-source.tar.gz
+    size: 67154964
+    size_str: 64 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14528176
+    size: 14541244
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 13280192
+    size: 13386688
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.1/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.9.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -57,24 +57,64 @@ systems:
 title: 3dslibris
 unique_ids:
 - '0x3D51B'
-update_notes: '<h2 dir="auto">3dslibris 2.8.1</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.9.0</h2>
 
-  <p dir="auto">Better personalized covers, more accurate EPUB publisher styling,
-  safer fixed-layout rendering, and reliable reading progress across library folders.</p>
+  <p dir="auto">I''m coming back from a long hiatus (holidays heheh) with a new release
+  that fixes some long-standing issues and adds a few new features. I hope you enjoy
+  it!</p>
+
+  <p dir="auto">This version brings more reliable text pagination and alignment, finer
+  publisher-margin controls, lower memory usage when reopening large MOBI books, natural
+  CBZ page ordering, and corrected CIA banner audio.</p>
 
   <h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4654518746"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/144"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/144/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/144">#144</a>: improved personalized
-  cover scaling and rendering quality so external cover images more closely match
-  covers extracted from EPUB and CBZ files.</li>
+  <li><strong>Smoother library navigation:</strong> respond to input before idle cover
+  and metadata work. It redraws only the parts of the library that changed.</li>
 
-  <li>Reduced internal coupling around input, menus, settings, fonts, and library
-  jobs to make navigation and future maintenance safer.</li>
+  <li><strong>Faster settings changes:</strong> apply font and spacing adjustments
+  immediately, then group repeated preference saves after a short pause or when settings
+  are closed.</li>
+
+  <li><strong>Faster PDF drawing:</strong> reuse page display lists across previews
+  and zoom changes, and precompute image scaling coordinates.
+
+  <ul dir="auto">
+
+  <li>In my New 3DS debug captures, the main drawing step at zoom 4 fell from about
+  163 to 120 ms (26% less time).</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>Quicker CBZ page turns:</strong> keep the archive open and reuse decoded
+  images across previews and zoom levels, skipping repeat reads and scaling when possible.
+
+  <ul dir="auto">
+
+  <li>For a 480×701 scale, measured time fell from 93 to 14 ms on New 3DS (84% less)
+  and 288 to 51 ms in Azahar (82% less).</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>Clearer CBZ text at low zoom:</strong> start with a higher-resolution
+  image instead of requiring a zoom in and out to sharpen it, while retaining a lower-resolution
+  fallback if decoding fails.</li>
+
+  <li><strong>Lower MOBI memory use:</strong> reopen page caches larger than 16 MiB
+  incrementally instead of reading them all into memory at once.</li>
+
+  <li><strong>More control over EPUB layout:</strong> set publisher vertical spacing
+  and side margins independently, globally or per book.</li>
+
+  <li><strong>Better debug measurements:</strong> record PDF/CBZ opening, decoding,
+  drawing and presentation times, plus memory use and slow library jobs, to help locate
+  remaining bottlenecks.</li>
 
   </ul>
 
@@ -82,54 +122,69 @@ update_notes: '<h2 dir="auto">3dslibris 2.8.1</h2>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4689259664"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/145"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/145/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/145">#145</a>: fixed reading
-  progress and bookmarks being lost after leaving a library subfolder and entering
-  it again, including after restarting the app.</li>
+  <li>Redraw PDF/CBZ viewports with smoothing when the Circle Pad or C-Stick stops,
+  matching stylus release.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: fixed EPUB publisher
-  <code class="notranslate">text-indent</code> rules being ignored while preserving
-  explicit no-indent classes such as <code class="notranslate">.left</code>.</li>
+  <li>Prepare fixed-layout workers synchronously before HOME/sleep, without blocking
+  joins or freeing their resources inside the APT hook. Cleanup runs after resume.
+  This addresses lifecycle hazards; the HOME Menu crash reported in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4346280911" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/68" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard" href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>
+  is still under investigation (I can''t reproduce it with my New 3DS nor with my
+  Old 3DS XL).</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: fixed publisher
-  block margins appearing too wide on the 3DS screen and vertical spacing below block
-  or page-break images being discarded.</li>
+  <li>Wait for PDF strip rendering to finish before releasing its pixels or display
+  list when cancelling or changing pages.</li>
+
+  <li>Preserve positive publisher vertical margins between blocks, including <code
+  class="notranslate">1em</code> gaps that were previously consumed by the paragraph
+  line break.</li>
 
   <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4599203754"
   data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/139"
   data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/139/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/139">#139</a>: fixed pagination
-  near the bottom safety area skipping text between pages.</li>
+  href="https://github.com/RigleGit/3dslibris/issues/139">#139</a>: fixed text disappearing
+  between pages when a long paragraph crossed reading screens with different heights.
+  Pagination now uses each screen''s limits and starts at the same text baseline as
+  the renderer.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4599203754"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/139"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/139/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/139">#139</a>: fixed large font
-  sizes placing the final visible line too close to the bottom clip area, which could
-  make text appear missing between pages.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: load embedded
+  XHTML <code class="notranslate">&lt;style&gt;</code> blocks as well as linked stylesheets,
+  so their alignment and publisher margins reach the page layout. Older EPUB page
+  caches are rebuilt automatically.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4346280911"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/68"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>: stopped repeated
-  high-resolution MuPDF render attempts after an allocation failure, reducing the
-  risk of black screens, instability, or crashes when returning to the HOME Menu under
-  memory pressure.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: fixed centered
+  and right-aligned text reverting to left alignment after the first line. Alignment
+  now applies to each line while preserving intentional blank lines, including across
+  screens and pages.</li>
+
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5065102644"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/151"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/151/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/151">#151</a>: corrected the
+  CIA HOME Menu banner audio to stereo. Added checks for the channel count and duration
+  required by the banner format (my fault not reading the docs heh).</li>
+
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5067441150"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/152"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/152/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/152">#152</a>: fixed CBZ chapters
+  and pages being sorted alphabetically instead of numerically, so <code class="notranslate">Chapter
+  5</code> comes before <code class="notranslate">Chapter 10</code> and <code class="notranslate">2.png</code>
+  comes before <code class="notranslate">10.png</code>, including inside nested folders.</li>
 
   </ul>
 
   <h2 dir="auto">❤️ Community Shoutouts</h2>
 
-  <p dir="auto">Thanks to everyone who tested personalized covers and subfolder progress,
-  and to everyone who shared EPUB samples, screenshots, and HOME Menu crash logs!</p>
+  <p dir="auto">Thanks to everyone who reported the issues!</p>
 
   <ul dir="auto">
 
@@ -159,9 +214,9 @@ update_notes: '<h2 dir="auto">3dslibris 2.8.1</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-06-23T15:43:37Z'
-version: v2.8.1
-version_title: v2.8.1
+updated: '2026-09-28T21:44:14Z'
+version: v2.9.0
+version_title: v2.9.0
 ---
 ### Installation instructions
 
