@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1795764
+    size: 1796260
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -67,10 +67,18 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Added new feature: <code class="notranslate">Online Time Trials</code><br>
 
+  This uses its own isolated network, you won''t be able to play with regular players<br>
+
   <strong>Online shortcuts stayed disabled on request, everything else is as faithful
   as it gets for time trials</strong><br>
 
-  <em>Found any oddities? Make sure to report them to us ASAP so we can fix it</em></li>
+  <em>Found any oddities? Make sure to report them to us ASAP so we can fix it within
+  the next updates</em></li>
+
+  <li>Game Patching now gets detected differently, it can stay on as long it does
+  not directly modify Mario Kart 7</li>
+
+  <li>Added stronger input redirection detection, don''t use tools like rehid</li>
 
   <li>Under-the-hood changes for overall stability</li>
 
