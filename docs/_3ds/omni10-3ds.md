@@ -36,7 +36,7 @@ license: GPL v3
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/Omni-3DS/Omni10-3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Omni10-3DS
