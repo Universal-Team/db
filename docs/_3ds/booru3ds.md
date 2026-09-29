@@ -39,7 +39,12 @@ update_notes: '<h1 dir="auto">Booru3DS now has a CIA!</h1>
   properly and wrong images loading have been addressed, so this release should feel
   like a smoother experience.</p>
 
-  <p dir="auto">As always, enjoy browsing and downloading art! - MisakiP</p>'
+  <p dir="auto">As always, enjoy browsing and downloading art! - MisakiP</p>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8b250705d4e0009481fa02dc261562b286924ed01ef6a29658cfcebc050c28e6/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f717a6f6e653d3426646174613d68747470732533412f2f6769746875622e636f6d2f4d6973616b69692d502f426f6f72753344532f72656c65617365732f646f776e6c6f61642f76312e332f626f6f72753364732e636961"><img
+  src="https://camo.githubusercontent.com/8b250705d4e0009481fa02dc261562b286924ed01ef6a29658cfcebc050c28e6/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f717a6f6e653d3426646174613d68747470732533412f2f6769746875622e636f6d2f4d6973616b69692d502f426f6f72753344532f72656c65617365732f646f776e6c6f61642f76312e332f626f6f72753364732e636961"
+  alt="QR Code" data-canonical-src="https://api.qrserver.com/v1/create-qr-code/?qzone=4&amp;data=https%3A//github.com/Misakii-P/Booru3DS/releases/download/v1.3/booru3ds.cia"
+  style="max-width: 100%;"></a></p>'
 updated: '2026-09-28T20:45:35Z'
 version: v1.3
 version_title: v1.3, CIA release!
