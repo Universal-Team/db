@@ -19,147 +19,164 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-216-g1d2ad35a2
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-228-ga7f492e38
   downloads:
-    Angband-4.2.6-216-g1d2ad35a2-3ds.zip:
-      size: 24694004
+    Angband-4.2.6-228-ga7f492e38-3ds.zip:
+      size: 24695344
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-216-g1d2ad35a2/Angband-4.2.6-216-g1d2ad35a2-3ds.zip
-    Angband-4.2.6-216-g1d2ad35a2-nds.zip:
-      size: 23331769
+      url: https://github.com/angband/angband/releases/download/4.2.6-228-ga7f492e38/Angband-4.2.6-228-ga7f492e38-3ds.zip
+    Angband-4.2.6-228-ga7f492e38-nds.zip:
+      size: 23331389
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-216-g1d2ad35a2/Angband-4.2.6-216-g1d2ad35a2-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-228-ga7f492e38/Angband-4.2.6-228-ga7f492e38-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: rewrite reincarnation to use the game UI and not internal bs by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5493501638" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6738"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6738/hovercard"
-    href="https://github.com/angband/angband/pull/6738">#6738</a></li>
-
-    <li>borg: out of range for old panels by <a class="user-mention notranslate" data-hovercard-type="user"
+    <li>borg: performance changes by <a class="user-mention notranslate" data-hovercard-type="user"
     data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
     data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5478124383" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6734"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6734/hovercard"
-    href="https://github.com/angband/angband/pull/6734">#6734</a></li>
+    data-id="5454906837" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6730"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6730/hovercard"
+    href="https://github.com/angband/angband/pull/6730">#6730</a> .</li>
 
-    <li>borg: make init call free by <a class="user-mention notranslate" data-hovercard-type="user"
+    <li>Check before displaying history in "Display player (basic)" by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5517997312" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6741"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6741/hovercard"
+    href="https://github.com/angband/angband/pull/6741">#6741</a></li>
+
+    <li>Refactor critical calculations for object information''s damage values by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5531414831" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6744"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6744/hovercard"
+    href="https://github.com/angband/angband/pull/6744">#6744</a></li>
+
+    <li>Do not ignore text_mbstowcs()''s return value by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5534409889" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6746"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6746/hovercard"
+    href="https://github.com/angband/angband/pull/6746">#6746</a></li>
+
+    <li>Explosion spell: push away from ball''s center instead of caster by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5545672996" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6750"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6750/hovercard"
+    href="https://github.com/angband/angband/pull/6750">#6750</a></li>
+
+    <li>Add unit tests for z-bitflag by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5543299696" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6749"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6749/hovercard"
+    href="https://github.com/angband/angband/pull/6749">#6749</a></li>
+
+    <li>Small optimizations for lore_description() by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5553445691" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6751"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6751/hovercard"
+    href="https://github.com/angband/angband/pull/6751">#6751</a></li>
+
+    <li>borg: add monster ids to struct by <a class="user-mention notranslate" data-hovercard-type="user"
     data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
     data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5531081926" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6743"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6743/hovercard"
-    href="https://github.com/angband/angband/pull/6743">#6743</a></li>
+    data-id="5556274775" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6752"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6752/hovercard"
+    href="https://github.com/angband/angband/pull/6752">#6752</a></li>
 
-    <li>borg: missues of fear_region array by <a class="user-mention notranslate"
+    <li>borg: clear out messages in resurection end by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
     data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5532360866" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6745"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6745/hovercard"
-    href="https://github.com/angband/angband/pull/6745">#6745</a></li>
+    data-id="5560600398" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6753"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6753/hovercard"
+    href="https://github.com/angband/angband/pull/6753">#6753</a></li>
 
-    <li>Do not leak single combat arenas when the monster is defeated by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Clarify and regularize wording in descriptions and messages by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/neostryder/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/neostryder">@neostryder</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5591666430" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6757"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6757/hovercard"
+    href="https://github.com/angband/angband/pull/6757">#6757</a></li>
+
+    <li>Fix post-4.2.6 regression for unique reappearing after single combat defeat
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5405786561" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6721"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6721/hovercard"
-    href="https://github.com/angband/angband/pull/6721">#6721</a></li>
-
-    <li>Protect against optimization breaking an overflow guard expression by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5420183984" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6723"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6723/hovercard"
-    href="https://github.com/angband/angband/pull/6723">#6723</a></li>
-
-    <li>Correct value returned from flag_inter() by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5443147082" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6726"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6726/hovercard"
-    href="https://github.com/angband/angband/pull/6726">#6726</a></li>
-
-    <li>Plug memory leak in player/digging test by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5443383567" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6727"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6727/hovercard"
-    href="https://github.com/angband/angband/pull/6727">#6727</a></li>
-
-    <li>Better guard experience point calculations against overflow by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5454722759" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6729"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6729/hovercard"
-    href="https://github.com/angband/angband/pull/6729">#6729</a></li>
-
-    <li>Correct regression from 4.1 to 4.2 for monster_loves_archery() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5460384923" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6732"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6732/hovercard"
-    href="https://github.com/angband/angband/pull/6732">#6732</a></li>
-
-    <li>Forget when in remembered impassable terrain with no light by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5460799633" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6733"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6733/hovercard"
-    href="https://github.com/angband/angband/pull/6733">#6733</a></li>
+    data-id="5609616400" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6758"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6758/hovercard"
+    href="https://github.com/angband/angband/pull/6758">#6758</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-203-g167ba295d...4.2.6-216-g1d2ad35a2"><tt>4.2.6-203-g167ba295d...4.2.6-216-g1d2ad35a2</tt></a></p>'
+    <h2 dir="auto">New Contributors</h2>
+
+    <ul dir="auto">
+
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/neostryder/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/neostryder">@neostryder</a>
+    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="5591666430" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6757"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6757/hovercard"
+    href="https://github.com/angband/angband/pull/6757">#6757</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-216-g1d2ad35a2...4.2.6-228-ga7f492e38"><tt>4.2.6-216-g1d2ad35a2...4.2.6-228-ga7f492e38</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * borg: rewrite reincarnation to use the game UI and not internal bs by @agoodman00
-    in https://github.com/angband/angband/pull/6738
+    * borg: performance changes by @agoodman00 in https://github.com/angband/angband/pull/6730
+    .
 
-    * borg: out of range for old panels by @agoodman00 in https://github.com/angband/angband/pull/6734
+    * Check before displaying history in "Display player (basic)" by @backwardsEric
+    in https://github.com/angband/angband/pull/6741
 
-    * borg: make init call free by @agoodman00 in https://github.com/angband/angband/pull/6743
+    * Refactor critical calculations for object information''s damage values by @backwardsEric
+    in https://github.com/angband/angband/pull/6744
 
-    * borg: missues of fear_region array by @agoodman00 in https://github.com/angband/angband/pull/6745
+    * Do not ignore text_mbstowcs()''s return value by @backwardsEric in https://github.com/angband/angband/pull/6746
 
-    * Do not leak single combat arenas when the monster is defeated by @backwardsEric
-    in https://github.com/angband/angband/pull/6721
+    * Explosion spell: push away from ball''s center instead of caster by @backwardsEric
+    in https://github.com/angband/angband/pull/6750
 
-    * Protect against optimization breaking an overflow guard expression by @backwardsEric
-    in https://github.com/angband/angband/pull/6723
+    * Add unit tests for z-bitflag by @backwardsEric in https://github.com/angband/angband/pull/6749
 
-    * Correct value returned from flag_inter() by @backwardsEric in https://github.com/angband/angband/pull/6726
+    * Small optimizations for lore_description() by @backwardsEric in https://github.com/angband/angband/pull/6751
 
-    * Plug memory leak in player/digging test by @backwardsEric in https://github.com/angband/angband/pull/6727
+    * borg: add monster ids to struct by @agoodman00 in https://github.com/angband/angband/pull/6752
 
-    * Better guard experience point calculations against overflow by @backwardsEric
-    in https://github.com/angband/angband/pull/6729
+    * borg: clear out messages in resurection end by @agoodman00 in https://github.com/angband/angband/pull/6753
 
-    * Correct regression from 4.1 to 4.2 for monster_loves_archery() by @backwardsEric
-    in https://github.com/angband/angband/pull/6732
+    * Clarify and regularize wording in descriptions and messages by @neostryder in
+    https://github.com/angband/angband/pull/6757
 
-    * Forget when in remembered impassable terrain with no light by @backwardsEric
-    in https://github.com/angband/angband/pull/6733
-
+    * Fix post-4.2.6 regression for unique reappearing after single combat defeat
+    by @backwardsEric in https://github.com/angband/angband/pull/6758
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-203-g167ba295d...4.2.6-216-g1d2ad35a2'
-  updated: '2026-09-22T12:45:53Z'
-  version: 4.2.6-216-g1d2ad35a2
-  version_title: 4.2.6-216-g1d2ad35a2
+    ## New Contributors
+
+    * @neostryder made their first contribution in https://github.com/angband/angband/pull/6757
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-216-g1d2ad35a2...4.2.6-228-ga7f492e38'
+  updated: '2026-09-29T12:50:46Z'
+  version: 4.2.6-228-ga7f492e38
+  version_title: 4.2.6-228-ga7f492e38
 source: https://github.com/angband/angband
 stars: 1564
 systems:
@@ -275,28 +292,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-216-g1d2ad35a2.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-228-ga7f492e38.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-216-g1d2ad35a2-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-216-g1d2ad35a2.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-216-g1d2ad35a2.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-228-ga7f492e38-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-228-ga7f492e38.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-228-ga7f492e38.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-216-g1d2ad35a2.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-228-ga7f492e38.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-216-g1d2ad35a2-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-216-g1d2ad35a2.cia</code> from the zip to <code>/cias/Angband-4.2.6-216-g1d2ad35a2.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-228-ga7f492e38-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-228-ga7f492e38.cia</code> from the zip to <code>/cias/Angband-4.2.6-228-ga7f492e38.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-216-g1d2ad35a2.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-228-ga7f492e38.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-216-g1d2ad35a2.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-228-ga7f492e38.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-216-g1d2ad35a2-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-216-g1d2ad35a2.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-228-ga7f492e38-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-228-ga7f492e38.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

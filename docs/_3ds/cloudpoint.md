@@ -26,6 +26,94 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.8.0
+  downloads:
+    cloudpoint.3dsx:
+      size: 3129568
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.8.0/cloudpoint.3dsx
+    cloudpoint.cia:
+      size: 2474944
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.8.0/cloudpoint.cia
+  qr:
+    cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
+  update_notes: '<p dir="auto">It was a bit of a slog, but we now have GBA Virtual
+    Console (including VC inject) support. This is one step closer to all the features
+    I want to get in place for a 1.0.0 release. Games like Metroid Fusion and Minish
+    Cap will now just show up and work like any other title.</p>
+
+    <p dir="auto">I''ve tested the feature quite a bit and it all works well for me,
+    but I''m especially keen to hear from people running things like romhacks - please
+    raise an issue if something doesn''t work as intended. <strong>As always, please
+    keep backups</strong>.</p>
+
+    <p dir="auto">This would not have been possible without the amazing work done
+    over on Checkpoint to add support for this recently. The implementation here is,
+    naturally, quite different, but the core idea is the same.</p>
+
+    <p dir="auto">As well as this, titles which it makes no sense to sync will now
+    be silently skipped; they won''t show up anywhere in Cloudpoint. This is maintained
+    in a manual list of titles; if you have any to suggest please get in touch.</p>
+
+    <h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>GBA Virtual Console support by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5623633575" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/144"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/144/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/144">#144</a></li>
+
+    <li>Support static title specific config rules, starting with a skiplist by <a
+    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5632317271" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/146"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/146/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/146">#146</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.7.0...0.8.0"><tt>0.7.0...0.8.0</tt></a></p>'
+  update_notes_md: 'It was a bit of a slog, but we now have GBA Virtual Console (including
+    VC inject) support. This is one step closer to all the features I want to get
+    in place for a 1.0.0 release. Games like Metroid Fusion and Minish Cap will now
+    just show up and work like any other title.
+
+
+    I''ve tested the feature quite a bit and it all works well for me, but I''m especially
+    keen to hear from people running things like romhacks - please raise an issue
+    if something doesn''t work as intended. **As always, please keep backups**.
+
+
+    This would not have been possible without the amazing work done over on Checkpoint
+    to add support for this recently. The implementation here is, naturally, quite
+    different, but the core idea is the same.
+
+
+    As well as this, titles which it makes no sense to sync will now be silently skipped;
+    they won''t show up anywhere in Cloudpoint. This is maintained in a manual list
+    of titles; if you have any to suggest please get in touch.
+
+
+    ## What''s Changed
+
+    * GBA Virtual Console support by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/144
+
+    * Support static title specific config rules, starting with a skiplist by @dwalker109
+    in https://github.com/dwalker109/cloudpoint/pull/146
+
+
+
+    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.7.0...0.8.0'
+  updated: '2026-09-29T15:07:22Z'
+  version: 0.8.0
+  version_title: 0.8.0
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint

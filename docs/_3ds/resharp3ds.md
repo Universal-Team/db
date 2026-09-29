@@ -4,7 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/112180175?v=4
 categories:
 - app
 created: '2026-06-01T16:33:12Z'
-description: Porting C# for Nintendo 3DS
+description: Porting nanoCLR C# for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
