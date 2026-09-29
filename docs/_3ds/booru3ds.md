@@ -12,11 +12,11 @@ downloads:
   booru3ds.3dsx:
     size: 2602380
     size_str: 2 MiB
-    url: https://github.com/Misakii-P/Booru3DS/releases/download/v1.4/booru3ds.3dsx
+    url: https://github.com/Misakii-P/Booru3DS/releases/download/v1.3/booru3ds.3dsx
   booru3ds.cia:
     size: 3052480
     size_str: 2 MiB
-    url: https://github.com/Misakii-P/Booru3DS/releases/download/v1.4/booru3ds.cia
+    url: https://github.com/Misakii-P/Booru3DS/releases/download/v1.3/booru3ds.cia
 github: Misakii-P/Booru3DS
 icon: https://raw.githubusercontent.com/Misakii-P/Booru3DS/refs/heads/master/assets/booru3ds.png
 image: https://raw.githubusercontent.com/Misakii-P/Booru3DS/refs/heads/master/assets/ciabanner.png
@@ -41,8 +41,8 @@ update_notes: '<h1 dir="auto">Booru3DS now has a CIA!</h1>
 
   <p dir="auto">As always, enjoy browsing and downloading art! - MisakiP</p>'
 updated: '2026-09-28T20:45:35Z'
-version: v1.4
-version_title: v1.4, CIA release!
+version: v1.3
+version_title: v1.3, CIA release!
 ---
 A booru image board browser for the **Nintendo 3DS**, written in C with
 citro2d/citro3d. Browse Safebooru or Konachan, view images on the top
