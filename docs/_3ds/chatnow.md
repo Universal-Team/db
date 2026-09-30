@@ -3,6 +3,8 @@ author: jamesrhg
 avatar: https://avatars.githubusercontent.com/u/306910809?v=4
 categories:
 - app
+color: '#ffbdd2'
+color_bg: '#805e69'
 created: '2026-09-28T04:18:51Z'
 description: Nintendo 3DS chatting app with Miis, images, voice and video calls.
 download_page: https://github.com/jamesrhg/chatnow/releases
@@ -14,6 +16,7 @@ downloads:
 github: jamesrhg/chatnow
 icon: https://raw.githubusercontent.com/jamesrhg/chatnow/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/jamesrhg/chatnow/refs/heads/main/meta/banner.png
+image_length: 8757
 layout: app
 llm_generation: minor
 qr:
