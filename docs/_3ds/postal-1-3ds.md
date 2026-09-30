@@ -38,7 +38,7 @@ preinstall_message: You will need to copy the assets from your PC copy of the ga
 qr:
   postal1-3ds.cia: https://db.universal-team.net/assets/images/qr/postal1-3ds-cia.png
 source: https://github.com/Taifuoguru/Postal-1-3DS
-stars: 8
+stars: 9
 systems:
 - 3DS
 title: Postal 1 3DS
