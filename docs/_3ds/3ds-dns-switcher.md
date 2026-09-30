@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   3DS-DNS-Switcher.cia: https://db.universal-team.net/assets/images/qr/3ds-dns-switcher-cia.png
 source: https://github.com/quatric/3DS-DNS-Switcher
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3DS-DNS-Switcher
