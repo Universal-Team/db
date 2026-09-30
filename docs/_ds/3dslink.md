@@ -24,7 +24,7 @@ llm_generation: 'yes'
 qr:
   3DSLink.cia: https://db.universal-team.net/assets/images/qr/3dslink-cia.png
 source: https://github.com/s4ammy/3DSLink
-stars: 3
+stars: 4
 systems:
 - DS
 title: 3DSLink

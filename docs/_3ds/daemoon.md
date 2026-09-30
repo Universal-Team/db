@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   daemoon-3ds-v0.1.2.cia: https://db.universal-team.net/assets/images/qr/daemoon-3ds-v0-1-2-cia.png
 source: https://github.com/mirusu400/DaeMoon
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: DaeMoon

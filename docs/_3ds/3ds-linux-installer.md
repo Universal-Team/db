@@ -17,7 +17,7 @@ image_length: 3680
 layout: app
 llm_generation: 'no'
 source: https://github.com/Rib8653/3DS-linux-installer
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: 3DS-linux-installer
