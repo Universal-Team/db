@@ -117,7 +117,7 @@ prerelease:
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 71
+stars: 72
 systems:
 - 3DS
 title: Cloudpoint
