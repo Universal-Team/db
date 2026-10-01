@@ -29,7 +29,7 @@ llm_generation: 'yes'
 qr:
   Comet.cia: https://db.universal-team.net/assets/images/qr/comet-cia.png
 source: https://github.com/verypedro/Comet
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: Comet
