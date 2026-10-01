@@ -24,7 +24,7 @@ llm_generation: 'no'
 qr:
   Aurora-Installer.cia: https://db.universal-team.net/assets/images/qr/aurora-installer-cia.png
 source: https://github.com/TeamAuroraOS/AuroraOS-Installer
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: AuroraOS Installer
