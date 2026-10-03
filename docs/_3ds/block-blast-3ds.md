@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   blockblast.cia: https://db.universal-team.net/assets/images/qr/blockblast-cia.png
 source: https://github.com/TheFilipcom4607/BlockBlast-3DS
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Block Blast 3DS
