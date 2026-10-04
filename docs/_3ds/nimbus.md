@@ -8,18 +8,18 @@ color_bg: '#2b2952'
 created: '2022-01-08T01:36:02Z'
 download_page: https://github.com/PretendoNetwork/nimbus/releases
 downloads:
-  3dsx.2.1.1.zip:
-    size: 730009
-    size_str: 712 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.1.1/3dsx.2.1.1.zip
-  cia.2.1.1.zip:
-    size: 960861
-    size_str: 938 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.1.1/cia.2.1.1.zip
-  combined.2.1.1.zip:
-    size: 1383207
+  3dsx.2.2.0.zip:
+    size: 1137298
     size_str: 1 MiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.1.1/combined.2.1.1.zip
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.2.0/3dsx.2.2.0.zip
+  cia.2.2.0.zip:
+    size: 1399862
+    size_str: 1 MiB
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.2.0/cia.2.2.0.zip
+  combined.2.2.0.zip:
+    size: 2229686
+    size_str: 2 MiB
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.2.0/combined.2.2.0.zip
 github: PretendoNetwork/nimbus
 icon: https://db.universal-team.net/assets/images/icons/nimbus.png
 image: https://db.universal-team.net/assets/images/images/nimbus.png
@@ -40,36 +40,65 @@ systems:
 title: Nimbus
 unique_ids:
 - '0xD40D2'
-update_notes: '<h2 dir="auto">What''s Changed</h2>
+update_notes: '<p dir="auto"><strong>Important: All existing users must update to
+  this version to continue using our services</strong></p>
+
+  <h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Fix data size in <code class="notranslate">ACT_GetFriendLocalAccountId</code>
-  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3978027188"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/81"
-  data-hovercard-type="issue" data-hovercard-url="/PretendoNetwork/nimbus/issues/81/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/issues/81">#81</a>) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/jonbarrow/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jonbarrow">@jonbarrow</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4312005270"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/84"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/84/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/84">#84</a></li>
+  <li>Add support for Azahar HTTP HLE URL replacements by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/PabloMK7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/PabloMK7">@PabloMK7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4727977831"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/88"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/88/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/88">#88</a>
 
-  <li>Add a scam warning to the top screen by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/jonbarrow/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/jonbarrow">@jonbarrow</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4272059684"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/82"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/82/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/82">#82</a></li>
+  <ul dir="auto">
+
+  <li>Allows using Pretendo Network under the HLE implementation of HTTP in Azahar
+  2126</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v2.1.0...v2.1.1"><tt>v2.1.0...v2.1.1</tt></a></p>'
-updated: '2026-06-09T22:33:30Z'
-version: v2.1.1
-version_title: v2.1.1
+  </li>
+
+  <li>feat(app): add account repair for uidhmac by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/DaniElectra/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/DaniElectra">@DaniElectra</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5693988203"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/91"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/91/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/91">#91</a>
+
+  <ul dir="auto">
+
+  <li>This allows the console to get the proper uidhmac that it needs to log in</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h2 dir="auto">New Contributors</h2>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PabloMK7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PabloMK7">@PabloMK7</a>
+  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4727977831" data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/88"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/88/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/88">#88</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v2.1.1...v2.2.0"><tt>v2.1.1...v2.2.0</tt></a></p>'
+updated: '2026-10-04T18:18:03Z'
+version: v2.2.0
+version_title: v2.2.0
 ---
 #### Usage
 - Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account
@@ -83,7 +112,7 @@ If the app doesn't work, try the following steps:
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
 <details class="alert alert-secondary"><summary>nimbus.3dsx</summary>
 <ol>
-<li>Download <code>3dsx.2.1.1.zip</code></li>
+<li>Download <code>3dsx.2.2.0.zip</code></li>
 <li>Extract <code>/3ds/nimbus.3dsx</code> from the zip to <code>/3ds/nimbus.3dsx</code> on your SD card</li>
 <li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 </ol>
@@ -91,7 +120,7 @@ If the app doesn't work, try the following steps:
 
 <details class="alert alert-secondary"><summary>nimbus.cia</summary>
 <ol>
-<li>Download <code>cia.2.1.1.zip</code></li>
+<li>Download <code>cia.2.2.0.zip</code></li>
 <li>Extract <code>/cias/nimbus.cia</code> from the zip to <code>/cias/nimbus.cia</code> on your SD card</li>
 <li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
