@@ -3,8 +3,8 @@ author: Pixel
 avatar: https://avatars.githubusercontent.com/u/288155318?v=4
 categories:
 - game
-color: '#4a4527'
-color_bg: '#4a4527'
+color: '#736a23'
+color_bg: '#736a23'
 created: '2026-05-30T21:04:45Z'
 description: Escape Jonny's Backrooms for the Nintendo 3DS is a 2D Backrooms game
   where you find you're way out of the Backrooms. While someone named Jonny chases
@@ -12,66 +12,61 @@ description: Escape Jonny's Backrooms for the Nintendo 3DS is a 2D Backrooms gam
 download_page: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/releases
 downloads:
   Escape_Jonnys_Backrooms.3dsx:
-    size: 193172
-    size_str: 188 KiB
-    url: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/releases/download/v2.0.0/Escape_Jonnys_Backrooms.3dsx
+    size: 253308
+    size_str: 247 KiB
+    url: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/releases/download/v2.1.0/Escape_Jonnys_Backrooms.3dsx
+  Escape_Jonnys_Backrooms.cia:
+    size: 393664
+    size_str: 384 KiB
+    url: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/releases/download/v2.1.0/Escape_Jonnys_Backrooms.cia
 github: Pixel6763/Escape-Jonny-s-Backrooms-3DS
 icon: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png
 image: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png
-image_length: 5237
+image_length: 3375
 layout: app
 llm_generation: unknown
+qr:
+  Escape_Jonnys_Backrooms.cia: https://db.universal-team.net/assets/images/qr/escape_jonnys_backrooms-cia.png
 source: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS
 stars: 2
 systems:
 - 3DS
 title: Escape Jonnys Backrooms
-update_notes: '<ol dir="auto">
+update_notes: '<p dir="auto">Version 2.1.0: The Level Editor</p>
 
-  <li>
+  <p dir="auto">Added <strong>Level Editor</strong>: At the Title Screen, There is
+  a New Option by <em>pressing Select</em> to access the Level Editor! You have 3
+  available Save Slots in the Level Editor. You can Press A to <em>Edit or Create
+  a Level</em>, or Press B to <em>Delete a Level</em>. You have the option to place
+  a Wall, Exit, Vent, Damage Block, Healing Block, Speed Block, Jonny, and Edwin.
+  Use L + R to <em>select Blocks</em>, A to <em>Place Blocks</em>, B to <em>Erase
+  Blocks</em>, Y to Discard + Exit the Build, and X to Save + Exit the Build. Once
+  you Save and Exit, you will come up with a name for your build! You can even share
+  your levels with friends!</p>
 
-  <p dir="auto">Overhauled the Maze gameplay: It''s on the Top Screen, overhauled
-  it''s looks so it looks a lot cleaner.</p>
+  <p dir="auto">How to share your levels: In the SD Card, Go to 3ds &gt; EscapeJonnysBackrooms
+  &gt; CustomLevels. There you will find your Levels saved on your SD Card. You can
+  Import others'' Levels as well! (Make sure that you have a Free Slot Available!)
+  If you Import a Level and you don''t have a Free Slot, then press Select to go to
+  Level Editor, and <em>delete a Level.</em></p>
 
-  </li>
+  <p dir="auto">Added <strong>Circle Pad Support</strong>: You can now move the character
+  <em>using the Circle Pad</em> along side the D-Pad!</p>
 
-  <li>
+  <p dir="auto">Created <strong>CIA</strong> File: You can now download a <em>CIA
+  file</em> of this Game!</p>
 
-  <p dir="auto">Added a Sanity System: You have a limited time in a Room before your
-  sanity hits 0% and you die.</p>
+  <p dir="auto"><strong>Changed Game Icon</strong>: Changed the game Icon to the actual
+  game itself.</p>
 
-  </li>
+  <p dir="auto">Fixed Bugs: Fixed the bug where Jonny Spawns inside the Wall! (rare
+  sighting)<br>
 
-  <li>
-
-  <p dir="auto">Added a Room System: The more you escape, the faster the Entities
-  get and the quicker your Sanity drains.</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Added a New Entity: Edwin spawns after Room 30. He is slow, but does
-  lots of damage. The gimmick is there is Vents that spawn around that Backrooms.
-  If you get more than 15 tiles away from Edwin, he retreats to the nearest vent.
-  When he goes in the Vent, he transfers to the closest Vent that is near the Player.</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Overhauled Bottom Screen In Game: Instead of the maze being on the
-  bottom screen, it shows you what Room you''re on, percent your Health is at, you''re
-  Sanity percent, then the Entity Radars. You see if Jonny is Chasing you or how far
-  he is away from you. Then, you can see if Edwin is going to a vent or if he is Chasing
-  you.</p>
-
-  </li>
-
-  </ol>'
-updated: '2026-07-16T21:51:08Z'
-version: v2.0.0
-version_title: v2.0.0
+  Also Fixed the Bug where when Edwin kills you, It said "Jonny Got you". Now it''s
+  been fixed to say "Edwin Got you"</p>'
+updated: '2026-10-04T02:09:26Z'
+version: v2.1.0
+version_title: 2.1.0
 ---
 ### Installation instructions
 
@@ -79,6 +74,14 @@ version_title: v2.0.0
 <details class="alert alert-secondary"><summary>Escape_Jonnys_Backrooms.3dsx</summary>
 <ol>
 <li>Download <code>Escape_Jonnys_Backrooms.3dsx</code> to <code>/3ds/Escape_Jonnys_Backrooms.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Escape_Jonnys_Backrooms.cia</summary>
+<ol>
+<li>Download <code>Escape_Jonnys_Backrooms.cia</code> to <code>/cias/Escape_Jonnys_Backrooms.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Escape_Jonnys_Backrooms.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
