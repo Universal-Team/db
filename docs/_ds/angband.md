@@ -178,7 +178,7 @@ prerelease:
   version: 4.2.6-228-ga7f492e38
   version_title: 4.2.6-228-ga7f492e38
 source: https://github.com/angband/angband
-stars: 1566
+stars: 1565
 systems:
 - 3DS
 - DS

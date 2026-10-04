@@ -32,7 +32,7 @@ preinstall_message: You will need to provide your own ROM and place it in sd:/3d
 qr:
   tmc-3ds-v1.0.cia: https://db.universal-team.net/assets/images/qr/tmc-3ds-v1-0-cia.png
 source: https://github.com/EstebanPdN/zelda-tmc-3ds
-stars: 729
+stars: 730
 systems:
 - 3DS
 title: zelda-tmc-3ds
