@@ -11,9 +11,9 @@ description: An Animal Crossing New Leaf Modding Menu Overlay to use while playi
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 8994150
+    size: 9004608
     size_str: 8 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.4.0/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.4.1/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
 image_length: 12131
@@ -26,69 +26,20 @@ stars: 179
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1 dir="auto">Version 3.4.0 out now!</h1>
+update_notes: '<h1 dir="auto">Hotfix 3.4.1 out now!</h1>
 
-  <p dir="auto">This new version doesn''t add a ton of new features, the new notification
-  system took a long time to perfect.😁<br>
-
-  Though many bugs are now finally fixed!</p>
-
-  <h2 dir="auto">New Features:</h2>
-
-  <h3 dir="auto">Quick Island Joiner</h3>
-
-  <p dir="auto">Allows you to browse through available islands and join them without
-  having to talk to kappn at all (skips the whole boat ride sequence) (Thanks to <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Pienco/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Pienco">@Pienco</a>
-  for this cheat!)</p>
-
-  <h3 dir="auto">New Notification System</h3>
-
-  <p dir="auto">All plugin notifications and plugin overlay text (like Player Debug
-  Info) are now rendered by the game directly, eliminating any lag they created in
-  the past. The game stays at a consistent 60FPS, no matter how much text is displayed
-  on the screen. This will be most noticeable on an old 3DS system.<br>
-
-  With this, I also edited the main font file of the game, adding all Japanese symbols
-  that are missing in the US and EUR version of the game and also adding many Chinese
-  symbols.<br>
-
-  To use this custom font file, please ensure to enable "Game Patching" in the Luma
-  Configuration Menu (opened by holding SELECT while booting the system).</p>
-
-  <h3 dir="auto">PIA Logger &amp; Players in Session</h3>
-
-  <p dir="auto">These features are copied from the <a href="https://github.com/PretendoNetwork/nimbus">Nimbus
-  Project</a>. (Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/FoofooTheGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/FoofooTheGuy">@FoofooTheGuy</a>)</p>
-
-  <h2 dir="auto">Bug Fixes</h2>
+  <h2 dir="auto">This hotfix release fixes the following 2 issues:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed Plugin crashing at boot if CTRPFVapecordData.bin is bad (hopefully)</li>
+  <li>New HUD notifications were only showing on the left eye while playing with 3D
+  on</li>
 
-  <li>Fixed Items Dont Disappear cheat not working directly at the rails</li>
-
-  <li>Fixed Keep Grass State not working in EUR, JPN &amp; KOR versions</li>
-
-  <li>Fixed Size Codes not working in some regions</li>
-
-  <li>Fixed T-Pose not working in KOR WA version</li>
-
-  <li>Fixed Switch Movement Mode not working in KOR version</li>
-
-  <li>Fixed player related cheats randomly crashing</li>
-
-  <li>Disabling Set Foliage Season now works properly (Thanks to <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/FoofooTheGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/FoofooTheGuy">@FoofooTheGuy</a>)</li>
-
-  <li>Fixed many more version issues and stability issues</li>
+  <li>Chat Translator didn''t show the translated messages of other players</li>
 
   </ul>
+
+  <p dir="auto">Thanks for reporting these issues. Have fun playing!</p>
 
   <h2 dir="auto">Thank you all for using this plugin!</h2>
 
@@ -98,9 +49,9 @@ update_notes: '<h1 dir="auto">Version 3.4.0 out now!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2026-09-22T09:50:47Z'
-version: v3.4.0
-version_title: ACNL Vapecord Public Plugin [v.3.4.0]
+updated: '2026-10-04T05:48:16Z'
+version: v3.4.1
+version_title: ACNL Vapecord Public Plugin [v.3.4.1]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
 ### Installation instructions
