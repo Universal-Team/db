@@ -30,7 +30,7 @@ llm_generation: 'yes'
 qr:
   LocalSend3DS-v1.0.0.cia: https://db.universal-team.net/assets/images/qr/localsend3ds-v1-0-0-cia.png
 source: https://github.com/thevalmarch/localsend3ds
-stars: 6
+stars: 5
 systems:
 - 3DS
 title: LocalSend3DS

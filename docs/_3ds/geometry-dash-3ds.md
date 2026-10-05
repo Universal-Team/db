@@ -32,7 +32,7 @@ prerelease:
   download_page: https://github.com/AleFunky/gd3ds/releases/tag/nightly-2.0
   downloads:
     GeometryDash3DS.3dsx:
-      size: 44608324
+      size: 44613676
       size_str: 42 MiB
       url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.0/GeometryDash3DS.3dsx
     GeometryDash3DS.cia:
@@ -42,13 +42,13 @@ prerelease:
   qr:
     GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/geometrydash3ds-cia.png
   update_notes: '<p dir="auto">Latest 2.0 test build from commit <a class="commit-link"
-    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/9eb7ea87bc68d5ca5416df040494fe4d0daff9f8/hovercard"
-    href="https://github.com/AleFunky/gd3ds/commit/9eb7ea87bc68d5ca5416df040494fe4d0daff9f8"><tt>9eb7ea8</tt></a><br>
+    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/ae13fcf4d89f85bd4041c7667a9eac471ce86d0a/hovercard"
+    href="https://github.com/AleFunky/gd3ds/commit/ae13fcf4d89f85bd4041c7667a9eac471ce86d0a"><tt>ae13fcf</tt></a><br>
 
     This is a dev build, therefore bugs and crashes are expected.<br>
 
     Enjoy!</p>'
-  update_notes_md: 'Latest 2.0 test build from commit 9eb7ea87bc68d5ca5416df040494fe4d0daff9f8
+  update_notes_md: 'Latest 2.0 test build from commit ae13fcf4d89f85bd4041c7667a9eac471ce86d0a
 
     This is a dev build, therefore bugs and crashes are expected.
 
