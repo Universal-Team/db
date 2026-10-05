@@ -29,7 +29,7 @@ llm_generation: 'no'
 qr:
   SRAU.cia: https://db.universal-team.net/assets/images/qr/srau-cia.png
 source: https://github.com/noirscape/SRAU
-stars: 21
+stars: 20
 systems:
 - 3DS
 title: SRAU

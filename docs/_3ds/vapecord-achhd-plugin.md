@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_generation: 'no'
 source: https://github.com/RedShyGuy/Vapecord-ACHHD-Plugin
-stars: 18
+stars: 16
 systems:
 - 3DS
 title: Vapecord-ACHHD-Plugin
