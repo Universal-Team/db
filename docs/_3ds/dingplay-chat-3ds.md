@@ -11,13 +11,13 @@ description: 'Chat with your Dingplay friends from a 3DS: DMs, the world chat an
 download_page: https://github.com/Sonalpt/Dingplay-chat-3DS/releases
 downloads:
   dingplay-chat.3dsx:
-    size: 4178120
+    size: 4187956
     size_str: 3 MiB
-    url: https://github.com/Sonalpt/Dingplay-chat-3DS/releases/download/v0.1.1/dingplay-chat.3dsx
+    url: https://github.com/Sonalpt/Dingplay-chat-3DS/releases/download/v0.1.2/dingplay-chat.3dsx
   dingplay-chat.cia:
-    size: 4211648
+    size: 4215744
     size_str: 4 MiB
-    url: https://github.com/Sonalpt/Dingplay-chat-3DS/releases/download/v0.1.1/dingplay-chat.cia
+    url: https://github.com/Sonalpt/Dingplay-chat-3DS/releases/download/v0.1.2/dingplay-chat.cia
 github: Sonalpt/Dingplay-chat-3DS
 icon: https://raw.githubusercontent.com/Sonalpt/Dingplay-chat-3DS/main/meta/icon.png
 image: https://raw.githubusercontent.com/Sonalpt/Dingplay-chat-3DS/main/meta/banner.png
@@ -33,42 +33,49 @@ systems:
 title: Dingplay-chat-3DS
 unique_ids:
 - '0xD1A6'
-update_notes: '<p dir="auto">Security and polish release. <strong>This is the build
-  to use</strong> — the relay is now HTTPS-only, so 0.1.0 can no longer connect.</p>
+update_notes: '<p dir="auto">A big round of fixes and new features. <strong>Recommended
+  update for everyone.</strong></p>
 
-  <p dir="auto"><strong>Secure connection</strong></p>
+  <p dir="auto"><strong>New</strong></p>
 
   <ul dir="auto">
 
-  <li>The console talks to the relay over <strong>HTTPS with a pinned certificate</strong>
-  (the app trusts only Dingplay''s own CA). Passwords and session tokens can no longer
-  be read or spoofed on shared Wi-Fi.</li>
+  <li>📷 <strong>Send a photo</strong> from the 3DS camera (front or back) straight
+  into a chat — phones see it too.</li>
+
+  <li>🖼️ <strong>Phone-sent images now show in chat</strong>, and you can open any
+  image <strong>fullscreen</strong> and <strong>zoom with the Circle Pad</strong>
+  (D-pad to pan, B to close).</li>
+
+  <li><g-emoji class="g-emoji" alias="arrow_up_down">↕️</g-emoji> <strong>Scroll the
+  chat history</strong> with the Circle Pad.</li>
+
+  <li>🕑 <strong>Timestamps on every message</strong>, not just your own.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Hardening</strong></p>
+  <p dir="auto"><strong>Fixes</strong></p>
 
   <ul dir="auto">
 
-  <li>Per-IP and per-account rate limits on the relay (login brute-force protection).</li>
+  <li><strong>Login now uses your email</strong> (matches the mobile app) — fixes
+  "account doesn''t exist".</li>
 
-  <li>Sessions are 30 days and are properly revoked on sign-out.</li>
+  <li><strong>World chat sync</strong>: the FR/EN channel no longer freezes when the
+  other channel is busy.</li>
 
-  <li>The console no longer writes typed passwords to its debug log.</li>
+  <li><strong>Voice notes play</strong> — select with D-pad or just press A to play
+  the latest. (Playback needs <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>;
+  the app now tells you if it''s missing.)</li>
 
-  </ul>
+  <li><strong>Media survives a reboot</strong>: voice/images sent minutes ago are
+  no longer wrongly shown as expired (a timezone bug).</li>
 
-  <p dir="auto"><strong>Fixes &amp; polish since 0.1.0</strong></p>
+  <li><strong>Wi-Fi comes back after Local Wireless</strong> — leaving a local lobby
+  no longer leaves you stuck offline.</li>
 
-  <ul dir="auto">
-
-  <li>Crisp, correctly-sized text (two font atlases; Nunito Regular/Bold).</li>
-
-  <li>The Dingplay artwork: real icons, wordmark, world-chat background.</li>
-
-  <li>Upright, correctly-fitted profile pictures.</li>
-
-  <li>Host "Close room" control for online themed rooms.</li>
+  <li>Crisper, correctly-sized text; upright profile pictures; the real Dingplay artwork
+  and icons.</li>
 
   </ul>
 
@@ -84,10 +91,11 @@ update_notes: '<p dir="auto">Security and polish release. <strong>This is the bu
 
   </ul>
 
-  <p dir="auto">Voice playback needs <code class="notranslate">/3ds/dspfirm.cdc</code>
-  on the SD card (dump once with DSP1).</p>'
-updated: '2026-09-28T08:25:52Z'
-version: v0.1.1
-version_title: Dingplay Chat 0.1.1
+  <p dir="auto">The console talks to the Dingplay relay over HTTPS. Voice playback
+  needs <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code> (dump once with DSP1).
+  Online needs Wi-Fi; Local Wireless needs neither Wi-Fi nor an account.</p>'
+updated: '2026-10-04T22:48:28Z'
+version: v0.1.2
+version_title: Dingplay Chat 0.1.2
 website: https://www.dingplay.net
 ---
