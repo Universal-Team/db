@@ -17,7 +17,7 @@ license: other
 license_name: Other
 llm_generation: 'no'
 source: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Roku-Remote-3DS
