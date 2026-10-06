@@ -20,7 +20,7 @@ image_length: 21865
 layout: app
 llm_generation: 'no'
 source: https://github.com/devkitPro/3ds-hbmenu
-stars: 864
+stars: 865
 systems:
 - 3DS
 title: 3ds-hbmenu

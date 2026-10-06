@@ -29,7 +29,7 @@ llm_generation: minor
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 75
+stars: 76
 systems:
 - 3DS
 title: Cloudpoint
