@@ -26,6 +26,54 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: minor
+prerelease:
+  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.8.1
+  downloads:
+    cloudpoint.3dsx:
+      size: 3160144
+      size_str: 3 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.8.1/cloudpoint.3dsx
+    cloudpoint.cia:
+      size: 2495424
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.8.1/cloudpoint.cia
+  qr:
+    cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>Hitting "stop emulation" in azahar doesnt exit cleanly by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5694808392" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/161"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/161/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/161">#161</a></li>
+
+    <li>Improve db structs, versioning, saving and loading by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5731525059" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/164"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/164/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/164">#164</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.0...0.8.1"><tt>0.8.0...0.8.1</tt></a></p>'
+  update_notes_md: '## What''s Changed
+
+    * Hitting "stop emulation" in azahar doesnt exit cleanly by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/161
+
+    * Improve db structs, versioning, saving and loading by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/164
+
+
+
+    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.8.0...0.8.1'
+  updated: '2026-10-06T16:10:27Z'
+  version: 0.8.1
+  version_title: 0.8.1
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
