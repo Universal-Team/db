@@ -25,7 +25,7 @@ image_length: 34580
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: minor
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint

@@ -76,20 +76,6 @@ A flexible httpd server capable of handling sdcard file reads, crypto operations
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] 3ds-httpd.3dsx</summary>
-<ol>
-<li>Download <code>3ds-httpd.3dsx</code> to <code>/3ds/3ds-httpd.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[prerelease] 3ds-httpd.cia</summary>
-<ol>
-<li>Download <code>3ds-httpd.cia</code> to <code>/cias/3ds-httpd.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/3ds-httpd.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>[git] 3ds-httpd.3dsx</summary>
 <ol>
 <li>Download <code>build.zip</code></li>
@@ -101,6 +87,20 @@ A flexible httpd server capable of handling sdcard file reads, crypto operations
 <ol>
 <li>Download <code>build.zip</code></li>
 <li>Extract <code>/3ds-httpd.cia</code> from the zip to <code>/cias/3ds-httpd.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/3ds-httpd.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] 3ds-httpd.3dsx</summary>
+<ol>
+<li>Download <code>3ds-httpd.3dsx</code> to <code>/3ds/3ds-httpd.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] 3ds-httpd.cia</summary>
+<ol>
+<li>Download <code>3ds-httpd.cia</code> to <code>/cias/3ds-httpd.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/3ds-httpd.cia</code> using FBI or GodMode9</li>
 </ol>
