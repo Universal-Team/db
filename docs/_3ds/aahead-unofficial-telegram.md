@@ -27,7 +27,7 @@ preinstall_message: Requires a New Nintendo 3DS, New 3DS XL or New 2DS XL. Origi
 qr:
   Telegram-3DS.cia: https://db.universal-team.net/assets/images/qr/telegram-3ds-cia.png
 source: https://github.com/Memetrix/telegram-3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: AAhead Unofficial Telegram
