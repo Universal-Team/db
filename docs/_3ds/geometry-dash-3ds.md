@@ -42,13 +42,13 @@ prerelease:
   qr:
     GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/geometrydash3ds-cia.png
   update_notes: '<p dir="auto">Latest 2.0 test build from commit <a class="commit-link"
-    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/86d88688aedd8931e2b6b3a0ddad2f1fe21c1ed8/hovercard"
-    href="https://github.com/AleFunky/gd3ds/commit/86d88688aedd8931e2b6b3a0ddad2f1fe21c1ed8"><tt>86d8868</tt></a><br>
+    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/acae2769fbf87d863ab287e7937bb057983431f4/hovercard"
+    href="https://github.com/AleFunky/gd3ds/commit/acae2769fbf87d863ab287e7937bb057983431f4"><tt>acae276</tt></a><br>
 
     This is a dev build, therefore bugs and crashes are expected.<br>
 
     Enjoy!</p>'
-  update_notes_md: 'Latest 2.0 test build from commit 86d88688aedd8931e2b6b3a0ddad2f1fe21c1ed8
+  update_notes_md: 'Latest 2.0 test build from commit acae2769fbf87d863ab287e7937bb057983431f4
 
     This is a dev build, therefore bugs and crashes are expected.
 
