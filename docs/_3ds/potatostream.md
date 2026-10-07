@@ -10,13 +10,13 @@ description: Gamestream client for old 2ds/3DS
 download_page: https://github.com/PainDe0Mie/PotatoStream/releases
 downloads:
   streampotato.3dsx:
-    size: 7625640
+    size: 7676360
     size_str: 7 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.2.0/streampotato.3dsx
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.3.0/streampotato.3dsx
   streampotato.cia:
-    size: 4374464
+    size: 4409280
     size_str: 4 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.2.0/streampotato.cia
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.3.0/streampotato.cia
 github: PainDe0Mie/PotatoStream
 icon: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/ic_streampotato.png
 image: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/banner.png
@@ -34,90 +34,85 @@ systems:
 title: PotatoStream
 unique_ids:
 - '0x3700'
-update_notes: '<h2 dir="auto">What''s New in v1.2.0</h2>
+update_notes: '<h2 dir="auto">What''s New in v1.3.0</h2>
 
-  <p dir="auto"><strong>Pairing &amp; Connectivity</strong></p>
+  <p dir="auto"><strong>Pairing &amp; Sunshine Compatibility</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed port 47984 being blocked during Sunshine pairing</li>
+  <li>Fixed recent Sunshine certificate verification rejections (Client certificate
+  identity is not enabled or HTTP 401)</li>
 
-  <li>Fixed certificate validity by backdating the <code class="notranslate">notBefore</code>
-  field (antidating), avoiding clock mismatch issues</li>
+  <li>Added automatic detection and transparent regeneration of client certificates
+  if their date was generated in the future due to 3DS RTC drift</li>
 
-  <li>Fixed pairing keys being lost after update/migration</li>
+  <li>Fixed host port reset bug: connecting to an IP with a custom port no longer
+  corrupts your global default settings port</li>
 
-  <li>Added local pairing memory to avoid unnecessary re-pairing</li>
+  <li>Fixed Unpair host to unconditionally clean up local pairing records even if
+  the host is offline or denies the request</li>
 
-  <li>Added detailed error messages when pairing fails</li>
-
-  <li>Added <code class="notranslate">gs_cert_was_regenerated()</code> to properly
-  detect and handle certificate regeneration</li>
-
-  <li>Added a pairing cache purge to prevent stale pairing data from causing issues</li>
-
-  <li>Improved Sunshine pairing and HTTP connection stability even further</li>
+  <li>Changed client identity device name from roth to "PotatoStream" in pairing exchanges
+  for clearer identification in Sunshine</li>
 
   </ul>
 
-  <p dir="auto"><strong>Stability</strong></p>
+  <p dir="auto"><strong>Video &amp; Rendering</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed crashes when changing stream settings (resolution, bitrate, FPS, etc.)</li>
+  <li>Hardened Y2RU hardware color conversion to properly handle frame stride gaps
+  (<code class="notranslate">luma_gap, chroma_gap</code>) and prevent buffer corruption</li>
 
-  <li>Fixed settings crashes in the Digital D-pad editor</li>
+  <li>Added automatic recovery (<code class="notranslate">DR_NEED_IDR</code>) when
+  video decoding encounters corrupted frames, eliminating stream freezes</li>
 
-  <li>Fixed a thread-safety issue that could cause random crashes on startup</li>
+  <li>Optimized GPU cache flushes (<code class="notranslate">GSPGPU_FlushDataCache
+  &amp; GX_FlushCacheRegions</code>) to target exact buffer sizes, reducing micro-stutters</li>
 
-  <li>Added proper cleanup routines on app exit</li>
+  <li>Fix the View-Only mode</li>
 
   </ul>
 
-  <p dir="auto"><strong>Video</strong></p>
+  <p dir="auto"><strong>Interface &amp; UX</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed the H.264 decoder init loop not stopping after a successful open, and
-  always disable the loop filter for better performance</li>
+  <li>Completely overhauled the Citro2D user interface</li>
+
+  <li>Added on-screen toast notifications on the bottom screen for certificate updates,
+  pairing advice, and system alerts</li>
+
+  <li>Updated application description to "StreamPotato - Old &amp; New 3DS/2DS"</li>
 
   </ul>
 
-  <p dir="auto"><strong>Interface</strong></p>
+  <p dir="auto"><strong>Network &amp; System</strong></p>
 
   <ul dir="auto">
 
-  <li>Reworked the user interface for a smoother experience</li>
+  <li>Integrated background host discovery and persistent host book management</li>
 
-  <li>Added a Digital D-pad editor</li>
-
-  <li>Added a number editor</li>
-
-  <li>Added an Exit option while editing inputs</li>
+  <li>Improved error messages for HTTPS app-list</li>
 
   </ul>
 
-  <p dir="auto"><strong>Security</strong></p>
+  <p dir="auto"><strong>New 3DS/2DS Optimizations &amp; Fixes</strong></p>
 
   <ul dir="auto">
 
-  <li>Secured all <code class="notranslate">C2D_TextParse</code> calls to prevent
-  crashes/vulnerabilities</li>
+  <li>Fixed a critical inverted condition in the MVD hardware decoder</li>
 
-  <li>Various other security improvements</li>
+  <li>Enabled 2-slice multi-threaded software decoding for N3DS, leveraging the extra
+  CPU core for much higher frame rates</li>
 
-  </ul>
+  <li>Increased application CPU time limit on N3DS</li>
 
-  <p dir="auto"><strong>New Features</strong></p>
-
-  <ul dir="auto">
-
-  <li>Added an update checker: the app now asks GitHub for the latest release and
-  lets you know when an update is available</li>
+  <li>Lowered audio prebuffer latency on N3DS</li>
 
   </ul>'
-updated: '2026-08-04T05:59:20Z'
-version: v1.2.0
-version_title: PotatoStream v1.2.0
+updated: '2026-10-06T22:44:00Z'
+version: v1.3.0
+version_title: PotatoStream v1.3.0
 ---
 PotatoStream is a Moonlight game streaming client for all 3DS and 2DS models, with a focus on Old 3DS/2DS compatibility. Auto-detects hardware at startup and activates "Potato" mode on older models with smart frame skipping, Y2RU hardware pipeline and an optimized stream profile (400x240@24fps). (New 3DS keeps the standard MVD hardware decoder) Compatible with Sunshine and NVIDIA GameStream.
