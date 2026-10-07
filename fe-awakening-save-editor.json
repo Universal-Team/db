@@ -1,0 +1,18 @@
+{
+	"github": "jd-contreras/FE-Awakening-Save-Editor",
+	"description": "Edit your Fire Emblem Awakening saves straight on your 3DS console",
+	"author": "Noble Zero",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"save-tool"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/jd-contreras/FE-Awakening-Save-Editor/main/icon.png",
+	"image": "https://raw.githubusercontent.com/jd-contreras/FE-Awakening-Save-Editor/main/banner.png",
+	"unique_ids": [
+		1042963
+	],
+	"long_description": "Edit your Fire Emblem Awakening saves directly on your 3DS\nUnits, stats, supports, inventory, gold, skills, classes, convoy, forges, Avatar looks, world map, renown and more"
+}
