@@ -30,7 +30,7 @@ llm_generation: unknown
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 184
+stars: 185
 systems:
 - 3DS
 title: FourthTube

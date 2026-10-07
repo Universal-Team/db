@@ -44,7 +44,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/superml/title-screen.png
 source: https://github.com/CharlesAverill/SuperML
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: SuperML
