@@ -10,8 +10,6 @@ description: SNES emulator for DS
 download_page: http://lolsnes.kuribo64.net/download.php
 downloads:
   lolsnes.7z:
-    size: 104976
-    size_str: 102 KiB
     url: http://lolsnes.kuribo64.net/lolsnes.7z
 github: Arisotura/lolSnes
 icon: https://db.universal-team.net/assets/images/icons/lolsnes.png
