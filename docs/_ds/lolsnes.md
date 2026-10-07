@@ -36,17 +36,17 @@ website: http://lolsnes.kuribo64.net
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>lolSnes.nds</summary>
-<ol>
-<li>Download <code>lolsnes.7z</code></li>
-<li>Extract <code>/lolsnes/lolSnes.nds</code> from the 7z to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>[git] lolSnes.nds</summary>
 <ol>
 <li>Download <code>git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip</code></li>
 <li>Extract <code>/lolSnes.nds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>lolSnes.nds</summary>
+<ol>
+<li>Download <code>lolsnes.7z</code></li>
+<li>Extract <code>/lolsnes/lolSnes.nds</code> from the 7z to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
