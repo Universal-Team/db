@@ -22,7 +22,7 @@ llm_generation: minor
 qr:
   ChatNow.cia: https://db.universal-team.net/assets/images/qr/chatnow-cia.png
 source: https://github.com/jamesrhg/chatnow
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: ChatNow
