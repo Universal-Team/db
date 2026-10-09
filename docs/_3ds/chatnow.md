@@ -9,10 +9,10 @@ created: '2026-09-28T04:18:51Z'
 description: Nintendo 3DS chatting app with Miis, images, voice and video calls.
 download_page: https://github.com/jamesrhg/chatnow/releases
 downloads:
-  ChatNow.cia:
-    size: 2216896
-    size_str: 2 MiB
-    url: https://github.com/jamesrhg/chatnow/releases/download/v1.0.0/ChatNow.cia
+  ChatNow-v1.0.1.cia:
+    size: 11776960
+    size_str: 11 MiB
+    url: https://github.com/jamesrhg/chatnow/releases/download/v1.0.1/ChatNow-v1.0.1.cia
 github: jamesrhg/chatnow
 icon: https://raw.githubusercontent.com/jamesrhg/chatnow/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/jamesrhg/chatnow/refs/heads/main/meta/banner.png
@@ -20,7 +20,7 @@ image_length: 8757
 layout: app
 llm_generation: minor
 qr:
-  ChatNow.cia: https://db.universal-team.net/assets/images/qr/chatnow-cia.png
+  ChatNow-v1.0.1.cia: https://db.universal-team.net/assets/images/qr/chatnow-v1-0-1-cia.png
 source: https://github.com/jamesrhg/chatnow
 stars: 1
 systems:
@@ -28,15 +28,32 @@ systems:
 title: ChatNow
 unique_ids:
 - '0xBA436'
-update_notes: '<p dir="auto">ChatNow v1.0.0 for Nintendo 3DS.</p>
+update_notes: '<p dir="auto">ChatNow v1.0.1</p>
 
-  <p dir="auto">Install the attached ChatNow.cia with a CIA installer. This repository
-  distributes the binary release only.</p>
+  <p dir="auto">This release updates the 3DS client and service while keeping v1.0.0
+  clients supported during rollout.</p>
 
-  <p dir="auto">SHA-256 (ChatNow.cia): d49db16c33827e959cb5c3aff3d7998b25d93ffe5cc88e33d3076e19f3182927</p>'
-updated: '2026-09-28T04:19:33Z'
-version: v1.0.0
-version_title: ChatNow v1.0.0
+  <ul dir="auto">
+
+  <li>Fixed moderation so deleted messages stay stored for admin review, disappear
+  live for connected users, and remain hidden when conversations are reopened.</li>
+
+  <li>Corrected Nintendo 3DS Friends presence: only a confirmed public or special
+  room is joinable; DMs, reconnects, and other screens clear joinability. Camera Mode
+  can show a localized non-joinable activity.</li>
+
+  <li>Improved ACT EULA fallback for unlinked local accounts and FRD error handling.</li>
+
+  <li>Fixed live roster and message handling, HOME status redraw, and repeated GPU
+  quad submission safety.</li>
+
+  <li>Updated friendship guidance and Camera Mode status translations across all 18
+  locale catalogs.</li>
+
+  </ul>'
+updated: '2026-10-09T04:02:56Z'
+version: v1.0.1
+version_title: ChatNow v1.0.1
 ---
 ChatNow is a really cool chat app for the Nintendo 3DS (and more devices, soon) with Miis as avatars, DMs, voice and video calls, and a fun Camera Mode to take pictures on 3D with your Miis.
 
