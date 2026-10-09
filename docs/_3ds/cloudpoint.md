@@ -30,7 +30,7 @@ prerelease:
   download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.8.2
   downloads:
     cloudpoint.3dsx:
-      size: 3160672
+      size: 3160680
       size_str: 3 MiB
       url: https://github.com/dwalker109/cloudpoint/releases/download/0.8.2/cloudpoint.3dsx
     cloudpoint.cia:
@@ -51,6 +51,14 @@ prerelease:
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/167/hovercard"
     href="https://github.com/dwalker109/cloudpoint/pull/167">#167</a></li>
 
+    <li>Cleanup of module names and visibility by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5770296689" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/168"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/168/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/168">#168</a></li>
+
     </ul>
 
     <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.8.2"><tt>0.8.1...0.8.2</tt></a></p>'
@@ -59,10 +67,12 @@ prerelease:
     * Add improved banner and logo images for use in CIA builds by @dwalker109 in
     https://github.com/dwalker109/cloudpoint/pull/167
 
+    * Cleanup of module names and visibility by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/168
+
 
 
     **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.8.2'
-  updated: '2026-10-08T18:31:12Z'
+  updated: '2026-10-08T23:27:05Z'
   version: 0.8.2
   version_title: 0.8.2
 qr:
