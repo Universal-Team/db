@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   Multidownload.cia: https://db.universal-team.net/assets/images/qr/multidownload-cia.png
 source: https://github.com/hax0kartik/Multidownload
-stars: 38
+stars: 39
 systems:
 - 3DS
 title: Multidownload
