@@ -56,13 +56,12 @@ update_notes: '<p dir="auto">ChatNow v1.0.2</p>
   one second, followed by two half-second glows with short gaps. Notifications remain
   suppressed while viewing that sender''s DM.</li>
 
-  <li>Checked Friends presence descriptions against the SDK''s buffer and visible-line
+  <li>Checked Friends presence descriptions against their buffer and visible-line
   limits; long descriptions now end with "..." without splitting characters.</li>
 
   </ul>
 
-  <p dir="auto">The service continues accepting v1.0.0 and v1.0.1 clients. Install
-  the attached CIA to update.</p>
+  <p dir="auto">The service requires v1.0.2. Install the attached CIA to update.</p>
 
   <p dir="auto">All 99 regression programs passed, covering native startup/service/client/media
   scenarios, browser/server behavior and all 18 locale catalogs. The CIA was rebuilt

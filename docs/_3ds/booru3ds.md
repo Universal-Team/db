@@ -28,7 +28,7 @@ llm_generation: minor
 qr:
   booru3ds.cia: https://db.universal-team.net/assets/images/qr/booru3ds-cia.png
 source: https://github.com/Misakii-P/Booru3DS
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Booru3DS

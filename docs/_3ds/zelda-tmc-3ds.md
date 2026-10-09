@@ -110,7 +110,7 @@ prerelease:
 qr:
   tmc-3ds-v2.1.cia: https://db.universal-team.net/assets/images/qr/tmc-3ds-v2-1-cia.png
 source: https://github.com/EstebanPdN/zelda-tmc-3ds
-stars: 739
+stars: 740
 systems:
 - 3DS
 title: zelda-tmc-3ds
