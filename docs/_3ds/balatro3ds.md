@@ -9,10 +9,14 @@ created: '2026-03-15T00:40:50Z'
 description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
+  Balatro.cia:
+    size: 23593920
+    size_str: 22 MiB
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.0-base/Balatro.cia
   Balatro3DS.3dsx:
-    size: 14248242
-    size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.3.2-alpha/Balatro3DS.3dsx
+    size: 16186050
+    size_str: 15 MiB
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.0-base/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -21,31 +25,53 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+qr:
+  Balatro.cia: https://db.universal-team.net/assets/images/qr/balatro-cia.png
 source: https://github.com/idkhan/Balatro3DS
 stars: 164
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features</h3>
+update_notes: '<p dir="auto">Thank you <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/rosematcha/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rosematcha">@rosematcha</a>
+  for your tireless efforts improving/redesigning the game. They have made significant
+  improvements to the overall game-feel, UI, flow and logic. Absolutely crazy</p>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d94c4ee8-1444-4d02-9a9e-ece8118e68b6"><img
+  width="300" height="300" alt="qr-code" src="https://github.com/user-attachments/assets/d94c4ee8-1444-4d02-9a9e-ece8118e68b6"
+  style="max-width: 100%; height: auto; max-height: 300px;; aspect-ratio: 300 / 300;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+
+  <p dir="auto">Scan this QR code using FBI to install the game directly onto your
+  3DS</p>
+
+  <h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Added Eaten/Drank! popups for all food Jokers</li>
+  <li>Prevent duplicates from appearing in shop. by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/rosematcha/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rosematcha">@rosematcha</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5186651590"
+  data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/61"
+  data-hovercard-type="pull_request" data-hovercard-url="/idkhan/Balatro3DS/pull/61/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/pull/61">#61</a></li>
+
+  <li>Merge rosematcha/Balatro3DS (77 commits) by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/rosematcha/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rosematcha">@rosematcha</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5733100136"
+  data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/65"
+  data-hovercard-type="pull_request" data-hovercard-url="/idkhan/Balatro3DS/pull/65/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/pull/65">#65</a></li>
 
   </ul>
 
-  <h3 dir="auto">Bugfixes:</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed Popcorn Joker not decreasing Mult</li>
-
-  <li>Fixed Popcorn Joker not having a dynamic tooltip</li>
-
-  </ul>'
-updated: '2026-08-10T21:04:48Z'
-version: v1.3.2-alpha
-version_title: Alpha 1.3.2
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/idkhan/Balatro3DS/compare/v1.3.2-alpha...v2.0.0-base"><tt>v1.3.2-alpha...v2.0.0-base</tt></a></p>'
+updated: '2026-10-10T05:20:52Z'
+version: v2.0.0-base
+version_title: Version 2.0.0
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
