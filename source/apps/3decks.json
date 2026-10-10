@@ -1,0 +1,19 @@
+{
+	"github": "RomualdYT/3Decks",
+	"description": "Turn your Nintendo 3DS into a wireless control deck for Windows and macOS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "yes",
+	"unique_ids": [
+		998716
+	],
+	"download_filter": "^deck3ds\\.(cia|3dsx)$",
+	"image": "https://raw.githubusercontent.com/RomualdYT/3Decks/main/apps/console/packaging/banner.png",
+	"icon": "https://raw.githubusercontent.com/RomualdYT/3Decks/main/apps/console/packaging/icon.png",
+	"long_description": "3Decks turns a homebrew-enabled Nintendo 3DS or 2DS into a wireless control surface for your computer. Use the touch screen for application shortcuts, keyboard shortcuts, music and audio controls, and OBS. The top screen can show album artwork, synchronized lyrics, Twitch chat, notifications, and computer statistics.\n\nCreate and customize pages in the desktop editor, with a live preview. Both the console and desktop applications support English and French.\n\n**Requires the 3Decks desktop application for Windows or macOS and a shared local network.** Download the desktop application from [GitHub Releases](https://github.com/RomualdYT/3Decks/releases) and follow the [installation and pairing guide](https://github.com/RomualdYT/3Decks/blob/main/docs/INSTALLATION.md)."
+}
