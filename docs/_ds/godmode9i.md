@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 372620
-    size_str: 363 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.7z
+    size: 384160
+    size_str: 375 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.10.0/GodMode9i.7z
   GodMode9i.cia:
-    size: 1008896
-    size_str: 985 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.cia
+    size: 1058048
+    size_str: 1 MiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.10.0/GodMode9i.cia
   GodMode9i.dsi:
-    size: 994304
-    size_str: 971 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.dsi
+    size: 1043456
+    size_str: 1019 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.10.0/GodMode9i.dsi
   GodMode9i.nds:
-    size: 994304
-    size_str: 971 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.nds
+    size: 1043456
+    size_str: 1019 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.10.0/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -44,65 +44,81 @@ stars: 659
 systems:
 - DS
 title: GodMode9i
-update_notes: '<h3 dir="auto">🎁 What''s new? 🎁</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ApacheThunder/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>:
-  Added support for mounting these flashcards without the need to launch them first:
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wokann/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wokann">@Wokann</a>:
+  Fixed DSi binaries not being dumped when dumping ROMs of DSi-Enhanced/Exclusive
+  game cards on DS/DS Lite!
 
   <ul dir="auto">
 
-  <li>CycloDS Evolution</li>
-
-  <li>DSpico</li>
-
-  <li>DSTT</li>
-
-  <li>Demon/DSTTi clones</li>
-
-  <li>EZ Flash Parellel</li>
-
-  <li>Games n'' Music</li>
+  <li>You''ll be prompted to re-insert the game card before dumping.</li>
 
   </ul>
 
   </li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>
-  &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
-  TWLNAND contents can now be read from 3DS consoles!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xp0x00/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xp0x00">@xp0x00</a>:
+  Add dev DSi blowfish key in order to dump dev ROMs.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tasken/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tasken">@tasken</a>*:
+  Added boot information after boot, showing where the device GM9<strong>i</strong>
+  is booted from, along with which console is used.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tasken/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tasken">@tasken</a>*:
+  A hardware information screen now appears when holding <code class="notranslate">SELECT</code>
+  after boot.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tasken/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tasken">@tasken</a>:
+  Language selection now appears on first boot.
+
+  <ul dir="auto">
+
+  <li>It is skipped if the card where GM9<strong>i</strong> is booted from is read-only.</li>
+
+  </ul>
+
+  </li>
 
   <li>Various: Updated translations.</li>
 
-  </ul>
-
-  <h3 dir="auto">🎁 Bug fixes 🎁</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
-  Fixed NAND mounting on dev 3DS consoles.</li>
-
-  <li>Fixed libfat to properly read and write files above 2GB.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/raffael180/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raffael180">@raffael180</a>:
+  Added Brazilian Portuguese (pt-BR) translation.</li>
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>When booting a <code class="notranslate">.nds</code> file without launching
-  the above flashcards first, they''ll be stuck on white screens.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tasken/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tasken">@tasken</a>:
+  Fixed homebrew not booting from DSpico!</li>
 
-  </ul>'
-updated: '2025-12-25T10:39:19Z'
-version: v3.9.0
-version_title: 'v3.9.0: TWL Christmas Release 🎄'
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tasken/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tasken">@tasken</a>:
+  Homebrew now boots from flashcards if GM9<strong>i</strong> has been booted from
+  DSi/3DS SD card or NAND!</li>
+
+  <li>Fixed trying to read from NAND if it''s not mounted, which would cause a Guru
+  Meditation Error.</li>
+
+  </ul>
+
+  <p dir="auto"><code class="notranslate">*</code> = Improved by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a></p>'
+updated: '2026-10-10T00:36:13Z'
+version: v3.10.0
+version_title: v3.10.0
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:

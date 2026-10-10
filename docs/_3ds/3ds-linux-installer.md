@@ -21,8 +21,8 @@ stars: 1
 systems:
 - 3DS
 title: 3DS-linux-installer
-update_notes: ''
-updated: '2026-08-06T00:28:52Z'
-version: '1.0'
-version_title: First and probably only version
+update_notes: <p dir="auto">Add .cia file!</p>
+updated: '2026-10-10T02:21:00Z'
+version: '2.0'
+version_title: '2.0'
 ---

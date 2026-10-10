@@ -30,7 +30,7 @@ llm_generation: 'yes'
 qr:
   Mail3DS.cia: https://db.universal-team.net/assets/images/qr/mail3ds-cia.png
 source: https://github.com/BladeWheat/Mail3DS
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Mail3DS
