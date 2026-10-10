@@ -1,5 +1,5 @@
 ---
-author: Dangerbites
+author: Anteger
 avatar: https://avatars.githubusercontent.com/u/119724559?v=4
 categories:
 - game

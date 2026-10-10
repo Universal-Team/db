@@ -1,5 +1,5 @@
 ---
-author: xXHighTideXx
+author: HiggyTiggy
 avatar: https://avatars.githubusercontent.com/u/84487860?v=4
 categories:
 - app
