@@ -67,6 +67,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <ul dir="auto">
 
+  <li>Removed rank position update sound effects</li>
+
   <li>Fixed Mii Introductions being invisible sometimes</li>
 
   <li>Added proper DNF times for 5 min + 30s timeout finish</li>
