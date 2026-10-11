@@ -50,16 +50,24 @@ prerelease:
 
     </li>
 
-    <li>Reverted ROM size limit in DS mode to 3MB.</li>
+    <li>Reverted ROM size limit in DS mode from 2.5MB to 3MB.</li>
 
     <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>:
     Converted some code from C to ARM.</li>
 
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>:
+    Other minor improvements.</li>
+
     <li>Optimized frame drawing to use 8BPP mode instead of 16BPP (ARGB1555) mode,
     along with skipping some scanlines to fit into the DS(i) screen.</li>
 
+    <li>On-screen colors now update when CRAM is written with new values.</li>
+
     <li>Removed external audio playback.</li>
+
+    <li>Re-added version number display.</li>
 
     </ul>
 
@@ -85,14 +93,16 @@ prerelease:
     \ as `Y`, `R` acts as `Z`, and `SELECT` acts as `MODE`.\n    - To make room, scale\
     \ mode changing (`L` button, along with `R` for changing position) and save state\
     \ support (`X` button) have been removed, and the ROM list now opens by touching\
-    \ the touch screen.\n- Reverted ROM size limit in DS mode to 3MB.\n- @xonn83:\
-    \ Converted some code from C to ARM.\n- Optimized frame drawing to use 8BPP mode\
-    \ instead of 16BPP (ARGB1555) mode, along with skipping some scanlines to fit\
-    \ into the DS(i) screen.\n- Removed external audio playback.\n\n### Bug fixes\n\
-    - @xonn83: Fixed varying speeds of emulation, and reduced max frameskip to 2.\n\
-    - Fixed some pixels not displaying properly due to not flushing data cache containing\
-    \ the pixels.\n- RAM is now allocated for the ROM instead of using hardcoded RAM\
-    \ offsets when running in DSi mode."
+    \ the touch screen.\n- Reverted ROM size limit in DS mode from 2.5MB to 3MB.\n\
+    - @xonn83: Converted some code from C to ARM.\n- @xonn83: Other minor improvements.\n\
+    - Optimized frame drawing to use 8BPP mode instead of 16BPP (ARGB1555) mode, along\
+    \ with skipping some scanlines to fit into the DS(i) screen.\n- On-screen colors\
+    \ now update when CRAM is written with new values.\n- Removed external audio playback.\n\
+    - Re-added version number display.\n\n### Bug fixes\n- @xonn83: Fixed varying\
+    \ speeds of emulation, and reduced max frameskip to 2.\n- Fixed some pixels not\
+    \ displaying properly due to not flushing data cache containing the pixels.\n\
+    - RAM is now allocated for the ROM instead of using hardcoded RAM offsets when\
+    \ running in DSi mode."
   updated: '2026-10-11T03:09:51Z'
   version: v2.1.0
   version_title: v2.1.0
@@ -130,16 +140,24 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   </li>
 
-  <li>Reverted ROM size limit in DS mode to 3MB.</li>
+  <li>Reverted ROM size limit in DS mode from 2.5MB to 3MB.</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>:
   Converted some code from C to ARM.</li>
 
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>:
+  Other minor improvements.</li>
+
   <li>Optimized frame drawing to use 8BPP mode instead of 16BPP (ARGB1555) mode, along
   with skipping some scanlines to fit into the DS(i) screen.</li>
 
+  <li>On-screen colors now update when CRAM is written with new values.</li>
+
   <li>Removed external audio playback.</li>
+
+  <li>Re-added version number display.</li>
 
   </ul>
 
