@@ -134,18 +134,18 @@ Please check the [wiki](https://wiki.ds-homebrew.com/twilightmenu/) for help ins
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Full)</summary>
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Minimal, Recommended)</summary>
 <ol>
-<li>Download <code>AddOn-VirtualConsoleFull-3DS.7z</code></li>
+<li>Download <code>AddOn-VirtualConsoleMinimal-3DS.7z</code></li>
 <li>Extract <code>/_nds</code> from the 7z to <code>/_nds</code> on your SD card</li>
 <li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
 <li>Extract <code>/roms</code> from the 7z to <code>/roms</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Minimal, Recommended)</summary>
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Full)</summary>
 <ol>
-<li>Download <code>AddOn-VirtualConsoleMinimal-3DS.7z</code></li>
+<li>Download <code>AddOn-VirtualConsoleFull-3DS.7z</code></li>
 <li>Extract <code>/_nds</code> from the 7z to <code>/_nds</code> on your SD card</li>
 <li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
 <li>Extract <code>/roms</code> from the 7z to <code>/roms</code> on your SD card</li>
