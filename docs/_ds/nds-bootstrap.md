@@ -25,7 +25,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/DS-Homebrew/nds-bootstrap
-stars: 1403
+stars: 1404
 systems:
 - DS
 title: nds-bootstrap
@@ -128,9 +128,9 @@ update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="
 
   </li>
 
-  <li><strong>DSi/3DS SD Card:</strong> Implemented a DSi-Enhancement patch for jEnesisDS,
+  <li><strong>DSi/3DS SD Card:</strong> Implemented a DSi-Enhancement patch for <em>jEnesisDS</em>,
   where it increases the ROM size limit from 3MB (<code class="notranslate">0x306800</code>
-  bytes) to 4MB (<code class="notranslate">0x400000</code> bytes). This means jEnesisDS
+  bytes) to 4MB (<code class="notranslate">0x400000</code> bytes). This means <em>jEnesisDS</em>
   (running in DSi mode) can now boot games such as:
 
   <ul dir="auto">
