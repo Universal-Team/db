@@ -9,22 +9,22 @@ created: '2026-07-30T15:37:14Z'
 description: Українська мова для системного інтерфейсу Nintendo 3DS/2DS.
 download_page: https://github.com/BolgarMaxym97/3ds-ua/releases
 downloads:
-  3ds-ua-from-en-1.11.0-new3ds.zip:
-    size: 24121902
+  3ds-ua-from-en-1.12.0-new3ds.zip:
+    size: 24121942
     size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-en-1.11.0-new3ds.zip
-  3ds-ua-from-en-1.11.0-old3ds.zip:
-    size: 22275044
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.12.0/3ds-ua-from-en-1.12.0-new3ds.zip
+  3ds-ua-from-en-1.12.0-old3ds.zip:
+    size: 22274790
     size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-en-1.11.0-old3ds.zip
-  3ds-ua-from-ru-1.11.0-new3ds.zip:
-    size: 24393148
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.12.0/3ds-ua-from-en-1.12.0-old3ds.zip
+  3ds-ua-from-ru-1.12.0-new3ds.zip:
+    size: 24393084
     size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-ru-1.11.0-new3ds.zip
-  3ds-ua-from-ru-1.11.0-old3ds.zip:
-    size: 22585534
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.12.0/3ds-ua-from-ru-1.12.0-new3ds.zip
+  3ds-ua-from-ru-1.12.0-old3ds.zip:
+    size: 22585258
     size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.11.0/3ds-ua-from-ru-1.11.0-old3ds.zip
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v1.12.0/3ds-ua-from-ru-1.12.0-old3ds.zip
 github: BolgarMaxym97/3ds-ua
 icon: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
 image: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
@@ -50,7 +50,7 @@ stars: 6
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
-update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</h1>
+update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.12.0 🇺🇦</h1>
 
   <p dir="auto"><strong>Українська мова для Nintendo 3DS.</strong> Мод стає на місце
   однієї з мов консолі: у списку мов з''являється «Українська», і система починає
@@ -82,7 +82,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-1.11.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-1.12.0-old3ds.zip</code></td>
 
   <td>російської</td>
 
@@ -92,7 +92,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-1.11.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-1.12.0-new3ds.zip</code></td>
 
   <td>російської</td>
 
@@ -102,7 +102,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-1.11.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-1.12.0-old3ds.zip</code></td>
 
   <td>англійської</td>
 
@@ -112,7 +112,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-1.11.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-1.12.0-new3ds.zip</code></td>
 
   <td>англійської</td>
 
@@ -129,32 +129,27 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <hr>
 
-  <h2 dir="auto">Що нового після 1.10.0</h2>
+  <h2 dir="auto">Що нового після 1.11.0</h2>
 
-  <p dir="auto"><strong>Стабільний реліз: перевірено кожен напис на ширину й переноси.</strong></p>
+  <p dir="auto"><strong>Правки термінів і написів, що переносилися на консолі.</strong></p>
 
   <ul dir="auto">
 
-  <li>Жоден напис більше не ширший за найширший, який Nintendo сама поставила в ту
-  саму кнопку чи рамку. Кнопки, що на 1–8 пікселів вилазили за край, скорочено або
-  трохи стиснуто.</li>
+  <li><strong>«Картридж» замість «гральної карти».</strong> «Гральна карта» — це карта
+  для гри в карти, тож скрізь, де йдеться про Game Card, тепер «картридж»: Меню HOME,
+  Список друзів, Сповіщення, Miiverse, екран помилки, помилка 002-0123, Nintendo eShop
+  і довідники Налаштувань системи та Здоров''я і безпеки (New 3DS).</li>
 
-  <li>Переписано рядки з некрасивими переносами: висячі «з», «в», «на» в кінці рядка,
-  розірвані «Nintendo 3DS», «меню HOME», «карта SD». Довгі тексти Перенесення даних
-  і Здоров''я і безпеки переверстано без «драбинок».</li>
+  <li><strong>Налаштування системи → Інші налаштування:</strong> кнопка «Сенсорний
+  дисплей» переносила останню літеру на другий рядок. Тепер це «Сенсорний екран» —
+  в один рядок, і так само в заголовку, калібруванні та довіднику.</li>
 
-  <li>Назви додатків усередині програм тепер ті самі, що під іконками: <strong>Сповіщення</strong>,
-  <strong>Налаштування amiibo</strong>, <strong>Перенесення даних</strong>, <strong>Електронний
-  посібник</strong>, <strong>Камера Nintendo 3DS</strong>, <strong>Звук Nintendo 3DS</strong>,
-  <strong>Mii Maker</strong>.</li>
+  <li><strong>Камера Nintendo 3DS:</strong> «Закрити», «Розчинення», «Ручні налаштунки»,
+  «Зйомка за часом» і «Запис на паузі» тепер вміщаються у свої рамки, без переносу.</li>
 
-  <li>У довідниках нічого не обрізається за краєм колонки.</li>
-
-  <li>Карта StreetPass: назви регіонів тепер ті самі, що в налаштуваннях профілю (було
-  «Вена», «Юг-Піренеї»).</li>
-
-  <li>Дрібні виправлення: «80-ті» у Звуку, «ту саму IP-адресу», «Маріо і Боузер»,
-  лапки «» і три крапки «…».</li>
+  <li><strong>Потрібна Luma3DS v10.3 або новіша.</strong> Старіша перекладає назви
+  додатків, але не кнопки Меню HOME, клавіатуру, Довідник і екран помилки. Версію
+  видно в меню Luma (SELECT при ввімкненні).</li>
 
   </ul>
 
@@ -215,7 +210,8 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <li>Nintendo 3DS / 2DS / New 3DS <strong>європейського (EUR) регіону</strong></li>
 
-  <li>встановлена <strong>Luma3DS</strong> — кастомна прошивка</li>
+  <li>встановлена <strong>Luma3DS v10.3 або новіша</strong> — кастомна прошивка (краще
+  найновіша)</li>
 
   <li>SD-карта</li>
 
@@ -270,7 +266,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
   чи об''єднати папки — погодьтеся. Наявні файли не постраждають.</p>
 
   <p dir="auto">Якщо ставите поверх 1.6.0 або новішої — просто розпакуйте зверху,
-  файли перезапишуться. Видаляти нічого не треба: набір файлів у 1.11.0 той самий.</p>
+  файли перезапишуться. Видаляти нічого не треба: набір файлів у 1.12.0 той самий.</p>
 
   <p dir="auto">Якщо ставите поверх 1.5.0 або старішої — <strong>спершу видаліть папки
   мода з <code class="notranslate">luma/titles/</code></strong>, і аж тоді розпаковуйте.
@@ -369,6 +365,12 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
   <p dir="auto"><strong>Не українською, а галочка стоїть</strong> — перевірте шлях:
   має бути <code class="notranslate">luma/titles/…</code>, а не <code class="notranslate">luma/luma/titles/…</code>.
   І перевірте, що вмикали ту мову, місце якої займає ваш архів.</p>
+
+  <p dir="auto"><strong>Назви додатків українські, а кнопки Меню HOME («Помощь», «Запустить»)
+  і статус-бар — ні</strong> — Luma старша за v10.3: вона не вміє підміняти файли
+  Меню HOME. Версію видно в меню Luma (SELECT при ввімкненні). Оновіть Luma за <a
+  href="https://3ds.hacks.guide/updating-b9s" rel="nofollow">3ds.hacks.guide</a> і
+  знову ввімкніть <code class="notranslate">Enable game patching</code>.</p>
 
   <p dir="auto"><strong>У списку мов немає «Українська»</strong> — файли скопійовані
   не в ту папку або консоль не європейська (EUR).</p>
@@ -771,9 +773,9 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 1.11.0 🇺🇦</
 
   <p dir="auto">Ліцензія MIT. Файлів Nintendo в репозиторії немає. Проєкт неофіційний,
   з Nintendo не пов''язаний.</p>'
-updated: '2026-09-27T10:43:02Z'
-version: v1.11.0
-version_title: v1.11.0
+updated: '2026-10-12T06:20:04Z'
+version: v1.12.0
+version_title: v1.12.0
 website: https://github.com/BolgarMaxym97/3ds-ua
 ---
 Перекладає системний інтерфейс Nintendo 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL і New 2DS XL українською: Меню HOME, Налаштування системи, Інтернет-браузер, eShop, Камеру, Звук, Mii Maker, Журнал дій, електронні довідники та решту системних застосунків.
