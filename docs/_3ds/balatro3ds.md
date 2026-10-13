@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   Balatro.cia: https://db.universal-team.net/assets/images/qr/balatro-cia.png
 source: https://github.com/idkhan/Balatro3DS
-stars: 164
+stars: 167
 systems:
 - 3DS
 title: Balatro3DS
@@ -72,7 +72,7 @@ update_notes: '<h3 dir="auto">Features</h3>
   Or you can use the .3dsx version by dropping it into your /3ds folder</p>'
 updated: '2026-10-12T19:40:46Z'
 version: v2.0.3-base
-version_title: Versiom 2.0.3
+version_title: Version 2.0.3
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 

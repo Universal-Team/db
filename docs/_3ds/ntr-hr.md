@@ -12,11 +12,11 @@ downloads:
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
     size: 1987520
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.8.1/BootNTRSelector-Mode3-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.8.2/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.cia:
     size: 1987520
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.8.1/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.8.2/BootNTRSelector-PabloMK7-Banner.cia
 github: xzn/ntr-hr
 image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
 image_length: 1529
@@ -34,8 +34,14 @@ systems:
 title: NTR-HR
 unique_ids:
 - '0xEB000'
-update_notes: <p dir="auto">Minor fix for dma handles.</p>
-updated: '2026-09-17T05:34:19Z'
-version: v0.3.8.1
-version_title: 0.3.8.1
+update_notes: '<p dir="auto">Fixed unintended pessimization with delta JPEG encoding
+  from some earlier versions.</p>
+
+  <p dir="auto">Increased audio capture buffer size.</p>
+
+  <p dir="auto">Audio capture now use console''s audio frame counter for sequence
+  number.</p>'
+updated: '2026-10-13T04:09:33Z'
+version: v0.3.8.2
+version_title: 0.3.8.2
 ---

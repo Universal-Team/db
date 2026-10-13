@@ -10,60 +10,19 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10273124
+    size: 10273420
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10437568
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.1B
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 10273232
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1B/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10437568
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.1B/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>エンドレスモード時にリプレイデータの記録が正しくされていなかったのを修正</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Fixed an issue where replay data was not being recorded correctly in Endless
-    Mode.</li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - エンドレスモード時にリプレイデータの記録が正しくされていなかったのを修正
-
-
-    ## Changelog
-
-    - Fixed an issue where replay data was not being recorded correctly in Endless
-    Mode.'
-  updated: '2026-10-09T23:11:59Z'
-  version: v2.4.1B
-  version_title: TJAPlayer for 3DS v2.4.1(B)
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -82,9 +41,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>コンボボイスの変更</li>
-
-  <li>コンボカウンターの仕様変更</li>
+  <li>エンドレスモード時にリプレイデータの記録が正しくされていなかったのを修正</li>
 
   </ul>
 
@@ -92,14 +49,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Changes to combo voices</li>
-
-  <li>Changes to combo counter specifications</li>
+  <li>Fixed an issue where replay data was not being recorded correctly in Endless
+  Mode.</li>
 
   </ul>'
-updated: '2026-10-02T21:12:30Z'
-version: v2.4.1A
-version_title: TJAPlayer for 3DS v2.4.1(A)
+updated: '2026-10-09T23:11:59Z'
+version: v2.4.1B
+version_title: TJAPlayer for 3DS v2.4.1(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

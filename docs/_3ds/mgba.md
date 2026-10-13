@@ -39,7 +39,7 @@ screenshots:
 - description: Scale stretch
   url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 source: https://github.com/mgba-emu/mgba
-stars: 7493
+stars: 7492
 systems:
 - 3DS
 title: mGBA

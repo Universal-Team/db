@@ -26,8 +26,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.16.0">nds-bootstrap
-  v2.16.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.17.0">nds-bootstrap
+  v2.17.0 (10th Anniversary Release!)</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -59,14 +59,17 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><code class="notranslate">srFrontendId.bin</code> is now removed in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>
-  (if detected) in order for the <code class="notranslate">Quit Game</code> option
-  in the in-game menu to quit to the DSi/3DS System Menu.</li>
+  <li>Homebrew made with DSGM are now detected as DS mode homebrew (assuming they
+  all use the same ARM7 binary).</li>
+
+  <li>The <code class="notranslate">DSIWARE_SLOT1_MODE</code> setting is now set to
+  <code class="notranslate">0</code> before game boot, due to the per-game settings
+  menu code needing improvements not in this release.</li>
 
   </ul>'
-updated: '2026-05-23T07:24:36Z'
-version: SD-29
-version_title: 'GitHub Release #29'
+updated: '2026-10-13T01:18:03Z'
+version: SD-30
+version_title: 'GitHub Release #30'
 ---
 ### Installation instructions
 
