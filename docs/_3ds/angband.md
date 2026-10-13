@@ -19,72 +19,77 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-232-gb7ab996bf
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-236-ge71cc96e8
   downloads:
-    Angband-4.2.6-232-gb7ab996bf-3ds.zip:
-      size: 24695133
+    Angband-4.2.6-236-ge71cc96e8-3ds.zip:
+      size: 24694982
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-232-gb7ab996bf/Angband-4.2.6-232-gb7ab996bf-3ds.zip
-    Angband-4.2.6-232-gb7ab996bf-nds.zip:
-      size: 23331388
+      url: https://github.com/angband/angband/releases/download/4.2.6-236-ge71cc96e8/Angband-4.2.6-236-ge71cc96e8-3ds.zip
+    Angband-4.2.6-236-ge71cc96e8-nds.zip:
+      size: 23331356
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-232-gb7ab996bf/Angband-4.2.6-232-gb7ab996bf-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
+      url: https://github.com/angband/angband/releases/download/4.2.6-236-ge71cc96e8/Angband-4.2.6-236-ge71cc96e8-nds.zip
+  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+    href="https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8"><tt>4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8</tt></a></p>
+
+    <h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: change light beam to be used to light corridors by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5670915720" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6760"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6760/hovercard"
-    href="https://github.com/angband/angband/pull/6760">#6760</a></li>
+    <li>Collection of text corrections and adjustments by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/neostryder/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/neostryder">@neostryder</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929/hovercard"
+    href="https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929"><tt>c6e499b</tt></a></li>
 
-    <li>Account for negative light radius when forgetting impassable terrain by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5583764744" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6754"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6754/hovercard"
-    href="https://github.com/angband/angband/pull/6754">#6754</a></li>
-
-    <li>Update comments for struct monster_race by <a class="user-mention notranslate"
+    <li>Do not call Term_fresh() from update_maps() by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5634854109" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6759"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6759/hovercard"
-    href="https://github.com/angband/angband/pull/6759">#6759</a></li>
+    data-id="5707927542" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6762"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6762/hovercard"
+    href="https://github.com/angband/angband/pull/6762">#6762</a></li>
 
-    <li>borg: if the cave is smaller than one panel, adjust by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    <li>Summon named debugging command: remove redundant redraw requests by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5681805494" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6761"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6761/hovercard"
-    href="https://github.com/angband/angband/pull/6761">#6761</a></li>
+    data-id="5712918411" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6763"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6763/hovercard"
+    href="https://github.com/angband/angband/pull/6763">#6763</a></li>
+
+    <li>In adjust_level() better match update/redraw requests to what has changed
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5716809649" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6764"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6764/hovercard"
+    href="https://github.com/angband/angband/pull/6764">#6764</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-228-ga7f492e38...4.2.6-232-gb7ab996bf"><tt>4.2.6-228-ga7f492e38...4.2.6-232-gb7ab996bf</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * borg: change light beam to be used to light corridors by @agoodman00 in https://github.com/angband/angband/pull/6760
-
-    * Account for negative light radius when forgetting impassable terrain by @backwardsEric
-    in https://github.com/angband/angband/pull/6754
-
-    * Update comments for struct monster_race by @backwardsEric in https://github.com/angband/angband/pull/6759
-
-    * borg: if the cave is smaller than one panel, adjust by @agoodman00 in https://github.com/angband/angband/pull/6761
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8"><tt>4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8</tt></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8
 
 
+    ## What''s Changed
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-228-ga7f492e38...4.2.6-232-gb7ab996bf'
-  updated: '2026-10-06T11:15:59Z'
-  version: 4.2.6-232-gb7ab996bf
-  version_title: 4.2.6-232-gb7ab996bf
+    * Collection of text corrections and adjustments by @neostryder in https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929
+
+    * Do not call Term_fresh() from update_maps() by @backwardsEric in https://github.com/angband/angband/pull/6762
+
+    * Summon named debugging command: remove redundant redraw requests by @backwardsEric
+    in https://github.com/angband/angband/pull/6763
+
+    * In adjust_level() better match update/redraw requests to what has changed by
+    @backwardsEric in https://github.com/angband/angband/pull/6764
+
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8'
+  updated: '2026-10-13T12:54:22Z'
+  version: 4.2.6-236-ge71cc96e8
+  version_title: 4.2.6-236-ge71cc96e8
 source: https://github.com/angband/angband
 stars: 1568
 systems:
@@ -200,28 +205,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-232-gb7ab996bf.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-232-gb7ab996bf-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-232-gb7ab996bf.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-232-gb7ab996bf.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-236-ge71cc96e8.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-232-gb7ab996bf.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-232-gb7ab996bf-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-232-gb7ab996bf.cia</code> from the zip to <code>/cias/Angband-4.2.6-232-gb7ab996bf.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.cia</code> from the zip to <code>/cias/Angband-4.2.6-236-ge71cc96e8.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-232-gb7ab996bf.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-236-ge71cc96e8.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-232-gb7ab996bf.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-232-gb7ab996bf-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-232-gb7ab996bf.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
