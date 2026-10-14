@@ -83,7 +83,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Added name of the player you are spectating in live view</li>
 
-  <li>Added a matchmake handler for isolated lobbies and version changes</li>
+  <li>Added a new handler for isolated lobbies and version changes</li>
 
   </ul>
 
@@ -96,6 +96,16 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   <li>Added the lobby type label in the community lobby</li>
 
   <li>Removed OTT communities toggle from Options Menu</li>
+
+  </ul>
+
+  <h3 dir="auto">Lounge changes</h3>
+
+  <ul dir="auto">
+
+  <li>Exclusive lounge features were removed</li>
+
+  <li>Most features were integrated into online play</li>
 
   </ul>
 
@@ -114,14 +124,6 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   <li>Fixed the restore hotkey option not being responsive</li>
 
   <li>Added custom music support through game patching</li>
-
-  </ul>
-
-  <h3 dir="auto">Lounge changes</h3>
-
-  <ul dir="auto">
-
-  <li>All lounge features were fully removed</li>
 
   </ul>'
 updated: '2026-10-13T22:42:19Z'
