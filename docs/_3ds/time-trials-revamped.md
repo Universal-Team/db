@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1876756
+    size: 1883620
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -59,51 +59,43 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 10/08/2026</p>
+  <p dir="auto">Latest change: 10/14/2026</p>
 
   </blockquote>
+
+  <h3 dir="auto">Online Play changes</h3>
+
+  <ul dir="auto">
+
+  <li>Added Render Optimizations</li>
+
+  <li>Added Mii Heads On Course Votes</li>
+
+  <li>Added No Auto Community Timer Start</li>
+
+  <li>Added Community Host-Only Timer Start</li>
+
+  <li>Added better disclaimers for Friends/Opponents</li>
+
+  <li>Added quit after a race/battle during community</li>
+
+  <li>Added pause in race as well as during the live view</li>
+
+  <li>Added name of the player you are spectating in live view</li>
+
+  <li>Added a matchmake handler for isolated lobbies and version changes</li>
+
+  </ul>
 
   <h3 dir="auto">Online Time Trials changes</h3>
 
   <ul dir="auto">
 
-  <li>Removed rank position update sound effects</li>
+  <li>Added a new community tab for time trials</li>
 
-  <li>Fixed Mii Introductions being invisible sometimes</li>
+  <li>Added the lobby type label in the community lobby</li>
 
-  <li>Added proper DNF times for 5 min + 30s timeout finish</li>
-
-  <li>Added Render Optimizations (disables 3D during the race)</li>
-
-  <li>Added Community Host-Only Timer + No Auto Timer Start</li>
-
-  <li>Reworked some of the message prompt messages and layouts</li>
-
-  <li>Removed disconnected player CPU randomizations due to issues</li>
-
-  </ul>
-
-  <h3 dir="auto">Added Lounge Lobbies</h3>
-
-  <p dir="auto"><em>This mode applies only to communities</em></p>
-
-  <ul dir="auto">
-
-  <li>Lounge settings to the options menu with its own menu</li>
-
-  <li>Isolated lobbies for host course votes as well as regular lounge lobbies</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Features enabled by default</strong></p>
-
-  <ul dir="auto">
-
-  <li>Render Optimizations (disables 3D during the race)</li>
-
-  <li>Community Host-Only Timer + No Auto Timer Start</li>
-
-  <li>Mii Heads On Course Votes</li>
+  <li>Removed OTT communities toggle from Options Menu</li>
 
   </ul>
 
@@ -111,18 +103,24 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <ul dir="auto">
 
-  <li>Fixed coin respawn issues in practice mode</li>
+  <li>Core rewrites for certain sections</li>
 
-  <li>Added Unlock All which now affects the save file</li>
+  <li>Disabled MK Channel bubbles again</li>
 
-  <li>Overall improvements to the stability of the project</li>
+  <li>Reworked how game patching is handled</li>
 
-  <li>Game music now keeps playing in the Options Menu</li>
+  <li>Added custom music through game patching</li>
 
-  <li>Fixed loading issues (can still be slow on older devices)</li>
+  </ul>
+
+  <h3 dir="auto">Lounge changes</h3>
+
+  <ul dir="auto">
+
+  <li>All lounge features were fully removed</li>
 
   </ul>'
-updated: '2026-10-08T15:12:20Z'
+updated: '2026-10-13T22:42:19Z'
 version: latest
 version_title: v1.0.0
 ---
