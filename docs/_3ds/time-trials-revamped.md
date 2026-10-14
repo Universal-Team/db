@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1883524
+    size: 1883492
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -108,6 +108,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   <li>Disabled MK Channel bubbles again</li>
 
   <li>Reworked how game patching is handled</li>
+
+  <li>Fixed custom sections not working as intended</li>
 
   <li>Fixed the restore hotkey option not being responsive</li>
 
