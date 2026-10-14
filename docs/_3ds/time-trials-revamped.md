@@ -109,7 +109,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Reworked how game patching is handled</li>
 
-  <li>Added custom music through game patching</li>
+  <li>Added custom music support through game patching</li>
 
   </ul>
 

@@ -11,13 +11,13 @@ description: Observatory of Luma Screenshots for the 3DS
 download_page: https://github.com/verypedro/Comet/releases
 downloads:
   Comet.3dsx:
-    size: 3193604
+    size: 3193764
     size_str: 3 MiB
-    url: https://github.com/verypedro/Comet/releases/download/v3.2/Comet.3dsx
+    url: https://github.com/verypedro/Comet/releases/download/v3.3/Comet.3dsx
   Comet.cia:
     size: 3437504
     size_str: 3 MiB
-    url: https://github.com/verypedro/Comet/releases/download/v3.2/Comet.cia
+    url: https://github.com/verypedro/Comet/releases/download/v3.3/Comet.cia
 github: verypedro/Comet
 icon: https://raw.githubusercontent.com/verypedro/Comet/main/icon.png
 image: https://raw.githubusercontent.com/verypedro/Comet/main/meta/banner.png
@@ -35,19 +35,25 @@ systems:
 title: Comet
 unique_ids:
 - '0xFF3AA'
-update_notes: '<h2 dir="auto">Comet 3.2</h2>
-
-  <p dir="auto">More performance work, short one this time.</p>
-
-  <h2 dir="auto">Faster</h2>
+update_notes: '<h2 dir="auto">Comet 3.3</h2>
 
   <ul dir="auto">
 
-  <li>The grid now fills noticeably quicker, especially on repeat visits. Thumbnails
-  are cached on the SD card after they''re first built.</li>
+  <li>Moving between screenshots with Left/Right on the More screen now<br>
 
-  <li>Building thumbnails now adapts to how fast a given SD card actually is, instead
-  of assuming a fixed pace</li>
+  plays a quieter sound, distinct from a regular button press</li>
+
+  <li>Comet''s own files (widescreen marks, thumbnail cache, first-run<br>
+
+  marker) now live in a dedicated config folder instead of sitting<br>
+
+  next to your DS screenshots</li>
+
+  <li>DS mode''s header now consistently reads "Nintendo DS Mode" across<br>
+
+  both tabs when no filter is active, instead of changing depending on<br>
+
+  which tab you''re on</li>
 
   </ul>
 
@@ -55,8 +61,8 @@ update_notes: '<h2 dir="auto">Comet 3.2</h2>
   width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5258fc65-1581-4b7a-aa92-0bebe1b277e0"
   style="max-width: 100%; height: auto; max-height: 400px;; aspect-ratio: 400 / 400;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>'
-updated: '2026-09-02T19:49:02Z'
-version: v3.2
-version_title: Comet v3.2
+updated: '2026-10-13T21:19:17Z'
+version: v3.3
+version_title: Comet v3.3
 ---
 All-in-one screenshot manager for the 3DS, inspired by the Switch's Album app. Browse 3DS screenshots in real stereoscopic 3D, or manage DS screenshots. Filter, delete, and copy to the 3DS Camera Album individually or in batches.
