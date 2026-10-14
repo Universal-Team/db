@@ -59,7 +59,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 4110
+stars: 4112
 systems:
 - DS
 title: TWiLight Menu++
