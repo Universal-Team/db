@@ -84,7 +84,7 @@
 	"home-3": "Questo è anche l'UniStore predefinito per <a href=\"/3ds/universal-updater\">Universal-Updater</a>. Se desideri navigare e installare applicazioni da questo sito direttamente sul tuo 3DS, dovresti provarlo.",
 	"home-4": "Sui Nintendo DSi ci sono due modi per scaricare le applicazioni da Universal-DB: <a href=\"/ds/dsidl\">dsidl</a>, che può utilizzare i codici QR presenti sul sito, o <a href=\"/ds/kekatsu\">Kekatsu</a>, che funziona interamente sul dispositivo. Se non hai mai usato Kekatsu, inserisci questo <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">database.txt</a> in <code>sd:/Kekatsu/</code>.",
 	"home-5": "Vuoi essere avvisato dei nuovi aggiornamenti di Homebrew? Abbiamo un feed RSS su questo sito, basta copiare l'URL di questa pagina nel tuo lettore RSS preferito. Il feed RSS viene anche trasmesso al nostro <a href=\"https://universal-team.net/discord\">server Discord</a> su #universal-db-updates e sul nostro <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
-	"last-updated-apps": "Ultimi aggiornamenti: ",
+	"last-updated-apps": "Aggiornati ultimamente: ",
 	"error-404": "Errore! 404!",
 	"return-to-home": "Ritorna alla <a href=\"/\">pagina principale</a> o alla <span class=\"a\" onclick=\"window.history.back()\">pagina precedente</span>.",
 	"llm-yes": "Sì",
