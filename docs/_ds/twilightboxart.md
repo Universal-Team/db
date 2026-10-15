@@ -15,7 +15,7 @@ downloads:
   TwilightBoxart-DS-DSi.nds:
     size: 2654720
     size_str: 2 MiB
-    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.3.1/TwilightBoxart-DS-DSi.nds
+    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.4.0/TwilightBoxart-DS-DSi.nds
 github: KirovAir/TwilightBoxart
 icon: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-icon.png
 image: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png
@@ -35,23 +35,33 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li><strong>Web: bring your own covers.</strong> Drop any image on a game that came
-  back blank (a scan, a photo of<br>
+  <li><strong>AKMenu-Next support.</strong> Pick it as the launcher in the browser,
+  desktop or DS/DSi app and<br>
 
-  the box, a screenshot) and it goes onto your card like any downloaded cover.</li>
+  covers land in <code class="notranslate">_nds/covers_name/</code> as the BMPs it
+  reads, named after the ROM without its<br>
 
-  <li><strong>Much cleaner scans.</strong> hiyaCFW and Unlaunch cards no longer drag
-  their whole NAND mirror through<br>
+  extension. Cards with AKMenu-Next installed are recognised automatically. Thanks
+  to<br>
 
-  a scan, documentation is no longer scanned as a game, and files too small to be
-  a ROM are skipped.</li>
+  <a href="https://github.com/tasken">@tasken</a> for the PR.</li>
 
-  <li><strong>Old SNES scene dumps match now.</strong> A loose <code class="notranslate">.smc</code>
-  with the 512-byte copier header gets its cover.</li>
+  <li><strong><code class="notranslate">.ndz</code> dumps are scanned now.</strong>
+  TWiLightMenu++ and AKMenu-Next both launch them. They have<br>
 
-  <li><strong>DS/DSi:</strong> new BlocksDS SDK. (And also cleaner scans)</li>
+  no readable header, so they match by file name.</li>
+
+  <li><strong>Clearer launcher settings.</strong> Pico Launcher and AKMenu-Next show
+  the fixed cover size and mark<br>
+
+  borders as unavailable instead of silently ignoring them.</li>
 
   </ul>
+
+  <p dir="auto">Nothing changes for existing cards or clients: the art URLs, cache
+  keys and cover formats for<br>
+
+  TWiLightMenu++ and Pico Launcher are exactly what they were.</p>
 
   <h3 dir="auto">How to run it</h3>
 
@@ -110,9 +120,9 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2026-08-10T18:47:48Z'
-version: 2.3.1
-version_title: TwilightBoxart 2.3.1
+updated: '2026-10-15T05:13:49Z'
+version: 2.4.0
+version_title: TwilightBoxart 2.4
 ---
 TwilightBoxart fills your launcher's box art folder from the console itself. TwilightMenu++ and DSPico are currently supported.
 Connect to WiFi and it scans your card and downloads the right cover at the size your launcher
