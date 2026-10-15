@@ -24,7 +24,7 @@ license: MIT
 license_name: MIT License
 llm_generation: 'no'
 source: https://github.com/Cracko298/Bad3DSGame
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: Bad3DSGame
