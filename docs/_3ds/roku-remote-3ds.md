@@ -10,6 +10,10 @@ description: A personal Nintendo 3DS homebrew remote for a Roku device on your h
   network.
 download_page: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases
 downloads:
+  3ds.zip:
+    size: 99868
+    size_str: 97 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.1.0/3ds.zip
   BUILD-INFO.txt:
     size: 1192
     size_str: 1 KiB
@@ -34,10 +38,10 @@ downloads:
     size: 215328
     size_str: 210 KiB
     url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.1.0/RokuRemote3DS.3dsx
-  RokuRemote3DSv1.1.0.cia:
+  RokuRemote3DSV1.1.0.cia:
     size: 248256
     size_str: 242 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.1.0/RokuRemote3DSv1.1.0.cia
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.1.0/RokuRemote3DSV1.1.0.cia
   SHA256SUMS.txt:
     size: 2873
     size_str: 2 KiB
@@ -67,7 +71,7 @@ license: other
 license_name: Other
 llm_generation: 'no'
 qr:
-  RokuRemote3DSv1.1.0.cia: https://db.universal-team.net/assets/images/qr/rokuremote3dsv1-1-0-cia.png
+  RokuRemote3DSV1.1.0.cia: https://db.universal-team.net/assets/images/qr/rokuremote3dsv1-1-0-cia.png
 source: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS
 stars: 1
 systems:
