@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1883492
+    size: 1884228
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -59,7 +59,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 10/14/2026</p>
+  <p dir="auto">Latest change: 10/15/2026</p>
 
   </blockquote>
 
@@ -84,6 +84,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   <li>Added name of the player you are spectating in live view</li>
 
   <li>Added a new handler for isolated lobbies and version changes</li>
+
+  <li>Fixed a crash when entering a live view on any version but USA</li>
 
   </ul>
 
