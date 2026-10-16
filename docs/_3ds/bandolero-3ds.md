@@ -33,7 +33,7 @@ systems:
 - 3DS
 title: Bandolero 3DS
 unique_ids:
-- '0xFF3FF'
+- '0x20000'
 update_notes: '<h1 dir="auto">Registro de cambios</h1>
 
   <h2 dir="auto">2.3.1 (Citro2D) — 2026-10-16</h2>
