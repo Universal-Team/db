@@ -27,7 +27,7 @@ llm_generation: unknown
 qr:
   Mensinger3DS.cia: https://db.universal-team.net/assets/images/qr/mensinger3ds-cia.png
 source: https://github.com/GABXRIEL/Mensinger3DS-Backend
-stars: 5
+stars: 6
 systems:
 - 3ds
 title: Mensinger 3DS
