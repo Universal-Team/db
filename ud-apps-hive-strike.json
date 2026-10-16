@@ -1,0 +1,34 @@
+{
+  "title": "Hive Strike",
+  "author": "ZadenZ",
+  "description": "Arena shoot-em-up: blast the swarm through 15 stages and three Queen boss fights, or chase a high score in Endless. Native 3DS port of the Save Point arcade game with power-ups, per-mode high scores, and an original synth soundtrack.",
+  "long_description": "Hive Strike is a fast arena shooter. Clear 15 stages in STAGES mode - a Queen boss waits every 5 stages - or survive wave after wave in ENDLESS.\n\nThere is no auto fire in the 3DS version, by design: tap A or B for one shot, hold for a stream, with the same shots-in-the-air cap as the original. Pick up Twin, Spread, Shield and Bomb power-ups to turn the tide.\n\nFeatures:\n- 4 enemy types plus Queen bosses at stages 5, 10 and 15\n- Separate high scores for STAGES and ENDLESS, saved to the SD card\n- Touch-screen menus, dashboard and a big hold-to-fire FIRE button\n- Synthesized sound effects and bass-line music, toggleable on the title screen\n\nMove with the Circle Pad or D-Pad. START pauses, SELECT exits to the Homebrew Launcher. The .cia installs to the Home Menu; the .3dsx runs from the Homebrew Launcher.",
+  "version": "1.0",
+  "created": "2026-10-15T00:00:00Z",
+  "updated": "2026-10-15T00:00:00Z",
+  "systems": [
+    "3DS"
+  ],
+  "categories": [
+    "game"
+  ],
+  "unique_ids": [
+    353574
+  ],
+  "icon": "https://db.universal-team.net/assets/images/icons/hive-strike.png",
+  "image": "https://db.universal-team.net/assets/images/images/hive-strike.png",
+  "website": "https://zadenz.com/savepoint/hive-strike",
+  "download_page": "https://zadenz.com/savepoint/hive-strike",
+  "downloads": {
+    "hive_strike.cia": {
+      "url": "https://zadenz.com/downloads/hive_strike.cia",
+      "size": 787392,
+      "size_str": "768.94 KB"
+    },
+    "hive_strike.3dsx": {
+      "url": "https://zadenz.com/downloads/hive_strike.3dsx",
+      "size": 1110232,
+      "size_str": "1.06 MB"
+    }
+  }
+}
