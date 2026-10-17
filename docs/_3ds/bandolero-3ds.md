@@ -9,14 +9,14 @@ created: '2025-03-16T17:58:10Z'
 description: Editor de texto para 3Ds. | Text Editor for 3DS
 download_page: https://github.com/Tristanabs/bandolero3ds/releases
 downloads:
-  Bandolero3DS-2.0.3dsx:
-    size: 1757680
+  Bandolero3DS-next-2.3dsx:
+    size: 1790984
     size_str: 1 MiB
-    url: https://github.com/Tristanabs/bandolero3ds/releases/download/2.0/Bandolero3DS-2.0.3dsx
-  Bandolero3DS-2.0.cia:
-    size: 1778624
+    url: https://github.com/Tristanabs/bandolero3ds/releases/download/2.3.1_NX2/Bandolero3DS-next-2.3dsx
+  Bandolero3DS-next-2.cia:
+    size: 1799104
     size_str: 1 MiB
-    url: https://github.com/Tristanabs/bandolero3ds/releases/download/2.0/Bandolero3DS-2.0.cia
+    url: https://github.com/Tristanabs/bandolero3ds/releases/download/2.3.1_NX2/Bandolero3DS-next-2.cia
 github: Tristanabs/bandolero3ds
 icon: https://raw.githubusercontent.com/Tristanabs/bandolero3ds/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/Tristanabs/bandolero3ds/refs/heads/main/icon.png
@@ -26,44 +26,17 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 qr:
-  Bandolero3DS-2.0.cia: https://db.universal-team.net/assets/images/qr/bandolero3ds-2-0-cia.png
+  Bandolero3DS-next-2.cia: https://db.universal-team.net/assets/images/qr/bandolero3ds-next-2-cia.png
 source: https://github.com/Tristanabs/bandolero3ds
 stars: 4
 systems:
 - 3DS
 title: Bandolero 3DS
 unique_ids:
-- '0xFF3FF'
-update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg data-component="Octicon" class="octicon octicon-alert mr-2" viewBox="0
-  0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457
-  1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75
-  1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25
-  0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1
-  1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p dir="auto">El unique ID de
-  la aplicación ha cambiado, deberás borrar la versión anterior de la aplicación antes
-  o después de la instalación, de lo contrario, habrá 2 aplicaciones.</p>
+- '0x20000'
+update_notes: '<h1 dir="auto">Registro de cambios</h1>
 
-  </div>
-
-  <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
-  0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0
-  .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573
-  2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25
-  0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749
-  0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75
-  0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p
-  dir="auto">Se ha utilizado IA en la creación de esta nueva versión, si hay algún
-  bug o problema, por favor repórtelo en Homebrew Central o abriendo una issue.<br>
-
-  Las extensiones pueden no funcionar correctamente en ciertos casos.</p>
-
-  </div>
-
-  <h2 dir="auto">Registro de cambios</h2>
-
-  <h2 dir="auto">2.0 (Citro2D) — 2026-10-11</h2>
+  <h2 dir="auto">2.3.1 (Citro2D) — 2026-10-16</h2>
 
   <p dir="auto">Esta versión moderniza la edición anterior y cambia la presentación
   principal a Citro2D/Citro3D.</p>
@@ -74,7 +47,7 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   <li>Nueva interfaz para las dos pantallas de Nintendo 3DS.</li>
 
-  <li>Editor adaptado a la resolución de la consola con 19 líneas visibles.</li>
+  <li>Editor adaptado a la resolución de la consola con 15 líneas visibles.</li>
 
   <li>Selección de línea, barra de estado y menú de controles renovados.</li>
 
@@ -90,7 +63,10 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   <ul dir="auto">
 
-  <li>Guardado y apertura en <code class="notranslate">sdmc:/3ds/bandolero/files/</code>.</li>
+  <li>Guardado y apertura en <code class="notranslate">sdmc:/3ds/bandolero/files/</code>,
+  incluyendo navegación<br>
+
+  por subcarpetas.</li>
 
   <li>Creación automática de <code class="notranslate">files/</code>, <code class="notranslate">extensions/</code>
   y <code class="notranslate">config.ini</code>.</li>
@@ -114,6 +90,20 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   <li>Mejoras en el manejo de texto UTF-8.</li>
 
+  <li>Comprobación automática de secuencias UTF-8 inválidas antes de dibujar.</li>
+
+  <li>Renderizado visual de <code class="notranslate">**negrita**</code> y encabezados
+  Markdown.</li>
+
+  <li>Dedicatoria oculta desbloqueable mediante el código Konami.</li>
+
+  <li>La pantalla de “Acerca de” muestra <code class="notranslate">R/L: IDIOMA</code>
+  y <code class="notranslate">X: AVISOS .BAN3</code>.</li>
+
+  <li>El logo de Flagwave Open Code se coloca en la esquina inferior derecha del<br>
+
+  panel superior.</li>
+
   </ul>
 
   <h3 dir="auto">Extensiones y temas</h3>
@@ -130,6 +120,18 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   <li>Las extensiones no ejecutan código nativo externo.</li>
 
+  <li><code class="notranslate">extensions_enabled=0</code> en <code class="notranslate">config.ini</code>
+  desactiva manualmente la carga de<br>
+
+  extensiones; no existe un control equivalente dentro de la app.</li>
+
+  <li><code class="notranslate">config.ini</code> registra actividad con entradas
+  <code class="notranslate">log=</code> y purga automáticamente<br>
+
+  los eventos de más de 30 días, incluyendo aperturas, nuevas extensiones y<br>
+
+  actualizaciones de versión.</li>
+
   </ul>
 
   <h3 dir="auto">CIA y banner</h3>
@@ -142,7 +144,7 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   <li>Nombre: Bandolero 3DS.</li>
 
-  <li>Descripción: Un editor de texto para 3DS - Version 2.0.</li>
+  <li>Descripción: Un editor de texto para 3DS - Version 2.3.1.</li>
 
   <li>Editor: Tristanabs.</li>
 
@@ -154,10 +156,53 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   </li>
 
-  <li>Banner con icono, imagen y audio del menú HOME.</li>
+  <li>CIA empaquetado pasando explícitamente el SMDH y <code class="notranslate">banner.bnr</code>
+  a <code class="notranslate">makerom</code>.</li>
 
-  <li>Audio convertido a <code class="notranslate">CWAV</code> estéreo de menos de
-  3 segundos para compatibilidad con HOME.</li>
+  <li>El SMDH contiene el nombre, descripción, autor e icono de Bandolero 3DS.</li>
+
+  <li><code class="notranslate">banner.bnr</code> conserva la imagen y el audio originales
+  del menú HOME.</li>
+
+  </ul>
+
+  <h3 dir="auto">Próxima versión — base implementada</h3>
+
+  <ul dir="auto">
+
+  <li>Editor reducido a 15 líneas visibles con desplazamiento y aviso visual cuando
+  hay más contenido.</li>
+
+  <li>Explorador de archivos para abrir documentos de <code class="notranslate">files/</code>
+  con cruceta, botones y pantalla táctil.</li>
+
+  <li>El menú inferior reconoce las zonas táctiles de sus acciones principales.</li>
+
+  <li>Apertura y guardado compatibles con formatos de texto y código, incluidos<br>
+
+  <code class="notranslate">.txt</code>, <code class="notranslate">.md</code>, <code
+  class="notranslate">.json</code>, <code class="notranslate">.xml</code>, <code class="notranslate">.html</code>,
+  <code class="notranslate">.css</code>, <code class="notranslate">.js</code>, <code
+  class="notranslate">.c</code>, <code class="notranslate">.cpp</code>, <code class="notranslate">.py</code>,<br>
+
+  <code class="notranslate">.rs</code>, <code class="notranslate">.go</code> y <code
+  class="notranslate">.sql</code>.</li>
+
+  <li>Previsualización Markdown básica para encabezados, énfasis y listas.</li>
+
+  <li>Las extensiones siguen siendo manifiestos de datos sin ejecución de código nativo
+  y aceptan descripción.</li>
+
+  <li>Avisos persistentes de nuevas extensiones, con opción para desactivarlos desde
+  “Acerca de”.</li>
+
+  <li>Catálogo web con cinco temas <code class="notranslate">.ban3</code> descargables
+  y personalizados.</li>
+
+  <li>Sección “Acerca de” reorganizada en bloques de identidad, enlaces y ajustes,
+  con QR más grande y controles agrupados.</li>
+
+  <li>Se conservan sin cambios el banner, el icono y el audio del menú HOME.</li>
 
   </ul>
 
@@ -167,8 +212,8 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
   3DS y no incluía la nueva pantalla Citro2D, la persistencia de configuración, el
   sistema <code class="notranslate">.ban3</code>, los seis idiomas ni el generador
   web.</p>'
-updated: '2026-10-11T17:29:43Z'
-version: '2.0'
-version_title: BANDOLERO 3DS 2.0.
+updated: '2026-10-16T21:18:06Z'
+version: 2.3.1_NX2
+version_title: BANDOLERO 3DS 2.3.1. "NEXT 2"
 ---
 Bandolero 3DS is a text editor application for the Nintendo 3DS, developed by Tristanabs. Based on Notepad 3DS, it currently allows users to view text files and plans to introduce enhancements over the original Notepad 3DS in the future. Installation is straightforward: simply install the provided .cia file. For support, users can visit the Homebrew Central server. The project is open-source and licensed under the MIT License.

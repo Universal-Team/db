@@ -31,7 +31,7 @@ screenshots:
 - description: Game 4
   url: https://db.universal-team.net/assets/images/screenshots/bugdom/game-4.png
 source: https://github.com/carrotcreamsoup/Bugdom
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: Bugdom
