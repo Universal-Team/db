@@ -6,23 +6,33 @@ categories:
 color: '#1c4c53'
 color_bg: '#1c4c53'
 created: '2025-02-10T01:38:42Z'
-description: Vide-coded app that allows to see RAM, GPU and CPU stats from a linux
-  PC in a browser or a 3DS console.
+description: Turn your Nintendo 3DS into a secondary PC hardware monitor, macro pad,
+  and virtual gamepad controller.
 download_page: https://github.com/Just-a-Spider/SysMon/releases
 downloads:
+  SHA256SUMS.txt:
+    size: 559
+    size_str: 559 Bytes
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/SHA256SUMS.txt
   sysmon-3ds.3dsx:
-    size: 4512088
+    size: 4516468
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.3dsx
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-3ds.3dsx
   sysmon-3ds.cia:
-    size: 4522944
+    size: 4527040
     size_str: 4 MiB
-    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.1/sysmon-3ds.cia
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-3ds.cia
+  sysmon-server-0.3.3-1_amd64.deb:
+    size: 3868656
+    size_str: 3 MiB
+    url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.3/sysmon-server-0.3.3-1_amd64.deb
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
 image_length: 25608
 layout: app
+license: mit
+license_name: MIT License
 llm_generation: 'yes'
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
@@ -30,70 +40,60 @@ screenshots:
 - description: Sysmon
   url: https://db.universal-team.net/assets/images/screenshots/sysmon/sysmon.png
 source: https://github.com/Just-a-Spider/SysMon
-stars: 1
+stars: 3
 systems:
 - 3DS
 title: SysMon
 unique_ids:
 - '0x1337'
-update_notes: '<h2 dir="auto">SysMon v0.3.1</h2>
-
-  <h3 dir="auto">3DS Client</h3>
+update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Fixed Monocraft font loading in <code class="notranslate">.cia</code> builds
-  by embedding RomFS partition in application metadata.</li>
-
-  <li>Added text wrapping and truncation for long track titles in the Media tab.</li>
-
-  <li>Replaced unprintable control characters in the Settings tab with standard ASCII
-  indicators.</li>
-
-  <li>Updated 3DS HOME Menu icon and banner to flat vector designs.</li>
-
-  <li>Added Level tab for per-application audio mixer control.</li>
-
-  <li>Added Ctrl tab for UDP virtual gamepad input to Linux host.</li>
-
-  <li>Added DSP hardware audio feedback for tab switching and actions.</li>
-
-  <li>Added multi-server profile manager in Settings.</li>
+  <li>Dev by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Just-a-Spider/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Just-a-Spider">@Just-a-Spider</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5313619698"
+  data-permission-text="Title is private" data-url="https://github.com/Just-a-Spider/SysMon/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/Just-a-Spider/SysMon/pull/1/hovercard"
+  href="https://github.com/Just-a-Spider/SysMon/pull/1">#1</a></li>
 
   </ul>
 
-  <h3 dir="auto">Linux Server</h3>
+  <h2 dir="auto">New Contributors</h2>
 
   <ul dir="auto">
 
-  <li>Fixed system tray icon on Linux Wayland/COSMIC sessions by setting X11 backend
-  fallback for GDK.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Just-a-Spider/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Just-a-Spider">@Just-a-Spider</a>
+  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="5313619698" data-permission-text="Title is private" data-url="https://github.com/Just-a-Spider/SysMon/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/Just-a-Spider/SysMon/pull/1/hovercard"
+  href="https://github.com/Just-a-Spider/SysMon/pull/1">#1</a></li>
 
-  <li>Screen streaming (CAM) moved to optional <code class="notranslate">--features
-  cam</code> build; default release is a lightweight binary without streaming dependencies.</li>
+  </ul>
 
-  <li>Added uinput gamepad driver integration for 3DS controller input.</li>
-
-  <li>Added dynamic hiding of streaming controls in web config dashboard on standard
-  builds.</li>
-
-  </ul>'
-updated: '2026-07-22T23:02:15Z'
-version: v0.3.1
-version_title: v0.3.1
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.2...v0.3.3"><tt>v0.3.2...v0.3.3</tt></a></p>'
+updated: '2026-09-01T15:42:19Z'
+version: v0.3.3
+version_title: v0.3.3
 ---
-**IMPORTANT: This app requires the companion server to be running on your PC!**
+**Note: This application requires sysmon-server running on a Linux PC.**
 
-SysMon is a hardware monitor and macro executor that turns your Nintendo 3DS into a secondary dashboard for your PC.
+SysMon connects a Nintendo 3DS to a Linux PC over local Wi-Fi to display system telemetry and provide remote input controls.
 
 ### Features
-* **Live Telemetry:** View your PC's CPU/GPU temperatures, RAM usage, and Fan speeds in real-time on the top screen.
-* **Process Manager:** View the heaviest processes running on your PC and tap them to instantly kill frozen applications.
-* **Productivity:** Includes a built-in Pomodoro timer to help you focus.
-* **Media Controls:** Native MPRIS integration to play, pause, and skip music running on your host system.
-* **Custom Macros:** Map your physical 3DS buttons (A, B, X, Y) or on-screen touch buttons to execute bash scripts, terminal commands, or keyboard shortcuts directly on your PC.
+* **Telemetry:** Displays PC CPU usage, CPU/GPU temperatures, clock frequencies, fan speeds, free RAM, uptime, and weather.
+* **Gamepad Controller (CTRL):** Low-latency UDP controller mapped to the Linux uinput virtual gamepad driver.
+* **Macro Deck (MACRO):** Triggers custom commands, shell scripts, and keyboard shortcuts via touch buttons or 3DS buttons (A/B/X/Y).
+* **Audio Level Mixer (LEVEL):** Adjusts volume and mute states for active audio applications via PulseAudio or PipeWire.
+* **Media Controls (MEDIA):** Controls playback (play, pause, skip) and displays track metadata via MPRIS.
+* **Process Manager (KILL):** Displays high-CPU processes and allows terminating unresponsive applications.
+* **Focus Timer (POMO):** Built-in Pomodoro timer.
+* **Settings (SET):** Supports multiple server profiles, theme switching, and audio feedback.
 
-**Setup Instructions:**
-To use this app, you must download and run the lightweight `sysmon-server` background service on your PC (currently supports Linux).
+### Setup
+1. Download and run `sysmon-server` on your Linux PC (`cargo build --release` or install the RPM package).
+2. Open the SET tab in SysMon on your 3DS and enter your PC IP address and port (default: 7341).
+3. For gamepad functionality, ensure your Linux user account has write access to `/dev/uinput`.
 
-Visit the official [GitHub Repository](https://github.com/Just-a-Spider/SysMon) to download the server and for complete configuration instructions
+Source code and server downloads are available at the [GitHub Repository](https://github.com/Just-a-Spider/SysMon).

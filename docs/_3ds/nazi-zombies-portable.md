@@ -12,8 +12,8 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 100558291
-    size_str: 95 MiB
+    size: 64563875
+    size_str: 61 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/icon.png
@@ -35,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 791
+stars: 850
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -48,15 +48,15 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Game Assets</li>
-
   <li>QuakeC (Game Code)</li>
 
   <li>Vril (Engine)</li>
 
   </ul>
 
-  <p dir="auto">Installation Instructions:</p>
+  <p dir="auto">**If you are looking for Co-Op enabled FTEQW builds, see: <a href="https://github.com/nzp-team/fteqw/releases/tag/legacy">https://github.com/nzp-team/fteqw/releases/tag/legacy</a><br>
+
+  Installation Instructions:</p>
 
   <ul dir="auto">
 
@@ -82,9 +82,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-08-23T07:40:29Z'
+updated: '2026-10-13T14:57:21Z'
 version: nightly
-version_title: 2.0.0-indev+20260823073909
+version_title: 2.0.0-indev+20261013145610
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.

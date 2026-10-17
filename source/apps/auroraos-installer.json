@@ -1,0 +1,20 @@
+{
+	"github": "TeamAuroraOS/AuroraOS-Installer",
+	"title": "AuroraOS Installer",
+	"author": "TeamAuroraOS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/TeamAuroraOS/AuroraOS-Installer/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/TeamAuroraOS/AuroraOS-Installer/refs/heads/main/banner.png",
+	"unique_ids": [
+		716810
+	],
+	"long_description": "# AuroraOS Installer\n*(This does NOT touch your 3DS system.)*",
+	"license": "mit"
+}

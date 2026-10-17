@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 2002840
+    size: 1884228
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -20,7 +20,7 @@ image_length: 6953
 layout: app
 llm_generation: 'no'
 source: https://github.com/mainexploit/mk7-tt-revamp
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: Time Trials Revamped
@@ -31,8 +31,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749
   0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69
   1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1
-  1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This is
-  release version is considered experimental as its a <em>open beta</em></strong><br>
+  1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This release
+  version is considered experimental as its an <em>open beta</em></strong><br>
 
   Expect issues or bugs and make sure to <strong><a href="https://github.com/mainexploit/mk7-tt-revamp/blob/main/README.md#any-questions-or-ran-into-issues">report
   them</a></strong> accordingly</p>
@@ -40,14 +40,6 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   </div>
 
   <hr>
-
-  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
-  rel="nofollow">Universal-Updater</a></strong></h3>
-
-  <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
-  named files as they will conflict with the download</em></p>
-
-  <h1 dir="auto"></h1>
 
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
@@ -63,37 +55,80 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </div>
 
-  <h2 dir="auto">Changelog since release</h2>
+  <h2 dir="auto">Changelog since the current release</h2>
 
   <blockquote>
 
-  <p dir="auto">Latest change: 07/17/2026</p>
+  <p dir="auto">Latest change: 10/15/2026</p>
 
   </blockquote>
 
+  <h3 dir="auto">Online Play changes</h3>
+
   <ul dir="auto">
 
-  <li>Added particle anti freeze which can occur in DK Pass and Mushroom Gorge</li>
+  <li>Added Render Optimizations</li>
 
-  <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
+  <li>Added Mii Heads On Course Votes</li>
 
-  <li>Fixed a crash that could occur when you are powering off your system</li>
+  <li>Added No Auto Community Timer Start</li>
 
-  <li>Added basic translation (JPN -&gt; japanese, EUR &amp; USA -&gt; english)</li>
+  <li>Added Community Host-Only Timer Start</li>
 
-  <li>Added hotkey filter checks when loading the configuration file</li>
+  <li>Added better disclaimers for Friends/Opponents</li>
 
-  <li>Fixed frames desync on time splits during practice mode</li>
+  <li>Added quit after a race/battle during community</li>
+
+  <li>Added pause in race as well as during the live view</li>
+
+  <li>Added name of the player you are spectating in live view</li>
+
+  <li>Added a new handler for isolated lobbies and version changes</li>
+
+  <li>Fixed a crash when entering a live view on any version but USA</li>
 
   </ul>
 
-  <hr>
+  <h3 dir="auto">Online Time Trials changes</h3>
 
-  <pre class="notranslate"><code class="notranslate">The plugin is getting rewritten
-  for a more stable core system, any updates will be halted till then.
+  <ul dir="auto">
 
-  </code></pre>'
-updated: '2026-07-12T00:08:35Z'
+  <li>Added a new community tab for time trials</li>
+
+  <li>Added the lobby type label in the community lobby</li>
+
+  <li>Removed OTT communities toggle from Options Menu</li>
+
+  </ul>
+
+  <h3 dir="auto">Lounge changes</h3>
+
+  <ul dir="auto">
+
+  <li>Exclusive lounge features were removed</li>
+
+  <li>Most features were integrated into online play</li>
+
+  </ul>
+
+  <h3 dir="auto">General changes</h3>
+
+  <ul dir="auto">
+
+  <li>Core rewrites for certain sections</li>
+
+  <li>Disabled MK Channel bubbles again</li>
+
+  <li>Reworked how game patching is handled</li>
+
+  <li>Fixed custom sections not working as intended</li>
+
+  <li>Fixed the restore hotkey option not being responsive</li>
+
+  <li>Added custom music support through game patching</li>
+
+  </ul>'
+updated: '2026-10-13T22:42:19Z'
 version: latest
 version_title: v1.0.0
 ---

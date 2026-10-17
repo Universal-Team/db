@@ -20,7 +20,7 @@ image_length: 630
 layout: app
 llm_generation: unknown
 source: https://github.com/FluBBaOfWard/S8DS
-stars: 39
+stars: 41
 systems:
 - DS
 title: S8DS
@@ -43,7 +43,7 @@ update_notes: '<ul dir="auto">
   </ul>'
 updated: '2026-07-30T11:09:21Z'
 version: v1.1.8
-version_title: V1.1.8
+version_title: S8DS V1.1.8
 ---
 ### Installation instructions
 

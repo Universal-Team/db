@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_generation: 'no'
 source: https://github.com/zoogie/seedminer
-stars: 103
+stars: 104
 systems:
 - 3DS
 title: seedminer

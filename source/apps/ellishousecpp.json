@@ -1,0 +1,18 @@
+{
+	"github": "glacialmoongames/EllisHouseCpp",
+	"title": "Elli's House 3DS",
+	"description": "Elli's House port for Nintendo 3DS - Original Game by glacial moon games for gamejaaj",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"download_filter": "3DSX|cia",
+	"llm_generation": "minor",
+	"archive": {
+		"EllisHouse-3DSX.zip": {
+			"EllisHouse3DS.3dsx": ["3ds/EllisHouse3DS/EllisHouse3DS.3dsx"]
+		}
+	}
+}

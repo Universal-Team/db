@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   fsv3ds-launcher.cia: https://db.universal-team.net/assets/images/qr/fsv3ds-launcher-cia.png
 source: https://github.com/Bruce303lee/fsv3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: fsv3ds

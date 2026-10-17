@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 236032
-    size_str: 230 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.6-shiinotic/cart_flasher.nds
+    size: 255488
+    size_str: 249 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.8-tinkatuff/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -26,46 +26,52 @@ llm_generation: 'yes'
 qr:
   cart_flasher.nds: https://db.universal-team.net/assets/images/qr/cart_flasher-nds.png
 source: https://github.com/tasken/cart-flasher
-stars: 2
+stars: 5
 systems:
 - DS
 title: cart-flasher
-update_notes: '<h3 dir="auto">Recovery</h3>
+update_notes: '<h3 dir="auto">Ace3DS+ support</h3>
 
   <ul dir="auto">
 
-  <li>Added recovery for 2 MiB Ace3DS+/R4iLS carts using the SpongeBob <code class="notranslate">AL3E</code>
-  boot profile.</li>
+  <li>Added support for the 2 MiB Tsingteng TH25Q16 Ace3DS+ variant.</li>
 
-  <li>Recovery now tries the validated Deep Labyrinth <code class="notranslate">ADLE</code>
-  and SpongeBob <code class="notranslate">AL3E</code> profiles.</li>
+  <li><code class="notranslate">Back up DS banner</code> and <code class="notranslate">Write
+  DS banner</code> now work with its verified Deep Labyrinth <code class="notranslate">ADLE</code>
+  layout.</li>
 
-  <li>Both profiles verify the expected flash capacity before enabling backup or write,
-  and keep ntrboot injection disabled during recovery.</li>
+  <li>Cart information now names the known Tsingteng and Macronix 2 MiB variants.</li>
 
   </ul>
 
-  <h3 dir="auto">Reliability</h3>
+  <h3 dir="auto">Cart detection</h3>
 
   <ul dir="auto">
 
-  <li>Cart command failures now stop the affected operation instead of continuing
-  with stale results.</li>
+  <li>A nonresponsive cart no longer leaves Cart-Flasher stuck during detection or
+  reset. It returns to the detection-failure screen instead.</li>
+
+  <li>Press <code class="notranslate">&lt;SELECT&gt;</code> on the cart list to open
+  Hardware probe.</li>
 
   </ul>
 
-  <h3 dir="auto">Interface</h3>
+  <h3 dir="auto">Ease of use</h3>
 
   <ul dir="auto">
 
-  <li>Improved recovery, backup, write, progress, and error-screen layout.</li>
+  <li>Overall verbiage clearer and more consistent.</li>
 
-  <li>Improved cart driver-credit display.</li>
+  <li>A wrong key combo immediately shows a new sequence.</li>
 
-  </ul>'
-updated: '2026-08-22T05:53:26Z'
-version: v0.6-shiinotic
-version_title: v0.6-shiinotic
+  <li>Improved the layout of flash-backup and destructive confirmation screens.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.7-kirlia...v0.8-tinkatuff"><tt>v0.7-kirlia...v0.8-tinkatuff</tt></a></p>'
+updated: '2026-09-12T01:55:03Z'
+version: v0.8-tinkatuff
+version_title: v0.8-tinkatuff
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 

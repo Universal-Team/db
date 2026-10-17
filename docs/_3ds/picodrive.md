@@ -20,7 +20,7 @@ image_length: 3153
 layout: app
 llm_generation: 'no'
 source: https://github.com/bubble2k16/picodrive_3ds
-stars: 82
+stars: 83
 systems:
 - 3DS
 title: PicoDrive

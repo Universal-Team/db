@@ -1,0 +1,24 @@
+{
+	"github": "SamtendoNetwork/cirrus",
+	"title": "Cirrus",
+	"description": "3DS switcher for Samtendo Network",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [868563],
+	"llm_generation": "no",
+	"icon": "https://cdn.samtendo.net/images/Cirrus.png",
+	"archive": {
+		"3dsx.zip": {
+			"cirrus.3dsx": [
+				"3ds/cirrus.3dsx",
+				"3ds/cirrus"
+			]
+		},
+		"cia.zip": {
+			"cirrus.cia": [
+				"cias/cirrus.cia",
+				"3ds/cirrus"
+			]
+		}
+	}
+}

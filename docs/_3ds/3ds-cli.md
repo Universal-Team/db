@@ -6,17 +6,17 @@ categories:
 color: '#433943'
 color_bg: '#433943'
 created: '2026-05-10T04:52:37Z'
-description: Run full RISCV Linux on (almost) every single Nintendo console
+description: Run full RISCV Linux on many game consoles
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 60157458
-    size_str: 57 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/4.1/3ds_cli.zip
+    size: 63109147
+    size_str: 60 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.3/3ds_cli.zip
   Image:
-    size: 59691300
+    size: 59691197
     size_str: 56 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/4.1/Image
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.3/Image
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -26,21 +26,23 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/cmdada/3DS-CLI
-stars: 38
+stars: 44
 systems:
 - 3DS
 title: 3DS-CLI
 unique_ids:
 - '0x1111'
-update_notes: '<h2 dir="auto">Setup</h2>
+update_notes: '<h2 dir="auto">Install</h2>
 
-  <p dir="auto">One <code class="notranslate">Image</code> serves every console -
-  the guest is identical, only the<br>
+  <ol dir="auto">
 
-  host binary differs. Copy <code class="notranslate">Image</code> to the root of
-  your SD card, then<br>
+  <li>Download <code class="notranslate">3ds_cli.zip</code> below and extract it.</li>
 
-  the binary for your console:</p>
+  <li>Copy <code class="notranslate">Image</code> to the root of your SD card.</li>
+
+  <li>Copy your console''s file from the zip:</li>
+
+  </ol>
 
   <markdown-accessiblity-table><table role="table">
 
@@ -50,9 +52,9 @@ update_notes: '<h2 dir="auto">Setup</h2>
 
   <th>Console</th>
 
-  <th>Binary</th>
+  <th>Copy this</th>
 
-  <th>Goes to</th>
+  <th>To here</th>
 
   </tr>
 
@@ -102,11 +104,41 @@ update_notes: '<h2 dir="auto">Setup</h2>
 
   <tr>
 
+  <td>PSP</td>
+
+  <td><code class="notranslate">psp/EBOOT.PBP</code></td>
+
+  <td><code class="notranslate">ms0:/PSP/GAME/3ds-cli/</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>PS Vita</td>
+
+  <td><code class="notranslate">vita/3ds-cli.vpk</code></td>
+
+  <td>install with VitaShell</td>
+
+  </tr>
+
+  <tr>
+
   <td>GameCube</td>
 
   <td><code class="notranslate">gamecube/3ds-cli.dol</code></td>
 
-  <td>SD Gecko / SD2SP2</td>
+  <td>anywhere Swiss can reach</td>
+
+  </tr>
+
+  <tr>
+
+  <td>PS3</td>
+
+  <td><code class="notranslate">ps3/3ds-cli.pkg</code></td>
+
+  <td>install it from the XMB</td>
 
   </tr>
 
@@ -114,26 +146,12 @@ update_notes: '<h2 dir="auto">Setup</h2>
 
   </table></markdown-accessiblity-table>
 
-  <p dir="auto">On the 3DS, Wii U and Switch you can skip the <code class="notranslate">Image</code>
-  step: launch<br>
+  <p dir="auto">That''s it. The other zips below are for the Homebrew App Store<br>
 
-  the app with none on the card and it offers to download this<br>
-
-  release''s over WiFi.</p>
-
-  <p dir="auto">The Image has the root filesystem bundled in: on first boot the app<br>
-
-  unpacks it to <code class="notranslate">rootfs.ext2</code> on the card, which stays
-  as the writable<br>
-
-  disk from then on - changes persist across sessions.<br>
-
-  Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
-
-  procps, util-linux.</p>'
-updated: '2026-08-22T21:48:29Z'
-version: '4.1'
-version_title: V4.1 - download the Image from the app
+  to install from, not for copying by hand.</p>'
+updated: '2026-10-03T02:25:17Z'
+version: '5.3'
+version_title: V5.3 - 3DS and PSP Hardware Fixes
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.

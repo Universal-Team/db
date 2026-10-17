@@ -10,14 +10,14 @@ description: Nintendo 3DS dual-screen port of Zelda A Link to the Past based on 
 download_filter: 3dsx|cia
 download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases
 downloads:
-  zelda3-3ds-v2.9.3dsx:
-    size: 5683548
+  zelda3-3ds-v3.2.3dsx:
+    size: 6756320
+    size_str: 6 MiB
+    url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.2/zelda3-3ds-v3.2.3dsx
+  zelda3-3ds-v3.2.cia:
+    size: 5944256
     size_str: 5 MiB
-    url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9/zelda3-3ds-v2.9.3dsx
-  zelda3-3ds-v2.9.cia:
-    size: 5227456
-    size_str: 4 MiB
-    url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9/zelda3-3ds-v2.9.cia
+    url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.2/zelda3-3ds-v3.2.cia
 github: EstebanPdN/zelda-alttp-3ds
 icon: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udicon.png
 image: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udbanner.png
@@ -27,83 +27,38 @@ llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
-prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E3
-  downloads:
-    zelda3-3ds-v3.0-E3.3dsx:
-      size: 5684612
-      size_str: 5 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.3dsx
-    zelda3-3ds-v3.0-E3.cia:
-      size: 5231552
-      size_str: 4 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.cia
-  qr:
-    zelda3-3ds-v3.0-E3.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e3-cia.png
-  update_notes: '
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Adds bottom screen settings by tapping the Triforce in the main menu</li>
-
-    <li>Improves the bottom-screen HUD layout so hearts, magic, and equipped item
-    spacing stay clean.</li>
-
-    <li>Saves screen settings</li>
-
-    </ul>
-
-    <p dir="auto">If you run into any issues, press L + R + A, save a dump to your
-    Zelda 3DS folder, and send it to me. That way, I can help you more easily.</p>'
-  update_notes_md: '<img width="500" height="500" alt="qr" src="https://github.com/user-attachments/assets/16559ce0-c7e3-46b6-b6b8-d21ffead42ed"
-    />
-
-
-    ## Changelog
-
-
-    - Adds bottom screen settings by tapping the Triforce in the main menu
-
-    - Improves the bottom-screen HUD layout so hearts, magic, and equipped item spacing
-    stay clean.
-
-    - Saves screen settings
-
-
-    If you run into any issues, press L + R + A, save a dump to your Zelda 3DS folder,
-    and send it to me. That way, I can help you more easily.'
-  updated: '2026-08-11T18:39:29Z'
-  version: v3.0-E3
-  version_title: v3.0-E3
 qr:
-  zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
+  zelda3-3ds-v3.2.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v3-2-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 617
+stars: 714
 systems:
 - 3DS
 title: zelda-alttp-3ds
 unique_ids:
 - '0x5A20D'
-update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9/QR-v2.9-github.png"><img
-  src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9/QR-v2.9-github.png"
-  alt="QR-v2.9-github.png" style="max-width: 100%;"></a></p>
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.2/QR-v3.2-github.png"><img
+  width="500" height="500" alt="QR code for the v3.2 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.2/QR-v3.2-github.png"
+  style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+
+  <h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>Fixed the map problem when using WIDE mode with FIXED camera.</li>
+  <li>Optimized update downloads and installation.</li>
 
-  <li>Changed the 3D HOME Menu banner to the custom logo model, with logo help from
-  <a href="https://github.com/Phibonacci">Phibonacci</a>, based on the original 3D
-  model by <a href="https://sketchfab.com/TiraArt" rel="nofollow">TiraArt</a>.</li>
+  <li>Fixed black screens and missing audio after Restart and ROM reselection.</li>
 
-  <li>Fixed Old 3DS bottom-screen responsiveness and more optimizations.</li>
+  </ul>
 
-  </ul>'
-updated: '2026-08-04T00:21:10Z'
-version: v2.9
-version_title: v2.9
+  <h2 dir="auto">Bug reports</h2>
+
+  <p dir="auto">Press <code class="notranslate">L + R + A</code> while the issue is
+  visible and attach the complete diagnostic dump folder from:</p>
+
+  <p dir="auto"><code class="notranslate">sdmc:/3ds/Zelda 3DS/dumps/</code></p>'
+updated: '2026-09-20T01:30:37Z'
+version: v3.2
+version_title: v3.2
 ---
 A native Nintendo 3DS dual-screen port of **The Legend of Zelda: A Link to the Past**, based on the open-source Zelda3 engine.
 

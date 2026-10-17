@@ -20,7 +20,7 @@ image_length: 30077
 layout: app
 llm_generation: 'no'
 source: https://github.com/CollinScripter/Revamped3DS
-stars: 24
+stars: 25
 systems:
 - 3DS
 title: Halo Revamped

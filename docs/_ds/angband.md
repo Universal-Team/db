@@ -19,44 +19,79 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-174-g5c45eb958
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-236-ge71cc96e8
   downloads:
-    Angband-4.2.6-174-g5c45eb958-3ds.zip:
-      size: 24696606
+    Angband-4.2.6-236-ge71cc96e8-3ds.zip:
+      size: 24694982
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-174-g5c45eb958/Angband-4.2.6-174-g5c45eb958-3ds.zip
-    Angband-4.2.6-174-g5c45eb958-nds.zip:
-      size: 23330321
+      url: https://github.com/angband/angband/releases/download/4.2.6-236-ge71cc96e8/Angband-4.2.6-236-ge71cc96e8-3ds.zip
+    Angband-4.2.6-236-ge71cc96e8-nds.zip:
+      size: 23331356
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-174-g5c45eb958/Angband-4.2.6-174-g5c45eb958-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
+      url: https://github.com/angband/angband/releases/download/4.2.6-236-ge71cc96e8/Angband-4.2.6-236-ge71cc96e8-nds.zip
+  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+    href="https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8"><tt>4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8</tt></a></p>
+
+    <h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Remember source location for last noise calculation in save file by <a class="user-mention
+    <li>Collection of text corrections and adjustments by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/neostryder/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/neostryder">@neostryder</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929/hovercard"
+    href="https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929"><tt>c6e499b</tt></a></li>
+
+    <li>Do not call Term_fresh() from update_maps() by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5707927542" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6762"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6762/hovercard"
+    href="https://github.com/angband/angband/pull/6762">#6762</a></li>
+
+    <li>Summon named debugging command: remove redundant redraw requests by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5093295073" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6681"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6681/hovercard"
-    href="https://github.com/angband/angband/pull/6681">#6681</a></li>
+    data-id="5712918411" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6763"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6763/hovercard"
+    href="https://github.com/angband/angband/pull/6763">#6763</a></li>
+
+    <li>In adjust_level() better match update/redraw requests to what has changed
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5716809649" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6764"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6764/hovercard"
+    href="https://github.com/angband/angband/pull/6764">#6764</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958"><tt>4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * Remember source location for last noise calculation in save file by @backwardsEric
-    in https://github.com/angband/angband/pull/6681
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8"><tt>4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8</tt></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8
 
 
+    ## What''s Changed
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958'
-  updated: '2026-08-18T13:26:37Z'
-  version: 4.2.6-174-g5c45eb958
-  version_title: 4.2.6-174-g5c45eb958
+    * Collection of text corrections and adjustments by @neostryder in https://github.com/angband/angband/commit/c6e499b5a59753ea3e74a76a679b83ad7a419929
+
+    * Do not call Term_fresh() from update_maps() by @backwardsEric in https://github.com/angband/angband/pull/6762
+
+    * Summon named debugging command: remove redundant redraw requests by @backwardsEric
+    in https://github.com/angband/angband/pull/6763
+
+    * In adjust_level() better match update/redraw requests to what has changed by
+    @backwardsEric in https://github.com/angband/angband/pull/6764
+
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-232-gb7ab996bf...4.2.6-236-ge71cc96e8'
+  updated: '2026-10-13T12:54:22Z'
+  version: 4.2.6-236-ge71cc96e8
+  version_title: 4.2.6-236-ge71cc96e8
 source: https://github.com/angband/angband
-stars: 1553
+stars: 1567
 systems:
 - 3DS
 - DS
@@ -170,28 +205,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-174-g5c45eb958-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-174-g5c45eb958.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-236-ge71cc96e8.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-174-g5c45eb958-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.cia</code> from the zip to <code>/cias/Angband-4.2.6-174-g5c45eb958.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.cia</code> from the zip to <code>/cias/Angband-4.2.6-236-ge71cc96e8.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-174-g5c45eb958.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-236-ge71cc96e8.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-236-ge71cc96e8.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-174-g5c45eb958-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-236-ge71cc96e8-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-236-ge71cc96e8.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

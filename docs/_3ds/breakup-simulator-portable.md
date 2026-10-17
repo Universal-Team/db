@@ -1,5 +1,5 @@
 ---
-author: Dangerbites
+author: Anteger
 avatar: https://avatars.githubusercontent.com/u/119724559?v=4
 categories:
 - game
@@ -25,7 +25,7 @@ screenshots:
 - description: Screenshot
   url: https://db.universal-team.net/assets/images/screenshots/breakup-simulator-portable/screenshot.png
 source: https://github.com/Dangerbites/BreakupSimulator3DS
-stars: 4
+stars: 3
 systems:
 - 3DS
 title: Breakup Simulator Portable

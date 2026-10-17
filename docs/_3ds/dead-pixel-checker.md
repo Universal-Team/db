@@ -28,7 +28,7 @@ screenshots:
 - description: _11.03.25_19.22.05.594
   url: https://db.universal-team.net/assets/images/screenshots/dead-pixel-checker/_11.03.25_19.22.05.594.png
 source: https://github.com/classyham/3DS_DeadPixelChecker
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Dead Pixel Checker

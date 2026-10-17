@@ -1,0 +1,21 @@
+{
+	"github": "git-effl/Tux-Pong",
+	"title": "Tux Pong!",
+	"description": "A fork of the Scratch Version of Nate Pong, built on the Scratch Everywhere! runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.",
+	"author": "effL",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/git-effl/Tux-Pong/refs/heads/main/gfx/icon.png",
+	"image": "https://raw.githubusercontent.com/git-effl/Tux-Pong/refs/heads/main/gfx/3ds/banner.png",
+	"unique_ids": [
+		12888
+	],
+	"long_description": "Description:\nA fork of the Scratch Version of Nate Pong, built on the Scratch Everywhere! runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.\nInstallation:\nDownload the latest .cia/.3dsx file from the Releases.\nFor .3dsx files,just put it in your 3ds folder on your 3DS SD Card,then launch it with the Homebrew Launcher.\nFor .cia files,just put it on your cias folder on your 3DS SD Card,then installit via FBI,or your preferred CIA installer, then a package should appear in your home menu after installing,open it! Then launch the Tux Pong game.\nCredits & Licensing:\nGame made by: effL\nBased on: Dogo2009/Dogo6647/htlabs's port of Nate Pong (Nate Pong: Scratch Edition) on Scratch and on Scratch Everywhere,NateXS runtime to run Scratch games on consoles.\nTux character originally drawn by Larry Ewing with the GIMP. Konqi Character originally drawn by Stefan Spatz, redrawn by Timothée Giet and by Tyson Tan.\nMusic and SFX by OpenGameArt\nThe Original Nate Pong is created by NateXS and its licensed under the MIT license,see LICENSE-MIT on the official repository page for more details.\n\nEngine: Based on Scratch Everywhere!. Scratch Everywhere is licensed under the LGPL,see LICENSE the official repository page for more details.\n\nFonts: Grand9K Pixel is created by Jayvee D. Enaguas and licensed under the CC BY-SA 3.0,check GRAND9KPIXEL-LICENSE.txt for more details,\nNoto Sans is licensed under the SIL Open Font License,check NOTOSANS-LICENSE.txt for more details.",
+	"license": "Main App: lgpl-3.0 / mit /fonts: cc by-sa 3.0 / sil ofl ",
+	"license_name": "Main App: GNU Lesser General Public License v3.0 / MIT License / Fonts: CC BY-SA 3.0 / SIL Open Font License "
+}

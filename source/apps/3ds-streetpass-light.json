@@ -1,0 +1,14 @@
+{
+	"github": "DisLoPik/3DS-StreetPass-Light",
+	"title": "3DS StreetPass Light",
+	"description": "Flashes the streetpass light after a given time. Works in sleep mode.",
+	"author": "DisLoPik",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/DisLoPik/3DS-StreetPass-Light/refs/heads/master/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+	"github": "KaliLugu/Minicraft3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/KaliLugu/Minicraft3DS/refs/heads/master/icon.png",
+	"website": "https://minicraft3ds.dev/"
+}

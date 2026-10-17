@@ -23,7 +23,7 @@ llm_generation: unknown
 qr:
   OFF.cia: https://db.universal-team.net/assets/images/qr/off-cia.png
 source: https://github.com/fauxfennec/OFF3DS
-stars: 8
+stars: 9
 systems:
 - 3DS
 title: 'OFF'

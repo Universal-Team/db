@@ -1,0 +1,15 @@
+{
+	"github": "Michele-3ds/ForestClock",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Michele-3ds/ForestClock/main/icon.png",
+	"unique_ids": [
+		1018913
+	],
+	"wiki": "https://www.gamebrew.org/wiki/ForestClock"
+}

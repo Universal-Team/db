@@ -32,7 +32,7 @@ llm_generation: 'no'
 qr:
   SmashAmiiboCheatTool.cia: https://db.universal-team.net/assets/images/qr/smashamiibocheattool-cia.png
 source: https://github.com/SUOlivia/Smash-Amiibo-Cheat-Tool
-stars: 13
+stars: 14
 systems:
 - 3DS
 title: Smash Amiibo Cheat Tool

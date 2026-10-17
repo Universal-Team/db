@@ -26,7 +26,7 @@ llm_generation: unknown
 qr:
   speedmaze.cia: https://db.universal-team.net/assets/images/qr/speedmaze-cia.png
 source: https://github.com/lartodor/Nintendo-3DS-SpeedMaze
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Nintendo-3DS-SpeedMaze

@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 source: https://github.com/SnowyStorm00/artemis-os-3ds
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: Artemis OS 3DS

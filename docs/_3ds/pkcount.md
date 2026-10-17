@@ -44,7 +44,7 @@ screenshots:
 - description: The credits
   url: https://db.universal-team.net/assets/images/screenshots/pkcount/the-credits.png
 source: https://github.com/SuperSaiyajinStackZ/PKCount
-stars: 6
+stars: 7
 systems:
 - DS
 - 3DS

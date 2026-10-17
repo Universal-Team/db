@@ -1,0 +1,17 @@
+{
+	"github": "Plustendo/PlustendoApp",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Plustendo/PlustendoApp/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Plustendo/PlustendoApp/refs/heads/main/banner.png",
+	"unique_ids": [
+		244165
+	],
+	"long_description": "Configure and manage Plustendo on your 3DS\n\nPlustendo App is a homebrew application that allows you to configure Plustendo on your Nintendo 3DS. It provides an easy to use interface for applying DNS settings, managing your display name; viewing active game lobbies and the games currently available to play with Plustendo.\n\nWhat is Plustendo?\nPlustendo is an add-on network that works alongside Nintendo and Pretendo networks. It allows players to access additional servers and features while keeping full compatibility with Pretendo services.\n\nWhether you want to expand your online gaming options or keep playing Pretendo servers, Plustendo has you covered.\n\nWhy does Plustendo exist?\nPlustendo exists to enhance your 3DS online experience without replacing Pretendo, letting you play extra games, while still using your Pretendo profile.\n\nThink of it as an upgrade rather than a replacement.",
+	"website": "https://plustendo.com"
+}

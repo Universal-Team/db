@@ -1,0 +1,15 @@
+{
+	"github": "Taifuoguru/Postal-1-3DS",
+	"title": "Postal 1 3DS",
+	"author": "Taifu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png",
+	"preinstall_message": "You will need to copy the assets from your PC copy of the game to \"sdmc:/3ds/postal/data\". A black screen will appear after the POSTAL logo in the game; you need to press START there."
+}

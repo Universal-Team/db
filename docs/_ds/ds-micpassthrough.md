@@ -47,7 +47,7 @@ prerelease:
 qr:
   ds-micpassthrough.nds: https://db.universal-team.net/assets/images/qr/ds-micpassthrough-nds.png
 source: https://github.com/korbosoft/ds-micpassthrough
-stars: 13
+stars: 14
 systems:
 - DS
 title: ds-micpassthrough

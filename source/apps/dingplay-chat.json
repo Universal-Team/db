@@ -1,0 +1,18 @@
+{
+	"github": "Sonalpt/Dingplay-chat-3DS",
+	"author": "Dingplay",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"unique_ids": [
+		53670
+	],
+	"llm_generation": "no",
+	"image": "https://raw.githubusercontent.com/Sonalpt/Dingplay-chat-3DS/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Sonalpt/Dingplay-chat-3DS/main/meta/icon.png",
+	"description": "Chat with your Dingplay friends from a 3DS: DMs, the world chat and console-only rooms online, or text / drawings / voice over Local Wireless.",
+	"website": "https://www.dingplay.net"
+}

@@ -1,0 +1,20 @@
+{
+	"github": "thevalmarch/localsend3ds",
+	"title": "LocalSend3DS",
+	"description": "Unofficial LocalSend client for Nintendo 3DS.",
+	"author": "Val March",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/thevalmarch/localsend3ds/main/icon.png",
+	"unique_ids": [
+		1006931
+	],
+	"download_filter": "cia|3dsx",
+	"long_description": "LocalSend3DS is an unofficial LocalSend-compatible client for the Nintendo 3DS family.\n\nIt supports bidirectional discovery and one-file transfers with official LocalSend clients. Incoming transfers use HTTP, while outgoing transfers support HTTP and fingerprint-pinned HTTPS with mutual TLS.\n\nReal-hardware interoperability has been verified with macOS, Linux, and Android.\n\nPIN-protected recipients, multiple files, folders, text, clipboard transfers, and incoming HTTPS are not currently supported."
+}

@@ -13,13 +13,13 @@ download_filter: 3dsx|cia
 download_page: https://github.com/hmderdoc/3dBBS/releases
 downloads:
   3dBBS.3dsx:
-    size: 672948
-    size_str: 657 KiB
-    url: https://github.com/hmderdoc/3dBBS/releases/download/v0.5.0/3dBBS.3dsx
+    size: 674304
+    size_str: 658 KiB
+    url: https://github.com/hmderdoc/3dBBS/releases/download/v0.6.2/3dBBS.3dsx
   3dBBS.cia:
-    size: 509888
-    size_str: 497 KiB
-    url: https://github.com/hmderdoc/3dBBS/releases/download/v0.5.0/3dBBS.cia
+    size: 510912
+    size_str: 498 KiB
+    url: https://github.com/hmderdoc/3dBBS/releases/download/v0.6.2/3dBBS.cia
 github: hmderdoc/3dBBS
 icon: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/icon.png
 image: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/banner.png
@@ -42,9 +42,9 @@ update_notes: '<p dir="auto">Scan <code class="notranslate">qr-install.png</code
   from the Homebrew<br>
 
   Launcher. Release builds contain no dev scaffolding.</p>'
-updated: '2026-08-09T15:32:24Z'
-version: v0.5.0
-version_title: v0.5.0
+updated: '2026-09-23T01:05:39Z'
+version: v0.6.2
+version_title: v0.6.2
 ---
 A BBS terminal for the Nintendo 3DS that renders stereoscopic 3D scenes,
 streamed audio and sixel graphics driven by the BBS itself, while remaining

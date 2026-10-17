@@ -9,6 +9,7 @@
 		"save-tool",
 		"utility"
 	],
+	"llm_generation": "minor",
 	"icon": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png",
 	"image": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png",
 	"unique_ids": [

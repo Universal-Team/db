@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 10933032
-    size_str: 10 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-3ds.3dsx
-  scratch-3ds.cia:
-    size: 9257920
+    size: 8632264
     size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.2.1/scratch-3ds.3dsx
+  scratch-3ds.cia:
+    size: 6812608
+    size_str: 6 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.2.1/scratch-3ds.cia
   scratch-ds.nds:
-    size: 5633536
+    size: 5915136
     size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.2.1/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -41,107 +41,32 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<p dir="auto"><strong>After 451 days and 1,545 commits from 36 contributors,
-  SE! is finally at 1.0!</strong></p>
-
-  <h2 dir="auto">Parity Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Add default costume rotation center if one is not present in project.json</li>
-
-  <li>Add default sample count and sample rate</li>
-
-  <li>Fix TextToSpeech blocks not waiting to finish speaking until continuing</li>
-
-  <li>Fix being able to click through Sprites</li>
-
-  <li>Fix <code class="notranslate">Stop ''other scripts in sprite''</code> Block
-  being wrong if ran in a custom block</li>
-
-  </ul>
+update_notes: '<p dir="auto">This is an emergency release fixing a stack overflow
+  bug in Release 1.2 that caused several platforms to crash upon launch.</p>
 
   <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fix SVG costumes being super pixelated sometimes</li>
+  <li>Load the SB2 specmap using the heap instead of the stack</li>
 
-  <li>Optimized block inputs and fields</li>
-
-  <li>Fix collision with flipped Sprites</li>
-
-  <li>Fix audio not working in Unzipped projects</li>
-
-  <li>Fix <code class="notranslate">Volume</code> block not working</li>
-
-  <li>Fix speech bubbles not getting removed when its Sprite is deleted</li>
-
-  <li>Refactored a bunch of input code internally (Via <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4512817721" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/695"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/695/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/695">#695</a>)</li>
+  <li>Added an <code class="notranslate">exit project</code> block; you can find it
+  here: <a href="https://scratchbox.dev/project/K26OtTN2WDJ9" rel="nofollow">https://scratchbox.dev/project/K26OtTN2WDJ9</a></li>
 
   </ul>
 
-  <h2 dir="auto">Menu Changes</h2>
+  <h2 dir="auto">Windows Changes</h2>
 
   <ul dir="auto">
 
-  <li>Add Romanian translation (Via <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4811030362" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/722"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/722/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/722">#722</a>)</li>
+  <li>Fixed the installer''s shortcut path</li>
 
-  <li>Fix controls menu not working correctly</li>
+  <li>Fixed the default project path when Scratch Everywhere! is installed to an unwritable
+  location (e.g., when using the installer)</li>
 
-  </ul>
-
-  <h2 dir="auto">Wii &amp; GameCube Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Fix crash on startup</li>
-
-  <li>No longer embed assets inside .dol</li>
-
-  </ul>
-
-  <h2 dir="auto">Windows &amp; PS4 Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Fix crash on startup</li>
-
-  </ul>
-
-  <h2 dir="auto">NDS Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Don''t render Sprites if <code class="notranslate">ghost</code> effect is over
-  70%</li>
-
-  </ul>
-
-  <p dir="auto">These changes brought to you by: <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DarkerSparks/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DarkerSparks">@DarkerSparks</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Starlii10/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Starlii10">@Starlii10</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/fridayfunkgaming291-cloud/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/fridayfunkgaming291-cloud">@fridayfunkgaming291-cloud</a>,
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
-updated: '2026-07-26T17:25:29Z'
-version: '1.0'
-version_title: '1.0'
+  </ul>'
+updated: '2026-10-07T18:41:23Z'
+version: 1.2.1
+version_title: Release 1.2.1
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!

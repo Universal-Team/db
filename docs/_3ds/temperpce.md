@@ -21,7 +21,7 @@ image_length: 3236
 layout: app
 llm_generation: 'no'
 source: https://github.com/bubble2k16/temperpce_3ds
-stars: 38
+stars: 37
 systems:
 - 3DS
 title: TemperPCE

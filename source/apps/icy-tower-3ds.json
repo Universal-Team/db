@@ -1,0 +1,17 @@
+{
+	"github": "breakgimme/icytower-3ds",
+	"title": "Icy Tower 3DS",
+	"description": "Open-source Icy Tower remake",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/breakgimme/icytower-3ds/refs/heads/master/icon.png",
+	"image": "https://raw.githubusercontent.com/breakgimme/icytower-3ds/refs/heads/master/banner.png",
+	"unique_ids": [
+		54856
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"github": "mirusu400/DaeMoon",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/mirusu400/DaeMoon/main/platform/3ds/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/mirusu400/DaeMoon/main/platform/3ds/assets/banner.png",
+	"unique_ids": [
+		896512
+	],
+	"website": "https://daemoon.mir.sh",
+	"download_filter": "^daemoon-3ds-v.*\\.cia$"
+}

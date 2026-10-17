@@ -1,0 +1,17 @@
+{
+	"forgejo": "igor360/talk-with-okelote",
+	"forgejo_host": "codeberg.org",
+	"title": "talk with okelote",
+	"description": "want to talk with somebody? talk with okelote!",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://codeberg.org/igor360/talk-with-okelote/raw/branch/main/icon.png",
+	"long_description": "# talk with okelote!\nthis is my first game, made on löve2d, for nintendo 3ds\n\n# installation (automatic)\n0. homebrew ur 3ds! this can be done by using guides on [3ds.hacks.guides](https://3ds.hacks.guide/)\n1. go to universal updater and download this game from there\n\n# installation (manual)\n0. homebrew ur 3ds! this can be done by using guides on [3ds.hacks.guides](https://3ds.hacks.guide/)\n1. get a .3dsx file from releases/universal database (or build it)\n2. put ur console's sd card intro ur pc\n3. now, move that .3dsx file intro 3ds folder on ur sd card\n4. put sd card back intro ur console\n5. go to homebrew launcher and run the game! finally\n\n# how to build\n1. download zip archive of this repository\n2. go to [online bundler](https://bundler.nawiasdev.eu/)\n3. upload zip archive\n4. download compiled bundle, inside it will be a .3dsx file with a game!",
+	"license": "wtfpl",
+	"license_name": "DO WHAT THE SEAL YOU WANT TO PUBLIC LICENSE"
+}

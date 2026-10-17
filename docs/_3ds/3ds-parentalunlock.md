@@ -19,7 +19,7 @@ image_length: 10211
 layout: app
 llm_generation: 'no'
 source: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DS-ParentalUnlock

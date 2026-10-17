@@ -20,7 +20,7 @@ image_length: 5927
 layout: app
 llm_generation: 'no'
 source: https://github.com/mrdanielps/r3Ddragon
-stars: 131
+stars: 130
 systems:
 - 3DS
 title: r3Ddragon

@@ -1,0 +1,17 @@
+{
+	"github": "BladeWheat/Mail3DS",
+	"description": "任天堂 3DS 第三方电子邮件 homebrew 客户端：多账户、IMAP 收件、中文邮件解码、SD 卡本地缓存，非官方项目。 \\n  A third-party email homebrew client for the hacked Nintendo 3DS: multi-account, IMAP, Chinese mail decoding & SD-card cache. Unofficial.",
+	"author": "Wheat",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/icon.png",
+	"image": "https://raw.githubusercontent.com/BladeWheat/Mail3DS/master/cia_build/banner_256x128.png",
+	"unique_ids": [
+		237936
+	]
+}

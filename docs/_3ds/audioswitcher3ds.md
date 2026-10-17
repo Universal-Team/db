@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   AudioSwitcher.cia: https://db.universal-team.net/assets/images/qr/audioswitcher-cia.png
 source: https://github.com/Sunrase/AudioSwitcher3ds
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: AudioSwitcher3ds

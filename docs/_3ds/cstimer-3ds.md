@@ -9,14 +9,14 @@ created: '2025-09-04T11:11:31Z'
 description: 'Speed Cubing Timer for 3DS honouring Cstimer asethetic '
 download_page: https://github.com/Menshion01/CSTimer-3DS/releases
 downloads:
-  3dsdevah.3dsx:
-    size: 1734500
+  CSTimer-3DS.3dsx:
+    size: 1212872
     size_str: 1 MiB
-    url: https://github.com/Menshion01/CSTimer-3DS/releases/download/1.1.0/3dsdevah.3dsx
+    url: https://github.com/Menshion01/CSTimer-3DS/releases/download/1.2.0/CSTimer-3DS.3dsx
   cstimer.cia:
-    size: 2126784
-    size_str: 2 MiB
-    url: https://github.com/Menshion01/CSTimer-3DS/releases/download/1.1.0/cstimer.cia
+    size: 1594304
+    size_str: 1 MiB
+    url: https://github.com/Menshion01/CSTimer-3DS/releases/download/1.2.0/cstimer.cia
 github: Menshion01/CSTimer-3DS
 icon: https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/icon.png
 image: https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/banner.png
@@ -37,11 +37,8 @@ systems:
 title: CSTimer-3DS
 unique_ids:
 - '0xFAA5E'
-update_notes: '<p dir="auto">Added +2 and DNF features, added tournament-style averages
-  and code fixes</p>
-
-  <p dir="auto">Moved to a new project because I''m not good with Github.</p>'
-updated: '2025-09-04T11:41:18Z'
-version: 1.1.0
-version_title: 1.1.0
+update_notes: <p dir="auto">Fixed scrambler and font.</p>
+updated: '2026-09-06T02:42:14Z'
+version: 1.2.0
+version_title: 1.2.0
 ---

@@ -1,0 +1,18 @@
+{
+	"github": "EstebanPdN/mario-kart-64-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/EstebanPdN/mario-kart-64-3ds/main/icon.jpeg",
+	"image": "https://raw.githubusercontent.com/EstebanPdN/mario-kart-64-3ds/main/banner.png",
+	"unique_ids": [
+		369264
+	],
+	"long_description": "Native Nintendo 3DS port of Mario Kart 64, based on SpaghettiKart",
+	"download_filter": "^mk64-3ds-v.*\\.(cia|3dsx)$",
+	"preinstall_message": "This game is mainly intended for New Nintendo 3DS systems.  After installation, place your Mario Kart 64 ROM in: sd:/3ds/MK64/  For a faster setup, generate `mk64.o2r` using SpaghettiKart on a computer and place it in the same folder."
+}

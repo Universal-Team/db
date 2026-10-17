@@ -1,0 +1,9 @@
+{
+	"github": "GABXRIEL/Mensinger3DS-Backend",
+	"title": "Mensinger 3DS",
+	"category": ["utility"],
+	"systems": ["3ds"],
+	"unique_ids": [1015813],
+	"icon": "https://raw.githubusercontent.com/GABXRIEL/Mensinger3DS-Backend/refs/heads/main/icon.png",
+	"banner": "https://raw.githubusercontent.com/GABXRIEL/Mensinger3DS-Backend/refs/heads/main/banner.png"
+}

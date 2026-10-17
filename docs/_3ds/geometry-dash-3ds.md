@@ -28,10 +28,40 @@ image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resour
 image_length: 5535
 layout: app
 llm_generation: minor
+prerelease:
+  download_page: https://github.com/AleFunky/gd3ds/releases/tag/nightly-2.0
+  downloads:
+    GeometryDash3DS.3dsx:
+      size: 44792852
+      size_str: 42 MiB
+      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.0/GeometryDash3DS.3dsx
+    GeometryDash3DS.cia:
+      size: 44479424
+      size_str: 42 MiB
+      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.0/GeometryDash3DS.cia
+  qr:
+    GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/geometrydash3ds-cia.png
+  update_notes: '<p dir="auto">Latest 2.0 test build from commit <a class="commit-link"
+    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/8b6f886dbfbeddfbdabaa56fee360e6696a3c062/hovercard"
+    href="https://github.com/AleFunky/gd3ds/commit/8b6f886dbfbeddfbdabaa56fee360e6696a3c062"><tt>8b6f886</tt></a><br>
+
+    This is a dev build, therefore bugs and crashes are expected.<br>
+
+    Enjoy!</p>'
+  update_notes_md: 'Latest 2.0 test build from commit 8b6f886dbfbeddfbdabaa56fee360e6696a3c062
+
+    This is a dev build, therefore bugs and crashes are expected.
+
+    Enjoy!
+
+    '
+  updated: '2026-10-02T23:55:24Z'
+  version: nightly-2.0
+  version_title: Nightly 2.0
 qr:
   GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/geometrydash3ds-cia.png
 source: https://github.com/AleFunky/gd3ds
-stars: 119
+stars: 140
 systems:
 - 3DS
 title: Geometry Dash 3DS
@@ -94,6 +124,7 @@ update_notes: '<p dir="auto">This release contains the following:</p>
 updated: '2026-08-15T16:57:44Z'
 version: v1.1
 version_title: Geometry Dash 3DS 1.1
+wiki: https://github.com/AleFunky/gd3ds/wiki
 ---
 Jump and fly your way through danger in this rhythm-based action platformer - now on 3DS! This fan-made port is in no way affiliated with RobTop Games, the creator of Geometry Dash, and all in game assets belong to their respective owners. If you want to get the full experience, please buy the original game!
 
