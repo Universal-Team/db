@@ -10,13 +10,13 @@ description: Klient InPost na Nintendo 3DS
 download_page: https://github.com/TehFridge/InPost3DS/releases
 downloads:
   InPost3DS.3dsx:
-    size: 24398960
-    size_str: 23 MiB
-    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.5/InPost3DS.3dsx
+    size: 21505236
+    size_str: 20 MiB
+    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.1.0/InPost3DS.3dsx
   InPost3DS.cia:
-    size: 24753088
-    size_str: 23 MiB
-    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.5/InPost3DS.cia
+    size: 21820352
+    size_str: 20 MiB
+    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.1.0/InPost3DS.cia
 github: TehFridge/InPost3DS
 icon: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/gfx/logo_inpost.png
@@ -34,11 +34,26 @@ systems:
 title: InPost3DS
 unique_ids:
 - '0x39057'
-update_notes: '<h2 dir="auto">Zmiany:</h2>
+update_notes: '<h1 dir="auto">NOWY UPDATE!!! 🔥🔥🔥🔥</h1>
 
-  <h3 dir="auto">Offline Mode (można odebrać paczke, po zassaniu odpowiednio danych
-  jak będzie już dostępna QR''ka)</h3>'
-updated: '2026-06-24T21:47:33Z'
-version: v1.0.5
-version_title: InPost3DS 1.0.5
+  <h2 dir="auto">Changelog:</h2>
+
+  <ul dir="auto">
+
+  <li>Zmiana sposobu logowania ze względu na nową autoryzację InPostu.</li>
+
+  <li>Możliwość nadawania i opłacenia paczki</li>
+
+  </ul>
+
+  <h1 dir="auto">WARNING!</h1>
+
+  <p dir="auto">Musicie usunąć folder InPost3DS z folderu /3ds by zalogować się na
+  nowo.<br>
+
+  (TUTORIAL JAK SIE ZALOGOWAĆ: <a href="https://www.youtube.com/watch?v=5FhRw0S_n98"
+  rel="nofollow">https://www.youtube.com/watch?v=5FhRw0S_n98</a>)</p>'
+updated: '2026-10-16T21:33:19Z'
+version: v1.1.0
+version_title: InPost3DS 1.1.0
 ---
