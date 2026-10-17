@@ -14,15 +14,15 @@ downloads:
   NINTV-DS.nds:
     size: 790016
     size_str: 771 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.3/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.4/NINTV-DS.nds
   README.md:
-    size: 36905
-    size_str: 36 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.3/README.md
+    size: 38457
+    size_str: 37 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.4/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 40671
+image_length: 40888
 layout: app
 llm_generation: unknown
 preinstall_message: 'You need "grom.bin", "exec.bin",
@@ -35,30 +35,42 @@ stars: 57
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V6.3 : 01-Jan-2026 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.4 : 17-Oct-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for horizontal scroll bug that caused a bit of blurring when moving left/right
-  in some games. Fixes Ninja Odyssey health bar.</li>
+  <li>New overlays, max number of custom overlays expanded.</li>
 
-  <li>Improved backtab latched handling - the DSi and above now utilizes backtab latching
-  by default for improved emulation accuracy.</li>
+  <li>Tweaked JLP RAM initialization so we now clear ram (Dreadline now plays).</li>
 
-  <li>Fixed mapping DS keys to DISC UP/DOWN such that you can move left/right and
-  press the DS button to JUMP (previously it would ignore the left/right if you pressed
-  a DS button that mapped to DISC UP/DOWN).</li>
+  <li>New Tutorvision + JLP hardware combination supported.</li>
 
-  <li>Refactored memory to free up another 160K of memory for future use.</li>
+  <li>Minor cleanup across the board.</li>
 
-  <li>Improved PSG handling to move the structs into ARM fast memory for a slight
-  boost in performance.</li>
+  </ul>
 
-  <li>Lots of minor database cleanup under the hood so more games and homebrews work
-  properly without additional configuration needed.</li>
+  <p dir="auto">V6.3c : 07-June-2026 by wavemotion-dave</p>
+
+  <ul dir="auto">
+
+  <li>Fix for STIC borders that were causing blinking/glitching in games like SafeCracker.</li>
+
+  </ul>
+
+  <p dir="auto">V6.3b : 30-Jan-2026 by wavemotion-dave</p>
+
+  <ul dir="auto">
+
+  <li>Fix for Paddle Party which does a half-bank page at $4800.</li>
+
+  <li>Minor improvement for STIC register handling for improved accuracy.</li>
+
+  <li>Fix for Screen Snapshot (L+R+Y).</li>
+
+  <li>Slight tweaks to a few older overlays.</li>
 
   </ul>'
-updated: '2026-01-01T12:21:57Z'
-version: '6.3'
-version_title: Version 6.3
+updated: '2026-10-17T11:38:32Z'
+version: '6.4'
+version_title: Version 6.4
 ---
