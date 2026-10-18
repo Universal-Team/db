@@ -27,6 +27,8 @@ icon: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resourc
 image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
 image_length: 5535
 layout: app
+license: cc-by-sa-4.0
+license_name: Creative Commons Attribution Share Alike 4.0 International
 llm_generation: minor
 prerelease:
   download_page: https://github.com/AleFunky/gd3ds/releases/tag/nightly-2.0
@@ -61,7 +63,7 @@ prerelease:
 qr:
   GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/geometrydash3ds-cia.png
 source: https://github.com/AleFunky/gd3ds
-stars: 141
+stars: 142
 systems:
 - 3DS
 title: Geometry Dash 3DS
