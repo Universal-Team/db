@@ -3,8 +3,6 @@ author: estebanpdn
 avatar: https://avatars.githubusercontent.com/u/72305261?v=4
 categories:
 - game
-color: '#7e6a57'
-color_bg: '#7e6a57'
 created: '2026-08-04T19:39:14Z'
 description: Native Nintendo 3DS port work based on the Mario Kart 64 decompilation.
 download_filter: ^mk64-3ds-v.*\.(cia|3dsx)$
@@ -21,7 +19,6 @@ downloads:
 github: EstebanPdN/mario-kart-64-3ds
 icon: https://raw.githubusercontent.com/EstebanPdN/mario-kart-64-3ds/main/icon.jpeg
 image: https://raw.githubusercontent.com/EstebanPdN/mario-kart-64-3ds/main/banner.png
-image_length: 30238
 layout: app
 llm_generation: 'yes'
 preinstall_message: 'This game is mainly intended for New Nintendo 3DS systems.  After

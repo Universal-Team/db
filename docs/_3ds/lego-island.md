@@ -11,7 +11,7 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/isledecomp/isle-portable/releases
 downloads:
   isle.3dsx:
-    size: 3048552
+    size: 3048576
     size_str: 2 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle.3dsx
   isle.cia:
@@ -32,14 +32,14 @@ preinstall_message: 'An existing copy of LEGO Island is required to use this pro
 qr:
   isle.cia: https://db.universal-team.net/assets/images/qr/isle-cia.png
 source: https://github.com/isledecomp/isle-portable
-stars: 1073
+stars: 1074
 systems:
 - 3DS
 title: LEGO Island
 unique_ids:
 - '0x76E7E'
-update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/39095417938">https://github.com/isledecomp/isle-portable/actions/runs/39095417938</a></p>'
-updated: '2026-10-18T04:40:03Z'
+update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/39101080978">https://github.com/isledecomp/isle-portable/actions/runs/39101080978</a></p>'
+updated: '2026-10-18T05:58:03Z'
 version: continuous
 version_title: Continuous build
 wiki: https://github.com/isledecomp/isle-portable/wiki

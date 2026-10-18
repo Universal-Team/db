@@ -3,8 +3,6 @@ author: estebanpdn
 avatar: https://avatars.githubusercontent.com/u/72305261?v=4
 categories:
 - game
-color: '#a58c65'
-color_bg: '#806c4e'
 created: '2026-07-27T22:06:01Z'
 description: Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3
 download_filter: 3dsx|cia
@@ -21,7 +19,6 @@ downloads:
 github: EstebanPdN/zelda-alttp-3ds
 icon: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udicon.png
 image: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udbanner.png
-image_length: 34742
 layout: app
 llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
@@ -30,7 +27,7 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
 qr:
   zelda3-3ds-v3.2.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v3-2-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 715
+stars: 717
 systems:
 - 3DS
 title: zelda-alttp-3ds
