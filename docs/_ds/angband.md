@@ -91,7 +91,7 @@ prerelease:
   version: 4.2.6-236-ge71cc96e8
   version_title: 4.2.6-236-ge71cc96e8
 source: https://github.com/angband/angband
-stars: 1567
+stars: 1568
 systems:
 - 3DS
 - DS
