@@ -107,7 +107,7 @@ prerelease:
   version: v2.1.0
   version_title: v2.1.0
 source: https://github.com/DS-Homebrew/PicoDriveTWL
-stars: 24
+stars: 25
 systems:
 - DS
 title: PicoDriveTWL
