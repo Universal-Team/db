@@ -8,17 +8,17 @@ description: Porting nanoCLR "C#" for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
-    size: 323952
-    size_str: 316 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/ReSharp3DS.3dsx
+    size: 324656
+    size_str: 317 KiB
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.3.6/ReSharp3DS.3dsx
   ReSharp3DS.cia:
     size: 608192
     size_str: 593 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/ReSharp3DS.cia
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.3.6/ReSharp3DS.cia
   mscorlib.pe:
     size: 31028
     size_str: 30 KiB
-    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.2.6/mscorlib.pe
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.3.6/mscorlib.pe
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -37,32 +37,38 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1177410a-fd5c-44e5-afc4-af6e982c9d28"><img
-  width="284" height="459" alt="image" src="https://github.com/user-attachments/assets/1177410a-fd5c-44e5-afc4-af6e982c9d28"
+update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d8220e5b-0904-4228-8afd-4ee7535dc182"><img
+  width="284" height="459" alt="image" src="https://github.com/user-attachments/assets/d8220e5b-0904-4228-8afd-4ee7535dc182"
   style="max-width: 100%; height: auto; max-height: 459px;; aspect-ratio: 284 / 459;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 
   <h2>Fast CIA Installation</h2>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ae545b8c-c0a2-4eb6-b395-22a6e629297b"><img
-  width="246" height="246" alt="qr-code(1)" src="https://github.com/user-attachments/assets/ae545b8c-c0a2-4eb6-b395-22a6e629297b"
+  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/fe4b2d8d-76e2-4b54-baa0-b12ff6de7cb7"><img
+  width="246" height="246" alt="qr-code" src="https://github.com/user-attachments/assets/fe4b2d8d-76e2-4b54-baa0-b12ff6de7cb7"
   style="max-width: 100%; height: auto; max-height: 246px;; aspect-ratio: 246 / 246;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 
-  <h2>ReSharp3DS Launcher Update</h2>
+  <h2>ReSharp3DS Loader Update</h2>
 
   <ul>
 
-  <li>Improve UI</li>
+  <li>Add credits</li>
 
-  <li>Improve french translation</li>
+  <li>Update UI</li>
 
-  <li>Add new icon</li>
+  <li>Improvements to the Translation System <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/HadriX69/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/HadriX69">@HadriX69</a></li>
+
+  <li>Bugs Fixes</li>
+
+  <li>Update app informations ( New icon, new author )</li>
 
   </ul>'
-updated: '2026-09-06T14:19:00Z'
-version: v2.2.6
-version_title: v2.2.6
+updated: '2026-10-20T14:21:06Z'
+version: v2.3.6
+version_title: v2.3.6
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
 # Runtime & SDK for C#
