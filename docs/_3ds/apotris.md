@@ -6,13 +6,13 @@ categories:
 color: '#ffe74a'
 color_bg: '#7d2999'
 created: '2023-10-27T20:04:22Z'
-description: A free and multiplatform block stacking game
+description: A free and multiplatform block stacking game with online multiplayer
 download_page: https://akouzoukos.com/apotris/downloads
 downloads:
-  Apotris-v4.1.03DS.zip:
-    size: 4655795
-    size_str: 4 MiB
-    url: https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.03DS.zip
+  Apotris-v4.2.03DS.zip:
+    size: 8035818
+    size_str: 7 MiB
+    url: https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.2.03DS.zip
 forgejo: akouzoukos/apotris
 forgejo_host: gitea.com
 icon: https://db.universal-team.net/assets/images/icons/apotris.png
@@ -44,9 +44,11 @@ systems:
 title: Apotris
 unique_ids:
 - '0xA9715'
-update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0</h2><a
-  id="user-content-v410" class="anchor" aria-label="Permalink: v4.1.0" href="#v410"><span
+update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.2.0</h2><a
+  id="user-content-v420" class="anchor" aria-label="Permalink: v4.2.0" href="#v420"><span
   aria-hidden="true" class="octicon octicon-link"></span></a></div>
+
+  <p>If you are updating from a previous version, make sure to backup your save first!</p>
 
   <ul>
 
@@ -54,94 +56,109 @@ update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0<
 
   <ul>
 
-  <li>Nintendo 3DS (by Alvin Wong)</li>
+  <li>Android, including customizable on-screen controls</li>
 
   </ul>
 
   </li>
 
-  <li>Added the Color Editor:
+  <li>Added Online multiplayer on PC/Portmaster/3DS/Android (mostly by Heni)
 
   <ul>
 
-  <li>Lets you create and manage up to 3 custom color palettes.</li>
+  <li>Crossplay is supported</li>
+
+  <li>Play with friends or randoms online</li>
+
+  <li>Will be further improved with modes, ranked queue, better social options, and
+  more in a future update!</li>
 
   </ul>
 
   </li>
 
-  <li>Added HSV value editing capability to the Gradient Editor.</li>
+  <li>Expanded multiplayer lobbies to support 5 players at once (GBA too!) (by Heni)</li>
 
-  <li>Added the ability to skip the current music track from the pause menu.</li>
+  <li>Added rounds to multiplayer matches, with selectable target (first to 3, 5,
+  or 7 wins)</li>
 
-  <li>Added a timeout (3 minutes) to the demo mode.</li>
+  <li>Improved incoming attacks bar to show separate attacks and highlight the next
+  attack</li>
 
-  <li>Disabled rumble during demo mode and replays.</li>
+  <li>Added sound effects for received and sent attacks</li>
 
-  <li>Re-added the option to darken the ghost piece.</li>
+  <li>Added Cascade submode to Marathon and Zen (each tetromino falls separately in
+  the stack)</li>
 
-  <li>Greatly improved random number generation to prevent cases where the numbers
-  generated weren''t very random (by Luigi)</li>
+  <li>Added Tower submode to Marathon and Zen (instead of clearing lines, you fill
+  them! You lose if you leave a hole) (by Alexis Moroz)</li>
 
-  <li>Fixed Classic Mode DAS wallcharge being overridden by NRS charge.</li>
+  <li>Added Zone submode to Zen</li>
 
-  <li>Fixed Classic Mode high scores saving based on frames instead of score.</li>
+  <li>Improved BARS and added SDRS rotation systems (by CreepercraftT99)</li>
 
-  <li>Fixed ARS T-piece wall kicks.</li>
+  <li>Added longer and more reliable replays (hopefully fixed crashes for long replays)</li>
 
-  <li>Fixed issues with replay playback during Master/Death mode credit rolls.</li>
+  <li>Replay statistics are now preserved when viewing an interrupted replay</li>
 
-  <li>Fixed stat accumulation occurring after high score saving.</li>
+  <li>Added custom skin import and export on PC and other supported platforms
 
-  <li>Fixed graphics option randomizer (some options were never chosen).</li>
+  <ul>
 
-  <li>Fixed bone skin sometimes not being removed after a Death mode game ended.</li>
+  <li>Custom skins are automatically stored and loaded from the /skins folder</li>
 
-  <li>Fixed incorrect grade names displayed in Death mode results.</li>
-
-  <li>Fixed enable rumble notification text glitching.</li>
-
-  <li>Fixed potential crash if the music track list was empty.</li>
-
-  <li>Fixed gradient editor rendering issues.</li>
-
-  <li>Fixed demo mode games from counting towards total games started statistic.</li>
-
-  <li>Removed F11 fullscreen keybind (now handled by options).</li>
-
-  <li>(Windows / Linux / Portmaster) Added <em>Shader Support</em>
+  </ul>
 
   </li>
 
-  <li>(PC / Web) Added <em>Controller Support</em>
+  <li>Added support for more music formats on PC/Portmaster (mp3, ogg, flac, wav)
+  and 3DS (.ogg, .opus, mp3) (3DS support by <a href="https://github.com/alvinhochun">Alvin</a>)</li>
 
-  </li>
+  <li>Song list menu now shows song names on PC and 3DS (by <a href="https://github.com/alvinhochun">Alvin</a>)</li>
 
-  <li>(PC / PortMaster / Switch) Added <em>Rumble Support</em>
+  <li>Added smooth falling-piece gravity option</li>
 
-  </li>
+  <li>Added automatic pause when the game''s window loses focus on PC</li>
 
-  <li>(PC) Added an option for persistent fullscreen mode in Video Settings.</li>
+  <li>Added lifetime Zen line statistics</li>
 
-  <li>(PC) Fixed the "Save Replays" option in Training Mode not working correctly</li>
+  <li>Added Sonic Drop Handling Options (changes hard drop so it doesn''t lock the
+  piece after dropping, and soft drop so it locks the piece after dropping)</li>
 
-  <li>(GBA) Improved Multiplayer stability</li>
+  <li>Changed pro mode so it doesn''t give S, Z, or O tetrominos as the first piece
+  in Sprint</li>
 
-  <li>(GBA) Added detection for more flash save chip types.</li>
+  <li>Added in-game battery indicator option for devices with batteries (PC, Portmaster,
+  Linux)</li>
 
-  <li>(Switch) Added custom music track support</li>
+  <li>Added Place Effect feature to non-GBA/3DS platforms</li>
 
-  <li>(Portmaster) Resolved various crashes and issues on specific Portmaster hardware</li>
+  <li>Improved skip song feature</li>
+
+  <li>(Portmaster) Added button mapping support for L2/R2 buttons</li>
+
+  <li>(Portmaster) Fixed being able to activate zone with no meter</li>
+
+  <li>(PC) Fixed rumble starting and never stopping if rumble was set to OFF</li>
+
+  <li>(GBA) Added autosleep and new sleep/wake options (by nullstalgia)</li>
+
+  <li>(GBA) Added improved rumble effects and more rumble settings (by nullstalgia)</li>
+
+  <li>(Linux) Added easier installation and desktop menu integration (.desktop file
+  with install script, .AppImage) (partially by dogbolt_system)</li>
+
+  <li>(Linux) Changed savefile storage location to fit Linux standards (by bizmyth)</li>
 
   </ul>
 
   '
-updated: '2025-04-19T17:31:10.551Z'
-version: v4.1.0
+updated: '2026-10-19T19:13:43Z'
+version: v4.2.0
 website: https://akouzoukos.com/apotris
 wiki: https://github.com/akouzoukos/apotris/wiki
 ---
-**Apotris** is a free multiplatform open-source block stacking game! What sets Apotris apart from other block stacking games is its extensive customization options, complemented by ultra-responsive controls that let you execute your moves with precision. With 14 unique game modes and a plethora of settings, you can tailor the game to your preferences, ensuring a fresh and challenging experience every time you play. Whether you're a casual player or a hardcore enthusiast, Apotris has something for everyone. <!--You can even battle your friends using the Gameboy Advance Link Cable or Wireless Adapters in 2-Player Battle!--> While Apotris was originally designed for Gameboy Advance, it now supports all kinds of platforms, so between the ports and emulation you can play Apotris on almost anything.
+**Apotris** is a free multiplatform open-source block stacking game! What sets Apotris apart from other block stacking games is its extensive customization options, complemented by ultra-responsive controls that let you execute your moves with precision. With 14 unique game modes and a plethora of settings, you can tailor the game to your preferences, ensuring a fresh and challenging experience every time you play. Whether you're a casual player or a hardcore enthusiast, Apotris has something for everyone. While Apotris was originally designed for Gameboy Advance, it now supports all kinds of platforms, so between the ports and emulation you can play Apotris on almost anything.
 
 The game is still actively maintained and new features are added constantly. If you have any suggestions, want to learn about new features or participate in beta releases, join the Apotris discord server!
 
@@ -158,7 +175,7 @@ The game is still actively maintained and new features are added constantly. If 
 * **Master**: Get the highest Grade while the game gets aggressively faster
 * **Death**: Try to survive at brutal speeds
 * **Zen**: The goal is to relax...
-* **2P Battle**: Battle your friends through the Link Cable or Wireless Adapter (GBA Only!)
+* **Multiplayer Battle**: Battle with up to 5 players online on PC, Portmaster, 3DS, and Android with crossplay, or through the Link Cable or Wireless Adapter on GBA
 * **CPU Battle**: Go against an AI opponent
 * **Training**: Try out new strategies or improve your playing using the included Finesse Trainer
 
@@ -167,7 +184,7 @@ The game is still actively maintained and new features are added constantly. If 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
 <details class="alert alert-secondary"><summary>Apotris.3dsx + assets</summary>
 <ol>
-<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Download <code>Apotris-v4.2.03DS.zip</code></li>
 <li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
 <li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
 <li>Extract <code>/3ds/Apotris/Apotris.3dsx</code> from the zip to <code>/3ds/Apotris.3dsx</code> on your SD card</li>
@@ -176,7 +193,7 @@ The game is still actively maintained and new features are added constantly. If 
 
 <details class="alert alert-secondary"><summary>Apotris.cia + assets</summary>
 <ol>
-<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Download <code>Apotris-v4.2.03DS.zip</code></li>
 <li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
 <li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
 <li>Extract <code>/3ds/Apotris/Apotris.cia</code> from the zip to <code>/cias/Apotris.cia</code> on your SD card</li>
