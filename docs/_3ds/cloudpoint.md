@@ -26,6 +26,76 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: minor
+prerelease:
+  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.9.0
+  downloads:
+    cloudpoint.3dsx:
+      size: 3160632
+      size_str: 3 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.3dsx
+    cloudpoint.cia:
+      size: 2479040
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.cia
+  qr:
+    cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
+  update_notes: '<p dir="auto">Added a nice refreshed home screen banner (with transparency
+    ) to replace the kinda janky looking solid one, as well as an icon which is actually
+    centered. Also tweaked the local backup stage when downloading a synced save to
+    be much faster (4x fast for Terraria, which has a massive save).</p>
+
+    <h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>Add improved banner and logo images for use in CIA builds by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5764551885" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/167"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/167/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/167">#167</a></li>
+
+    <li>Speed up local backup during sync download by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5811146076" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/170"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/170/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/170">#170</a></li>
+
+    <li>Cleanup of module names and visibility by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5770296689" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/168"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/168/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/168">#168</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0"><tt>0.8.1...0.9.0</tt></a></p>'
+  update_notes_md: 'Added a nice refreshed home screen banner (with transparency )
+    to replace the kinda janky looking solid one, as well as an icon which is actually
+    centered. Also tweaked the local backup stage when downloading a synced save to
+    be much faster (4x fast for Terraria, which has a massive save).
+
+
+    ## What''s Changed
+
+    * Add improved banner and logo images for use in CIA builds by @dwalker109 in
+    https://github.com/dwalker109/cloudpoint/pull/167
+
+    * Speed up local backup during sync download by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/170
+
+    * Cleanup of module names and visibility by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/168
+
+
+
+    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0'
+  updated: '2026-10-12T15:23:42Z'
+  version: 0.9.0
+  version_title: 0.9.0
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
