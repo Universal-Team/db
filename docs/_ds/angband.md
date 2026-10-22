@@ -167,7 +167,7 @@ prerelease:
   version: 4.2.6-249-ga5a9fc968
   version_title: 4.2.6-249-ga5a9fc968
 source: https://github.com/angband/angband
-stars: 1570
+stars: 1569
 systems:
 - 3DS
 - DS
