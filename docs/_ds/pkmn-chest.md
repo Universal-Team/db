@@ -9,6 +9,16 @@ color_bg: '#803c3a'
 created: '2019-06-08T01:46:43Z'
 description: A Pokémon Bank for the 3rd through 5th generation Pokémon games for the
   Nintendo DS(i).
+download_page: https://github.com/Universal-Team/pkmn-chest/releases
+downloads:
+  pkmn-chest.cia:
+    size: 1546496
+    size_str: 1 MiB
+    url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.cia
+  pkmn-chest.nds:
+    size: 7269376
+    size_str: 6 MiB
+    url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds
 github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
@@ -17,6 +27,36 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
+nightly:
+  download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
+  downloads:
+    pkmn-chest.cia:
+      size: 6843648
+      size_str: 6 MiB
+      url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.cia
+    pkmn-chest.dsi:
+      size: 6829056
+      size_str: 6 MiB
+      url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.dsi
+    pkmn-chest.nds:
+      size: 6829056
+      size_str: 6 MiB
+      url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.nds
+  qr:
+    pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-cia.png
+    pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-dsi.png
+    pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-nds.png
+  update_notes: <p dir="auto">Edoardo Lolletti - fix another oob access</p>
+  update_notes_md: 'Edoardo Lolletti - fix another oob access
+
+
+    '
+  updated: '2026-03-17T18:52:56Z'
+  version: git
+  version_title: Continuous Build - a847bb6
+qr:
+  pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
+  pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png
 screenshots:
 - description: Bag
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/bag.png
@@ -55,7 +95,73 @@ stars: 288
 systems:
 - DS
 title: pkmn-chest
-updated: '---'
+update_notes: '<blockquote>
+
+  <p dir="auto">Pokémon Chest, a Pokémon bank for the Nintendo DS(i)</p>
+
+  </blockquote>
+
+  <h4 dir="auto">What''s new:</h4>
+
+  <ul dir="auto">
+
+  <li>The config menu can now be accessed with <kbd>SELECT</kbd> on the top menu</li>
+
+  <li>Directories can now be added to the top menu as favorites</li>
+
+  <li>The Fateful Encounter status of a Pokémon can now be changed
+
+  <ul dir="auto">
+
+  <li>In Generation 3 Mew must be a Fateful Encounter to obey</li>
+
+  </ul>
+
+  </li>
+
+  <li>Updated the chest to use PKSM''s latest bank version</li>
+
+  <li>A warning will now be shown before turning off if an exception is thrown</li>
+
+  </ul>
+
+  <h4 dir="auto">Bug fixes:</h4>
+
+  <ul dir="auto">
+
+  <li>Fixed party Pokémon''s stats not updating until moved to/from the PC</li>
+
+  <li>Fixed the kerning on some characters in the font</li>
+
+  <li>Fixed Korean being called <code class="notranslate">한국</code> instead of <code
+  class="notranslate">한국어</code></li>
+
+  <li>Fixed TM/HM pocket being called Poké Balls</li>
+
+  <li>Fixed HMs not showing correctly in some Generation 3 games</li>
+
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/remicalixte/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/remicalixte">@remicalixte</a>)
+  Fixed shiny star not hiding after moving off a shiny Pokémon</li>
+
+  <li>Several bug fixes in <a href="https://github.com/Flagbrew/PKSM-Core/compare/b543fa321133c5b5af784a09437e417cae26e094...27ba4a6ce64bf4206d0cce92f09d223c65dc975d">PKSM-Core</a></li>
+
+  </ul>
+
+  <h4 dir="auto">Side notes:</h4>
+
+  <ul dir="auto">
+
+  <li>Nightly builds are available in the extras <a href="https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest">repo</a>
+  &amp; <a href="https://github.com/Universal-Team/extras/releases">releases</a>.</li>
+
+  <li>Report any bugs you find <a href="https://github.com/Universal-Team/pkmn-chest/issues/new/choose">here</a>,
+  and you can join our Discord server <a href="https://discord.gg/KDJCfGF" rel="nofollow">here</a></li>
+
+  </ul>'
+updated: '2020-07-07T04:00:43Z'
+version: v2.2
+version_title: Easy config access, favorite folders, and various bug fixes
 wiki: https://github.com/Universal-Team/pkmn-chest/wiki
 ---
 Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.

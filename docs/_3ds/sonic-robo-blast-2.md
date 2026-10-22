@@ -7,12 +7,22 @@ color: '#9896d9'
 color_bg: '#595880'
 created: '2018-12-23T16:17:43Z'
 description: Port of Sonic Roboblast 2 to the Nintendo New3DS
+download_page: https://github.com/derrekr/srb2_3ds/releases
+downloads:
+  srb2_3dsv1.1.3.7z:
+    size: 2554904
+    size_str: 2 MiB
+    url: https://github.com/derrekr/srb2_3ds/releases/download/v1.1.3/srb2_3dsv1.1.3.7z
+  srb2_3dsv1.1.3.zip:
+    size: 3034845
+    size_str: 2 MiB
+    url: https://github.com/derrekr/srb2_3ds/releases/download/v1.1.3/srb2_3dsv1.1.3.zip
 github: derrekr/srb2_3ds
 icon: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image_length: 7028
 layout: app
-llm_generation: unknown
+llm_generation: 'no'
 source: https://github.com/derrekr/srb2_3ds
 stars: 60
 systems:
@@ -20,7 +30,30 @@ systems:
 title: Sonic Robo Blast 2
 unique_ids:
 - '0xF0042'
-updated: '---'
+update_notes: '<p dir="auto">Changelog:</p>
+
+  <ul dir="auto">
+
+  <li>HUGE performance increase thanks to mipmapping</li>
+
+  <li>stereoscopic 3D rendering</li>
+
+  <li>initial CIA support</li>
+
+  <li>fixed graphics glitch that was caused by uninitialized GPU shadow state registers</li>
+
+  <li>fixed fog color</li>
+
+  <li>fixed hole in GFZ2</li>
+
+  <li>fixed crash when DSP firmware is missing</li>
+
+  <li>... other miscellaneous fixes</li>
+
+  </ul>'
+updated: '2019-01-22T18:01:13Z'
+version: v1.1.3
+version_title: SRB2 3DS v1.1.3
 ---
 ### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.
 
@@ -37,13 +70,12 @@ Changelog:
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[REQUIRED ONCE] assets</summary>
+<details class="alert alert-secondary"><summary>srb2_3ds.cia</summary>
 <ol>
-<li>Create the folder <code>/3ds/srb2_3ds/</code></li>
-<li>Download <code>SRB2-v2122-assets.7z</code></li>
-<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
-<li>Download <code>SRB2-v2122-optional-assets.7z</code></li>
-<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
+<li>Download <code>srb2_3ds*.zip</code></li>
+<li>Extract <code>/srb2_3ds.cia</code> from the zip to <code>/cias/srb2_3ds.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/srb2_3ds.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
@@ -54,12 +86,13 @@ Changelog:
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>srb2_3ds.cia</summary>
+<details class="alert alert-secondary"><summary>[REQUIRED ONCE] assets</summary>
 <ol>
-<li>Download <code>srb2_3ds*.zip</code></li>
-<li>Extract <code>/srb2_3ds.cia</code> from the zip to <code>/cias/srb2_3ds.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/srb2_3ds.cia</code> using FBI or GodMode9</li>
+<li>Create the folder <code>/3ds/srb2_3ds/</code></li>
+<li>Download <code>SRB2-v2122-assets.7z</code></li>
+<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
+<li>Download <code>SRB2-v2122-optional-assets.7z</code></li>
+<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
 </ol>
 </details>
 
