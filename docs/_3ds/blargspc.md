@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/10163038?v=4
 categories:
 - app
 - media
-color: '#fbfbfb'
-color_bg: '#808080'
+color: '#463c35'
+color_bg: '#463c35'
 created: '2016-02-25T20:40:34Z'
 description: Play SNES SPC-dumped files on your 3DS
 download_page: https://github.com/DiscostewSM/blargSpc/releases
@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/DiscostewSM/blargSpc/releases/download/v0.1/blargSpc.zip
 github: DiscostewSM/blargSpc
 image: https://avatars.githubusercontent.com/u/10163038?v=4&size=128
-image_length: 5065
+image_length: 29061
 layout: app
 llm_generation: 'no'
 screenshots:
