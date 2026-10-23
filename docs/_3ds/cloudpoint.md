@@ -30,19 +30,18 @@ prerelease:
   download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.9.0
   downloads:
     cloudpoint.3dsx:
-      size: 3160632
-      size_str: 3 MiB
+      size: 3127032
+      size_str: 2 MiB
       url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.3dsx
     cloudpoint.cia:
-      size: 2479040
+      size: 2458560
       size_str: 2 MiB
       url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.cia
   qr:
     cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
-  update_notes: '<p dir="auto">Added a nice refreshed home screen banner (with transparency
-    ) to replace the kinda janky looking solid one, as well as an icon which is actually
-    centered. Also tweaked the local backup stage when downloading a synced save to
-    be much faster (4x fast for Terraria, which has a massive save).</p>
+  update_notes: '<p dir="auto">New banner and refreshed icon, much faster local backup
+    of large saves during a download, updated CA certs after the whole eMudrha shitshow,
+    and assorted UI and behind the scenes tweaks.</p>
 
     <h2 dir="auto">What''s Changed</h2>
 
@@ -56,14 +55,6 @@ prerelease:
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/167/hovercard"
     href="https://github.com/dwalker109/cloudpoint/pull/167">#167</a></li>
 
-    <li>Speed up local backup during sync download by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5811146076" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/170"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/170/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/170">#170</a></li>
-
     <li>Cleanup of module names and visibility by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
     data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
@@ -72,13 +63,44 @@ prerelease:
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/168/hovercard"
     href="https://github.com/dwalker109/cloudpoint/pull/168">#168</a></li>
 
+    <li>Speed up local backup during sync download by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5811146076" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/170"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/170/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/170">#170</a></li>
+
+    <li>Better cacert management by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5963223498" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/174"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/174/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/174">#174</a></li>
+
+    <li>Use common prefix on logfiles, better cleanup behaviour by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5970266143" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/176"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/176/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/176">#176</a></li>
+
+    <li>Spawn sync modal with some ''please wait'' text in case worker is lagging
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5988444190" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/177"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/177/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/177">#177</a></li>
+
     </ul>
 
     <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0"><tt>0.8.1...0.9.0</tt></a></p>'
-  update_notes_md: 'Added a nice refreshed home screen banner (with transparency )
-    to replace the kinda janky looking solid one, as well as an icon which is actually
-    centered. Also tweaked the local backup stage when downloading a synced save to
-    be much faster (4x fast for Terraria, which has a massive save).
+  update_notes_md: 'New banner and refreshed icon, much faster local backup of large
+    saves during a download, updated CA certs after the whole eMudrha shitshow, and
+    assorted UI and behind the scenes tweaks.
 
 
     ## What''s Changed
@@ -86,14 +108,21 @@ prerelease:
     * Add improved banner and logo images for use in CIA builds by @dwalker109 in
     https://github.com/dwalker109/cloudpoint/pull/167
 
+    * Cleanup of module names and visibility by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/168
+
     * Speed up local backup during sync download by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/170
 
-    * Cleanup of module names and visibility by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/168
+    * Better cacert management by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/174
+
+    * Use common prefix on logfiles, better cleanup behaviour by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/176
+
+    * Spawn sync modal with some ''please wait'' text in case worker is lagging by
+    @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/177
 
 
 
     **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0'
-  updated: '2026-10-12T15:23:42Z'
+  updated: '2026-10-22T23:25:12Z'
   version: 0.9.0
   version_title: 0.9.0
 qr:
