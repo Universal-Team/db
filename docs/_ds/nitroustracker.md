@@ -154,17 +154,17 @@ With NitrousTracker, you can carry your XMs around in your DS and compose whenev
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>nitroustracker.nds</summary>
-<ol>
-<li>Download <code>NitrousTracker-0.7.0b4-nds.zip</code></li>
-<li>Extract <code>/nitroustracker.nds</code> from the zip to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>nitroustracker.midi.nds</summary>
 <ol>
 <li>Download <code>NitrousTracker-0.7.0b4-nds.zip</code></li>
 <li>Extract <code>/nitroustracker.midi.nds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>nitroustracker.nds</summary>
+<ol>
+<li>Download <code>NitrousTracker-0.7.0b4-nds.zip</code></li>
+<li>Extract <code>/nitroustracker.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
