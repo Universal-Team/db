@@ -9,26 +9,26 @@ created: '2026-07-30T15:37:14Z'
 description: Українська мова для системного інтерфейсу Nintendo 3DS/2DS.
 download_page: https://github.com/BolgarMaxym97/3ds-ua/releases
 downloads:
-  3ds-ua-from-en-2.0.0-new3ds.zip:
-    size: 24122022
-    size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.0.0/3ds-ua-from-en-2.0.0-new3ds.zip
-  3ds-ua-from-en-2.0.0-old3ds.zip:
-    size: 22274872
-    size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.0.0/3ds-ua-from-en-2.0.0-old3ds.zip
-  3ds-ua-from-ru-2.0.0-new3ds.zip:
-    size: 24393156
-    size_str: 23 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.0.0/3ds-ua-from-ru-2.0.0-new3ds.zip
-  3ds-ua-from-ru-2.0.0-old3ds.zip:
-    size: 22585332
-    size_str: 21 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.0.0/3ds-ua-from-ru-2.0.0-old3ds.zip
-  3ds-ua-installer-2.0.0.cia:
-    size: 32752576
-    size_str: 31 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.0.0/3ds-ua-installer-2.0.0.cia
+  3ds-ua-from-en-2.1.0-new3ds.zip:
+    size: 31902737
+    size_str: 30 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-en-2.1.0-new3ds.zip
+  3ds-ua-from-en-2.1.0-old3ds.zip:
+    size: 30055586
+    size_str: 28 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-en-2.1.0-old3ds.zip
+  3ds-ua-from-ru-2.1.0-new3ds.zip:
+    size: 32124096
+    size_str: 30 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-ru-2.1.0-new3ds.zip
+  3ds-ua-from-ru-2.1.0-old3ds.zip:
+    size: 30316224
+    size_str: 28 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-ru-2.1.0-old3ds.zip
+  3ds-ua-installer-2.1.0.cia:
+    size: 41919424
+    size_str: 39 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-installer-2.1.0.cia
 github: BolgarMaxym97/3ds-ua
 icon: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
 image: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
@@ -50,13 +50,13 @@ preinstall_message: 'Потрібна Luma3DS з увімкненим Enable gam
 
   Universal-Updater інакше теки видаляти не вміє.'
 qr:
-  3ds-ua-installer-2.0.0.cia: https://db.universal-team.net/assets/images/qr/3ds-ua-installer-2-0-0-cia.png
+  3ds-ua-installer-2.1.0.cia: https://db.universal-team.net/assets/images/qr/3ds-ua-installer-2-1-0-cia.png
 source: https://github.com/BolgarMaxym97/3ds-ua
 stars: 6
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
-update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h1>
+update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.1.0 🇺🇦</h1>
 
   <p dir="auto"><strong>Українська мова для Nintendo 3DS.</strong> Українська стає
   на місце однієї з мов консолі, і система починає говорити українською. Решта мов
@@ -89,7 +89,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-installer-2.0.0.cia</code></td>
+  <td><code class="notranslate">3ds-ua-installer-2.1.0.cia</code></td>
 
   <td><strong>застосунок — беріть його.</strong> Один на всі консолі: 3DS, 3DS XL,
   2DS, New 3DS, New 3DS XL, New 2DS XL</td>
@@ -98,7 +98,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-2.0.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-2.1.0-old3ds.zip</code></td>
 
   <td>ручне встановлення: замість російської, 3DS / 3DS XL / 2DS</td>
 
@@ -106,7 +106,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-2.0.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-2.1.0-new3ds.zip</code></td>
 
   <td>ручне встановлення: замість російської, <strong>New</strong> 3DS / New 3DS XL
   / New 2DS XL</td>
@@ -115,7 +115,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-2.0.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-2.1.0-old3ds.zip</code></td>
 
   <td>ручне встановлення: замість англійської, 3DS / 3DS XL / 2DS</td>
 
@@ -123,7 +123,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-2.0.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-2.1.0-new3ds.zip</code></td>
 
   <td>ручне встановлення: замість англійської, <strong>New</strong> 3DS / New 3DS
   XL / New 2DS XL</td>
@@ -139,36 +139,33 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <hr>
 
-  <h2 dir="auto">Що нового після 1.12.0</h2>
-
-  <p dir="auto"><strong>Застосунок «Українізатор 3DS» замість скриптів Universal-Updater.</strong></p>
+  <h2 dir="auto">Що нового після 2.0.0</h2>
 
   <ul dir="auto">
 
-  <li><strong>Справжні і ї є ґ і апостроф</strong> у всій системі й на клавіатурі.
-  Застосунок будує шрифт на самій консолі з її власного, а консоль читає його з SD-карти
-  — у NAND нічого не пишеться. Потрібна Luma3DS v13.0 або новіша; на старішій лишаються
-  замінники.</li>
+  <li><strong>Чотири нові електронні довідники на New 3DS</strong> — Меню HOME, Списку
+  друзів, Сповіщень та Ігрових записів. На New 3DS це окремі титули; на звичайних
+  3DS / 3DS XL / 2DS таких довідників немає взагалі.</li>
 
-  <li><strong>Мову консолі більше міняти не треба.</strong> Українська вмикається
-  лише для перекладених програм, ігри лишаються мовою системи.</li>
+  <li><strong>Довідник браузера New 3DS:</strong> чотири абзаци про закладки й вкладки
+  показували чужий текст («Стрільба», текст про Mii з Wii) — тепер правильний переклад.</li>
 
-  <li><strong>Enable game patching застосунок вмикає сам.</strong></li>
+  <li><strong>Журнал дій:</strong> у картці програми «Кількість запусків» з''являлися
+  зайві літери «b» і «d» — виправлено, так само назви місяців у календарі.</li>
 
-  <li><strong>Встановлення переживає вимкнення живлення.</strong> Сіла батарея посеред
-  роботи — після ввімкнення застосунок продовжить з того самого місця.</li>
+  <li><strong>Інтернет-браузер:</strong> кнопка «Стерти все» більше не переноситься
+  на два рядки; разом з нею дістали запас ширини ще кілька десятків стиснутих кнопок
+  і підписів у Камері, Звуці, браузерах і Miiverse.</li>
 
-  <li><strong>Стоїть українізатор від Universal-Updater чи з архіву?</strong> Ставте
-  застосунок поверх і натисніть «Оновити»: він підхопить наявні файли, видаляти нічого
-  не треба.</li>
+  <li><strong>Тексти:</strong> прибрано русизми («Якщо не помогло», «переключатися»),
+  подвоєні знаки в Меню HOME («Музичний фон::», «((Без назви))», «+ + ще»), порожній
+  рядок посеред речення на екрані помилки, понад сорок слів-«вдовиць» в останніх рядках
+  і непотрібні переноси посеред слів у діалогах Меню HOME.</li>
 
-  <li><strong>Анонімна статистика.</strong> Після встановлення, оновлення, видалення
-  чи помилки застосунок надсилає короткий звіт без особистих даних — лише з Wi-Fi
-  і лише з галочкою на екрані «Допомога», яку можна зняти. Що саме в ньому — <a href="https://github.com/BolgarMaxym97/3ds-ua#%D0%B0%D0%BD%D0%BE%D0%BD%D1%96%D0%BC%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0">у
-  README</a>.</li>
+  <li><strong>Здоров''я і безпека New 3DS:</strong> повернуто правильну напругу блока
+  живлення — 220–240 В.</li>
 
-  <li>Налаштування системи: кнопка «Перенесення даних» переносилася на два рядки —
-  тепер «Перенос даних».</li>
+  <li>Стандартна закладка Google у браузері веде на українську версію.</li>
 
   </ul>
 
@@ -191,10 +188,11 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
   (інтерфейс, вбудована клавіатура, назва додатка, окремий довідник) і Здоров''я і
   безпеки (переглядач і сам документ).</p>
 
-  <p dir="auto"><strong>Дванадцять електронних довідників</strong> — тих, що відкриваються
-  кнопкою «Посібник» у меню HOME: Інтернет-браузера, Налаштувань системи, Журналу
-  дій, Гри по завантаженню, Камери, Звуку, Mii Maker, Площі StreetPass Mii, Nintendo
-  eShop, Face Raiders, AR Games та Інтернет-браузера New 3DS.</p>
+  <p dir="auto"><strong>Шістнадцять електронних довідників</strong> — тих, що відкриваються
+  кнопкою «Посібник»: Інтернет-браузера, Налаштувань системи, Журналу дій, Гри по
+  завантаженню, Камери, Звуку, Mii Maker, Площі StreetPass Mii, Nintendo eShop, Face
+  Raiders, AR Games, а на New 3DS ще Інтернет-браузера, Меню HOME, Списку друзів,
+  Сповіщень та Ігрових записів.</p>
 
   <p dir="auto"><strong>Країни й регіони.</strong> У налаштуваннях профілю та на Карті
   StreetPass перекладено всі 67 країн і всі 724 їхні області. України в списку немає:
@@ -237,13 +235,13 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
   — лупою в лівій панелі, введіть «Українізатор».</li>
 
   <li>Відкрийте другу іконку згори — «Доступні для завантаження» — і виберіть <code
-  class="notranslate">3ds-ua-installer-2.0.0.cia</code>.</li>
+  class="notranslate">3ds-ua-installer-2.1.0.cia</code>.</li>
 
   <li>Дочекайтеся, поки запис зникне з черги (третя іконка).</li>
 
   </ol>
 
-  <p dir="auto">Без Universal-Updater: скопіюйте <code class="notranslate">3ds-ua-installer-2.0.0.cia</code>
+  <p dir="auto">Без Universal-Updater: скопіюйте <code class="notranslate">3ds-ua-installer-2.1.0.cia</code>
   на SD-карту й встановіть його через FBI.</p>
 
   <p dir="auto"><strong>2. Відкрийте «Українізатор 3DS»</strong> у меню HOME. Застосунок
@@ -393,9 +391,9 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.0.0 🇺🇦</h
 
   <p dir="auto">Ліцензія MIT. Файлів Nintendo в репозиторії немає. Проєкт неофіційний,
   з Nintendo не пов''язаний.</p>'
-updated: '2026-10-23T10:04:23Z'
-version: v2.0.0
-version_title: v2.0.0
+updated: '2026-10-24T12:18:22Z'
+version: v2.1.0
+version_title: v2.1.0
 website: https://github.com/BolgarMaxym97/3ds-ua
 ---
 Перекладає системний інтерфейс Nintendo 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL і New 2DS XL українською: Меню HOME, Налаштування системи, Інтернет-браузер, eShop, Камеру, Звук, Mii Maker, Журнал дій, електронні довідники та решту системних застосунків.
