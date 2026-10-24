@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   Spotify3DS.cia: https://db.universal-team.net/assets/images/qr/spotify3ds-cia.png
 source: https://github.com/avncharlie/spotify3ds
-stars: 57
+stars: 58
 systems:
 - 3DS
 title: spotify3ds
