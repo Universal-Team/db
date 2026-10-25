@@ -12,29 +12,29 @@ downloads:
   3dsc2_calib.3dsx:
     size: 50368
     size_str: 49 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.3dsx
+    url: https://github.com/cylin577/UC2/releases/download/v1.1.2/3dsc2_calib.3dsx
   3dsc2_calib.cia:
     size: 291776
     size_str: 284 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.cia
+    url: https://github.com/cylin577/UC2/releases/download/v1.1.2/3dsc2_calib.cia
 github: cylin577/3DSC2
 icon: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/icon.png
 image: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/banner.png
-image_length: 6706
+image_length: 4267
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 qr:
   3dsc2_calib.cia: https://db.universal-team.net/assets/images/qr/3dsc2_calib-cia.png
-source: https://github.com/cylin577/3DSC2
+source: https://github.com/cylin577/UC2
 stars: 9
 systems:
 - 3DS
-title: 3DSC2
+title: UC2
 unique_ids:
 - '0x1BF52'
-update_notes: <p dir="auto">hotfix to DLL loding problem</p>
+update_notes: <p>hotfix to DLL loding problem</p>
 updated: '2026-08-17T04:40:45Z'
 version: v1.1.2
 version_title: v1.1.2

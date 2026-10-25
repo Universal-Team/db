@@ -99,7 +99,7 @@ prerelease:
 qr:
   mk64-3ds-v2.0.cia: https://db.universal-team.net/assets/images/qr/mk64-3ds-v2-0-cia.png
 source: https://github.com/EstebanPdN/mario-kart-64-3ds
-stars: 228
+stars: 230
 systems:
 - 3DS
 title: mario-kart-64-3ds
@@ -198,6 +198,14 @@ update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="
   <p dir="auto">The 3D Banner, Solo modes, AUTO, random cups, Modern Logic and other
   gameplay/runtime improvements were merged and adapted from <a href="https://github.com/Epic0522/MarioKart64-3DSPort-Complete">Epic0522''s
   MarioKart64-3DSPort-Complete</a>.</p>
+
+  <p dir="auto">Find Misuzu / Epic0522 on <a href="https://x.com/EpicReds0817" rel="nofollow">X
+  (@EpicReds0817)</a> and <a href="https://github.com/Epic0522">GitHub (@Epic0522)</a>.</p>
+
+  <p dir="auto">Many of the new textures and artwork come from <a href="https://evilgames.eu/texture-packs/mk64-reloaded.htm"
+  rel="nofollow">MK64 Reloaded</a> by <strong>GhostlyDark and its contributors</strong>,
+  downscaled and adapted for the Nintendo 3DS interface. A big thank-you to them for
+  their work!</p>
 
   <h2 dir="auto">Bug reports</h2>
 
