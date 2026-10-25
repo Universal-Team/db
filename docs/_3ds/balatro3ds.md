@@ -10,13 +10,13 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro.cia:
-    size: 26936256
-    size_str: 25 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.5-base/Balatro.cia
+    size: 27816896
+    size_str: 26 MiB
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.6-base/Balatro.cia
   Balatro3DS.3dsx:
-    size: 16977206
+    size: 17469929
     size_str: 16 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.5-base/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.6-base/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -32,8 +32,8 @@ stars: 187
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e3e4ad72-2d5b-488c-a7eb-8de45248fa4a"><img
-  width="300" height="300" alt="qr-code(1)" src="https://github.com/user-attachments/assets/e3e4ad72-2d5b-488c-a7eb-8de45248fa4a"
+update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5248e907-a998-4006-91da-47edcf4d2a60"><img
+  width="300" height="300" alt="qr-code(1)" src="https://github.com/user-attachments/assets/5248e907-a998-4006-91da-47edcf4d2a60"
   style="max-width: 100%; height: auto; max-height: 300px;; aspect-ratio: 300 / 300;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
@@ -41,47 +41,53 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   Or you can use the .3dsx version by dropping it into your /3ds folder</p>
 
+  <h3 dir="auto">Features</h3>
+
+  <ul dir="auto">
+
+  <li>Improve Simplified Chinese terminology, native fonts and UI layout by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/the1ndex/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/the1ndex">@the1ndex</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5916472889"
+  data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/84"
+  data-hovercard-type="pull_request" data-hovercard-url="/idkhan/Balatro3DS/pull/84/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/pull/84">#84</a></li>
+
+  <li>Mods can now create custom Decks and Editions</li>
+
+  </ul>
+
   <h3 dir="auto">Bugfixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed deck effect carry-over to new runs</li>
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="5985274182" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/89"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/89/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/89">#89</a>, Smeared Joker now
+  debuffs both suits of a color</li>
 
-  <li>Four fingers now scores only the four cards part of the hand</li>
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="5952645161" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/87"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/87/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/87">#87</a> mod discard context</li>
 
-  <li>Booster pack skipping doesn''t accidentaly skip the shop</li>
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="5937126168" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/85"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/85/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/85">#85</a>, game crashing after
+  returning to the main menu because atlases wouldn''t load properly</li>
 
-  <li>Fixed Booster pack skip with button didn''t trigger Red card</li>
-
-  <li>Closing a booster pack now snaps the cursor to the nearest shop item</li>
-
-  <li>Fixed the Red Joker not gaining +3 mult when a booster pack is skipped with
-  B</li>
-
-  <li>Campfire now correctly increases mult when any card is sold</li>
-
-  <li>Smeared Joker not triggers Seeing double</li>
-
-  <li>Wild cards now work properly</li>
-
-  <li>Emperor can no longer create another emperor withou Showman</li>
-
-  <li>Hermit can''t put you in even more Debt</li>
-
-  <li>Grim, Familiar and Incantation were usable in the Shop</li>
-
-  <li>The Hook now discards both cards together, counting for a single discard</li>
-
-  <li>The Tooth can now put you in Debt</li>
-
-  <li>Amber Acorn effect preserved when continuing a run</li>
-
-  <li>Luchador now disables some boss blinds that weren''t working</li>
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="5959717614" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/88"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/88/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/88">#88</a>, Joker display counting
+  cards held in hand even if they''re debuffed.</li>
 
   </ul>'
-updated: '2026-10-18T17:24:07Z'
-version: v2.0.5-base
-version_title: Version 2.0.5
+updated: '2026-10-24T23:39:29Z'
+version: v2.0.6-base
+version_title: Version 2.0.6
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
