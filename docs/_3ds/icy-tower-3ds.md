@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   icytower.cia: https://db.universal-team.net/assets/images/qr/icytower-cia.png
 source: https://github.com/breakgimme/icytower-3ds
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Icy Tower 3DS

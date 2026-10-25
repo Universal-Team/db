@@ -37,7 +37,7 @@ preinstall_message: 'Ensure "Enable game patching" is enabled
 
   in Luma3DS settings for this to work.'
 source: https://github.com/Aftendo/SatellaZone
-stars: 155
+stars: 156
 systems:
 - 3DS
 title: SatellaZone

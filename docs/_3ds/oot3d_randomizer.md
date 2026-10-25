@@ -27,16 +27,16 @@ license: other
 license_name: Other
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-6bd4b8
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ae0fcf
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 6042252
+      size: 6042732
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
       size: 4436928
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -50,40 +50,34 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/cia.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/cia.png"
     alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/3dsx.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/3dsx.png"
     alt="3DSX Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-c7d00d">Nightly-c7d00d</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-6bd4b8">Nightly-6bd4b8</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/6bd4b80a65d19a38cd74c663a6b2d9a6494de3f5">6bd4b80a</a>
-    - Add Forest Temple Stalfos to Enemy Randomizer (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="5378739090" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/855"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/855/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/855">#855</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/ae0fcf56cbc7166c809f675668b43e24a9640fe1">ae0fcf56</a>
+    - Fix Deku Baba drops being wrongly overridden (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="5912836016" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/858"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/858/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/858">#858</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/149716be5eb26f03eb587f9e97d94bf0210a4954">149716be</a>
-    - Skip having to trigger Zelda escape cutscene (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="5378722538" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/854"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/854/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/854">#854</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/abbf085132fe258e52343760eac4a158b80cdf54">abbf0851</a>
-    - Fix void out after grotto spawn (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="5378614109" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/853"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/853/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/853">#853</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/b5af17472d3b02a312525396e9847522fd99eb40">b5af1747</a>
+    - fixed the recovery hearts showing up in the tracker when not shuffled (<a class="issue-link
+    js-issue-link" data-error-text="Failed to load title" data-id="5843724762" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/857"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/857/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/857">#857</a>)</li>
 
     </ul>'
   update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
@@ -97,27 +91,24 @@ prerelease:
 
     CIA QR Code:
 
-    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/cia.png)
+    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/cia.png)
 
     3DSX QR Code:
 
-    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6bd4b8/3dsx.png)
+    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ae0fcf/3dsx.png)
 
 
-    Changes Since [Nightly-c7d00d](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-c7d00d)
+    Changes Since [Nightly-6bd4b8](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-6bd4b8)
     🛠:
 
-    - [6bd4b80a](http://github.com/gamestabled/OoT3D_Randomizer/commit/6bd4b80a65d19a38cd74c663a6b2d9a6494de3f5)
-    - Add Forest Temple Stalfos to Enemy Randomizer (#855)
+    - [ae0fcf56](http://github.com/gamestabled/OoT3D_Randomizer/commit/ae0fcf56cbc7166c809f675668b43e24a9640fe1)
+    - Fix Deku Baba drops being wrongly overridden (#858)
 
-    - [149716be](http://github.com/gamestabled/OoT3D_Randomizer/commit/149716be5eb26f03eb587f9e97d94bf0210a4954)
-    - Skip having to trigger Zelda escape cutscene (#854)
-
-    - [abbf0851](http://github.com/gamestabled/OoT3D_Randomizer/commit/abbf085132fe258e52343760eac4a158b80cdf54)
-    - Fix void out after grotto spawn (#853)'
-  updated: '2026-09-10T19:24:05Z'
-  version: Nightly-6bd4b8
-  version_title: Nightly-6bd4b8
+    - [b5af1747](http://github.com/gamestabled/OoT3D_Randomizer/commit/b5af17472d3b02a312525396e9847522fd99eb40)
+    - fixed the recovery hearts showing up in the tracker when not shuffled (#857)'
+  updated: '2026-10-19T19:50:44Z'
+  version: Nightly-ae0fcf
+  version_title: Nightly-ae0fcf
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer

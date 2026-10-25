@@ -42,9 +42,7 @@ unique_ids:
 - '0xBEAAA'
 update_notes: '<ul dir="auto">
 
-  <li>Opus support (by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/l1npengtul/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/l1npengtul">@l1npengtul</a>)</li>
+  <li>Opus support (by @l1npengtul)</li>
 
   <li>Plugin system and offline <a href="https://web.archive.org/web/20161207115744/http://www.audioscrobbler.net/wiki/Portable_Player_Logging"
   rel="nofollow">scrobbler.log</a> support</li>

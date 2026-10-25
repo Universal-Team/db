@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 source: https://github.com/0rientd/2048-port-3ds
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: 2048 - 3DS Port

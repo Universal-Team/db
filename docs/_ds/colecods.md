@@ -12,17 +12,17 @@ description: An Emulator for the DS/DSi with support for Colecovision, ADAM, MSX
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1481728
+    size: 1480704
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.0/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/ColecoDS.nds
   README.md:
-    size: 58691
+    size: 59073
     size_str: 57 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.0/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.0/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/11.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -36,20 +36,18 @@ stars: 63
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V11.0: 20-Aug-2026 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V11.1: 22-Oct-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added preliminary handling of undocumented flags X and Y for improved CPU accuracy.</li>
+  <li>Hotfix for DS-Lite/Phat save of configuration and save states. Compression algorithm
+  could run out of memory!</li>
 
-  <li>Fix for 64K ''Activision PCB'' banking so that we correctly start the ROM running.</li>
-
-  <li>Fix for Telebunny Homebrew so it doesn''t crash after the main screen.</li>
-
-  <li>Other minor cleanups and commenting as time permitted.</li>
+  <li>Built-in patch for the buggy Star Force included and should be automatically
+  applied.</li>
 
   </ul>'
-updated: '2026-08-20T21:13:40Z'
-version: '11.0'
-version_title: Version 11.0
+updated: '2026-10-22T22:18:21Z'
+version: '11.1'
+version_title: Version 11.1
 ---

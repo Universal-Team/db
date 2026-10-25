@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   Bandolero3DS-next-2.cia: https://db.universal-team.net/assets/images/qr/bandolero3ds-next-2-cia.png
 source: https://github.com/Tristanabs/bandolero3ds
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Bandolero 3DS

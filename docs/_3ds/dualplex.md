@@ -32,7 +32,7 @@ llm_generation: 'yes'
 qr:
   DualPlex.cia: https://db.universal-team.net/assets/images/qr/dualplex-cia.png
 source: https://github.com/thoughts3rased/DualPlex
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: DualPlex
