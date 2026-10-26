@@ -28,7 +28,7 @@ llm_generation: minor
 qr:
   PlustendoApp.cia: https://db.universal-team.net/assets/images/qr/plustendoapp-cia.png
 source: https://github.com/Plustendo/PlustendoApp
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: PlustendoApp
