@@ -30,7 +30,7 @@ screenshots:
 - description: While running
   url: https://db.universal-team.net/assets/images/screenshots/gytb/while-running.png
 source: https://github.com/MechanicalDragon0687/GYTB
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: GYTB

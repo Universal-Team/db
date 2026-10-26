@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   Balatro.cia: https://db.universal-team.net/assets/images/qr/balatro-cia.png
 source: https://github.com/idkhan/Balatro3DS
-stars: 191
+stars: 192
 systems:
 - 3DS
 title: Balatro3DS

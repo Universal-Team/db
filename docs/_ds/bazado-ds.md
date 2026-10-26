@@ -22,7 +22,7 @@ llm_generation: 'yes'
 qr:
   Bazado-DS.nds: https://db.universal-team.net/assets/images/qr/bazado-ds-nds.png
 source: https://github.com/zdextiny/Bazado-DS
-stars: 0
+stars: 1
 systems:
 - DS
 title: Bazado-DS

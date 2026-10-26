@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/zoogie/b9s_check/releases/download/v2.0/b9s_check.firm
 github: zoogie/b9s_check
 image: https://avatars.githubusercontent.com/u/28328903?v=4&size=128
-image_length: 3236
+image_length: 1532
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

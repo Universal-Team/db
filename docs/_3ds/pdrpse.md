@@ -21,7 +21,7 @@ image_length: 11567
 layout: app
 llm_generation: 'no'
 source: https://github.com/suloku/pdrpse
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: pdrpse

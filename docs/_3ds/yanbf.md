@@ -27,7 +27,7 @@ downloads:
     url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/bootstrap.cia
 github: YANBForwarder/YANBF
 image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
-image_length: 3290
+image_length: 1561
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

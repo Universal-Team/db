@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/TehFridge/ShutTheCamUp/releases/download/main/old3ds.ips
 github: TehFridge/ShutTheCamUp
 image: https://avatars.githubusercontent.com/u/85436576?v=4&size=128
-image_length: 33969
+image_length: 34721
 layout: app
 llm_generation: unknown
 source: https://github.com/TehFridge/ShutTheCamUp

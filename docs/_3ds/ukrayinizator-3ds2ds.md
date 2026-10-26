@@ -25,6 +25,10 @@ downloads:
     size: 30316224
     size_str: 28 MiB
     url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-ru-2.1.0-old3ds.zip
+  3ds-ua-installer-2.1.0.3dsx:
+    size: 41592064
+    size_str: 39 MiB
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-installer-2.1.0.3dsx
   3ds-ua-installer-2.1.0.cia:
     size: 41919424
     size_str: 39 MiB
@@ -93,6 +97,15 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.1.0 🇺🇦</h
 
   <td><strong>застосунок — беріть його.</strong> Один на всі консолі: 3DS, 3DS XL,
   2DS, New 3DS, New 3DS XL, New 2DS XL</td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">3ds-ua-installer-2.1.0.3dsx</code></td>
+
+  <td>той самий застосунок для Homebrew Launcher — покладіть у <code class="notranslate">/3ds/</code>
+  на SD-карті</td>
 
   </tr>
 
