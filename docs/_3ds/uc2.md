@@ -37,9 +37,10 @@ unique_ids:
 update_notes: '<p><strong>First release under the UC2 name.</strong> The project was
   renamed from 3DSC2 (the GitHub repo is now <code class="notranslate">cylin577/UC2</code>),
   and behind that rename sits a big architectural change: devices are now data, and
-  remote control is now pluggable. If you only read one line: <em>your 3DS setup keeps
-  working exactly as before, and the app now supports a Nintendo Switch for capture
-  and AI.</em></p>
+  remote control is now pluggable.<br>
+
+  TL;DR: <em>your 3DS setup keeps working exactly as before, and the app now supports
+  a Nintendo Switch for capture and AI.</em></p>
 
   <hr>
 
