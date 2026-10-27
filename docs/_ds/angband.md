@@ -13,159 +13,149 @@ downloads: {}
 github: angband/angband
 icon: https://github.com/angband.png?size=48
 image: https://github.com/angband.png
-image_length: 3366
+image_length: 3824
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-249-ga5a9fc968
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-258-ge473720ed
   downloads:
-    Angband-4.2.6-249-ga5a9fc968-3ds.zip:
-      size: 24694574
+    Angband-4.2.6-258-ge473720ed-3ds.zip:
+      size: 24694842
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-249-ga5a9fc968/Angband-4.2.6-249-ga5a9fc968-3ds.zip
-    Angband-4.2.6-249-ga5a9fc968-nds.zip:
-      size: 23331199
+      url: https://github.com/angband/angband/releases/download/4.2.6-258-ge473720ed/Angband-4.2.6-258-ge473720ed-3ds.zip
+    Angband-4.2.6-258-ge473720ed-nds.zip:
+      size: 23331820
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-249-ga5a9fc968/Angband-4.2.6-249-ga5a9fc968-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-258-ge473720ed/Angband-4.2.6-258-ge473720ed-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: fix panel shifting code by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5836454882" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6776"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6776/hovercard"
-    href="https://github.com/angband/angband/pull/6776">#6776</a></li>
-
-    <li>borg: change borg_take to contain a kind index rather than a kind pointer
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
+    <li>borg: check further for changed limits in config by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/5a9041e05d24806c711a33b7700d522b3bdeb7c4/hovercard"
-    href="https://github.com/angband/angband/commit/5a9041e05d24806c711a33b7700d522b3bdeb7c4"><tt>5a9041e</tt></a></li>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5947521345" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6790"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6790/hovercard"
+    href="https://github.com/angband/angband/pull/6790">#6790</a></li>
 
-    <li>Use remembered terrain and traps in the status line by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/snowyukitty/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/snowyukitty">@snowyukitty</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/0107bbad9c1e791e1ef188aa2dd2094f49f86227/hovercard"
-    href="https://github.com/angband/angband/commit/0107bbad9c1e791e1ef188aa2dd2094f49f86227"><tt>0107bba</tt></a></li>
+    <li>borg: avoid infinite loop when money scumming in town by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/d64d64/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/d64d64">@d64d64</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6018418895" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6794"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6794/hovercard"
+    href="https://github.com/angband/angband/pull/6794">#6794</a></li>
 
-    <li>SDL2: rework focus and visual feedback for menus by <a class="user-mention
+    <li>Update dependencies for changes since February 3rd, 2026 by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4760657419" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6659"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6659/hovercard"
-    href="https://github.com/angband/angband/pull/6659">#6659</a></li>
+    data-id="5871920941" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6782"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6782/hovercard"
+    href="https://github.com/angband/angband/pull/6782">#6782</a></li>
 
-    <li>Reduce monster''s known_pstate to what is possible to learn by <a class="user-mention
+    <li>Move code from start_game() to within savefile_load() by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5772094534" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6768"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6768/hovercard"
-    href="https://github.com/angband/angband/pull/6768">#6768</a></li>
+    data-id="5899976386" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6785"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6785/hovercard"
+    href="https://github.com/angband/angband/pull/6785">#6785</a></li>
 
-    <li>Remove unnecessary redraw request in textui_get_item() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5787018697" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6769"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6769/hovercard"
-    href="https://github.com/angband/angband/pull/6769">#6769</a></li>
-
-    <li>Correct check of known race flags in lore_is_fully_known() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5797249477" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6772"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6772/hovercard"
-    href="https://github.com/angband/angband/pull/6772">#6772</a></li>
-
-    <li>For theft tracking, only count thefts from the monster''s own drop by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5801635807" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6775"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6775/hovercard"
-    href="https://github.com/angband/angband/pull/6775">#6775</a></li>
-
-    <li>Use event_signal_point() in do_animation() by <a class="user-mention notranslate"
+    <li>Mention lock door in the Enter menu by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5838641366" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6777"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6777/hovercard"
-    href="https://github.com/angband/angband/pull/6777">#6777</a></li>
+    data-id="5903436293" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6786"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6786/hovercard"
+    href="https://github.com/angband/angband/pull/6786">#6786</a></li>
 
-    <li>Correct some comments by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5848908305" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6778"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6778/hovercard"
-    href="https://github.com/angband/angband/pull/6778">#6778</a></li>
-
-    <li>unit tests: extend for PARSE_ERROR_NOT_UTF8 from parsing single character
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Avoid set but unused warning seen with the MSYS2 build using sanitizers by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5855822941" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6780"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6780/hovercard"
-    href="https://github.com/angband/angband/pull/6780">#6780</a></li>
+    data-id="5913114379" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6787"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6787/hovercard"
+    href="https://github.com/angband/angband/pull/6787">#6787</a></li>
 
-    <li>borg: off by one error reporting on best by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    <li>msys2: document how to use UCRT64 and use it for workflows by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5891891442" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6784"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6784/hovercard"
-    href="https://github.com/angband/angband/pull/6784">#6784</a></li>
+    data-id="5942282352" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6788"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6788/hovercard"
+    href="https://github.com/angband/angband/pull/6788">#6788</a></li>
+
+    <li>game/status unit test: use ptreq() when comparing pointers by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5942288952" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6789"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6789/hovercard"
+    href="https://github.com/angband/angband/pull/6789">#6789</a></li>
+
+    <li>Term_clear() and loop over height calling Term_erase() are not synonyms by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5995068493" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6792"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6792/hovercard"
+    href="https://github.com/angband/angband/pull/6792">#6792</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-236-ge71cc96e8...4.2.6-249-ga5a9fc968"><tt>4.2.6-236-ge71cc96e8...4.2.6-249-ga5a9fc968</tt></a></p>'
+    <h2 dir="auto">New Contributors</h2>
+
+    <ul dir="auto">
+
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/d64d64/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/d64d64">@d64d64</a>
+    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="6018418895" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6794"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6794/hovercard"
+    href="https://github.com/angband/angband/pull/6794">#6794</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-249-ga5a9fc968...4.2.6-258-ge473720ed"><tt>4.2.6-249-ga5a9fc968...4.2.6-258-ge473720ed</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * borg: fix panel shifting code by @agoodman00 in https://github.com/angband/angband/pull/6776
+    * borg: check further for changed limits in config by @agoodman00 in https://github.com/angband/angband/pull/6790
 
-    * borg: change borg_take to contain a kind index rather than a kind pointer by
-    @agoodman00 in https://github.com/angband/angband/commit/5a9041e05d24806c711a33b7700d522b3bdeb7c4
+    * borg: avoid infinite loop when money scumming in town by @d64d64 in https://github.com/angband/angband/pull/6794
 
-    * Use remembered terrain and traps in the status line by @snowyukitty in https://github.com/angband/angband/commit/0107bbad9c1e791e1ef188aa2dd2094f49f86227
+    * Update dependencies for changes since February 3rd, 2026 by @backwardsEric in
+    https://github.com/angband/angband/pull/6782
 
-    * SDL2: rework focus and visual feedback for menus by @backwardsEric in https://github.com/angband/angband/pull/6659
+    * Move code from start_game() to within savefile_load() by @backwardsEric in https://github.com/angband/angband/pull/6785
 
-    * Reduce monster''s known_pstate to what is possible to learn by @backwardsEric
-    in https://github.com/angband/angband/pull/6768
+    * Mention lock door in the Enter menu by @backwardsEric in https://github.com/angband/angband/pull/6786
 
-    * Remove unnecessary redraw request in textui_get_item() by @backwardsEric in
-    https://github.com/angband/angband/pull/6769
+    * Avoid set but unused warning seen with the MSYS2 build using sanitizers by @backwardsEric
+    in https://github.com/angband/angband/pull/6787
 
-    * Correct check of known race flags in lore_is_fully_known() by @backwardsEric
-    in https://github.com/angband/angband/pull/6772
+    * msys2: document how to use UCRT64 and use it for workflows by @backwardsEric
+    in https://github.com/angband/angband/pull/6788
 
-    * For theft tracking, only count thefts from the monster''s own drop by @backwardsEric
-    in https://github.com/angband/angband/pull/6775
+    * game/status unit test: use ptreq() when comparing pointers by @backwardsEric
+    in https://github.com/angband/angband/pull/6789
 
-    * Use event_signal_point() in do_animation() by @backwardsEric in https://github.com/angband/angband/pull/6777
-
-    * Correct some comments by @backwardsEric in https://github.com/angband/angband/pull/6778
-
-    * unit tests: extend for PARSE_ERROR_NOT_UTF8 from parsing single character by
-    @backwardsEric in https://github.com/angband/angband/pull/6780
-
-    * borg: off by one error reporting on best by @agoodman00 in https://github.com/angband/angband/pull/6784
+    * Term_clear() and loop over height calling Term_erase() are not synonyms by @backwardsEric
+    in https://github.com/angband/angband/pull/6792
 
 
+    ## New Contributors
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-236-ge71cc96e8...4.2.6-249-ga5a9fc968'
-  updated: '2026-10-20T12:09:58Z'
-  version: 4.2.6-249-ga5a9fc968
-  version_title: 4.2.6-249-ga5a9fc968
+    * @d64d64 made their first contribution in https://github.com/angband/angband/pull/6794
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-249-ga5a9fc968...4.2.6-258-ge473720ed'
+  updated: '2026-10-27T13:39:35Z'
+  version: 4.2.6-258-ge473720ed
+  version_title: 4.2.6-258-ge473720ed
 source: https://github.com/angband/angband
 stars: 1569
 systems:
@@ -281,28 +271,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-249-ga5a9fc968.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-258-ge473720ed.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-249-ga5a9fc968-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-249-ga5a9fc968.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-249-ga5a9fc968.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-258-ge473720ed-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-258-ge473720ed.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-258-ge473720ed.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-249-ga5a9fc968.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-258-ge473720ed.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-249-ga5a9fc968-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-249-ga5a9fc968.cia</code> from the zip to <code>/cias/Angband-4.2.6-249-ga5a9fc968.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-258-ge473720ed-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-258-ge473720ed.cia</code> from the zip to <code>/cias/Angband-4.2.6-258-ge473720ed.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-249-ga5a9fc968.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-258-ge473720ed.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-249-ga5a9fc968.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-258-ge473720ed.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-249-ga5a9fc968-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-249-ga5a9fc968.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-258-ge473720ed-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-258-ge473720ed.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
