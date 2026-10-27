@@ -56,7 +56,7 @@ preinstall_message: 'Потрібна Luma3DS з увімкненим Enable gam
 qr:
   3ds-ua-installer-2.1.0.cia: https://db.universal-team.net/assets/images/qr/3ds-ua-installer-2-1-0-cia.png
 source: https://github.com/BolgarMaxym97/3ds-ua
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
