@@ -21,7 +21,7 @@ downloads:
     url: https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-3DSX.zip
 github: glacialmoongames/EllisHouseCpp
 image: https://avatars.githubusercontent.com/u/231716341?v=4&size=128
-image_length: 4605
+image_length: 4578
 layout: app
 llm_generation: minor
 qr:

@@ -16,13 +16,13 @@ downloads:
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.4.1/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
-image_length: 12131
+image_length: 12419
 layout: app
 license: other
 license_name: Other
 llm_generation: unknown
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
-stars: 180
+stars: 181
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
