@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/biometrix76/Gen6CTRPluginFramework/releases/download/v0.1.2/luma.zip
 github: biometrix76/Gen6CTRPluginFramework
 image: https://avatars.githubusercontent.com/u/177698350?v=4&size=128
-image_length: 3321
+image_length: 1584
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
