@@ -30,20 +30,16 @@ prerelease:
   download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.9.0
   downloads:
     cloudpoint.3dsx:
-      size: 3127032
+      size: 3143204
       size_str: 2 MiB
       url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.3dsx
     cloudpoint.cia:
-      size: 2458560
+      size: 2466752
       size_str: 2 MiB
       url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.cia
   qr:
     cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
-  update_notes: '<p dir="auto">New banner and refreshed icon, much faster local backup
-    of large saves during a download, updated CA certs after the whole eMudrha shitshow,
-    and assorted UI and behind the scenes tweaks.</p>
-
-    <h2 dir="auto">What''s Changed</h2>
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
@@ -87,23 +83,18 @@ prerelease:
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/176/hovercard"
     href="https://github.com/dwalker109/cloudpoint/pull/176">#176</a></li>
 
-    <li>Spawn sync modal with some ''please wait'' text in case worker is lagging
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    <li>App self updater by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="5988444190" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/177"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/177/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/177">#177</a></li>
+    data-id="6083494887" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/178"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/178/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/178">#178</a></li>
 
     </ul>
 
     <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0"><tt>0.8.1...0.9.0</tt></a></p>'
-  update_notes_md: 'New banner and refreshed icon, much faster local backup of large
-    saves during a download, updated CA certs after the whole eMudrha shitshow, and
-    assorted UI and behind the scenes tweaks.
-
-
-    ## What''s Changed
+  update_notes_md: '## What''s Changed
 
     * Add improved banner and logo images for use in CIA builds by @dwalker109 in
     https://github.com/dwalker109/cloudpoint/pull/167
@@ -116,19 +107,18 @@ prerelease:
 
     * Use common prefix on logfiles, better cleanup behaviour by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/176
 
-    * Spawn sync modal with some ''please wait'' text in case worker is lagging by
-    @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/177
+    * App self updater by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/178
 
 
 
     **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0'
-  updated: '2026-10-22T23:25:12Z'
+  updated: '2026-10-28T17:20:56Z'
   version: 0.9.0
   version_title: 0.9.0
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 86
+stars: 88
 systems:
 - 3DS
 title: Cloudpoint
