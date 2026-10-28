@@ -26,11 +26,11 @@ downloads:
     size_str: 28 MiB
     url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-from-ru-2.1.0-old3ds.zip
   3ds-ua-installer-2.1.0.3dsx:
-    size: 41592064
+    size: 41591960
     size_str: 39 MiB
     url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-installer-2.1.0.3dsx
   3ds-ua-installer-2.1.0.cia:
-    size: 41919424
+    size: 41915328
     size_str: 39 MiB
     url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.1.0/3ds-ua-installer-2.1.0.cia
 github: BolgarMaxym97/3ds-ua
