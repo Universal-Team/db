@@ -34,6 +34,77 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: 'yes'
+prerelease:
+  download_page: https://github.com/Just-a-Spider/SysMon/releases/tag/v0.3.4-dev.1
+  downloads:
+    SHA256SUMS.txt:
+      size: 559
+      size_str: 559 Bytes
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.4-dev.1/SHA256SUMS.txt
+    sysmon-3ds.3dsx:
+      size: 4513220
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.4-dev.1/sysmon-3ds.3dsx
+    sysmon-3ds.cia:
+      size: 4522944
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.4-dev.1/sysmon-3ds.cia
+    sysmon-server-0.3.3-1_amd64.deb:
+      size: 3878544
+      size_str: 3 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.4-dev.1/sysmon-server-0.3.3-1_amd64.deb
+  qr:
+    sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
+  update_notes: '<h3 dir="auto">What''s Changed in v0.3.4-dev.1</h3>
+
+    <ul dir="auto">
+
+    <li><strong>3DS Client</strong>: Resolve infinite TCP connect loop on Windows
+    hosts by using blocking connect on the telemetry worker thread before switching
+    to non-blocking mode.</li>
+
+    <li><strong>3DS Client</strong>: Pressing <code class="notranslate">SELECT</code>
+    now immediately retries connection if client is in error state.</li>
+
+    <li><strong>Windows Host</strong>: Implement native WASAPI master volume controls
+    (<code class="notranslate">IAudioEndpointVolume</code>) for sub-millisecond, zero-lag
+    volume adjustments.</li>
+
+    <li><strong>Windows Host</strong>: Implement DXVA2 monitor brightness controls
+    for external displays and WMI fallback for laptop screens.</li>
+
+    <li><strong>Documentation</strong>: Add screenshots and comprehensive top-screen
+    HUD metric breakdown table, clarifying that GPU monitoring tracks core temperature
+    and fan RPM rather than usage percentage.</li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.3...v0.3.4-dev.1"><tt>v0.3.3...v0.3.4-dev.1</tt></a></p>'
+  update_notes_md: '### What''s Changed in v0.3.4-dev.1
+
+
+    - **3DS Client**: Resolve infinite TCP connect loop on Windows hosts by using
+    blocking connect on the telemetry worker thread before switching to non-blocking
+    mode.
+
+    - **3DS Client**: Pressing `SELECT` now immediately retries connection if client
+    is in error state.
+
+    - **Windows Host**: Implement native WASAPI master volume controls (`IAudioEndpointVolume`)
+    for sub-millisecond, zero-lag volume adjustments.
+
+    - **Windows Host**: Implement DXVA2 monitor brightness controls for external displays
+    and WMI fallback for laptop screens.
+
+    - **Documentation**: Add screenshots and comprehensive top-screen HUD metric breakdown
+    table, clarifying that GPU monitoring tracks core temperature and fan RPM rather
+    than usage percentage.
+
+
+    **Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.3...v0.3.4-dev.1'
+  updated: '2026-10-28T02:06:26Z'
+  version: v0.3.4-dev.1
+  version_title: v0.3.4-dev.1
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
 screenshots:
