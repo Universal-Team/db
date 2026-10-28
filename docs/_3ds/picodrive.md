@@ -45,6 +45,14 @@ version_title: v0.94
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>picodrive_3ds.3dsx</summary>
+<ol>
+<li>Download <code>picodrive_3ds*.zip</code></li>
+<li>Extract <code>/picodrive_3ds.3dsx</code> from the zip to <code>/3ds/picodrive_3ds.3dsx</code> on your SD card</li>
+<li>Extract <code>/picodrive_3ds_top.png</code> from the zip to <code>/3ds/picodrive_3ds/picodrive_3ds_top.png</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>picodrive_3ds.cia</summary>
 <ol>
 <li>Download <code>picodrive_3ds*.zip</code></li>
@@ -52,14 +60,6 @@ version_title: v0.94
 <li>Extract <code>/picodrive_3ds_top.png</code> from the zip to <code>/3ds/picodrive_3ds/picodrive_3ds_top.png</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/picodrive_3ds.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>picodrive_3ds.3dsx</summary>
-<ol>
-<li>Download <code>picodrive_3ds*.zip</code></li>
-<li>Extract <code>/picodrive_3ds.3dsx</code> from the zip to <code>/3ds/picodrive_3ds.3dsx</code> on your SD card</li>
-<li>Extract <code>/picodrive_3ds_top.png</code> from the zip to <code>/3ds/picodrive_3ds/picodrive_3ds_top.png</code> on your SD card</li>
 </ol>
 </details>
 
