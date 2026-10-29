@@ -157,7 +157,7 @@ prerelease:
   version: 4.2.6-258-ge473720ed
   version_title: 4.2.6-258-ge473720ed
 source: https://github.com/angband/angband
-stars: 1570
+stars: 1571
 systems:
 - 3DS
 - DS

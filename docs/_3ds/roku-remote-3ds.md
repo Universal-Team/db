@@ -53,7 +53,7 @@ llm_generation: 'no'
 qr:
   RokuRemote3DS-v1.2.0.cia: https://db.universal-team.net/assets/images/qr/rokuremote3ds-v1-2-0-cia.png
 source: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Roku-Remote-3DS
