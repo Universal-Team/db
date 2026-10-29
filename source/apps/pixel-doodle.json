@@ -1,0 +1,13 @@
+{
+	"github": "ArmstrongThomas/PixelDoodle",
+	"title": "Pixel Doodle",
+	"description": "An offline pixel-art editor and animation tool for DS, DSi and 3DS.",
+	"systems": ["3DS", "DS"],
+	"categories": ["app"],
+	"unique_ids": [845432],
+	"download_filter": "PixelDoodle\\.(3dsx|cia|nds)$",
+	"image": "https://raw.githubusercontent.com/ArmstrongThomas/PixelDoodle/main/assets/pixel-doodle-logo.png",
+	"icon": "https://raw.githubusercontent.com/ArmstrongThomas/PixelDoodle/main/assets/icon-3ds.png",
+	"long_description": "Pixel Doodle is an offline pixel-art editor and animation tool for the Nintendo DS, DSi and 3DS. It supports canvases up to 512 px, eight layers, 256 frames, tags, linked cels, onion skin, Aseprite import/export, PNG import/export and a full set of drawing, selection, colour and palette tools.",
+	"llm_generation": "yes"
+}
