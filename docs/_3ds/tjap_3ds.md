@@ -23,6 +23,56 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.2
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 10274036
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.2/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10437568
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.2/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>判定調整の実装<br>
+
+    判定枠はそのままに、判定位置を移動させる機能です。<br>
+
+    マイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Implementation of Judge Adjustment<br>
+
+    This function allows you to move the Judge position while keeping the Judge frame
+    the same.<br>
+
+    Moving it in the negative direction will result in a GOOD judgment if you hit
+    it slowly,<br>
+
+    and moving it in the positive direction will result in a GOOD judgment if you
+    hit it quickly.</li>
+
+    </ul>'
+  update_notes_md: "## チェンジログ\n- 判定調整の実装\n判定枠はそのままに、判定位置を移動させる機能です。\nマイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。\n\
+    \n## Changelog\n- Implementation of Judge Adjustment\nThis function allows you\
+    \ to move the Judge position while keeping the Judge frame the same.\nMoving it\
+    \ in the negative direction will result in a GOOD judgment if you hit it slowly,\
+    \ \nand moving it in the positive direction will result in a GOOD judgment if\
+    \ you hit it quickly."
+  updated: '2026-10-29T01:15:43Z'
+  version: v2.4.2
+  version_title: TJAPlayer for 3DS v2.4.2
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
