@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/profi200/open_agb_firm/releases/download/beta_2024-12-24/open_agb_firm_beta_20241224.7z
 github: profi200/open_agb_firm
 image: https://avatars.githubusercontent.com/u/7831477?v=4&size=128
-image_length: 1560
+image_length: 3259
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

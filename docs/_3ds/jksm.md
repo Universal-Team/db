@@ -38,7 +38,7 @@ screenshots:
 - description: Title save file mode
   url: https://db.universal-team.net/assets/images/screenshots/jksm/title-save-file-mode.png
 source: https://github.com/J-D-K/JKSM
-stars: 397
+stars: 398
 systems:
 - 3DS
 title: JKSM

@@ -38,19 +38,19 @@ version_title: CIA Build
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] ZeldaPicross.3dsx</summary>
-<ol>
-<li>Download <code>ZeldaPicross.1.0RC.zip</code></li>
-<li>Extract <code>/ZeldaPicross/ZeldaPicross.3dsx</code> from the zip to <code>/3ds/ZeldaPicross.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>[prerelease] ZeldaPicross.cia</summary>
 <ol>
 <li>Download <code>ZeldaPicross.1.0RC.zip</code></li>
 <li>Extract <code>/ZeldaPicross.cia</code> from the zip to <code>/cias/ZeldaPicross.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/ZeldaPicross.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] ZeldaPicross.3dsx</summary>
+<ol>
+<li>Download <code>ZeldaPicross.1.0RC.zip</code></li>
+<li>Extract <code>/ZeldaPicross/ZeldaPicross.3dsx</code> from the zip to <code>/3ds/ZeldaPicross.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
