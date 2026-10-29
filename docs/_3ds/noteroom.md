@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 4529028
+    size: 4529052
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.2/NoteRoom.3dsx
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.3/NoteRoom.3dsx
   NoteRoom.cia:
     size: 4826048
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.2/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.3/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
@@ -34,84 +34,45 @@ systems:
 title: NoteRoom
 unique_ids:
 - '0xF9E3'
-update_notes: '<h1 dir="auto">🔧 NoteRoom v3.2 Alpha – Patch Notes</h1>
+update_notes: '<h1 dir="auto">⚡ NoteRoom v3.3 Alpha – Patch Notes</h1>
 
-  <p dir="auto">A quality-of-life and bugfix update introducing an in-app updater
-  and fixing issues with house interiors.</p>
-
-  <hr>
-
-  <h3 dir="auto">✨ New Features</h3>
-
-  <ul dir="auto">
-
-  <li><strong>In-App Auto-Updater:</strong>
-
-  <ul dir="auto">
-
-  <li>NoteRoom now checks for updates automatically when entering the Main Menu, or
-  manually via <code class="notranslate">[START] -&gt; SETTINGS &amp; FX -&gt; Check
-  for Updates</code>.</li>
-
-  <li>Supports both <code class="notranslate">.3dsx</code> and <code class="notranslate">.cia</code>
-  installations automatically.</li>
-
-  <li>Added a dedicated update screen with a live progress bar while pausing music
-  and background animations for a smooth download.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Updated Help Section:</strong>
-
-  <ul dir="auto">
-
-  <li>Expanded the in-game <code class="notranslate">HELP</code> menu with all current
-  controls, building tools, and settings.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
+  <p dir="auto">A performance and stability update focused on eliminating building
+  lag and improving room connection reliability.</p>
 
   <hr>
 
-  <h3 dir="auto">🐛 Bug Fixes</h3>
+  <h3 dir="auto">⚡ Performance &amp; Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li><strong>Fixed Disappearing House Interiors:</strong>
+  <li><strong>Smooth Building (No More Lag Spikes):</strong>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where custom floors and furniture placed inside doors were not
-  saved properly and disappeared on the next login.</li>
+  <li>Fixed frame drops and stutters when placing or demolishing many tiles quickly
+  in succession.</li>
 
-  <li>Interior changes now save reliably and sync properly with other players in the
-  room.</li>
-
-  <li>Fixed player spawn position when logging back in after saving inside a house.</li>
+  <li>World changes are now saved seamlessly in the background so rapid building stays
+  at a smooth 60 FPS.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>Updater &amp; Stability Improvements:</strong>
+  <li><strong>Improved Room Joining &amp; Connection Stability:</strong>
 
   <ul dir="auto">
 
-  <li>Improved memory stability during update checks and added a confirmation prompt
-  before restarting the app.</li>
+  <li>Fixed a connection drop ("Thread: Connect failed") that could occur while loading
+  large islands upon joining a room.</li>
 
   </ul>
 
   </li>
 
   </ul>'
-updated: '2026-10-28T21:56:12Z'
-version: v3.2
-version_title: NoteRoom v3.2 Alpha
+updated: '2026-10-28T23:25:42Z'
+version: v3.3
+version_title: NoteRoom v3.3 Alpha
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
