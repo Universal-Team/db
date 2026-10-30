@@ -53,22 +53,6 @@ version_title: Orchestrina - Beta Release 5
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Orchestrina.3dsx</summary>
-<ol>
-<li>Download <code>Orchestrina.zip</code></li>
-<li>Extract <code>/3ds-arm/3ds/Orchestrina/Orchestrina.3dsx</code> from the zip to <code>/3ds/Orchestrina.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>Orchestrina.cia</summary>
-<ol>
-<li>Download <code>Orchestrina.zip</code></li>
-<li>Extract <code>/3ds-arm/Orchestrina.cia</code> from the zip to <code>/cias/Orchestrina.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Orchestrina.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>Song Files</summary>
 <ol>
 <li>Download <code>Song-of-Healing-(ST).pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm</code> on your SD card</li>
@@ -105,6 +89,22 @@ version_title: Orchestrina - Beta Release 5
 <li>Download <code>Requiem-of-Spirit.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm</code> on your SD card</li>
 <li>Download <code>Song-of-Awakening.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Awakening.pcm</code> on your SD card</li>
 <li>Download <code>New-Wave-Bossa-Nova.pcm</code> to <code>/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.3dsx</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/Orchestrina/Orchestrina.3dsx</code> from the zip to <code>/3ds/Orchestrina.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.cia</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/Orchestrina.cia</code> from the zip to <code>/cias/Orchestrina.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Orchestrina.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
