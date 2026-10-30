@@ -12,7 +12,7 @@ downloads:
   barectr.3dsx:
     size: 211572
     size_str: 206 KiB
-    url: https://github.com/DotNetttt/BareCTR/releases/download/Release/barectr.3dsx
+    url: https://github.com/DotNetttt/BareCTR/releases/download/Outdated/barectr.3dsx
 github: DotNetttt/BareCTR
 icon: https://raw.githubusercontent.com/DotNetttt/BareCTR/refs/heads/main/data/icon.png
 image: https://raw.githubusercontent.com/DotNetttt/BareCTR/refs/heads/main/data/icon.png
@@ -25,7 +25,7 @@ systems:
 - 3DS
 title: BareCTR
 updated: '2026-06-03T09:25:45Z'
-version: Release
+version: Outdated
 version_title: Release v1.0
 ---
 # BareCTR
