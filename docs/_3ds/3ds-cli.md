@@ -31,7 +31,7 @@ systems:
 - 3DS
 title: 3DS-CLI
 unique_ids:
-- '0x1111'
+- '0xF9111'
 update_notes: '<h2 dir="auto">Install</h2>
 
   <ol dir="auto">
@@ -183,7 +183,7 @@ Features a custom ANSI/xterm terminal emulator on the top screen with full 16/25
 <details class="alert alert-secondary"><summary>3ds-cli.3dsx</summary>
 <ol>
 <li>Download <code>3ds_cli.zip</code></li>
-<li>Extract <code>/3ds-cli.3dsx</code> from the zip to <code>/3ds/3ds-cli.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds/3ds-cli.3dsx</code> from the zip to <code>/3ds/3ds-cli.3dsx</code> on your SD card</li>
 <li>Extract <code>/Image</code> from the zip to <code>/Image</code> on your SD card</li>
 </ol>
 </details>
@@ -191,7 +191,7 @@ Features a custom ANSI/xterm terminal emulator on the top screen with full 16/25
 <details class="alert alert-secondary"><summary>3ds-cli.cia</summary>
 <ol>
 <li>Download <code>3ds_cli.zip</code></li>
-<li>Extract <code>/3ds-cli.cia</code> from the zip to <code>/cias/3ds-cli.cia</code> on your SD card</li>
+<li>Extract <code>/3ds/3ds-cli.cia</code> from the zip to <code>/cias/3ds-cli.cia</code> on your SD card</li>
 <li>Extract <code>/Image</code> from the zip to <code>/Image</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/3ds-cli.cia</code> using FBI or GodMode9</li>
