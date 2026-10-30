@@ -27,7 +27,7 @@ llm_generation: 'yes'
 qr:
   topos.cia: https://db.universal-team.net/assets/images/qr/topos-cia.png
 source: https://github.com/mockmodular/topos_3ds-video-player
-stars: 17
+stars: 18
 systems:
 - 3DS
 title: topos_3ds-video-player

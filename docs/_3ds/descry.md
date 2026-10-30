@@ -7,8 +7,8 @@ categories:
 color: '#2d3213'
 color_bg: '#2d3213'
 created: '2026-07-06T13:48:43Z'
-description: music tracker + synthesizer for the New Nintendo 3DS — song/chain/phrase
-  sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
+description: a music tracker and live instrument for new nintendo 3ds. synthesize,
+  sample, sequence and perform.
 download_page: https://github.com/patausx/descry/releases
 downloads:
   descry.3dsx:
