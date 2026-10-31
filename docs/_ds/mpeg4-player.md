@@ -13,7 +13,7 @@ downloads:
     url: https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/
 github: Gericom/YouTubeDS
 image: https://avatars.githubusercontent.com/u/5251038?v=4&size=128
-image_length: 44194
+image_length: 43557
 layout: app
 llm_generation: 'no'
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
