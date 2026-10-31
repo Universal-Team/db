@@ -67,7 +67,7 @@ prerelease:
   version: v0.1.0-alpha
   version_title: v0.1.0-alpha
 source: https://github.com/Jocc3D/3DS-Alarming-Clock
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: 3DS Alarming Clock
