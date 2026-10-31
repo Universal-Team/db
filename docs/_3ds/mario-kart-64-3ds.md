@@ -99,7 +99,7 @@ prerelease:
 qr:
   mk64-3ds-v2.0.cia: https://db.universal-team.net/assets/images/qr/mk64-3ds-v2-0-cia.png
 source: https://github.com/EstebanPdN/mario-kart-64-3ds
-stars: 242
+stars: 243
 systems:
 - 3DS
 title: mario-kart-64-3ds
