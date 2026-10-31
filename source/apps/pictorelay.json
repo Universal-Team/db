@@ -1,0 +1,20 @@
+{
+	"github": "ShinMikite/PictoRelay-3DS",
+	"title": "PictoRelay",
+	"description": "Real online PictoChat between DS, 3DS, PC and Mobile",
+	"author": "HollowOwl",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/icon.png",
+	"image": "https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/banner.png",
+	"unique_ids": [
+		1014334
+	],
+	"long_description": "**Features:**\n\n- 16 people per room\n- Authentic interface\n- Chat with PC and Mobile\n\n**Requirements:**\n\n- Any 2DS or 3DS model\n- Active Wi-Fi connection\n- 7 free blocks on the SD card\n\nMore info: https://pictorelay.com/3ds",
+	"website": "https://pictorelay.com/3ds"
+}
