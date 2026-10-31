@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.2
   downloads:
     TJAP_3DS.3dsx:
-      size: 10274084
+      size: 10274228
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.2/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,7 +44,13 @@ prerelease:
 
     判定枠はそのままに、判定位置を移動させる機能です。<br>
 
-    マイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。</li>
+    マイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。<br>
+
+    (但しHBSCROLLの譜面を遊ぶ際は、安定性の為リセットされます。)</li>
+
+    <li>複素数スクロールに関する機能強化<br>
+
+    小節線が縦のスクロールに対応しました。</li>
 
     </ul>
 
@@ -61,15 +67,24 @@ prerelease:
     it slowly,<br>
 
     and moving it in the positive direction will result in a GOOD judgment if you
-    hit it quickly.</li>
+    hit it quickly.<br>
+
+    (However, when playing HBSCROLL charts, the settings will be reset for stability.)</li>
+
+    <li>Enhanced functionality for complex number scrolling<br>
+
+    Bar lines now support vertical scrolling.</li>
 
     </ul>'
   update_notes_md: "## チェンジログ\n- 判定調整の実装\n判定枠はそのままに、判定位置を移動させる機能です。\nマイナス方向に移動すると遅く叩けば良判定になり、プラス方向に移動すると早く叩けば良判定になります。\n\
+    (但しHBSCROLLの譜面を遊ぶ際は、安定性の為リセットされます。)\n- 複素数スクロールに関する機能強化\n小節線が縦のスクロールに対応しました。\n\
     \n## Changelog\n- Implementation of Judge Adjustment\nThis function allows you\
     \ to move the Judge position while keeping the Judge frame the same.\nMoving it\
     \ in the negative direction will result in a GOOD judgment if you hit it slowly,\
     \ \nand moving it in the positive direction will result in a GOOD judgment if\
-    \ you hit it quickly."
+    \ you hit it quickly.\n(However, when playing HBSCROLL charts, the settings will\
+    \ be reset for stability.)\n- Enhanced functionality for complex number scrolling\n\
+    Bar lines now support vertical scrolling."
   updated: '2026-10-29T01:15:43Z'
   version: v2.4.2
   version_title: TJAPlayer for 3DS v2.4.2
