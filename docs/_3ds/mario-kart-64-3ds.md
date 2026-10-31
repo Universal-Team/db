@@ -25,18 +25,18 @@ preinstall_message: 'This game is mainly intended for New Nintendo 3DS systems. 
   installation, place your Mario Kart 64 ROM in: sd:/3ds/MK64/  For a faster setup,
   generate `mk64.o2r` using SpaghettiKart on a computer and place it in the same folder.'
 prerelease:
-  download_page: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/tag/v2.1-E1
+  download_page: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/tag/v2.1-E2
   downloads:
-    mk64-3ds-v2.1-E1.3dsx:
-      size: 49703836
+    mk64-3ds-v2.1-E2.3dsx:
+      size: 49703928
       size_str: 47 MiB
-      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/mk64-3ds-v2.1-E1.3dsx
-    mk64-3ds-v2.1-E1.cia:
+      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E2/mk64-3ds-v2.1-E2.3dsx
+    mk64-3ds-v2.1-E2.cia:
       size: 46183360
       size_str: 44 MiB
-      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/mk64-3ds-v2.1-E1.cia
+      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E2/mk64-3ds-v2.1-E2.cia
   qr:
-    mk64-3ds-v2.1-E1.cia: https://db.universal-team.net/assets/images/qr/prerelease/mk64-3ds-v2-1-e1-cia.png
+    mk64-3ds-v2.1-E2.cia: https://db.universal-team.net/assets/images/qr/prerelease/mk64-3ds-v2-1-e2-cia.png
   update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p
     class="markdown-alert-title" dir="auto"><svg data-component="Octicon" class="octicon
     octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
@@ -48,17 +48,16 @@ prerelease:
 
     </div>
 
-    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"><img
-    width="500" height="500" alt="QR code for the v2.1-E1 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E2/QR-v2.1-E2-github.png"><img
+    width="500" height="500" alt="QR code for the v2.1-E2 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E2/QR-v2.1-E2-github.png"
     style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
 
     <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
-    <li>Added VRAM capture to diagnostic dumps.</li>
-
-    <li>Disabled dumps during AUTO mode to prevent accidental captures by the AI.</li>
+    <li>Fixed a GPU vertex layout error that can freeze the console at the start of
+    Choco Mountain.</li>
 
     </ul>
 
@@ -73,16 +72,15 @@ prerelease:
     > This is an experimental version and may contain bugs.
 
 
-    <img width="500" height="500" alt="QR code for the v2.1-E1 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"
+    <img width="500" height="500" alt="QR code for the v2.1-E2 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E2/QR-v2.1-E2-github.png"
     />
 
 
     ## Changelog
 
 
-    - Added VRAM capture to diagnostic dumps.
-
-    - Disabled dumps during AUTO mode to prevent accidental captures by the AI.
+    - Fixed a GPU vertex layout error that can freeze the console at the start of
+    Choco Mountain.
 
 
     ## Bug reports
@@ -92,10 +90,12 @@ prerelease:
     dump folder from:
 
 
-    `sd:/3ds/MK64/dump/`'
-  updated: '2026-10-24T02:34:59Z'
-  version: v2.1-E1
-  version_title: v2.1-E1
+    `sd:/3ds/MK64/dump/`
+
+    '
+  updated: '2026-10-31T18:03:06Z'
+  version: v2.1-E2
+  version_title: v2.1-E2
 qr:
   mk64-3ds-v2.0.cia: https://db.universal-team.net/assets/images/qr/mk64-3ds-v2-0-cia.png
 source: https://github.com/EstebanPdN/mario-kart-64-3ds
