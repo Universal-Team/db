@@ -6,7 +6,9 @@ categories:
 color: '#706e6b'
 color_bg: '#706e6b'
 created: '2026-07-27T11:13:06Z'
-description: A homebrew port of the mobile game Block Blast for the 3DS (old and new)
+description: 'Block Blast on the Nintendo 3DS: a free homebrew game for Old and New
+  3DS and 2DS. Install the CIA by QR code in FBI, or run the 3DSX from the Homebrew
+  Launcher.'
 download_page: https://github.com/TheFilipcom4607/BlockBlast-3DS/releases
 downloads:
   blockblast.3dsx:

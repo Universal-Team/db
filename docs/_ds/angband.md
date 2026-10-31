@@ -13,7 +13,7 @@ downloads: {}
 github: angband/angband
 icon: https://github.com/angband.png?size=48
 image: https://github.com/angband.png
-image_length: 3366
+image_length: 3824
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
@@ -157,7 +157,7 @@ prerelease:
   version: 4.2.6-258-ge473720ed
   version_title: 4.2.6-258-ge473720ed
 source: https://github.com/angband/angband
-stars: 1573
+stars: 1574
 systems:
 - 3DS
 - DS
