@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/xzn/ntr-hr/releases/download/v0.3.8.2/BootNTRSelector-PabloMK7-Banner.cia
 github: xzn/ntr-hr
 image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
-image_length: 3226
+image_length: 1529
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
