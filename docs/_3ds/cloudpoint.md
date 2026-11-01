@@ -26,6 +26,22 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: minor
+prerelease:
+  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.10.0
+  downloads:
+    cloudpoint.3dsx:
+      size: 3143204
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.10.0/cloudpoint.3dsx
+    cloudpoint.cia:
+      size: 2466752
+      size_str: 2 MiB
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.10.0/cloudpoint.cia
+  qr:
+    cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
+  updated: '2026-11-01T15:50:45Z'
+  version: 0.10.0
+  version_title: Placeholder for next version
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
