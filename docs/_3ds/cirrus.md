@@ -10,17 +10,17 @@ description: 3DS switcher for Samtendo Network
 download_page: https://github.com/SamtendoNetwork/cirrus/releases
 downloads:
   3dsx.zip:
-    size: 733229
-    size_str: 716 KiB
-    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.0.0/3dsx.zip
+    size: 756808
+    size_str: 739 KiB
+    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.0/3dsx.zip
   cia.zip:
-    size: 1016773
-    size_str: 992 KiB
-    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.0.0/cia.zip
+    size: 1029974
+    size_str: 1005 KiB
+    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.0/cia.zip
   combined.zip:
-    size: 1453362
+    size: 1479565
     size_str: 1 MiB
-    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.0.0/combined.zip
+    url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.0/combined.zip
 github: SamtendoNetwork/cirrus
 icon: https://cdn.samtendo.net/images/Cirrus.png
 image: https://cdn.samtendo.net/images/Cirrus.png
@@ -36,8 +36,8 @@ systems:
 title: Cirrus
 unique_ids:
 - '0xD40D3'
-update_notes: '<p dir="auto">Updates: Fixed title ID for CIA build, and bumped version
-  to 3.0.0</p>
+update_notes: '<p dir="auto">Updates: Fix byte lengths for NNCS URIs, fixing some
+  multiplayer games like MK7. Update some strings too</p>
 
   <p dir="auto">Installation instructions:</p>
 
@@ -76,9 +76,9 @@ update_notes: '<p dir="auto">Updates: Fixed title ID for CIA build, and bumped v
   <p dir="auto">Open Cirrus and switch to Nintendo servers, then open the Nintendo
   eShop. After it loads or returns and error code, come back to Samtendo servers and
   try again.</p>'
-updated: '2026-09-26T19:57:51Z'
-version: v3.0.0
-version_title: Cirrus v3.0.0
+updated: '2026-11-01T21:09:13Z'
+version: v3.1.0
+version_title: Cirrus v3.1.0
 ---
 ### Installation instructions
 

@@ -27,16 +27,16 @@ license: other
 license_name: Other
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-068324
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-d695cf
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 6043260
+      size: 6043308
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
       size: 4436928
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -50,47 +50,26 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/cia.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png"
     alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/3dsx.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png"
     alt="3DSX Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ae0fcf">Nightly-ae0fcf</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-068324">Nightly-068324</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/0683245d79bca9e24d82c738438a22dec6731c53">0683245d</a>
-    - Ignore hidden settings for hash computation (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="6048166348" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/862"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/862/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/862">#862</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/7e01435592ab0f0593ee34bf12b35e496d017411">7e014355</a>
-    - Fix cosmetic preset menu bounds (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="6048101221" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/861"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/861/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/861">#861</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/fbd76482d9691d09524bb279529dbea2c1714b07">fbd76482</a>
-    - Fix Hyper Spikes falling through the floor (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="6048034450" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/860"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/860/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/860">#860</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/055908348c40476fd30eacbfa19ffbee7d56149c">05590834</a>
-    - Fixed freecam FoV getting stuck at abnormal values (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="6016120509" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/859"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/859/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/859">#859</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/d695cf5ad78dc1990da200af601b054860d707b8">d695cf5a</a>
+    - Fix compass hints crash (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="6145588985" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/863"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/863/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/863">#863</a>)</li>
 
     </ul>'
   update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
@@ -104,30 +83,21 @@ prerelease:
 
     CIA QR Code:
 
-    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/cia.png)
+    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png)
 
     3DSX QR Code:
 
-    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-068324/3dsx.png)
+    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png)
 
 
-    Changes Since [Nightly-ae0fcf](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ae0fcf)
+    Changes Since [Nightly-068324](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-068324)
     🛠:
 
-    - [0683245d](http://github.com/gamestabled/OoT3D_Randomizer/commit/0683245d79bca9e24d82c738438a22dec6731c53)
-    - Ignore hidden settings for hash computation (#862)
-
-    - [7e014355](http://github.com/gamestabled/OoT3D_Randomizer/commit/7e01435592ab0f0593ee34bf12b35e496d017411)
-    - Fix cosmetic preset menu bounds (#861)
-
-    - [fbd76482](http://github.com/gamestabled/OoT3D_Randomizer/commit/fbd76482d9691d09524bb279529dbea2c1714b07)
-    - Fix Hyper Spikes falling through the floor (#860)
-
-    - [05590834](http://github.com/gamestabled/OoT3D_Randomizer/commit/055908348c40476fd30eacbfa19ffbee7d56149c)
-    - Fixed freecam FoV getting stuck at abnormal values (#859)'
-  updated: '2026-10-27T17:42:50Z'
-  version: Nightly-068324
-  version_title: Nightly-068324
+    - [d695cf5a](http://github.com/gamestabled/OoT3D_Randomizer/commit/d695cf5ad78dc1990da200af601b054860d707b8)
+    - Fix compass hints crash (#863)'
+  updated: '2026-11-01T16:05:33Z'
+  version: Nightly-d695cf
+  version_title: Nightly-d695cf
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer

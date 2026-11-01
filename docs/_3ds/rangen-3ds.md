@@ -38,7 +38,7 @@ prerelease:
   version: v0.1.1-alpha
   version_title: v0.1.1 alpha
 source: https://github.com/ashbit06/RanGen-3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: RanGen-3DS
