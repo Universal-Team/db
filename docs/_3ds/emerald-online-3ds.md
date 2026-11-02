@@ -24,7 +24,7 @@ preinstall_message: 'In the "sdmc:/3ds/emerald-online-3ds" folder you will need 
 
   https://emeraldonline3ds.com/community?guide=install-on-3ds'
 source: https://github.com/xlindseyj/emerald-online-3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: emerald-online-3ds

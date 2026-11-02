@@ -34,7 +34,7 @@ downloads:
     url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/quake3_data.zip
 github: masterfeizz/ioQuake3DS
 image: https://avatars.githubusercontent.com/u/15205297?v=4&size=128
-image_length: 3331
+image_length: 1569
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
