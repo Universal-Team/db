@@ -1,0 +1,19 @@
+{
+	"github": "jonatasfernandespimenta/PocketFarm3DS",
+	"title": "PocketFarm",
+	"author": "Jonatas Pimenta",
+	"description": "A cozy pocket farm: crops, animals and factories",
+	"long_description": "A cozy pocket farm for the New Nintendo 3DS: grow crops, raise animals, fish, explore the mine, befriend the town, collect critters from the capsule machine, and automate it all with conveyor belts, robotic arms and power.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1019425
+	],
+	"icon": "https://raw.githubusercontent.com/jonatasfernandespimenta/PocketFarm3DS/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/jonatasfernandespimenta/PocketFarm3DS/main/meta/banner.png",
+	"llm_generation": "yes"
+}
