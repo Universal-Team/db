@@ -11,13 +11,13 @@ download_filter: \.(3dsx|cia)$
 download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases
 downloads:
   OoT3D_Randomizer.3dsx:
-    size: 5461796
+    size: 6043276
     size_str: 5 MiB
-    url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.2/OoT3D_Randomizer.3dsx
+    url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/OoT3D_Randomizer.3dsx
   OoT3D_Randomizer.cia:
-    size: 4084672
-    size_str: 3 MiB
-    url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.2/OoT3D_Randomizer.cia
+    size: 4436928
+    size_str: 4 MiB
+    url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/OoT3D_Randomizer.cia
 github: gamestabled/OoT3D_Randomizer
 icon: https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/banner.png
@@ -26,78 +26,6 @@ layout: app
 license: other
 license_name: Other
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-d695cf
-  downloads:
-    OoT3D_Randomizer.3dsx:
-      size: 6043308
-      size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/OoT3D_Randomizer.3dsx
-    OoT3D_Randomizer.cia:
-      size: 4436928
-      size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/OoT3D_Randomizer.cia
-  qr:
-    OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
-  update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
-    not be entirely stable.<br>
-
-    When reporting issues, please mention the six character commit listed in the randomizer
-    menu.<br>
-
-    You can use the FBI homebrew application to install the randomizer using either
-    of these QR codes.<br>
-
-    CIA QR Code:<br>
-
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png"
-    alt="CIA Download" style="max-width: 100%;"></a><br>
-
-    3DSX QR Code:<br>
-
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png"
-    alt="3DSX Download" style="max-width: 100%;"></a></p>
-
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-068324">Nightly-068324</a>
-    🛠:</p>
-
-    <ul dir="auto">
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/d695cf5ad78dc1990da200af601b054860d707b8">d695cf5a</a>
-    - Fix compass hints crash (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="6145588985" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/863"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/863/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/863">#863</a>)</li>
-
-    </ul>'
-  update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
-    stable.
-
-    When reporting issues, please mention the six character commit listed in the randomizer
-    menu.
-
-    You can use the FBI homebrew application to install the randomizer using either
-    of these QR codes.
-
-    CIA QR Code:
-
-    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/cia.png)
-
-    3DSX QR Code:
-
-    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d695cf/3dsx.png)
-
-
-    Changes Since [Nightly-068324](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-068324)
-    🛠:
-
-    - [d695cf5a](http://github.com/gamestabled/OoT3D_Randomizer/commit/d695cf5ad78dc1990da200af601b054860d707b8)
-    - Fix compass hints crash (#863)'
-  updated: '2026-11-01T16:05:33Z'
-  version: Nightly-d695cf
-  version_title: Nightly-d695cf
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
@@ -107,52 +35,128 @@ systems:
 title: OoT3D_Randomizer
 unique_ids:
 - '0x8AD5B'
-update_notes: '<p dir="auto">This is a patch release that backports the following
-  bug-fixes from the main branch to the stable 4.0 release:</p>
+update_notes: '<h3 dir="auto">Changes from v4.0</h3>
+
+  <h4 dir="auto">New gameplay settings:</h4>
 
   <ul dir="auto">
 
-  <li>fixed a bug with the free camera feature that could cause the game to crash.</li>
+  <li>Enemy Randomizer;</li>
+
+  <li>Shopsanity Prices;</li>
+
+  <li>Gloom Mode;</li>
+
+  <li>Random Ocarina Melodies;</li>
+
+  <li>Rupeesanity;</li>
+
+  <li>Bonk Damage;</li>
+
+  <li>Keep Extra Shields;</li>
+
+  <li>Big Poe Shuffle;</li>
+
+  <li>Recovery Heart Shuffle;</li>
+
+  <li>Playthrough Hints Specificity;</li>
+
+  <li>Time multiplier for Frog Choir minigame;</li>
 
   </ul>
 
-  <p dir="auto">When reporting issues, please mention the six character commit listed
-  in the randomizer menu.<br>
+  <h4 dir="auto">New cosmetic settings:</h4>
+
+  <ul dir="auto">
+
+  <li>Ocarina Instrument SFX;</li>
+
+  <li>Ganon''s Blood Color;</li>
+
+  <li>More options for Soulless Enemies Look (Grayscale/Textureless/Vanilla);</li>
+
+  </ul>
+
+  <h4 dir="auto">Gameplay improvements/features</h4>
+
+  <ul dir="auto">
+
+  <li>Zelda relays playthrough stats in the ending;</li>
+
+  <li>Skip having to trigger Zelda escape cutscene;</li>
+
+  <li>New Trap types:
+
+  <ul dir="auto">
+
+  <li>Rupoor item;</li>
+
+  <li>Invisible actors curse;</li>
+
+  <li>Missing Navi curse;</li>
+
+  </ul>
+
+  </li>
+
+  <li>In-game menu additions:
+
+  <ul dir="auto">
+
+  <li>Spoilers toggle setting;</li>
+
+  <li>Enemy Locations page for Enemy Randomizer;</li>
+
+  </ul>
+
+  </li>
+
+  <li>Custom tunic colors are displayed on the Title Screen;</li>
+
+  <li>Split French translations into European and American variants;</li>
+
+  <li>Changed fanfare played when getting traps and dungeon rewards;</li>
+
+  <li>Allow backtracking after Dampé''s race;</li>
+
+  <li>Most doors now stay open if there are soulless enemies in the room;</li>
+
+  <li>Added an alert message for seed mismatch;</li>
+
+  </ul>
+
+  <h4 dir="auto">App improvements/features</h4>
+
+  <ul dir="auto">
+
+  <li>Added a menu to save Personalization Setting Presets;</li>
+
+  <li>Added a CSS stylesheet for the spoiler log, to improve viewing it from a browser;</li>
+
+  <li>Ignore hidden settings for hash computation;</li>
+
+  <li>Various bug fixes and code improvements.</li>
+
+  </ul>
+
+  <p dir="auto">When reporting issues, please mention the exact version listed at
+  the top of the randomizer menu.<br>
 
   You can use the FBI homebrew application to install the randomizer using either
   of these QR codes.<br>
 
   CIA QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6a382438-aae1-43d5-9552-fe786be62605"><img
-  width="225" height="225" alt="CIA Download" src="https://github.com/user-attachments/assets/6a382438-aae1-43d5-9552-fe786be62605"
-  style="max-width: 100%; height: auto; max-height: 225px;; aspect-ratio: 225 / 225;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a><br>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/cia.png"><img
+  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/cia.png"
+  alt="CIA Download" style="max-width: 100%;"></a><br>
 
   3DSX QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5792db59-692f-489e-bfcf-2fdeb30de638"><img
-  width="225" height="225" alt="3DSX Download" src="https://github.com/user-attachments/assets/5792db59-692f-489e-bfcf-2fdeb30de638"
-  style="max-width: 100%; height: auto; max-height: 225px;; aspect-ratio: 225 / 225;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
-
-  <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/v4.0.1">v4.0.1</a>
-  🛠:</p>
-
-  <ul dir="auto">
-
-  <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/da33971930068cf9e889caa387cb7a4766193c47">da339719</a>
-  - Bump version to 4.0.2</li>
-
-  <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/ab2cdd5988c53473803c4bbd188c86d20843bc44">ab2cdd59</a>
-  - backport: Fixed intermittent free camera crash (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4706046378" data-permission-text="Title
-  is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/838"
-  data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/838/hovercard"
-  href="https://github.com/gamestabled/OoT3D_Randomizer/pull/838">#838</a>)</li>
-
-  </ul>'
-updated: '2026-06-26T17:28:08Z'
-version: v4.0.2
-version_title: v4.0.2
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/3dsx.png"><img
+  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v5.0/3dsx.png"
+  alt="3DSX Download" style="max-width: 100%;"></a></p>'
+updated: '2026-11-03T20:39:50Z'
+version: v5.0
+version_title: v5.0
 ---
