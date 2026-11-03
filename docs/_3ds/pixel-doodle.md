@@ -43,7 +43,7 @@ screenshots:
 - description: 05 tools and brush options
   url: https://db.universal-team.net/assets/images/screenshots/pixel-doodle/05-tools-and-brush-options.png
 source: https://github.com/ArmstrongThomas/PixelDoodle
-stars: 1
+stars: 2
 systems:
 - 3DS
 - DS

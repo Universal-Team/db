@@ -24,10 +24,78 @@ llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
+prerelease:
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v4.1-E5
+  downloads:
+    zelda3-3ds-v4.1-E5.3dsx:
+      size: 8834320
+      size_str: 8 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/zelda3-3ds-v4.1-E5.3dsx
+    zelda3-3ds-v4.1-E5.cia:
+      size: 7541696
+      size_str: 7 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/zelda3-3ds-v4.1-E5.cia
+  qr:
+    zelda3-3ds-v4.1-E5.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v4-1-e5-cia.png
+  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"><img
+    width="500" height="500" alt="QR code for the v4.1-E5 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"
+    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Fixed the Japanese title logo.</li>
+
+    </ul>
+
+    <h2 dir="auto">Credits</h2>
+
+    <p dir="auto">Skins by Charmander106/SePH, iBazly, Damon, InTheBeef, Ben G and
+    Myriachan. <a href="https://github.com/EstebanPdN/zelda-alttp-3ds/blob/prerelease/v4.1-e5/CREDITS.md">Full
+    credits</a>.</p>
+
+    <h2 dir="auto">Bug reports</h2>
+
+    <p dir="auto">Press <code class="notranslate">L + R + A</code> while the issue
+    is visible and attach the complete diagnostic dump folder from:</p>
+
+    <p dir="auto"><code class="notranslate">sdmc:/3ds/Zelda 3DS/dumps/</code></p>'
+  update_notes_md: '<img width="500" height="500" alt="QR code for the v4.1-E5 CIA"
+    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"
+    />
+
+
+    ## Changelog
+
+
+    - Fixed the Japanese title logo.
+
+
+    ## Credits
+
+
+    Skins by Charmander106/SePH, iBazly, Damon, InTheBeef, Ben G and Myriachan. [Full
+    credits](https://github.com/EstebanPdN/zelda-alttp-3ds/blob/prerelease/v4.1-e5/CREDITS.md).
+
+
+    ## Bug reports
+
+
+    Press `L + R + A` while the issue is visible and attach the complete diagnostic
+    dump folder from:
+
+
+    `sdmc:/3ds/Zelda 3DS/dumps/`
+
+    '
+  updated: '2026-11-02T23:04:23Z'
+  version: v4.1-E5
+  version_title: v4.1-E5
 qr:
   zelda3-3ds-v4.0.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v4-0-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 768
+stars: 773
 systems:
 - 3DS
 title: zelda-alttp-3ds

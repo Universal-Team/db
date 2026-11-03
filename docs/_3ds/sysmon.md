@@ -34,6 +34,33 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: 'yes'
+prerelease:
+  download_page: https://github.com/Just-a-Spider/SysMon/releases/tag/v0.3.5-dev.1
+  downloads:
+    SHA256SUMS.txt:
+      size: 559
+      size_str: 559 Bytes
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.1/SHA256SUMS.txt
+    sysmon-3ds.3dsx:
+      size: 4516860
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.1/sysmon-3ds.3dsx
+    sysmon-3ds.cia:
+      size: 4527040
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.1/sysmon-3ds.cia
+    sysmon-server-0.3.5-1_amd64.deb:
+      size: 4204384
+      size_str: 4 MiB
+      url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.1/sysmon-server-0.3.5-1_amd64.deb
+  qr:
+    sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
+  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.4...v0.3.5-dev.1"><tt>v0.3.4...v0.3.5-dev.1</tt></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.4...v0.3.5-dev.1'
+  updated: '2026-11-03T00:04:42Z'
+  version: v0.3.5-dev.1
+  version_title: v0.3.5-dev.1
 qr:
   sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/sysmon-3ds-cia.png
 screenshots:

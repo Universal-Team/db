@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/TheHighTide/WordleTerminal3DS/releases/download/1.0.0/HTWordleTerminal.3dsx
 github: TheHighTide/WordleTerminal3DS
 image: https://avatars.githubusercontent.com/u/84487860?v=4&size=128
-image_length: 37544
+image_length: 37171
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
