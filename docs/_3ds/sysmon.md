@@ -50,14 +50,24 @@ prerelease:
       size_str: 4 MiB
       url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.2/sysmon-3ds.cia
     sysmon-server-0.3.5-1_amd64.deb:
-      size: 4204120
+      size: 4202648
       size_str: 4 MiB
       url: https://github.com/Just-a-Spider/SysMon/releases/download/v0.3.5-dev.2/sysmon-server-0.3.5-1_amd64.deb
   qr:
     sysmon-3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/sysmon-3ds-cia.png
   update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2"><tt>v0.3.5-dev.1...v0.3.5-dev.2</tt></a></p>'
-  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2'
+    href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2"><tt>v0.3.5-dev.1...v0.3.5-dev.2</tt></a></p>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2"><tt>v0.3.5-dev.1...v0.3.5-dev.2</tt></a></p>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2"><tt>v0.3.5-dev.1...v0.3.5-dev.2</tt></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2
+
+
+    **Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2
+
+
+    **Full Changelog**: https://github.com/Just-a-Spider/SysMon/compare/v0.3.5-dev.1...v0.3.5-dev.2'
   updated: '2026-11-04T13:03:32Z'
   version: v0.3.5-dev.2
   version_title: v0.3.5-dev.2
