@@ -1,0 +1,29 @@
+{
+	"github": "mattvideoproductions/Minecraft3D",
+	"author": "MattVidPro",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"plugin",
+		"game"
+	],
+	"description": "Adds stereoscopic 3D to Minecraft: New Nintendo 3DS Edition (USA) using a Luma3DS plugin. Developed with Claude AI, directed and hardware-tested by MattVidPro.",
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/mattvideoproductions/Minecraft3D/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/mattvideoproductions/Minecraft3D/main/meta/banner.png",
+	"long_description": "A Luma3DS 3GX plugin for **Minecraft: New Nintendo 3DS Edition (USA)**, title ID **00040000001B8700**, updated to **v9.12.0 (game 1.9.19)**. Renders both eyes with per-pixel depth and includes depth presets, a default 30 fps lock, render-distance controls and optional HUD sizing.\n\nRequires a **New 3DS, New 3DS XL or New 2DS XL** with Luma3DS. Old 3DS systems are not supported. The New 2DS XL can run the plugin but cannot display stereoscopic 3D. Other game regions and versions are not supported. Enable the plugin loader in the Rosalina menu, launch Minecraft, raise the 3D slider on a 3D-capable system and press **SELECT** for the plugin menu.\n\nYou must provide your own copy of the game; no game files are included. Developed by Claude (Anthropic AI), with MattVidPro directing development and testing on real New 3DS hardware. Unofficial fan mod, not affiliated with Mojang, Microsoft, Other Ocean Interactive or Nintendo.",
+	"installed_files": [
+		"/luma/plugins/00040000001B8700/Minecraft3D.3gx"
+	],
+	"scripts": {
+		"New 3DS": [
+			{
+				"type": "downloadRelease",
+				"repo": "mattvideoproductions/Minecraft3D",
+				"file": "Minecraft3D.3gx",
+				"output": "/luma/plugins/00040000001B8700/Minecraft3D.3gx"
+			}
+		]
+	}
+}
