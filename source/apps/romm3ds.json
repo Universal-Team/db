@@ -1,5 +1,7 @@
 {
 	"github": "owenlejeune/romm3ds",
+	"title": "romm3ds",
+	"author": "Owen LeJeune",
 	"systems": [
 		"3DS"
 	],
@@ -9,5 +11,6 @@
 	],
 	"llm_generation": "yes",
 	"icon": "https://raw.githubusercontent.com/owenlejeune/romm3ds/main/icon.png",
+	"description": "Save-state manager for RomM",
 	"long_description": "**romm3ds** is a bidirectional save synchronization client for Nintendo 3DS that connects directly to your self-hosted [RomM](https://github.com/rommapp/romm) (Rom Manager) instance.\n\nIt automatically detects installed Nintendo 3DS and CIA games (SD/Cartridge/NAND), along with standalone ROMs from any ROM directories and subdirectories on your SD card, compares save timestamps with your RomM server, and syncs progress seamlessly."
 }
