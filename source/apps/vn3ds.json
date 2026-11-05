@@ -1,0 +1,18 @@
+{
+	"github": "Pedro8b/VN3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility",
+		"media"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/Pedro8b/VN3DS/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Pedro8b/VN3DS/main/cia/banner.png",
+	"unique_ids": [
+		1015123
+	],
+	"long_description": "VNDS player for 3ds. Working 3D and flexible settings. Supports original vnds and vita vnds games.\nGames are installed in /vnds/novels/"
+}
