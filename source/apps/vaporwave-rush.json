@@ -1,0 +1,34 @@
+{
+  "title": "Vaporwave Rush",
+  "author": "ZadenZ",
+  "description": "Neon endless driving: dodge traffic, grab coins, and set off bonus runs across Rush and Smash Rush modes, then spend your coins in the Smash Shop. Native 3DS port of the Save Point arcade game with stereoscopic 3D, car customization, and the original soundtrack.",
+  "long_description": "Vaporwave Rush is a neon endless driver. Score as high as you can in Rush, or take Smash Rush, where smashing traffic with a Smash coin is the whole point and the payout is half your score.\n\nOn the road you will find gold coins plus Smash, Magnet, Flight and Bomb pickups - careful, a Bomb past score 600 ends the run. Coins you bank buy the six Smash Shop upgrades: Coin Magnet, Flight Coin, Smash Duration +5s, Magnet +5s, Flight +5s, and a Permanent Score x2.\n\nFeatures:\n- Stereoscopic 3D on the top screen (plays in 2D with the slider off)\n- Touch-screen menus, dashboard, PAUSE, CAMERA and SKIP TRACK buttons\n- Customize your car's body, wheels and thruster colors\n- Reset Progress on the title screen if you want a fresh start\n- Three of the author's own music tracks stream while you drive\n\nSteer with the Circle Pad or D-Pad. The .cia installs to the Home Menu; the .3dsx runs from the Homebrew Launcher, and both share one save file.\n\nAlso available for PS Vita on the author's site.",
+  "version": "1.0",
+  "created": "2026-10-15T00:00:00Z",
+  "updated": "2026-10-15T00:00:00Z",
+  "systems": [
+    "3DS"
+  ],
+  "categories": [
+    "game"
+  ],
+  "unique_ids": [
+    353573
+  ],
+  "icon": "https://db.universal-team.net/assets/images/icons/vaporwave-rush.png",
+  "image": "https://db.universal-team.net/assets/images/images/vaporwave-rush.png",
+  "website": "https://zadenz.com/savepoint/vaporwave-rush",
+  "download_page": "https://zadenz.com/savepoint/vaporwave-rush",
+  "downloads": {
+    "vaporwave_rush.cia": {
+      "url": "https://zadenz.com/downloads/vaporwave_rush.cia",
+      "size": 22325184,
+      "size_str": "21.29 MB"
+    },
+    "vaporwave_rush.3dsx": {
+      "url": "https://zadenz.com/downloads/vaporwave_rush.3dsx",
+      "size": 24835536,
+      "size_str": "23.69 MB"
+    }
+  }
+}
