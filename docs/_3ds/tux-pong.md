@@ -10,14 +10,18 @@ description: A fork of the Scratch Version of Nate Pong, built on the Scratch Ev
   runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.
 download_page: https://github.com/git-effl/Tux-Pong/releases
 downloads:
+  Scratch.Everywhere.3DS.Nightly.6.zip:
+    size: 65546045
+    size_str: 62 MiB
+    url: https://github.com/git-effl/Tux-Pong/releases/download/v1.1a/Scratch.Everywhere.3DS.Nightly.6.zip
   tuxpong.3dsx:
-    size: 35896312
+    size: 35927648
     size_str: 34 MiB
-    url: https://github.com/git-effl/Tux-Pong/releases/download/v1.1/tuxpong.3dsx
+    url: https://github.com/git-effl/Tux-Pong/releases/download/v1.1a/tuxpong.3dsx
   tuxpong.cia:
-    size: 34231232
+    size: 34227136
     size_str: 32 MiB
-    url: https://github.com/git-effl/Tux-Pong/releases/download/v1.1/tuxpong.cia
+    url: https://github.com/git-effl/Tux-Pong/releases/download/v1.1a/tuxpong.cia
 github: git-effl/Tux-Pong
 icon: https://raw.githubusercontent.com/git-effl/Tux-Pong/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/git-effl/Tux-Pong/refs/heads/main/gfx/3ds/banner.png
@@ -36,10 +40,15 @@ systems:
 title: Tux Pong!
 unique_ids:
 - '0x3258'
-update_notes: <p dir="auto">Removed PS2 Support</p>
-updated: '2026-09-24T18:00:56Z'
-version: v1.1
-version_title: Welcome back for real,Tux Pong!
+update_notes: '<p dir="auto">Changed Engine from 1.1 to 1.0rc2<br>
+
+  And changed game platform from Turbowarp to ScratchBox<br>
+
+  Wii U soundtrack transitions are experimental and won''t work correctly,for the
+  best experience,use the PSVita (coming soon) or 3DS Build.</p>'
+updated: '2026-11-05T19:05:24Z'
+version: v1.1a
+version_title: Byebye Turbowarp!!
 ---
 Description:
 A fork of the Scratch Version of Nate Pong, built on the Scratch Everywhere! runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.
