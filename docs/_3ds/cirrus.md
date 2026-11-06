@@ -10,15 +10,15 @@ description: 3DS switcher for Samtendo Network
 download_page: https://github.com/SamtendoNetwork/cirrus/releases
 downloads:
   3dsx.zip:
-    size: 733633
-    size_str: 716 KiB
+    size: 756331
+    size_str: 738 KiB
     url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.1/3dsx.zip
   cia.zip:
-    size: 1017366
-    size_str: 993 KiB
+    size: 1029029
+    size_str: 1004 KiB
     url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.1/cia.zip
   combined.zip:
-    size: 1454155
+    size: 1478399
     size_str: 1 MiB
     url: https://github.com/SamtendoNetwork/cirrus/releases/download/v3.1.1/combined.zip
 github: SamtendoNetwork/cirrus
