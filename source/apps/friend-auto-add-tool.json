@@ -1,0 +1,26 @@
+{
+	"github": "BolgarMaxym97/friend-auto-add-tool-3ds",
+	"title": "Friend Auto Add Tool",
+	"author": "Max Bolhar",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "Додає в друзі всіх учасників спільної бази кодів друзів (Pretendo).",
+	"long_description": "Застосунок завантажує спільну базу кодів друзів спільноти n3ds_ua (t.me/n3ds_ua) і додає в друзі всіх, кого ще немає у списку. Двоє людей запускають його, кожен має код іншого в базі - і вони стають друзями.\n\nЯкщо людина ще не додала ваш код, запис лишається заявкою (\"тимчасово зареєстрований\" у Списку друзів); щойно вона додасть вас, ви станете друзями. Коли місць менше, ніж кодів, першими йдуть новіші. Є журнал по кожному коду і видалення друзів (лише з бази або всіх).\n\nПотрібна Luma3DS, Pretendo Network через Nimbus, обліковий запис друзів на консолі і Wi-Fi. Перший екран перевіряє все це і підказує, чого бракує.",
+	"website": "https://github.com/BolgarMaxym97/friend-auto-add-tool-3ds",
+	"icon": "https://raw.githubusercontent.com/BolgarMaxym97/friend-auto-add-tool-3ds/main/app/art/icon.png",
+	"llm_generation": "yes",
+	"preinstall_message": "Потрібна Pretendo Network через Nimbus\n(сервери Nintendo Network для 3DS вимкнені).\n\nПісля встановлення відкрийте застосунок,\nнатисніть \"Оновити базу\", потім \"Додати друзів\".",
+	"unique_ids": [
+		1040448
+	],
+	"installed_files": [
+		"/FriendAutoAddTool/friend_code.txt",
+		"/FriendAutoAddTool/db_updated.txt",
+		"/FriendAutoAddTool/log.txt"
+	],
+	"download_filter": "^FriendAutoAddTool-.*\\.cia$"
+}
