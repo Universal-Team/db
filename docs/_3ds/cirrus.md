@@ -86,7 +86,7 @@ version_title: Cirrus v3.1.0
 <details class="alert alert-secondary"><summary>cirrus.3dsx</summary>
 <ol>
 <li>Download <code>3dsx.zip</code></li>
-<li>Extract <code>/3dsx_out/3ds/cirrus.3dsx</code> from the zip to <code>/3ds/cirrus.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds/cirrus.3dsx</code> from the zip to <code>/3ds/cirrus.3dsx</code> on your SD card</li>
 <li>Extract <code>/3ds/cirrus</code> from the zip to <code>/3ds/cirrus</code> on your SD card</li>
 </ol>
 </details>
@@ -94,7 +94,7 @@ version_title: Cirrus v3.1.0
 <details class="alert alert-secondary"><summary>cirrus.cia</summary>
 <ol>
 <li>Download <code>cia.zip</code></li>
-<li>Extract <code>/cia_out/cias/cirrus.cia</code> from the zip to <code>/cias/cirrus.cia</code> on your SD card</li>
+<li>Extract <code>/cias/cirrus.cia</code> from the zip to <code>/cias/cirrus.cia</code> on your SD card</li>
 <li>Extract <code>/3ds/cirrus</code> from the zip to <code>/3ds/cirrus</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/cirrus.cia</code> using FBI or GodMode9</li>
