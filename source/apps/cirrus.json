@@ -10,13 +10,13 @@
 	"archive": {
 		"3dsx.zip": {
 			"cirrus.3dsx": [
-				"3dsx_out/3ds/cirrus.3dsx",
+				"3ds/cirrus.3dsx",
 				"3ds/cirrus"
 			]
 		},
 		"cia.zip": {
 			"cirrus.cia": [
-				"cia_out/cias/cirrus.cia",
+				"cias/cirrus.cia",
 				"3ds/cirrus"
 			]
 		}
