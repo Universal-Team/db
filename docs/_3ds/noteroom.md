@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 5029732
+    size: 5047068
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.2/NoteRoom.3dsx
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.3/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 5305280
+    size: 5317568
     size_str: 5 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.2/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.3/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
@@ -34,36 +34,71 @@ systems:
 title: NoteRoom
 unique_ids:
 - '0xF9E3'
-update_notes: '<h1 dir="auto">✨ NoteRoom v4.2 Alpha — Major Content &amp; World Update!</h1>
+update_notes: '<h1 dir="auto">🎰🐉 NoteRoom v4.3 Alpha — The Casino, Arcane Shop &amp;
+  Autonomous AI Update!</h1>
 
-  <p dir="auto">Welcome to <strong>NoteRoom v4.1 Alpha</strong>! This massive update
-  transforms NoteRoom into a living, breathing multiplayer sandbox RPG while keeping
-  the classic dual-screen drawing &amp; chat experience fast and responsive.</p>
+  <p dir="auto">Welcome to <strong>NoteRoom v4.3 Alpha</strong>! This update introduces
+  a full in-game economy with <strong>Lucky''s Underground Casino</strong>, <strong>Merlin''s
+  Spell &amp; Dragon Emporium</strong>, autonomous <strong>Vision-LLM inhabitants</strong>,
+  and massive <strong>88×88 custom worlds</strong> with <strong>19×19 house interiors</strong>.</p>
 
   <blockquote>
 
-  <p dir="auto">🔄 <strong>In-App Auto-Updater:</strong> If you are already on a recent
-  version, you can update directly on your 3DS via <strong><code class="notranslate">[START]</code>
+  <p dir="auto">🔄 <strong>In-App Auto-Updater:</strong> Already on a recent version?
+  Update directly on your Nintendo 3DS via <strong><code class="notranslate">[START]</code>
   ➔ <code class="notranslate">SETTINGS &amp; FX</code> ➔ <code class="notranslate">Check
-  for Updates</code></strong>! Otherwise, download the <code class="notranslate">.cia</code>
-  or <code class="notranslate">.3dsx</code> below.</p>
+  for Updates</code></strong>! Otherwise, download <code class="notranslate">NoteRoom.cia</code>
+  or <code class="notranslate">NoteRoom.3dsx</code> below.</p>
 
   </blockquote>
 
   <hr>
 
-  <h2 dir="auto">🧙‍♂️ New: Merlin''s Arcane Spell &amp; Dragon Emporium</h2>
+  <h2 dir="auto">🎰 New: Lucky''s Underground Casino (PvE &amp; PvP Gambling!)</h2>
+
+  <p dir="auto">Visit <strong>Lucky <code class="notranslate">[Casino]</code></strong>
+  in the <strong>Town Square</strong> and press <strong><code class="notranslate">[A]</code></strong>
+  to step up to the table! Choose your wager (<code class="notranslate">50</code>,
+  <code class="notranslate">100</code>, <code class="notranslate">250</code>, <code
+  class="notranslate">500</code>, <code class="notranslate">1000</code> Coins, or
+  <code class="notranslate">ALL-IN!</code>) with <strong><code class="notranslate">[L]</code>
+  / <code class="notranslate">[R]</code></strong> and play 4 interactive 60 FPS games:</p>
 
   <ul dir="auto">
 
-  <li><strong>Interactive In-Game Shop (<code class="notranslate">[A]</code>):</strong>
-  Visit <strong>Merlin <code class="notranslate">[Spell Shop]</code></strong> in the
-  <strong>Town Square</strong> (just left of the central spawn) and press <strong><code
-  class="notranslate">[A]</code></strong> to open the brand-new interactive <strong>Spell
-  &amp; Dragon Shop</strong> on your bottom screen!</li>
+  <li>🎲 <strong>Dice Duel vs. Lucky (<code class="notranslate">2x Win</code>):</strong>
+  Roll 2D6 against the house with animated 3D dice on the felt table!</li>
 
-  <li><strong>Unlock Spells with Coins:</strong> Earn Coins by fishing or winning
-  minigames and permanently unlock spells without waiting for rank-ups:
+  <li>🎡 <strong>Wheel of Fortune (<code class="notranslate">2x</code>, <code class="notranslate">3x</code>,
+  or <code class="notranslate">10x Jackpot!</code>):</strong> Spin the 12-slice roulette
+  wheel and bet on <strong>Red (<code class="notranslate">2x</code>)</strong>, <strong>Black
+  (<code class="notranslate">3x</code>)</strong>, or the <strong>Golden Crown Jackpot
+  (<code class="notranslate">10x</code>)</strong>!</li>
+
+  <li>📦 <strong>Three-Cup Hustle (<code class="notranslate">3x Win</code>):</strong>
+  Watch the golden ball closely as Lucky shuffles the 3 cups across <strong>52 multi-speed
+  swaps</strong> (including sudden <strong>Turbo-Speed bursts</strong>!), then take
+  your time and tap the right cup to win <code class="notranslate">3x</code> your
+  bet!</li>
+
+  <li>⚔️ <strong>PvP High-Roller Pot (<code class="notranslate">Winner Takes All!</code>):</strong>
+  Throw your Coins into the room-wide PvP Jackpot and challenge other players in the
+  lobby—highest roll (<code class="notranslate">1–100</code>) takes the entire pot!</li>
+
+  </ul>
+
+  <hr>
+
+  <h2 dir="auto">🧙‍♂️ New: Merlin''s Arcane Spell &amp; Dragon Shop</h2>
+
+  <p dir="auto">Walk up to <strong>Merlin <code class="notranslate">[Spell Shop]</code></strong>
+  at the market stall in the <strong>Town Square</strong> and press <strong><code
+  class="notranslate">[A]</code></strong> to spend your hard-earned Coins on permanent
+  unlocks (with full duplicate-purchase protection):</p>
+
+  <ul dir="auto">
+
+  <li><strong>🪄 Permanent Spell Unlocks:</strong>
 
   <ul dir="auto">
 
@@ -79,7 +114,7 @@ update_notes: '<h1 dir="auto">✨ NoteRoom v4.2 Alpha — Major Content &amp; Wo
 
   <li>⚡ <strong>Astral Step Blink</strong> — <code class="notranslate">7,500 Coins</code></li>
 
-  <li>👻 <strong>Spooky Ghost Form (Wall-Walk!)</strong> — <code class="notranslate">25,000
+  <li>👻 <strong>Spooky Ghost Form (Walk Through Walls!)</strong> — <code class="notranslate">25,000
   Coins</code></li>
 
   </ul>
@@ -90,17 +125,17 @@ update_notes: '<h1 dir="auto">✨ NoteRoom v4.2 Alpha — Major Content &amp; Wo
 
   <ul dir="auto">
 
-  <li>Purchase the rideable <strong>Sky Dragon Mount</strong> (<code class="notranslate">12,500
-  Coins</code>) in your favorite color (<em>Crimson Fire, Sapphire Ice, Emerald Poison,
-  Shadow Void, Golden Celestial, Amethyst Storm, Obsidian Blood,</em> or <em>Ghostly
-  Frost</em>)!</li>
+  <li>Unlock the rideable <strong>Sky Dragon Mount</strong> (<code class="notranslate">12,500
+  Coins</code>) in your favorite elemental theme (<em>Crimson Fire, Sapphire Ice,
+  Emerald Poison, Shadow Void, Golden Celestial, Amethyst Storm, Obsidian Blood,</em>
+  or <em>Ghostly Frost</em>)!</li>
 
-  <li>Already own the Sky Dragon? Repaint and switch your dragon''s elemental color
-  anytime in Merlin''s shop for <code class="notranslate">500 Coins</code>!</li>
+  <li>Unlock additional dragon colors for <code class="notranslate">500 Coins</code>
+  each and freely switch back to any color you already own for <strong>0 Coins</strong>!</li>
 
   <li>Press <strong><code class="notranslate">[A]</code></strong> while mounted to
-  take off into high-altitude flight with dynamic camera zoom, 3D cloud layers, and
-  free flight over water and walls!</li>
+  soar high into the clouds with dynamic camera zoom and free flight over water and
+  walls!</li>
 
   </ul>
 
@@ -110,131 +145,83 @@ update_notes: '<h1 dir="auto">✨ NoteRoom v4.2 Alpha — Major Content &amp; Wo
 
   <hr>
 
-  <h2 dir="auto">🏝️ 2× Larger Worlds (88×88), 19×19 Interiors &amp; Portals</h2>
+  <h2 dir="auto">🤖 Autonomous Vision-LLM Inhabitants &amp; Global Watchdog</h2>
 
   <ul dir="auto">
 
-  <li><strong>Expanded 88×88 Islands:</strong> Custom island building space has been
-  doubled! Existing 60×60 islands are automatically upgraded and surrounded by buildable
-  ocean water.</li>
-
-  <li><strong>🏠 19×19 House Interiors:</strong> Place animated doors and walk inside!
-  Interior house rooms are now <strong>19×19 tiles</strong> (more than 2× larger)
-  and support full floor, wall, and furniture customization.</li>
-
-  <li><strong>🔄 Block Rotation (<code class="notranslate">[L]</code> / <code class="notranslate">[R]</code>):</strong>
-  Rotate tiles and furniture in 90° steps directly inside the Build Menu!</li>
-
-  <li><strong>🌀 Dimensional Portal Network:</strong> Place portals from the <em>Doors</em>
-  tab and give them a link name. Portals with matching names automatically ignite
-  with a 60 FPS vortex and connect across the same island or <strong>between different
-  players'' islands</strong> (even waking up offline worlds!).</li>
-
-  </ul>
-
-  <hr>
-
-  <h2 dir="auto">🎣 Cozy Fishing &amp; 3 Multiplayer Minigames</h2>
+  <li><strong>Three Distinct AI Personalities in the World:</strong>
 
   <ul dir="auto">
 
-  <li><strong>Interactive 4-Stage Fishing (<code class="notranslate">[X]</code> at
-  Water):</strong>
+  <li>👻 <strong>Helpy (The Undercover Player &amp; Architect):</strong> Travels between
+  active rooms, reacts to your <strong>handwritten 3DS touchscreen drawings</strong>
+  via multimodal Vision AI, and switches between <em>Buddy, Ragebaiter, Paranoid Human,</em>
+  and <em>Friendly</em> modes.</li>
 
-  <ul dir="auto">
+  <li>🏗️ <strong>Autonomous VLLM Island Builder:</strong> On <em><strong>Helpy''s
+  Empire</strong></em>, Helpy visually scans a top-down map of the island and autonomously
+  constructs houses, stone plazas, beaches, and gardens block-by-block!</li>
 
-  <li>Face any water edge and press <strong><code class="notranslate">[X]</code></strong>
-  to cast your rod.</li>
-
-  <li>Watch the fish swim toward your bobber, tap <strong><code class="notranslate">[A]</code></strong>
-  to twitch the bait, and complete the <strong>4-button combo (<code class="notranslate">A</code>/<code
-  class="notranslate">B</code>/<code class="notranslate">X</code>/<code class="notranslate">Y</code>)</strong>
-  to catch fish and earn <strong>+10 Coins</strong>!</li>
-
-  <li>Other players and NPCs now visibly hold their fishing rods with live bobbers
-  and swimming fish!</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Live Multiplayer Minigames (<code class="notranslate">[START]</code>
-  ➔ <code class="notranslate">MINIGAMES &amp; STATS</code>):</strong>
-
-  <ul dir="auto">
-
-  <li>🪙 <strong>Coin Hunt (60s):</strong> Race across the island to grab spinning
-  3D gold coins (+10 Coins each!).</li>
-
-  <li>🪑 <strong>Prop Hunt (90s):</strong> Hiders automatically open the <em>Furniture
-  &amp; Items Prop Menu</em> to disguise themselves as any object while the Seeker
-  hunts them down with <code class="notranslate">[A]</code>!</li>
-
-  <li>🏆 <strong>Fishing Derby (90s):</strong> Compete for the most fish caught to
-  win a <strong>+30 Coin bonus</strong>!</li>
-
-  <li><em>Fixed an issue where minigame timers could get stuck at <code class="notranslate">0s</code>
-  when switching rooms.</em></li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <hr>
-
-  <h2 dir="auto">🤖 Autonomous Vision-AI Inhabitants &amp; Global Watchdog</h2>
-
-  <ul dir="auto">
-
-  <li><strong>Living AI Players (<code class="notranslate">Helpy</code> &amp; <code
-  class="notranslate">Merlin</code>):</strong>
-
-  <ul dir="auto">
-
-  <li>Powered by Multimodal Vision-LLM technology—AI inhabitants can <strong>see and
-  react to your handwritten 3DS touchscreen drawings</strong>, recognize your current
-  outfit/dragon/spells, go fishing, and travel between active rooms!</li>
-
-  <li><strong>Autonomous VLLM Island Architect:</strong> When the server is quiet,
-  <code class="notranslate">Helpy</code> retreats to <em><strong>Helpy''s Empire</strong></em>,
-  visually scans a top-down map of the island, and builds/decorates new houses, parks,
-  and beaches block-by-block!</li>
-
-  <li><strong>Interactive Dragon Pranks &amp; Personalities:</strong> Watch out for
-  <code class="notranslate">Helpy</code>''s schemes when asking to borrow a dragon!</li>
+  <li>🧙‍♂️ <strong>Merlin &amp; 🎰 Lucky:</strong> Stationed at their stands in the
+  Town Square, offering proximity AI chat (<code class="notranslate">3-tile radius</code>)
+  and calling out their wares and casino jackpots.</li>
 
   </ul>
 
   </li>
 
   <li><strong>🛡️ Global Rule Watchdog:</strong> Real-time protection against harassment
-  and private data leaks—rulebreakers are visited in-game, warned, and temporarily
-  banished to the <strong>Time &amp; Space Void Prison</strong>!</li>
+  and private data leaks—rulebreakers are visited in-game, warned face-to-face, and
+  temporarily banished to the <strong>Time &amp; Space Void Prison</strong>!</li>
 
   </ul>
 
   <hr>
 
-  <h2 dir="auto">🛠️ System Menu, Area Map &amp; HUD Studio Fixes</h2>
+  <h2 dir="auto">🏝️ 88×88 Worlds, 19×19 Interiors, Fishing &amp; Minigames</h2>
 
   <ul dir="auto">
 
-  <li><strong>🗺️ Restored Dedicated <code class="notranslate">AREA MAP</code> Tab:</strong>
-  Fixed a menu overlap bug where the live 88×88 Area Map was hidden behind the Music
-  Player tab. <code class="notranslate">AREA MAP</code> now has its own dedicated
-  slot in the <strong><code class="notranslate">[START]</code></strong> menu!</li>
+  <li><strong>2× Larger Islands (88×88) &amp; 19×19 House Interiors:</strong> Build
+  across 9 layers, rotate blocks by 90° with <strong><code class="notranslate">[L]</code>
+  / <code class="notranslate">[R]</code></strong>, and furnish spacious indoor rooms
+  behind every door.</li>
 
-  <li><strong>📊 HUD Overlay Studio (<code class="notranslate">[START]</code> ➔ <code
-  class="notranslate">SETTINGS &amp; FX</code> ➔ <code class="notranslate">[L/R]</code>):</strong>
-  Customize your top-screen performance overlay (Live FPS, CPU MHz, CPU/GPU Load %,
-  RAM usage, 5 screen positions, custom colors, and opacity) and toggle <strong>New
-  3DS 804 MHz Turbo Mode</strong>.</li>
+  <li><strong>🌀 Global Portal Network:</strong> Link islands together by naming portals—matching
+  portals ignite with a 60 FPS vortex and teleport players across worlds (even waking
+  up offline islands!).</li>
 
-  <li><strong>🎃 New Weather Effect:</strong> Added <strong>Spooky Halloween</strong>
-  weather (blood moon, lightning strikes, toxic green ectoplasm fog, floating 3D ghosts,
-  and bats) alongside Clear, Sunny, Rain, Snow, and Night modes!</li>
+  <li><strong>🎣 4-Stage Cozy Fishing (<code class="notranslate">[X]</code> at Water):</strong>
+  Cast your rod, watch fish swim toward your bobber, tap <strong><code class="notranslate">[A]</code></strong>
+  to twitch, and complete the 4-button combo (<code class="notranslate">A</code>/<code
+  class="notranslate">B</code>/<code class="notranslate">X</code>/<code class="notranslate">Y</code>)
+  for <strong>+10 Coins</strong>!</li>
+
+  <li><strong>🎮 3 Multiplayer Minigames (<code class="notranslate">[START]</code>
+  ➔ <code class="notranslate">MINIGAMES &amp; STATS</code>):</strong> <em>Coin Hunt</em>,
+  <em>Prop Hunt</em> (with automatic Furniture/Items disguise menu), and <em>Fishing
+  Derby</em>!</li>
+
+  </ul>
+
+  <hr>
+
+  <h2 dir="auto">🛠️ Quality-of-Life, Area Map &amp; In-Game Discord QR Code</h2>
+
+  <ul dir="auto">
+
+  <li><strong>📱 Scannable In-Game Discord QR Code:</strong> Scan the new QR code directly
+  from your 3DS bottom screen on the Rules / Help screen to join the official Discord
+  community!</li>
+
+  <li><strong>🗺️ Dedicated <code class="notranslate">AREA MAP</code> Tab:</strong>
+  Restored the live 88×88 Area Map to its own dedicated slot in the <strong><code
+  class="notranslate">[START]</code></strong> menu.</li>
+
+  <li><strong>📊 HUD Overlay Studio &amp; Halloween Weather:</strong> Customize FPS,
+  CPU MHz, CPU/GPU Load %, RAM usage, colors, and positions in <strong><code class="notranslate">[START]</code>
+  ➔ <code class="notranslate">SETTINGS &amp; FX</code></strong>, and enjoy 8 live
+  weather modes including <strong>Spooky Halloween</strong>!</li>
 
   </ul>
 
@@ -251,10 +238,13 @@ update_notes: '<h1 dir="auto">✨ NoteRoom v4.2 Alpha — Major Content &amp; Wo
   class="notranslate">sdmc:/3ds/NoteRoom/</code> to launch via the <strong>Homebrew
   Launcher</strong>.</li>
 
-  </ul>'
-updated: '2026-11-07T12:37:11Z'
-version: v4.2
-version_title: NoteRoom v4.2 Alpha — The Arcane Shop, Sky Dragons, 88×88 Worlds &
-  AI Update! 🐉🏝️✨
+  </ul>
+
+  <p dir="auto">💬 <strong>Join our Official Discord Community:</strong> <a href="https://discord.gg/9vQm6f87jZ"
+  rel="nofollow">https://discord.gg/9vQm6f87jZ</a></p>'
+updated: '2026-11-07T21:26:16Z'
+version: v4.3
+version_title: NoteRoom v4.3 Alpha — Lucky's Casino, Merlin's Spell & Dragon Shop,
+  VLLM Architect & 88×88 Worlds! 🎰🐉🏝️
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
