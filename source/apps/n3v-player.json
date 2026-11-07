@@ -1,0 +1,25 @@
+{
+	"github": "kingarthurthe10th-ops/n3v-player",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"unique_ids": [
+		932465
+	],
+	"image": "https://raw.githubusercontent.com/kingarthurthe10th-ops/n3v-player/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/kingarthurthe10th-ops/n3v-player/main/icon.png",
+	"llm_generation": "yes",
+	"archive": {
+		"N3VPlayer.zip": {
+			"N3VPlayer.cia": [
+				"N3VPlayer/N3VPlayer.cia"
+			],
+			"N3VPlayer.3dsx": [
+				"N3VPlayer/N3VPlayer.3dsx"
+			]
+		}
+	}
+}
