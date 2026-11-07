@@ -36,19 +36,19 @@ The top screen shows the live message log; the bottom screen is a touch terminal
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>darksecchat.3dsx</summary>
-<ol>
-<li>Download <code>darksec-chat.zip</code></li>
-<li>Extract <code>/darksecchat.3dsx</code> from the zip to <code>/3ds/darksecchat.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>darksecchat.cia</summary>
 <ol>
 <li>Download <code>darksec-chat.zip</code></li>
 <li>Extract <code>/darksecchat.cia</code> from the zip to <code>/cias/darksecchat.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/darksecchat.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>darksecchat.3dsx</summary>
+<ol>
+<li>Download <code>darksec-chat.zip</code></li>
+<li>Extract <code>/darksecchat.3dsx</code> from the zip to <code>/3ds/darksecchat.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

@@ -22,8 +22,8 @@ icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
 image_length: 37065
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
+license: other
+license_name: Other
 llm_generation: 'yes'
 qr:
   NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
