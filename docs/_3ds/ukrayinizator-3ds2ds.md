@@ -9,30 +9,30 @@ created: '2026-07-30T15:37:14Z'
 description: Українська мова для системного інтерфейсу Nintendo 3DS/2DS.
 download_page: https://github.com/BolgarMaxym97/3ds-ua/releases
 downloads:
-  3ds-ua-from-en-2.4.0-new3ds.zip:
-    size: 32756236
+  3ds-ua-from-en-2.5.0-new3ds.zip:
+    size: 32756239
     size_str: 31 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-from-en-2.4.0-new3ds.zip
-  3ds-ua-from-en-2.4.0-old3ds.zip:
-    size: 30909086
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-from-en-2.5.0-new3ds.zip
+  3ds-ua-from-en-2.5.0-old3ds.zip:
+    size: 30909089
     size_str: 29 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-from-en-2.4.0-old3ds.zip
-  3ds-ua-from-ru-2.4.0-new3ds.zip:
-    size: 32972104
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-from-en-2.5.0-old3ds.zip
+  3ds-ua-from-ru-2.5.0-new3ds.zip:
+    size: 32972108
     size_str: 31 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-from-ru-2.4.0-new3ds.zip
-  3ds-ua-from-ru-2.4.0-old3ds.zip:
-    size: 31164234
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-from-ru-2.5.0-new3ds.zip
+  3ds-ua-from-ru-2.5.0-old3ds.zip:
+    size: 31164238
     size_str: 29 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-from-ru-2.4.0-old3ds.zip
-  3ds-ua-installer-2.4.0.3dsx:
-    size: 46307204
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-from-ru-2.5.0-old3ds.zip
+  3ds-ua-installer-2.5.0.3dsx:
+    size: 46307196
     size_str: 44 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-installer-2.4.0.3dsx
-  3ds-ua-installer-2.4.0.cia:
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-installer-2.5.0.3dsx
+  3ds-ua-installer-2.5.0.cia:
     size: 46666688
     size_str: 44 MiB
-    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.4.0/3ds-ua-installer-2.4.0.cia
+    url: https://github.com/BolgarMaxym97/3ds-ua/releases/download/v2.5.0/3ds-ua-installer-2.5.0.cia
 github: BolgarMaxym97/3ds-ua
 icon: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
 image: https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua/main/assets/unistore-icon.png
@@ -54,13 +54,13 @@ preinstall_message: 'Потрібна Luma3DS з увімкненим Enable gam
 
   Universal-Updater інакше теки видаляти не вміє.'
 qr:
-  3ds-ua-installer-2.4.0.cia: https://db.universal-team.net/assets/images/qr/3ds-ua-installer-2-4-0-cia.png
+  3ds-ua-installer-2.5.0.cia: https://db.universal-team.net/assets/images/qr/3ds-ua-installer-2-5-0-cia.png
 source: https://github.com/BolgarMaxym97/3ds-ua
 stars: 9
 systems:
 - 3DS
 title: Українізатор 3DS/2DS
-update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h1>
+update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.5.0 🇺🇦</h1>
 
   <p dir="auto"><strong>Українська мова для Nintendo 3DS.</strong> Українська стає
   на місце однієї з мов консолі, і система починає говорити українською. Решта мов
@@ -93,7 +93,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-installer-2.4.0.cia</code></td>
+  <td><code class="notranslate">3ds-ua-installer-2.5.0.cia</code></td>
 
   <td><strong>застосунок — беріть його.</strong> Один на всі консолі: 3DS, 3DS XL,
   2DS, New 3DS, New 3DS XL, New 2DS XL</td>
@@ -102,7 +102,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-installer-2.4.0.3dsx</code></td>
+  <td><code class="notranslate">3ds-ua-installer-2.5.0.3dsx</code></td>
 
   <td>той самий застосунок для Homebrew Launcher — покладіть у <code class="notranslate">/3ds/</code>
   на SD-карті</td>
@@ -111,7 +111,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-2.4.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-2.5.0-old3ds.zip</code></td>
 
   <td>ручне встановлення: замість російської, 3DS / 3DS XL / 2DS</td>
 
@@ -119,7 +119,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-ru-2.4.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-ru-2.5.0-new3ds.zip</code></td>
 
   <td>ручне встановлення: замість російської, <strong>New</strong> 3DS / New 3DS XL
   / New 2DS XL</td>
@@ -128,7 +128,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-2.4.0-old3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-2.5.0-old3ds.zip</code></td>
 
   <td>ручне встановлення: замість англійської, 3DS / 3DS XL / 2DS</td>
 
@@ -136,7 +136,7 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <tr>
 
-  <td><code class="notranslate">3ds-ua-from-en-2.4.0-new3ds.zip</code></td>
+  <td><code class="notranslate">3ds-ua-from-en-2.5.0-new3ds.zip</code></td>
 
   <td>ручне встановлення: замість англійської, <strong>New</strong> 3DS / New 3DS
   XL / New 2DS XL</td>
@@ -152,20 +152,15 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <hr>
 
-  <h2 dir="auto">Що нового після 2.3.0</h2>
+  <h2 dir="auto">Що нового після 2.4.0</h2>
 
   <ul dir="auto">
 
-  <li><strong>Вікна вибору фото і вибору звукового запису — українською.</strong>
-  Ті, що відкриваються з ігор і програм, коли треба вставити фото чи запис (наприклад,
-  у Nintendo Letter Box): «Виберіть фото.», «Виберіть запис.», «Підготовка…», «Немає
-  фото для показу.» тощо.</li>
+  <li><strong>Попередження «Коли ви щось надсилаєте» в Інтернет-браузері й Miiverse</strong>
+  більше не розсипається на зайві рядки — текст переверстано в п''ять рівних рядків.</li>
 
-  <li><strong>Апостроф у великих написах Площі StreetPass Mii.</strong> Замість «п@яти
-  різних регіонів» тепер «пʼяти різних регіонів» — і з оновленням Площі, і без нього.</li>
-
-  <li><strong>Дрібна правка тексту на Площі:</strong> «…про ігри з наборів 1 і 2.»
-  тепер не розривається на зайвий рядок.</li>
+  <li><strong>Гра «Ніндзя StreetPass» на Площі StreetPass Mii:</strong> русизм «Узри
+  скарб нашого клану…» замінено на «Ось скарб нашого клану… Гармата справедливості!».</li>
 
   </ul>
 
@@ -236,13 +231,13 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
   — лупою в лівій панелі, введіть «Українізатор».</li>
 
   <li>Відкрийте другу іконку згори — «Доступні для завантаження» — і виберіть <code
-  class="notranslate">3ds-ua-installer-2.4.0.cia</code>.</li>
+  class="notranslate">3ds-ua-installer-2.5.0.cia</code>.</li>
 
   <li>Дочекайтеся, поки запис зникне з черги (третя іконка).</li>
 
   </ol>
 
-  <p dir="auto">Без Universal-Updater: скопіюйте <code class="notranslate">3ds-ua-installer-2.4.0.cia</code>
+  <p dir="auto">Без Universal-Updater: скопіюйте <code class="notranslate">3ds-ua-installer-2.5.0.cia</code>
   на SD-карту й встановіть його через FBI.</p>
 
   <p dir="auto"><strong>2. Відкрийте «Українізатор 3DS»</strong> у меню HOME. Застосунок
@@ -401,9 +396,9 @@ update_notes: '<h1 dir="auto">Українізатор 3DS/2DS 2.4.0 🇺🇦</h
 
   <p dir="auto">Ліцензія MIT. Файлів Nintendo в репозиторії немає. Проєкт неофіційний,
   з Nintendo не пов''язаний.</p>'
-updated: '2026-11-05T18:05:34Z'
-version: v2.4.0
-version_title: v2.4.0
+updated: '2026-11-07T07:37:30Z'
+version: v2.5.0
+version_title: v2.5.0
 website: https://github.com/BolgarMaxym97/3ds-ua
 ---
 Перекладає системний інтерфейс Nintendo 3DS, 3DS XL, 2DS, New 3DS, New 3DS XL і New 2DS XL українською: Меню HOME, Налаштування системи, Інтернет-браузер, eShop, Камеру, Звук, Mii Maker, Журнал дій, електронні довідники та решту системних застосунків.
