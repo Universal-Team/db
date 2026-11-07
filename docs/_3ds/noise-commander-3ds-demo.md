@@ -23,7 +23,7 @@ llm_generation: 'no'
 qr:
   noisecmdr-v0_1_11-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_11-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
