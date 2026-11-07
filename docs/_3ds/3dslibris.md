@@ -11,29 +11,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14485464
+    size: 14677016
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13292480
+    size: 13415360
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
-    size: 5021175
+    size: 5021452
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 67312089
+    size: 67575045
     size_str: 64 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14600912
-    size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris.3dsx
+    size: 14881180
+    size_str: 14 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 13423552
+    size: 13603776
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.0.0/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.1.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -57,41 +57,47 @@ systems:
 title: 3dslibris
 unique_ids:
 - '0x3D51B'
-update_notes: '<h2 dir="auto">3dslibris 3.0.0</h2>
+update_notes: '<h2 dir="auto">3dslibris 3.1.0</h2>
 
-  <p dir="auto">It has been a while, but now you can search your books and zoom in
-  on images!</p>
+  <p dir="auto">This update focuses on homebrew speed: the library opens faster, books
+  load faster, and PDF, CBZ and illustrations now use the 3DS GPU for smooth zoom
+  and pan.</p>
 
-  <p dir="auto">This release also includes many fixes and improvements, including
-  better support for CJK text, landscape orientation and handedness controls, and
-  more.</p>
+  <p dir="auto">It also adds library search and image rotation, and fixes the cut-off
+  letters at larger font sizes.</p>
+
+  <p dir="auto">Reminder: update <a href="https://github.com/LumaTeam/Luma3DS/releases">Luma
+  to 13.5</a> for the best performance.</p>
 
   <h3 dir="auto">New</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5646639228"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/163"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/163/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/163">#163</a>: find words and
-  phrases with the 3DS keyboard, highlight matches and move between results. Available
-  in EPUB, MOBI, TXT, Markdown, FB2, RTF and ODT through the BOOK menu.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/167" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/167/hovercard">#167</a>: search your
+  library. Press <code class="notranslate">Y</code> or choose <code class="notranslate">search</code>
+  in general settings to find books and folders by filename, or books by title or
+  author.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4219533406"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/28"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/28/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/28">#28</a>: zoom and pan illustrations
-  in EPUB, MOBI and FB2. Hold Y to select an image, then press A to open it. Includes
-  touch controls and returns to your reading position.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/170" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/170/hovercard">#170</a>: rotate illustrations
+  in EPUB, MOBI and FB2 by 90° with <code class="notranslate">L</code> / <code class="notranslate">R</code>
+  or two touch buttons. Zoom and position are kept.</li>
 
-  <li><a href="https://github.com/RigleGit/3dslibris/issues/101" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/101/hovercard">#101</a>: optional
-  800×240 top-screen mode for PDF, CBZ and XPS through <code class="notranslate">wide
-  top screen</code> in the BOOK menu. Available on Old/New 3DS (including XL) and
-  New 2DS XL; the original 2DS stays at 400×240.</li>
+  <li>GPU zoom and pan for PDF, XPS, CBZ and illustrations, with automatic fallback
+  to the old renderer if the GPU or memory isn''t available. Works in Wide top-screen
+  mode and in all three orientations.</li>
 
-  <li>Optional <code class="notranslate">disable ebook images</code> setting under
-  <code class="notranslate">style customization</code> (I also read YT comment hehe).</li>
+  <li>Progressive PDF zoom and pan: the zoomed page no longer blocks while it renders.
+  It appears tile by tile, the overview is drawn after the page, and it also works
+  in Wide top-screen mode. Panning at high zoom is about 80% faster on Old 3DS.</li>
+
+  <li><code class="notranslate">preload book data</code> in GENERAL settings: prepares
+  covers and book info for the whole library in one go, so browsing is instant afterwards.
+  It can be cancelled at any time.</li>
+
+  <li>Opening an EPUB, MOBI or FB2 now shows clear progress, and you can cancel with
+  <code class="notranslate">B</code> / <code class="notranslate">START</code>.</li>
 
   </ul>
 
@@ -99,40 +105,69 @@ update_notes: '<h2 dir="auto">3dslibris 3.0.0</h2>
 
   <ul dir="auto">
 
-  <li>Faster library browsing and EPUB page turns, smoother PDF panning and quicker
-  app shutdown.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/172" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/172/hovercard">#172</a>: fix the
+  last letter of a word being cut off at larger font sizes (seen at 14), including
+  spaces and non-Latin text such as Armenian, Arabic and CJK.</li>
 
-  <li>Open PDFs fitted to the whole page and improve PDF/CBZ image scaling.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/139" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/139/hovercard">#139</a>: the same
+  text-measuring fix helps pages that ended early or lost words at the bottom.</li>
 
-  <li>EPUB books show the first page before the page cache finishes saving.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/90" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/90/hovercard">#90</a>: MOBI and FB2
+  books open faster and keep a saved page cache, like EPUB.</li>
 
-  <li>Fix overlapping full-page images and preserve authored image sizes across reading
-  screens.</li>
+  <li>Faster startup: about 50% less time before the library appears.</li>
 
-  <li>Correct orientation and handedness controls, landscape buttons, loading screens
-  and partial redraws (I didn''t try these for a while and some things were broken).</li>
+  <li>Faster EPUB opening (about 30–40% less) and page turns (about 80% less in the
+  tests I ran). Searching inside a book is also much quicker.</li>
 
-  <li>Show two lines for library titles and load folder covers only when visible and
-  idle.</li>
+  <li>Reading backwards in a book needs fewer SD card reads.</li>
 
-  <li>Fix a CJK pagination stack overflow (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="5793889435" data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/165"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/165/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/165">#165</a>), parsing errors,
-  image-loading limits and invalid page-cache handling.</li>
+  <li>Large covers, including high-resolution EPUB covers that were rejected before,
+  now load.</li>
+
+  <li>Covers load faster, and books without a cover (FB2) are no longer scanned again
+  every time.</li>
+
+  <li>Replacing a book with a different file now shows the new text instead of pages
+  from the old one. Changing bold, italic, monospace or fallback fonts also rebuilds
+  the pages correctly.</li>
+
+  <li>Your reading position is kept more reliably when changing books, going to a
+  page, or changing a setting that re-paginates. A failed open no longer leaves the
+  previous book selected.</li>
+
+  <li>Lower memory use with images, PDF and CBZ.</li>
+
+  <li>Fix Old 3DS running out of memory and exiting to the Homebrew Launcher when
+  opening very long EPUBs for the first time.</li>
+
+  <li>Fix nested tables, long FB2 titles, library folder backgrounds, duplicated bookmarks
+  and custom fonts being forgotten on startup.</li>
+
+  <li>Deleting <code class="notranslate">README.md</code> or <code class="notranslate">QuickStart.txt</code>
+  from your library now keeps them gone (hi YouTube).</li>
+
+  <li>Many small speed-ups in book parsing and drawing.</li>
 
   </ul>
 
   <h3 dir="auto">Updating</h3>
 
-  <p dir="auto">EPUB and MOBI page caches are rebuilt on first open after updating.
-  Reading progress, bookmarks and preferences are kept. If you close the app while
-  an EPUB cache is still being prepared, it may need rebuilding on the next open.
-  Returning to the library finishes the pending save.</p>
+  <p dir="auto">Reading progress, bookmarks and preferences are kept.</p>
 
-  <p dir="auto">Search does not support PDF/CBZ/XPS, OCR or RTL text. See the <a href="https://github.com/RigleGit/3dslibris/blob/main/docs/BOOK_SEARCH.md">search
-  guide</a> and <a href="https://github.com/RigleGit/3dslibris/blob/main/docs/IMAGE_VIEWER.md">image
-  controls</a> for details.</p>
+  <p dir="auto">Page caches from earlier versions are rebuilt automatically the first
+  time you open each book, so the first open takes as long as before. Pages may break
+  slightly differently at larger font sizes. FB2 caches include the original images
+  and can use more SD space.</p>
+
+  <p dir="auto">This version needs libctru 2.7.1 or later to build. Latest Luma 13.5
+  is recommended for the best performance.</p>
+
+  <p dir="auto">Measurements come from Azahar emulator comparisons and vary by book
+  and device.</p>
 
   <h3 dir="auto">Downloads</h3>
 
@@ -149,16 +184,12 @@ update_notes: '<h2 dir="auto">3dslibris 3.0.0</h2>
 
   </ul>
 
-  <p dir="auto">Thanks to everyone reporting issues and supporting the project. Special
-  thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Rhlp-Engineering">@Rhlp-Engineering</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Leblatar/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Leblatar">@Leblatar</a>
-  for supporting this version! You can help with a ⭐ on GitHub or <a href="https://ko-fi.com/rigle"
-  rel="nofollow">a coffee</a>.</p>'
-updated: '2026-10-27T14:37:09Z'
-version: v3.0.0
-version_title: v3.0.0
+  <p dir="auto">Thanks to everyone trying the builds and reporting issues. You can
+  support the project with a ⭐ on GitHub or <a href="https://ko-fi.com/rigle" rel="nofollow">a
+  coffee</a>.</p>'
+updated: '2026-11-07T19:28:44Z'
+version: v3.1.0
+version_title: v3.1.0
 ---
 ### Installation instructions
 

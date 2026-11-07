@@ -71,6 +71,10 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   <li>PS VITA: Extract <code class="notranslate">nzp.zip</code> into ux0:data/ and
   install <code class="notranslate">nzportable.vpk</code>.</li>
 
+  <li>PS2: Place <code class="notranslate">nzportable.elf</code> on a USB, Memory
+  Card, HDD. Copy game data to <code class="notranslate">/APPS/NZPORTABLE/</code>
+  in the same media.</li>
+
   <li>PS4: Install <code class="notranslate">nzportable.pkg</code> and copy game data
   to <code class="notranslate">/data/nzportable/</code>.</li>
 
