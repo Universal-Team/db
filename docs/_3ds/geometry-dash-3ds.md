@@ -31,26 +31,26 @@ license: cc-by-sa-4.0
 license_name: Creative Commons Attribution Share Alike 4.0 International
 llm_generation: minor
 prerelease:
-  download_page: https://github.com/AleFunky/gd3ds/releases/tag/nightly-2.0
+  download_page: https://github.com/AleFunky/gd3ds/releases/tag/nightly-2.1
   downloads:
     GeometryDash3DS.3dsx:
-      size: 44793992
-      size_str: 42 MiB
-      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.0/GeometryDash3DS.3dsx
+      size: 48692020
+      size_str: 46 MiB
+      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.1/GeometryDash3DS.3dsx
     GeometryDash3DS.cia:
-      size: 44471232
-      size_str: 42 MiB
-      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.0/GeometryDash3DS.cia
+      size: 48288704
+      size_str: 46 MiB
+      url: https://github.com/AleFunky/gd3ds/releases/download/nightly-2.1/GeometryDash3DS.cia
   qr:
     GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/geometrydash3ds-cia.png
-  update_notes: '<p dir="auto">Latest 2.0 test build from commit <a class="commit-link"
-    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/ae3a327022d4af56478d7d2cef104984b3af0953/hovercard"
-    href="https://github.com/AleFunky/gd3ds/commit/ae3a327022d4af56478d7d2cef104984b3af0953"><tt>ae3a327</tt></a><br>
+  update_notes: '<p dir="auto">Latest 2.1 test build from commit <a class="commit-link"
+    data-hovercard-type="commit" data-hovercard-url="https://github.com/AleFunky/gd3ds/commit/ec9574b44a12e259979152de4113183b884fb4b4/hovercard"
+    href="https://github.com/AleFunky/gd3ds/commit/ec9574b44a12e259979152de4113183b884fb4b4"><tt>ec9574b</tt></a><br>
 
     This is a dev build, therefore bugs and crashes are expected.<br>
 
     Enjoy!</p>'
-  update_notes_md: 'Latest 2.0 test build from commit ae3a327022d4af56478d7d2cef104984b3af0953
+  update_notes_md: 'Latest 2.1 test build from commit ec9574b44a12e259979152de4113183b884fb4b4
 
     This is a dev build, therefore bugs and crashes are expected.
 
@@ -58,8 +58,8 @@ prerelease:
 
     '
   updated: '2026-10-02T23:55:24Z'
-  version: nightly-2.0
-  version_title: Nightly 2.0
+  version: nightly-2.1
+  version_title: Nightly 2.1
 qr:
   GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/geometrydash3ds-cia.png
 source: https://github.com/AleFunky/gd3ds

@@ -11,13 +11,13 @@ description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
 downloads:
   cloudpoint.3dsx:
-    size: 3143204
-    size_str: 2 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.3dsx
+    size: 3156688
+    size_str: 3 MiB
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.1/cloudpoint.3dsx
   cloudpoint.cia:
-    size: 2466752
+    size: 2474944
     size_str: 2 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.0/cloudpoint.cia
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.1/cloudpoint.cia
 github: dwalker109/cloudpoint
 icon: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png
 image: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png
@@ -29,83 +29,61 @@ llm_generation: minor
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 88
+stars: 89
 systems:
 - 3DS
 title: Cloudpoint
 unique_ids:
 - '0xFF001'
-update_notes: '<p dir="auto">The big changes in 0.9.0 are a new banner and cleaner
-  logo, plus app self update and faster local backups when downloading a new version
-  of a save - on something big like Terarria this is about 4x faster.</p>
+update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <p dir="auto">If you self host you will need to bump your server to 1.2.0 to start
-  seeing app self updates.</p>
+  <p dir="auto">This is mainly a regression fix release to resolve problems with the
+  refresh modals misbehaving on launch. They work OK but seem to hang a bit and it
+  isn''t ideal on first run. They are now smooth and sensible again.</p>
 
-  <p dir="auto">App self updates <em>can</em> be disabled if you self host, but the
-  public instance will always offer them and nudge you to use them. They can usually
-  be postponed, but you will be asked to install each time you run Cloudpoint. Supporting
-  old versions of a client is hard, hence this nudge. Please understand. There really
-  isn''t any reason not use the latest version of the app, anyway.</p>
+  <p dir="auto">Also quits trying to reconnect to the server if a fatal error is encountered
+  rather than just trying over and over again.</p>
 
-  <h2 dir="auto">What''s Changed</h2>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Improved banner and logo images for use in CIA builds by <a class="user-mention
+  <li>Connect retries for ever even when connection is impossible by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5764551885"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/167"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/167/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/167">#167</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6174978159"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/180"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/180/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/180">#180</a></li>
 
-  <li>App self updater by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6083494887"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/178"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/178/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/178">#178</a></li>
-
-  <li>Speed up local backup during sync download by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5811146076"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/170"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/170/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/170">#170</a></li>
-
-  <li>Use common prefix on logfiles, better cleanup behaviour by <a class="user-mention
+  <li>Better control of refresh modal trigger and close by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5970266143"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/176"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/176/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/176">#176</a></li>
-
-  <li>Better cacert management by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5963223498"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/174"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/174/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/174">#174</a></li>
-
-  <li>Cleanup of module names and visibility by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5770296689"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/168"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/168/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/168">#168</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6265774415"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/187"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/187/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/187">#187</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.8.1...0.9.0"><tt>0.8.1...0.9.0</tt></a></p>'
-updated: '2026-10-28T17:20:56Z'
-version: 0.9.0
-version_title: 0.9.0
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li>Switch to native libctru FSUSER_GetSdmcCtrRootPath by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6194465113"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/182"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/182/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/182">#182</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.9.0...0.9.1"><tt>0.9.0...0.9.1</tt></a></p>'
+updated: '2026-11-08T00:24:01Z'
+version: 0.9.1
+version_title: 0.9.1
 ---
 Cloudpoint allows you to sync all of your saves (and extdata) between all of your 3DS & 2DS devices, 
 via a central server. Transfer progress between consoles effortlessly, the way you're probably used 
