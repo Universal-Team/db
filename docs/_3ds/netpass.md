@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 8274724
+    size: 8276192
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c26134c66d626d8cdee40cb4e5ab496f526e6091/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/79cc4033b16a4c9772f9541fa4031159ebff9241/netpass.3dsx?inline=false
   netpass.cia:
     size: 8287168
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c26134c66d626d8cdee40cb4e5ab496f526e6091/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/79cc4033b16a4c9772f9541fa4031159ebff9241/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -34,10 +34,11 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:19" dir="auto">new warnings system</p>
-updated: '2026-11-07T09:36:48.061Z'
-version: v2.1.2
-version_title: v2.1.2
+update_notes: <p data-sourcepos="1:1-1:35" dir="auto">Fix polish text if your mii
+  is male</p>
+updated: '2026-11-08T13:42:24.847Z'
+version: v2.1.4
+version_title: v2.1.4
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world
