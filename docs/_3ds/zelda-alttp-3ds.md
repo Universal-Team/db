@@ -25,61 +25,118 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
 prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v4.1-E5
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v4.1-E6
   downloads:
-    zelda3-3ds-v4.1-E5.3dsx:
-      size: 8834320
+    zelda3-3ds-v4.1-E6.3dsx:
+      size: 8836884
       size_str: 8 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/zelda3-3ds-v4.1-E5.3dsx
-    zelda3-3ds-v4.1-E5.cia:
-      size: 7541696
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E6/zelda3-3ds-v4.1-E6.3dsx
+    zelda3-3ds-v4.1-E6.cia:
+      size: 7545792
       size_str: 7 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/zelda3-3ds-v4.1-E5.cia
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E6/zelda3-3ds-v4.1-E6.cia
   qr:
-    zelda3-3ds-v4.1-E5.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v4-1-e5-cia.png
-  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"><img
-    width="500" height="500" alt="QR code for the v4.1-E5 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"
+    zelda3-3ds-v4.1-E6.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v4-1-e6-cia.png
+  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E6/QR-v4.1-E6-github.png"><img
+    width="500" height="500" alt="QR code for the v4.1-E6 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E6/QR-v4.1-E6-github.png"
     style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
 
     <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
-    <li>Fixed the Japanese title logo.</li>
+    <li>Corrected dungeon-item locations used by new randomizer seeds in Turtle Rock,
+    Palace of Darkness, Ice Palace and Ganon''s Tower. Existing saved seeds keep their
+    old placements.</li>
+
+    <li>Normal game now asks before restarting.</li>
+
+    <li>Fixed initial actor loading at WIDE camera edges and distant Eyegores waking
+    through coordinate wrapping.</li>
+
+    <li>Fixed the dam''s flooding window, disconnected dungeon chambers, outdoor parallax
+    and the camera during mirror waves.</li>
+
+    <li>Extended WIDE support to Zora''s River; the bridge and Master Sword clearing
+    retain their native narrow map bounds.</li>
+
+    <li>Fixed world-map margins and corners, the mirror-wave ending and flute-boy
+    ambience after mirroring away.</li>
+
+    <li>Fixed the German dungeon floor sign and garbled WIDE scenery after loading
+    a file once the title story had played.</li>
+
+    <li>Includes the Japanese game and corrected title logo, direct .zspr skins, 512-mod
+    support and the six bundled skins.</li>
+
+    <li>Includes the German/French SELECT freeze fix, empty-slot ring navigation fix,
+    10-heart fairies, expanded-inventory fix and earlier language/save-screen corrections.</li>
 
     </ul>
 
     <h2 dir="auto">Credits</h2>
 
     <p dir="auto">Skins by Charmander106/SePH, iBazly, Damon, InTheBeef, Ben G and
-    Myriachan. <a href="https://github.com/EstebanPdN/zelda-alttp-3ds/blob/prerelease/v4.1-e5/CREDITS.md">Full
+    Myriachan. <a href="https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.1-E6/CREDITS.md">Full
     credits</a>.</p>
 
     <h2 dir="auto">Bug reports</h2>
+
+    <p dir="auto">The reported castle 4F corruption and unspecified room-transition
+    glitches remain unconfirmed. This experimental build has automated and emulator
+    checks; physical-console confirmation is still pending.</p>
 
     <p dir="auto">Press <code class="notranslate">L + R + A</code> while the issue
     is visible and attach the complete diagnostic dump folder from:</p>
 
     <p dir="auto"><code class="notranslate">sdmc:/3ds/Zelda 3DS/dumps/</code></p>'
-  update_notes_md: '<img width="500" height="500" alt="QR code for the v4.1-E5 CIA"
-    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E5/QR-v4.1-E5-github.png"
+  update_notes_md: '<img width="500" height="500" alt="QR code for the v4.1-E6 CIA"
+    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.1-E6/QR-v4.1-E6-github.png"
     />
 
 
     ## Changelog
 
 
-    - Fixed the Japanese title logo.
+    - Corrected dungeon-item locations used by new randomizer seeds in Turtle Rock,
+    Palace of Darkness, Ice Palace and Ganon''s Tower. Existing saved seeds keep their
+    old placements.
+
+    - Normal game now asks before restarting.
+
+    - Fixed initial actor loading at WIDE camera edges and distant Eyegores waking
+    through coordinate wrapping.
+
+    - Fixed the dam''s flooding window, disconnected dungeon chambers, outdoor parallax
+    and the camera during mirror waves.
+
+    - Extended WIDE support to Zora''s River; the bridge and Master Sword clearing
+    retain their native narrow map bounds.
+
+    - Fixed world-map margins and corners, the mirror-wave ending and flute-boy ambience
+    after mirroring away.
+
+    - Fixed the German dungeon floor sign and garbled WIDE scenery after loading a
+    file once the title story had played.
+
+    - Includes the Japanese game and corrected title logo, direct .zspr skins, 512-mod
+    support and the six bundled skins.
+
+    - Includes the German/French SELECT freeze fix, empty-slot ring navigation fix,
+    10-heart fairies, expanded-inventory fix and earlier language/save-screen corrections.
 
 
     ## Credits
 
-
     Skins by Charmander106/SePH, iBazly, Damon, InTheBeef, Ben G and Myriachan. [Full
-    credits](https://github.com/EstebanPdN/zelda-alttp-3ds/blob/prerelease/v4.1-e5/CREDITS.md).
+    credits](https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.1-E6/CREDITS.md).
 
 
     ## Bug reports
+
+    The reported castle 4F corruption and unspecified room-transition glitches remain
+    unconfirmed. This experimental build has automated and emulator checks; physical-console
+    confirmation is still pending.
 
 
     Press `L + R + A` while the issue is visible and attach the complete diagnostic
@@ -89,9 +146,9 @@ prerelease:
     `sdmc:/3ds/Zelda 3DS/dumps/`
 
     '
-  updated: '2026-11-02T23:04:23Z'
-  version: v4.1-E5
-  version_title: v4.1-E5
+  updated: '2026-11-08T06:50:40Z'
+  version: v4.1-E6
+  version_title: v4.1-E6
 qr:
   zelda3-3ds-v4.0.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v4-0-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
