@@ -33,7 +33,7 @@ screenshots:
 - description: Presentation
   url: https://db.universal-team.net/assets/images/screenshots/3dsoundshell/presentation.png
 source: https://github.com/Adritrain09/3DSoundShell
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3DSoundShell

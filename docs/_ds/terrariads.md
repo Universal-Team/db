@@ -24,7 +24,7 @@ llm_generation: unknown
 qr:
   TerrariaDS.nds: https://db.universal-team.net/assets/images/qr/terrariads-nds.png
 source: https://github.com/AzizBgBoss/TerrariaDS
-stars: 54
+stars: 55
 systems:
 - DS
 title: TerrariaDS

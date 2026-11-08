@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0.3/HokakuCTR.3gx
 github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
-image_length: 3197
+image_length: 3274
 layout: app
 llm_generation: unknown
 source: https://github.com/PretendoNetwork/HokakuCTR
