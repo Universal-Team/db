@@ -1,0 +1,20 @@
+{
+	"github": "BolgarMaxym97/3ds-recorder",
+	"title": "3DS Recorder",
+	"author": "Max Bolhar",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		736675
+	],
+	"description": "Record games, the HOME Menu and apps on your 3DS",
+	"long_description": "Records the whole console: both screens with game sound, in any game, the HOME Menu or a system app. Press a button combination to start and again to stop, and the video is saved to the SD card. No PC or capture card needed.\n\nThe console turns each recording into an MP4 by itself, and you can send it to your phone over Wi-Fi by scanning a QR code. Works on Old and New 3DS, including games that use extended memory on Old 3DS.\n\nRequires Luma3DS. Beta: please report problems on GitHub with the log attached.",
+	"website": "https://github.com/BolgarMaxym97/3ds-recorder",
+	"icon": "https://raw.githubusercontent.com/BolgarMaxym97/3ds-recorder/main/app/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/BolgarMaxym97/3ds-recorder/main/app/assets/banner.png",
+	"llm_generation": "yes"
+}
