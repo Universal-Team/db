@@ -207,9 +207,23 @@ With NitrousTracker, you can carry your XMs around in your DS and compose whenev
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>nitroustracker.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.3dsx</summary>
 <ol>
-<li>Download <code>NitrousTracker-0.6.6-nds.zip</code></li>
+<li>Download <code>NitrousTracker-0.7.0b5-n3ds.zip</code></li>
+<li>Extract <code>/nitroustracker.3dsx</code> from the zip to <code>/3ds/nitroustracker.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.midi.nds</summary>
+<ol>
+<li>Download <code>NitrousTracker-0.7.0b5-nds.zip</code></li>
+<li>Extract <code>/nitroustracker.midi.nds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.nds</summary>
+<ol>
+<li>Download <code>NitrousTracker-0.7.0b5-nds.zip</code></li>
 <li>Extract <code>/nitroustracker.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
@@ -221,24 +235,10 @@ With NitrousTracker, you can carry your XMs around in your DS and compose whenev
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.3dsx</summary>
+<details class="alert alert-secondary"><summary>nitroustracker.nds</summary>
 <ol>
-<li>Download <code>NitrousTracker-0.7.0b5-n3ds.zip</code></li>
-<li>Extract <code>/nitroustracker.3dsx</code> from the zip to <code>/3ds/nitroustracker.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.nds</summary>
-<ol>
-<li>Download <code>NitrousTracker-0.7.0b5-nds.zip</code></li>
+<li>Download <code>NitrousTracker-0.6.6-nds.zip</code></li>
 <li>Extract <code>/nitroustracker.nds</code> from the zip to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[prerelease] nitroustracker.midi.nds</summary>
-<ol>
-<li>Download <code>NitrousTracker-0.7.0b5-nds.zip</code></li>
-<li>Extract <code>/nitroustracker.midi.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
