@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 5091172
+    size: 5093692
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.4/NoteRoom.3dsx
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.5/NoteRoom.3dsx
   NoteRoom.cia:
     size: 5350336
     size_str: 5 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.4/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v4.5/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
@@ -34,10 +34,10 @@ systems:
 title: NoteRoom
 unique_ids:
 - '0xF9E3'
-update_notes: '<h1 dir="auto">⚔️ NoteRoom v4.4 Alpha — The Souls-like Combat, Barnaby''s
+update_notes: '<h1 dir="auto">⚔️ NoteRoom v4.5 Alpha — The Souls-like Combat, Barnaby''s
   Armory &amp; Co-Op Raids Update!</h1>
 
-  <p dir="auto">Welcome to <strong>NoteRoom v4.4 Alpha</strong>! This massive milestone
+  <p dir="auto">Welcome to <strong>NoteRoom v4.5 Alpha</strong>! This massive milestone
   transforms NoteRoom into a full-fledged <strong>multiplayer Action-RPG sandbox</strong>.
   Featuring deep <strong>Souls-like combat mechanics</strong>, <strong>Barnaby''s
   Fish Market &amp; Armory</strong>, <strong>Commander Garrick''s Co-Op Monster Raids</strong>,
@@ -340,9 +340,8 @@ update_notes: '<h1 dir="auto">⚔️ NoteRoom v4.4 Alpha — The Souls-like Comb
 
   <p dir="auto">💬 <strong>Official Discord Community:</strong> <a href="https://discord.gg/9vQm6f87jZ"
   rel="nofollow">https://discord.gg/9vQm6f87jZ</a></p>'
-updated: '2026-11-08T22:05:01Z'
-version: v4.4
-version_title: NoteRoom v4.4 Alpha — Souls-like Combat, Barnaby's Armory, Co-Op Raids
-  & Sound Engine! ⚔️🐟🏹🔊
+updated: '2026-11-08T23:40:01Z'
+version: v4.5
+version_title: '# ⚔️ NoteRoom v4.5 Alpha - Money Glitch Bugfix'
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
