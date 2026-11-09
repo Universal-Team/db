@@ -23,6 +23,45 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.3
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 10274268
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10437568
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>段位道場において個別条件の対応</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Handling individual conditions at Dan-i Dojo</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 段位道場において個別条件の対応
+
+
+    ## Changelog
+
+    - Handling individual conditions at Dan-i Dojo'
+  updated: '2026-11-09T11:35:32Z'
+  version: v2.4.3
+  version_title: TJAPlayer for 3DS v2.4.3
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
