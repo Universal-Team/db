@@ -27,7 +27,7 @@ llm_generation: minor
 qr:
   CTGP-7-Mod-Manager.cia: https://db.universal-team.net/assets/images/qr/ctgp-7-mod-manager-cia.png
 source: https://github.com/Team-BrewSearch/CTGP-7-Mod-Manager
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: CTGP-7 Mod Manager
