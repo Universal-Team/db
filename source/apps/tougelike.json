@@ -1,0 +1,13 @@
+{
+	"github": "njlent/tougelike-3ds-pub",
+	"title": "Tougelike",
+	"description": "Night racing roguelike on Japanese mountain roads.",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [1014332],
+	"download_filter": "^tougelike\\.(cia|3dsx)$",
+	"icon": "https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png",
+	"long_description": "Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.\n\nMore info on [github](https://github.com/njlent/tougelike-3ds-pub).",
+	"llm_generation": "yes"
+}
