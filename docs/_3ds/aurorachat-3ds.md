@@ -26,7 +26,7 @@ llm_generation: unknown
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat-3ds
-stars: 6
+stars: 5
 systems:
 - 3DS
 title: aurorachat-3ds
