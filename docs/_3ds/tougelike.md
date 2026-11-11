@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 51872568
+    size: 51881840
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.37/tougelike.3dsx
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.39/tougelike.3dsx
   tougelike.cia:
-    size: 52171712
+    size: 52184000
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.37/tougelike.cia
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.39/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -57,33 +57,40 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">What''s new</h2>
 
-  <h3 dir="auto">3DS 00.01.37</h3>
+  <h3 dir="auto">3DS 00.01.39</h3>
 
   <ul dir="auto">
 
-  <li>The speed-ups in this version are still experimental. So far they have run in
-  the emulator and passed one test on a real console. If the picture looks wrong or
-  the game stutters, turn OPTIONS, VISUAL, SECOND CORE off or set FRAME RATE to 30,
-  and report what you saw.</li>
+  <li>OPTIONS, VISUAL, PARTICLES now sets how much the module effects draw. DYNAMIC
+  draws every spark, flame and puff of smoke, STATIC about half of them, DISABLED
+  the fewest. Before, DYNAMIC and STATIC looked the same on the 3DS.</li>
 
-  <li>A New 3DS now runs the game at 60 frames a second where it keeps up, and holds
-  a steady 30 where it does not. OPTIONS, VISUAL, FRAME RATE set to 30 keeps it at
-  30 all the time.</li>
+  <li>PARTICLES starts on STATIC, which runs a little faster in runs full of effects.
+  A setting saved by an earlier version moves to STATIC once, and DISABLED stays.</li>
 
-  <li>An Old 3DS or 2DS holds 30 frames a second through much more of a run. In the
-  emulator at their speed, a late run went from 19 to 27 frames a second.</li>
+  </ul>
 
-  <li>Driving looks smoother at the same frame rate. The game''s clock used to follow
-  how long each frame took to work out. It now follows the pictures on the screen.</li>
+  <h3 dir="auto">3DS 00.01.38</h3>
 
-  <li>The scenery is rebuilt on the console''s second processor core. OPTIONS, VISUAL,
-  SECOND CORE turns that off.</li>
+  <ul dir="auto">
 
-  <li>DEBUG now shows the frame rate, the CPU and GPU time of a frame and the free
-  memory.</li>
+  <li>An Old 3DS or 2DS that cannot hold 30 frames a second no longer drops to a steady
+  20. It shows every frame as soon as it is ready. A real Old 3DS ran the last version
+  at 20 early in a run, and the emulator at that console''s speed runs this one at
+  24.</li>
 
-  <li>The game writes a line about its speed to tougelike.log on the SD card every
-  600 frames.</li>
+  <li>The installed version never used the second processor core on an Old 3DS or
+  2DS, because the system refused the share of it the game asked for. It gets that
+  share now.</li>
+
+  <li>Late in a run the game stuttered twice a second while it rebuilt the module
+  list on the bottom screen. It now rebuilds the list only when it changes.</li>
+
+  <li>Below 30 frames a second the gauges on the top screen are redrawn every other
+  frame, which leaves more time for the race.</li>
+
+  <li>The speed lines in tougelike.log now say which part of the game the time went
+  to.</li>
 
   </ul>
 
@@ -117,7 +124,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.8 MB</td>
 
-  <td><code class="notranslate">c7aa94f0f6199196812c7253fd082b588885143ad625f951a27cfa55406aa062</code></td>
+  <td><code class="notranslate">dac52da79ecb2c7ecc1ff8af2ed71d23cde397f38fb4d8df651de558cd911a93</code></td>
 
   </tr>
 
@@ -129,7 +136,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.5 MB</td>
 
-  <td><code class="notranslate">b0d5f41c0f11724df80b453bc20e8597987e0d0c910da5772cdcb614b7a36ef3</code></td>
+  <td><code class="notranslate">695142c6100a2c36eb666845961c4498d0e5381a7024ad98c9defdc3c8c1b706</code></td>
 
   </tr>
 
@@ -139,9 +146,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>Emulators such as Azahar</td>
 
-  <td>49.7 MB</td>
+  <td>49.8 MB</td>
 
-  <td><code class="notranslate">5e365b2bf5e582a47c2e02bad8168c0ab908886c518bd1513a7d852c8ff9614f</code></td>
+  <td><code class="notranslate">f846771d614a9a921dd05a3addfe33e6f5e19cf1cc5cccee5ff85e4d0029e320</code></td>
 
   </tr>
 
@@ -156,6 +163,10 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
   <li><strong>HOME Menu (CIA):</strong> copy <code class="notranslate">tougelike.cia</code>
   to the SD card, open FBI, choose SD, pick the file and install it. Tougelike then
   has its own icon and banner on the HOME Menu.</li>
+
+  <li><strong>Universal-Updater:</strong> find Tougelike in Universal-Updater and
+  install the CIA or the 3DSX from there. It is <a href="https://db.universal-team.net/3ds/tougelike"
+  rel="nofollow">listed on Universal-DB</a>.</li>
 
   <li><strong>QR code:</strong> in FBI, choose Remote Install, then Scan QR Code,
   and scan the code on the <a href="https://github.com/njlent/tougelike-3ds-pub#install">project
@@ -188,24 +199,24 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <li>About 60 MB free on the SD card.</li>
 
-  <li>A New 3DS aims for 60 fps and an Old 3DS or 2DS for 30. Each drops to the next
-  steady rate, 30 or 20, in the busiest late-game runs. This is new in 3DS 00.01.37
-  and still experimental.</li>
+  <li>A New 3DS aims for 60 fps and holds 30 where it cannot keep up. An Old 3DS or
+  2DS aims for 30 and runs below it in busy stretches, more so late in a long run.
+  The speed-ups since 3DS 00.01.37 are still experimental.</li>
 
   </ul>
 
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.37, built on Tougelike 00.22.39 (upstream commit <code class="notranslate">22b94e1</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.37/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.39, built on Tougelike 00.22.39 (upstream commit <code class="notranslate">22b94e1</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.39/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.37/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.39/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-11T12:20:38Z'
-version: v0.1.37
-version_title: Tougelike for Nintendo 3DS 00.01.37
+updated: '2026-11-11T22:25:43Z'
+version: v0.1.39
+version_title: Tougelike for Nintendo 3DS 00.01.39
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 
