@@ -39,7 +39,7 @@ screenshots:
 - description: Playing a game
   url: https://db.universal-team.net/assets/images/screenshots/snes9x-updated-fork/playing-a-game.png
 source: https://github.com/matbo87/snes9x_3ds
-stars: 90
+stars: 91
 systems:
 - 3DS
 title: Snes9x (updated fork)

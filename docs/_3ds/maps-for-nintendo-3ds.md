@@ -30,7 +30,7 @@ llm_generation: 'yes'
 qr:
   3ds_google_maps.cia: https://db.universal-team.net/assets/images/qr/3ds_google_maps-cia.png
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
-stars: 9
+stars: 12
 systems:
 - 3DS
 title: Maps for Nintendo 3DS
