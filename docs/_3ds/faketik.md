@@ -21,7 +21,7 @@ license: mit
 license_name: MIT License
 llm_generation: 'no'
 source: https://github.com/ihaveamac/faketik
-stars: 115
+stars: 116
 systems:
 - 3DS
 title: faketik
