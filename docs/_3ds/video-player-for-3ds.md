@@ -44,10 +44,10 @@ title: Video player for 3DS
 unique_ids:
 - '0xEC600'
 update_notes: '<p dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow"><img
-  src="https://camo.githubusercontent.com/3e84fc76d42bc6fbe9d0c66c764500cb8d47e1683b8f7988ad91be4d3df1d247/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3538393735303338363830363632303136303f6c6f676f3d646973636f726426636f6c6f723d373238394441267374796c653d666c61742d737175617265"
+  src="https://camo.githubusercontent.com/c3416cd2855a5f7bc77ae533c33a19e10d7967b380b8a07fae3af6a8bbc6a5f8/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3538393735303338363830363632303136303f6c6f676f3d646973636f726426636f6c6f723d373238394441267374796c653d666c61742d737175617265"
   alt="Discord" data-canonical-src="https://img.shields.io/discord/589750386806620160?logo=discord&amp;color=7289DA&amp;style=flat-square"
   style="max-width: 100%;"></a> <a href="https://gbatemp.net/threads/release-video-player-for-3ds.586094"
-  rel="nofollow"><img src="https://camo.githubusercontent.com/1d4f2990fc6613405ab0b409e1fd44066d307aed24727259d8f409b0c84fe423/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47424174656d702d636f6d6d756e6974792d626c7565"
+  rel="nofollow"><img src="https://camo.githubusercontent.com/7c9585326721c1b7e210937ac854ac2141e04c187a3f95cbf1ef1b71bd77b07e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47424174656d702d636f6d6d756e6974792d626c7565"
   alt="GBAtemp" data-canonical-src="https://img.shields.io/badge/GBAtemp-community-blue"
   style="max-width: 100%;"></a></p>
 

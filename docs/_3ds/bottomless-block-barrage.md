@@ -77,8 +77,8 @@ update_notes: '<h2 dir="auto">Whats new</h2>
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14">#14</a>.
   Hints for things aren''t intuitive.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/caa298ea9886ed36f478035468cdf2faf84df391574185d1a992daf7891fd048/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
-  src="https://camo.githubusercontent.com/caa298ea9886ed36f478035468cdf2faf84df391574185d1a992daf7891fd048/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/456408c00ddcd251f26c69a6c2ee7c1d9cb961fdf8d76e699a42fd585b797997/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
+  src="https://camo.githubusercontent.com/456408c00ddcd251f26c69a6c2ee7c1d9cb961fdf8d76e699a42fd585b797997/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
   alt="QR Code" data-canonical-src="https://i.imgur.com/WeKKRn5.png" style="max-width:
   100%;"></a></p>'
 updated: '2017-09-11T08:23:56Z'
@@ -88,18 +88,18 @@ version_title: Version 0.2.0
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>bottomless-block-barrage.3dsx</summary>
-<ol>
-<li>Download <code>bottomless-block-barrage.zip</code></li>
-<li>Extract <code>/3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx</code> from the zip to <code>/3ds/bottomless-block-barrage.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>bottomless-block-barrage.cia</summary>
 <ol>
 <li>Download <code>bottomless-block-barrage.cia</code> to <code>/cias/bottomless-block-barrage.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/bottomless-block-barrage.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>bottomless-block-barrage.3dsx</summary>
+<ol>
+<li>Download <code>bottomless-block-barrage.zip</code></li>
+<li>Extract <code>/3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx</code> from the zip to <code>/3ds/bottomless-block-barrage.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

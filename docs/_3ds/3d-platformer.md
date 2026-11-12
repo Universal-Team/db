@@ -22,7 +22,7 @@ license: zlib
 license_name: zlib License
 llm_generation: 'no'
 source: https://github.com/Tikman420/3d-platformer
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3d-platformer

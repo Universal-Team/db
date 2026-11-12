@@ -43,8 +43,8 @@ update_notes: '<p dir="auto">Small release to fix a bug in version 1.5. The bug 
 
   <p dir="auto">QR code for CIA:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4db3883270e3fff571f77e24fb8e54fccf50772a46908d671d6bedfef4095884/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"><img
-  src="https://camo.githubusercontent.com/4db3883270e3fff571f77e24fb8e54fccf50772a46908d671d6bedfef4095884/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6b215103e73459ae4128387e78fdb0ce25cce5f68f4b0e9ef29955ecdb541ce6/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"><img
+  src="https://camo.githubusercontent.com/6b215103e73459ae4128387e78fdb0ce25cce5f68f4b0e9ef29955ecdb541ce6/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"
   alt="https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia"
   data-canonical-src="http://i.imgur.com/qzu5DL3.png" style="max-width: 100%;"></a></p>'
 updated: '2016-12-03T21:05:23Z'
@@ -54,18 +54,18 @@ version_title: Version 1.5.1
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>GraphCalc3DS.3dsx</summary>
-<ol>
-<li>Download <code>GraphCalc3DS_3DSX.zip</code></li>
-<li>Extract <code>/GraphCalc3DS.3dsx</code> from the zip to <code>/3ds/GraphCalc3DS.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>GraphCalc3DS.cia</summary>
 <ol>
 <li>Download <code>GraphCalc3DS.cia</code> to <code>/cias/GraphCalc3DS.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/GraphCalc3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>GraphCalc3DS.3dsx</summary>
+<ol>
+<li>Download <code>GraphCalc3DS_3DSX.zip</code></li>
+<li>Extract <code>/GraphCalc3DS.3dsx</code> from the zip to <code>/3ds/GraphCalc3DS.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

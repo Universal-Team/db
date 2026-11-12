@@ -50,8 +50,8 @@ update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
   <p>You can now bruteforce appids, that means that you will be able to have compatibility
   with more games</p>
 
-  <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5276de0306cc3a89ea6a7734cff316f18d948261b266a2b721b89effde519bc0/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"><img
-  src="https://camo.githubusercontent.com/5276de0306cc3a89ea6a7734cff316f18d948261b266a2b721b89effde519bc0/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"
+  <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/40af3979b783122416f6052494b8687155a09eea8796d2e727333b28a743f2c9/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"><img
+  src="https://camo.githubusercontent.com/40af3979b783122416f6052494b8687155a09eea8796d2e727333b28a743f2c9/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"
   alt="SACT 2.0" data-canonical-src="http://imgur.com/SdKRETo.png" style="max-width:
   100%;"></a></p>'
 updated: '2017-01-27T00:03:00Z'

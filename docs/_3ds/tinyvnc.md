@@ -10,19 +10,19 @@ description: A VNC viewer for Nintendo 3DS
 download_page: https://github.com/badda71/TinyVNC/releases
 downloads:
   TinyVNC.3dsx:
-    size: 1937112
+    size: 2048632
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/2.0.1/TinyVNC.3dsx
+    url: https://github.com/badda71/TinyVNC/releases/download/2.1/TinyVNC.3dsx
   TinyVNC.cia:
-    size: 1827776
+    size: 1897408
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/2.0.1/TinyVNC.cia
+    url: https://github.com/badda71/TinyVNC/releases/download/2.1/TinyVNC.cia
 github: badda71/TinyVNC
 icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
 image: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png
 image_length: 36242
 layout: app
-llm_generation: 'no'
+llm_generation: unknown
 qr:
   TinyVNC.cia: https://db.universal-team.net/assets/images/qr/tinyvnc-cia.png
 source: https://github.com/badda71/TinyVNC
@@ -32,7 +32,7 @@ systems:
 title: TinyVNC
 unique_ids:
 - '0xC2433'
-update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for Nintendo
+update_notes: '<p dir="auto">This is version 2.1 of TinyVNC, the VNC-viewer for Nintendo
   3DS.</p>
 
   <p dir="auto"><strong>Features:</strong></p>
@@ -54,9 +54,8 @@ update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for 
 
   <p dir="auto"><strong>Installation:</strong><br>
 
-  Install CIA with <a href="https://github.com/Steveice10/FBI/releases">FBI</a>, run
-  3dsx from homebrew launcher (put 3dsx file in /3ds/vice3DS-C64 dir) or run 3ds from
-  flash card.<br>
+  Install CIA with <a href="https://github.com/Steveice10/FBI/releases">FBI</a> or
+  run 3dsx from homebrew launcher (put 3dsx file in /3ds/TinyVNC dir).<br>
 
   Apart from this, a DSP-dump is required for sound to work correctly in the CIA version.<br>
 
@@ -123,25 +122,11 @@ update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for 
 
   <ul dir="auto">
 
-  <li>support of 2nd VNC connection on bottom screen</li>
+  <li>DSU-server enhancement: Push SELECT to emulate additional Controller buttons
+  on old 3DS (ZR, ZL, Right Pad)</li>
 
-  <li>added vJoy-UDP-feeder clients: one for buttons and joysticks, another for motion
-  controls</li>
-
-  <li>added Cemuhook server: sends motion controls, buttons and joysticks to clients
-  (Cemu, Yuzu etc.)</li>
-
-  <li>added server (if supported) or client side scaling. Now, screens &gt;1024px
-  size are scaled automatically.</li>
-
-  <li>TinyVNC can be run without VNC-connection (e.g. only cemuhook server or only
-  mp3 stream client)</li>
-
-  <li>added quick command menu to control connection settings</li>
-
-  <li>added "shift"-key to enable button combinations</li>
-
-  <li>lots of minor optimizations and bugfixes</li>
+  <li>DSU-server enhancement: new option to invert y-axis to fix integration with
+  <a href="https://github.com/breeze2/dsu-manager-guides">DSU Manager</a></li>
 
   </ul>
 
@@ -149,11 +134,12 @@ update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for 
 
   <p dir="auto">Scan QR-code below with FBI<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b2c036b5-243c-4803-ae59-855f8baf6cf7"><img
-  src="https://github.com/user-attachments/assets/b2c036b5-243c-4803-ae59-855f8baf6cf7"
-  alt="grafik" style="max-width: 100%;"></a></p>'
-updated: '2022-06-07T15:19:51Z'
-version: 2.0.1
-version_title: TinyVNC 2.0
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e095df06-ad8f-4f17-854b-bec3a643884c"><img
+  width="164" height="164" alt="image" src="https://github.com/user-attachments/assets/e095df06-ad8f-4f17-854b-bec3a643884c"
+  style="max-width: 100%; height: auto; max-height: 164px;; aspect-ratio: 164 / 164;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>'
+updated: '2026-11-12T20:09:27Z'
+version: '2.1'
+version_title: TinyVNC 2.1
 website: https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/
 ---
