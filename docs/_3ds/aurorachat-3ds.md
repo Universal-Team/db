@@ -10,13 +10,13 @@ description: Aurorachat 3DS Client
 download_page: https://github.com/Unitendo/aurorachat-3ds/releases
 downloads:
   aurorachat.3dsx:
-    size: 199380
-    size_str: 194 KiB
-    url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1/aurorachat.3dsx
+    size: 201816
+    size_str: 197 KiB
+    url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1-r1/aurorachat.3dsx
   aurorachat.cia:
-    size: 533952
-    size_str: 521 KiB
-    url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1/aurorachat.cia
+    size: 485312
+    size_str: 473 KiB
+    url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1-r1/aurorachat.cia
 github: Unitendo/aurorachat-3ds
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -32,26 +32,20 @@ systems:
 title: aurorachat-3ds
 unique_ids:
 - '0xBAFD2'
-update_notes: '<p dir="auto">This release may have bugs and crashes, although most
-  portions of the app have been tested there is still possibility for instability.</p>
+update_notes: '<p dir="auto">Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/pixelyloaf/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/pixelyloaf">@pixelyloaf</a>
+  we have a new server for Aurorachat!</p>
 
-  <h1 dir="auto">Changelog</h1>
+  <h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>Add MOTD support</li>
-
-  <li>Add DMs</li>
-
-  <li>Add multi-room support</li>
-
-  <li>Add saving account data and settings</li>
-
-  <li>Added more settings + a settings menu</li>
+  <li>Patched the client to connect to the new server</li>
 
   </ul>'
-updated: '2026-08-30T21:07:42Z'
-version: v7.1
-version_title: 'v7.1: Risky'
+updated: '2026-11-11T19:21:03Z'
+version: v7.1-r1
+version_title: 'v7.1-r1: Welcome Back'
 ---
 A chatting app primarily for Homebrewed Nintendo consoles.
