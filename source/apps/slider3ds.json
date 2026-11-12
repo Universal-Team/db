@@ -1,0 +1,17 @@
+{
+	"github": "randomerz/Slider3DS",
+	"author": "boomo",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/randomerz/Slider3DS/main/slider3ds.png",
+	"image": "https://raw.githubusercontent.com/randomerz/Slider3DS/main/tools/cia/banner.png",
+	"unique_ids": [
+		1003987
+	],
+	"long_description": "# Slider 3DS\n\nA homebrew Nintendo 3DS port of [Slider](https://store.steampowered.com/app/1916890/Slider/): slide chunks of the world to solve puzzles and help others.\n\n![Example Gameplay Gif](https://raw.githubusercontent.com/randomerz/Slider3DS/refs/heads/main/misc/24_04_03_river_puzzle.gif)"
+}
