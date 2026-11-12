@@ -24,6 +24,107 @@ llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
+prerelease:
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v4.2-E2
+  downloads:
+    zelda3-3ds-v4.2-E2.3dsx:
+      size: 9166604
+      size_str: 8 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/zelda3-3ds-v4.2-E2.3dsx
+    zelda3-3ds-v4.2-E2.cia:
+      size: 7799744
+      size_str: 7 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/zelda3-3ds-v4.2-E2.cia
+  qr:
+    zelda3-3ds-v4.2-E2.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v4-2-e2-cia.png
+  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"><img
+    width="500" height="500" alt="QR code for the v4.2-E2 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"
+    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+
+    <p dir="auto">Experimental pre-release.</p>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Added Simplified Chinese dialogue and menus.</li>
+
+    <li>Fixed Chinese/Japanese font selection and trailing Chinese dialogue decoding.</li>
+
+    <li>Extended the Master Sword forest background across its full scrolling area
+    in WIDE.</li>
+
+    <li>Added Triforce chamber side curtains and fixed the black strip below its floor.</li>
+
+    <li>Corrected chamber palette fades, bridge shoreline and cut-off rocks.</li>
+
+    </ul>
+
+    <h2 dir="auto">Credits</h2>
+
+    <p dir="auto">Simplified Chinese by <a href="https://github.com/frilxy">frilxy</a>
+    (<a href="https://github.com/EstebanPdN/zelda-alttp-3ds/pull/60" data-hovercard-type="pull_request"
+    data-hovercard-url="/EstebanPdN/zelda-alttp-3ds/pull/60/hovercard">#60</a>), based
+    on LinkFish''s translation and game font. <a href="https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.2-E2/CREDITS.md">Full
+    credits</a>.</p>
+
+    <p dir="auto">Tested locally in Azahar and automated language/layout checks. Physical
+    3DS testing remains pending. <a href="https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.2-E2/docs/v4.2-E2.md">Validation
+    and translation scope</a>.</p>
+
+    <h2 dir="auto">Bug reports</h2>
+
+    <p dir="auto">Press <code class="notranslate">L + R + A</code> while the issue
+    is visible and attach the complete diagnostic dump folder from:</p>
+
+    <p dir="auto"><code class="notranslate">sdmc:/3ds/Zelda 3DS/dumps/</code></p>'
+  update_notes_md: '<img width="500" height="500" alt="QR code for the v4.2-E2 CIA"
+    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"
+    />
+
+
+    Experimental pre-release.
+
+
+    ## Changelog
+
+
+    - Added Simplified Chinese dialogue and menus.
+
+    - Fixed Chinese/Japanese font selection and trailing Chinese dialogue decoding.
+
+    - Extended the Master Sword forest background across its full scrolling area in
+    WIDE.
+
+    - Added Triforce chamber side curtains and fixed the black strip below its floor.
+
+    - Corrected chamber palette fades, bridge shoreline and cut-off rocks.
+
+
+    ## Credits
+
+
+    Simplified Chinese by [frilxy](https://github.com/frilxy) ([#60](https://github.com/EstebanPdN/zelda-alttp-3ds/pull/60)),
+    based on LinkFish''s translation and game font. [Full credits](https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.2-E2/CREDITS.md).
+
+
+    Tested locally in Azahar and automated language/layout checks. Physical 3DS testing
+    remains pending. [Validation and translation scope](https://github.com/EstebanPdN/zelda-alttp-3ds/blob/v4.2-E2/docs/v4.2-E2.md).
+
+
+    ## Bug reports
+
+
+    Press `L + R + A` while the issue is visible and attach the complete diagnostic
+    dump folder from:
+
+
+    `sdmc:/3ds/Zelda 3DS/dumps/`
+
+    '
+  updated: '2026-11-12T16:10:58Z'
+  version: v4.2-E2
+  version_title: v4.2-E2
 qr:
   zelda3-3ds-v4.1.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v4-1-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds

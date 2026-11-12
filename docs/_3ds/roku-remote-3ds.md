@@ -10,38 +10,74 @@ description: A personal Nintendo 3DS homebrew remote for a Roku device on your h
   network.
 download_page: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases
 downloads:
-  BUILD-INFO-v1.2.0.txt:
-    size: 3312
-    size_str: 3 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/BUILD-INFO-v1.2.0.txt
-  README.md:
-    size: 9422
-    size_str: 9 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/README.md
-  RokuRemote3DS-v1.2.0.3dsx:
-    size: 232160
-    size_str: 226 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/RokuRemote3DS-v1.2.0.3dsx
-  RokuRemote3DS-v1.2.0.cia:
-    size: 259008
-    size_str: 252 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/RokuRemote3DS-v1.2.0.cia
-  SHA256SUMS-v1.2.0.txt:
-    size: 3845
-    size_str: 3 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/SHA256SUMS-v1.2.0.txt
-  START-HERE-v1.2.0.txt:
-    size: 1862
+  3ds.zip:
+    size: 221396
+    size_str: 216 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/3ds.zip
+  Apps-and-inputs-preview-v1.3.png:
+    size: 7725
+    size_str: 7 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Apps-and-inputs-preview-v1.3.png
+  Banner-preview-v1.3.png:
+    size: 229186
+    size_str: 223 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Banner-preview-v1.3.png
+  EXTRA.zip:
+    size: 8281
+    size_str: 8 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/EXTRA.zip
+  Emulator-HLE-preview-v1.3.png:
+    size: 6371
+    size_str: 6 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Emulator-HLE-preview-v1.3.png
+  Emulator-headphones-preview-v1.3.png:
+    size: 6774
+    size_str: 6 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Emulator-headphones-preview-v1.3.png
+  HEADPHONES-v1.3.md:
+    size: 6925
+    size_str: 6 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/HEADPHONES-v1.3.md
+  Headphones-preview-v1.3.png:
+    size: 6668
+    size_str: 6 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Headphones-preview-v1.3.png
+  Icon-v1.3.png:
+    size: 3007
+    size_str: 2 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Icon-v1.3.png
+  LICENSE-v1.3.txt:
+    size: 1166
     size_str: 1 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/START-HERE-v1.2.0.txt
-  Screen-preview-v1.2.0.png:
-    size: 17252
-    size_str: 16 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/Screen-preview-v1.2.0.png
-  source-project-v1.2.0.zip:
-    size: 74125
-    size_str: 72 KiB
-    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.2.0/source-project-v1.2.0.zip
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/LICENSE-v1.3.txt
+  README-v1.3.md:
+    size: 13274
+    size_str: 12 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/README-v1.3.md
+  Recent-preview-v1.3.png:
+    size: 6219
+    size_str: 6 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Recent-preview-v1.3.png
+  RokuRemote3DS-v1.3.3dsx:
+    size: 406436
+    size_str: 396 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/RokuRemote3DS-v1.3.3dsx
+  RokuRemote3DS-v1.3.cia:
+    size: 540608
+    size_str: 527 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/RokuRemote3DS-v1.3.cia
+  Setup-preview-v1.3.png:
+    size: 6064
+    size_str: 5 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/Setup-preview-v1.3.png
+  source-project-v1.3.zip:
+    size: 12364275
+    size_str: 11 MiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/source-project-v1.3.zip
+  validation-v1.3.zip:
+    size: 2440
+    size_str: 2 KiB
+    url: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS/releases/download/Roku-Remote-3DS-v1.3.0/validation-v1.3.zip
 github: nohsaidnottoplay-blip/Roku-Remote-3DS
 icon: https://raw.githubusercontent.com/nohsaidnottoplay-blip/Roku-Remote-3DS/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/nohsaidnottoplay-blip/Roku-Remote-3DS/refs/heads/main/banner.png
@@ -51,15 +87,14 @@ license: other
 license_name: Other
 llm_generation: 'no'
 qr:
-  RokuRemote3DS-v1.2.0.cia: https://db.universal-team.net/assets/images/qr/rokuremote3ds-v1-2-0-cia.png
+  RokuRemote3DS-v1.3.cia: https://db.universal-team.net/assets/images/qr/rokuremote3ds-v1-3-cia.png
 source: https://github.com/nohsaidnottoplay-blip/Roku-Remote-3DS
 stars: 3
 systems:
 - 3DS
 title: Roku-Remote-3DS
-update_notes: <p dir="auto">Roku-Remote-3DS-v1.2.0</p>
-updated: '2026-10-23T22:20:00Z'
-version: Roku-Remote-3DS-v1.2.0
-version_title: Roku-Remote-3DS-v1.2.0
+updated: '2026-11-12T18:27:43Z'
+version: Roku-Remote-3DS-v1.3.0
+version_title: Roku-Remote-3DS-v1.3.0
 ---
 A personal Nintendo 3DS homebrew remote for a Roku device on your home network. The video stays on your TV. The 3DS acts as the remote. There was help from ChatGPT 6 Astra. Help can also be found in the application itself.
