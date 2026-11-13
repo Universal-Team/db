@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 51884292
+    size: 51929356
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.40/tougelike.3dsx
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.45/tougelike.3dsx
   tougelike.cia:
-    size: 52188096
+    size: 52220864
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.40/tougelike.cia
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.45/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -57,17 +57,70 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">What''s new</h2>
 
-  <h3 dir="auto">3DS 00.01.40</h3>
+  <h3 dir="auto">3DS 00.01.45</h3>
 
   <ul dir="auto">
 
-  <li>Late in a long run, cars could lose their bodies and drive on as wheels and
-  lights. The game had filled its graphics memory with roadside landmarks it had long
-  passed, so a car that arrived found no room for its body. It now frees what is no
-  longer on screen.</li>
+  <li>The Circle Pad steers by how far you push it. A light push turns the car a little,
+  and near the rim it is full lock. Any push was full lock before. The D-pad steers
+  as it did, and STEERING RAMP in OPTIONS, GAME now shapes the D-pad only.</li>
 
-  <li>The speed lines in tougelike.log now say how much graphics memory is free and
-  whether anything was left out for lack of it.</li>
+  <li>The title screen and the CHANGELOG screen show where to send bug reports and
+  ideas: njlent.de/games/tougelike, which links the Discord, and github.com/njlent/tougelike-3ds-pub.</li>
+
+  <li>The game underneath is Tougelike 00.22.41, which added controllers to the web
+  game. The Circle Pad steers like a controller''s stick does there.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.44</h3>
+
+  <ul dir="auto">
+
+  <li>tougelike.log on the SD card is shorter and easier to read. It starts with the
+  game''s version and your options, then lists the game''s speed as a table with one
+  row for every 600 frames. Each of those was one very long line before.</li>
+
+  <li>The log notes it when you change an option that affects speed.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.43</h3>
+
+  <ul dir="auto">
+
+  <li>On an Old 3DS or 2DS a landmark with trees and rocks planted around it cost
+  a race up to a third of its frame rate for as long as it was in view. A second log
+  from a real console showed it. The game now places those plants once, where it worked
+  them out again in every frame.</li>
+
+  <li>With DEBUG on, the menus run faster. Its figures change four times a second.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.42</h3>
+
+  <ul dir="auto">
+
+  <li>An Old 3DS or 2DS runs a race about a tenth faster again, early in a run and
+  late in a long one. Part of that comes from the second processor core, so leave
+  SECOND CORE on in OPTIONS, VISUAL unless the game misbehaves.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.41</h3>
+
+  <ul dir="auto">
+
+  <li>On an Old 3DS or 2DS the game dropped to 7 to 9 frames a second whenever a breakdown
+  lay-by came up beside the road. That lasted about a quarter of a minute in a run
+  and over half a minute on the title screen. A log from a real console showed it,
+  and it is fixed.</li>
+
+  <li>Races run about a tenth faster on an Old 3DS or 2DS, and the menus about a fifth.</li>
+
+  <li>The speed lines in tougelike.log now say what the game was doing, count the
+  slow frames they used to leave out and split the time by more parts.</li>
 
   </ul>
 
@@ -101,7 +154,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.8 MB</td>
 
-  <td><code class="notranslate">aedec7efe38f35d1ff47c1a0504a43227efd094d935a78ee405ef32567dfe3a7</code></td>
+  <td><code class="notranslate">85769bf1ebcfe975cbfafb3759385732717dcbfec7f7458b86b0003896dd2ba1</code></td>
 
   </tr>
 
@@ -113,7 +166,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.5 MB</td>
 
-  <td><code class="notranslate">36a3e375208d8bda4639fb394d1320f3154c8ee3524d298f74630a7361762706</code></td>
+  <td><code class="notranslate">6910ef63cded429066ccefaa2c2713d56cb39cd65645ff0fcd6128315288f3d5</code></td>
 
   </tr>
 
@@ -125,7 +178,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.8 MB</td>
 
-  <td><code class="notranslate">c03e75ba21f8f1a7d3d3b5162d4c9797b0794c4c71c3fcdae58aa81e14b96c60</code></td>
+  <td><code class="notranslate">65bfd2d314ee7a8042a0afede4ff3b5ba582dbb8d0e4355e435a1bcff57e2722</code></td>
 
   </tr>
 
@@ -182,18 +235,25 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   </ul>
 
+  <h2 dir="auto">Feedback</h2>
+
+  <p dir="auto">Found a bug or have an idea? The game''s page, <a href="https://njlent.de/games/tougelike/"
+  rel="nofollow">njlent.de/games/tougelike</a>, links the Discord, and GitHub takes
+  <a href="https://github.com/njlent/tougelike-3ds-pub/issues">issues</a>. The title
+  screen shows both addresses.</p>
+
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.40, built on Tougelike 00.22.39 (upstream commit <code class="notranslate">22b94e1</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.40/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.45, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.45/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.40/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.45/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-12T00:15:38Z'
-version: v0.1.40
-version_title: Tougelike for Nintendo 3DS 00.01.40
+updated: '2026-11-13T13:54:07Z'
+version: v0.1.45
+version_title: Tougelike for Nintendo 3DS 00.01.45
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 
