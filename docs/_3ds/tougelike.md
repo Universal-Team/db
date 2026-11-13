@@ -42,7 +42,7 @@ screenshots:
 - description: 06_garage
   url: https://db.universal-team.net/assets/images/screenshots/tougelike/06_garage.png
 source: https://github.com/njlent/tougelike-3ds-pub
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: Tougelike
