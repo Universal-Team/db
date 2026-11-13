@@ -6,7 +6,7 @@ categories:
 color: '#5f6983'
 color_bg: '#5c6680'
 created: '2026-04-18T02:45:15Z'
-description: Gamestream client for 3DS (Old & New)
+description: Gamestream client for 3DS (Old & New) - moonlight
 download_page: https://github.com/PainDe0Mie/PotatoStream/releases
 downloads:
   streampotato.3dsx:
