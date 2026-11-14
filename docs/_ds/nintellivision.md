@@ -31,7 +31,7 @@ preinstall_message: 'You need "grom.bin", "exec.bin",
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
 source: https://github.com/wavemotion-dave/NINTV-DS
-stars: 57
+stars: 58
 systems:
 - DS
 title: Nintellivision
