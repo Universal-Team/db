@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
 source: https://github.com/SprtnDio/NoteRoom
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: NoteRoom
