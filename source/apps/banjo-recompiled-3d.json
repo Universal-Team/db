@@ -1,0 +1,20 @@
+{
+	"github": "oneup03/BanjoRecomp3D",
+	"title": "Banjo: Recompiled 3D",
+	"description": "3DS Port of Banjo-Kazooie made using rt64-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/oneup03/BanjoRecomp3D/main/platform/3ds/icon.png",
+	"unique_ids": [
+		1006414
+	],
+	"long_description": "* Real stereoscopic 3D, with auto convergence that keeps close-ups comfortable\n* Widescreen 400x240 on the top screen\n* 60 fps most of the time on a New 3DS, with interpolated frames between the game's own (in play and in cutscenes)\n* The HUD on the touch screen\n* Camera control on the C-Stick\n* Settings on the touch screen, opened with SELECT: remap any button, add up to two buttons of your own on the touch screen\n* Built-in community mods you can turn on and off: Ability Anywhere, Transform Anywhere, Banjo Bee, Cheats, Skip It, Toggle Trot, Exit To Lair and more, with touch screen buttons where they need them\n* Spanish, French, and German translations\n* Three ROM hacks playable as game modes: BK The Jiggies of Time, BK Nostalgia 64 and Banjo Dreamie\n* Runs on an Old 3DS / 2DS too, at 20-30 fps",
+	"website": "https://github.com/oneup03/BanjoRecomp3D/blob/main/platform/3ds/README.md",
+	"download_filter": "^BanjoRecompiled3D-3ds\\.cia$|^BanjoRecomp\\.3dsx$",
+	"preinstall_message": "You must provide your own dump of the US v1.0 of the game at: sdmc:/3ds/BanjoRecomp/BK.z64"
+}
