@@ -1,0 +1,14 @@
+{
+	"github": "llamington/verity",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"long_description": "Verity is a save editor for the Gen 4 and 5 Pokémon games (DPPt, HGSS, BW, B2W2) that checks legality as you edit.\n\nYou need a Gen 4 or 5 game on your SD card: Verity loads its fonts and sprites from it, so nothing from Nintendo is included in the download.\n\nFeatures:\n- Legality checks ported from PKHeX, run on the DS itself\n- Won't let an edit make a Pokémon illegal\n- Generate legal wild encounters and Gen 4 eggs\n- Receive event gifts from the deliveryman\n- Edit the bag\n- BW to B2W2 Memory Link\n\nIt edits saves on the SD card directly and keeps your previous three saves as .bak1 to .bak3.\n\nThere's also a browser version at https://verity.llamington.workers.dev",
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/llamington/verity/main/assets/logo/mark-512.png",
+	"image": "https://raw.githubusercontent.com/llamington/verity/main/assets/logo/mark-512.png"
+}
