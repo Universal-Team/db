@@ -37,9 +37,7 @@ prerelease:
       url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/zelda3-3ds-v4.2-E2.cia
   qr:
     zelda3-3ds-v4.2-E2.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v4-2-e2-cia.png
-  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"><img
-    width="500" height="500" alt="QR code for the v4.2-E2 CIA" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"
-    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+  update_notes: '
 
     <p dir="auto">Experimental pre-release.</p>
 
@@ -78,8 +76,7 @@ prerelease:
     is visible and attach the complete diagnostic dump folder from:</p>
 
     <p dir="auto"><code class="notranslate">sdmc:/3ds/Zelda 3DS/dumps/</code></p>'
-  update_notes_md: '<img width="500" height="500" alt="QR code for the v4.2-E2 CIA"
-    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v4.2-E2/QR-v4.2-E2-github.png"
+  update_notes_md: '<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/a6174c93-eb00-487f-b9b3-a62d10903c1f"
     />
 
 

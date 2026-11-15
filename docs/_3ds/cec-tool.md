@@ -1,6 +1,6 @@
 ---
 author: Sorunome
-avatar: https://gitlab.com//uploads/-/system/user/avatar/2871656/avatar.png?v=1794620305
+avatar: https://gitlab.com//uploads/-/system/user/avatar/2871656/avatar.png?v=1794706707
 categories:
 - utility
 color: '#b2d3a5'
