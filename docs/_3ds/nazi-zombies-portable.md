@@ -78,10 +78,8 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   <li>Xbox: Extract the <code class="notranslate">nzportable</code> folder into <code
   class="notranslate">&lt;drive&gt;/Games/</code> and launch <code class="notranslate">default.xbe</code>.</li>
 
-  <li>Xbox 360: Extract to root of USB drive and run with XeLL (Reloaded).</li>
-
-  <li>PS4: Install <code class="notranslate">nzportable.pkg</code> and copy game data
-  to <code class="notranslate">/data/nzportable/</code>.</li>
+  <li>Xbox 360: Extract to root of USB drive and run with XeLL (Reloaded).* PS4: Install
+  <code class="notranslate">nzportable.pkg</code> and copy game data to <code class="notranslate">/data/nzportable/</code>.</li>
 
   <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
 
@@ -92,9 +90,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-11-14T19:40:17Z'
+updated: '2026-11-15T14:40:53Z'
 version: nightly
-version_title: 2.0.0-indev+20261114193835
+version_title: 2.0.0-indev+20261115143908
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
