@@ -12,7 +12,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 64894100
+    size: 64894097
     size_str: 61 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -35,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 874
+stars: 875
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -64,10 +64,6 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <li>PSP: Extract the  folder inside the .ZIP archive into <code class="notranslate">PSP/GAME/</code>.</li>
 
-  <li>Nintendo Switch: Extract the  folder inside the .ZIP archive into <code class="notranslate">/switch/</code>
-  and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
-  by holding ''R'' over an installed title!</li>
-
   <li>PS VITA: Extract <code class="notranslate">nzp.zip</code> into ux0:data/ and
   install <code class="notranslate">nzportable.vpk</code>.</li>
 
@@ -75,13 +71,21 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   Card, HDD. Copy game data to <code class="notranslate">/APPS/NZPORTABLE/</code>
   in the same media.</li>
 
+  <li>PS3: Install <code class="notranslate">nzportable.pkg</code> and copy game data
+  to <code class="notranslate">/dev_hdd0/game/NZPT00001/USRDIR/</code>.</li>
+
+  <li>PS4: Install <code class="notranslate">nzportable.pkg</code> and copy game data
+  to <code class="notranslate">/data/nzportable/</code>.</li>
+
   <li>Xbox: Extract the <code class="notranslate">nzportable</code> folder into <code
   class="notranslate">&lt;drive&gt;/Games/</code> and launch <code class="notranslate">default.xbe</code>.</li>
 
-  <li>Xbox 360: Extract to root of USB drive and run with XeLL (Reloaded).* PS4: Install
-  <code class="notranslate">nzportable.pkg</code> and copy game data to <code class="notranslate">/data/nzportable/</code>.</li>
+  <li>Xbox 360: Extract to root of USB drive and run with XeLL (Reloaded).* Nintendo
+  3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
 
-  <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
+  <li>Nintendo Switch: Extract the  folder inside the .ZIP archive into <code class="notranslate">/switch/</code>
+  and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
+  by holding ''R'' over an installed title!</li>
 
   <li>TI NSPIRE: Extract the .ZIP archive and sync contents to <code class="notranslate">My
   Documents</code>.</li>
@@ -90,9 +94,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-11-15T14:40:53Z'
+updated: '2026-11-15T22:07:00Z'
 version: nightly
-version_title: 2.0.0-indev+20261115143908
+version_title: 2.0.0-indev+20261115220508
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.

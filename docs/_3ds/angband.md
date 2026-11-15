@@ -161,7 +161,7 @@ prerelease:
   version: 4.2.6-270-g42cd156ac
   version_title: 4.2.6-270-g42cd156ac
 source: https://github.com/angband/angband
-stars: 1582
+stars: 1583
 systems:
 - 3DS
 - DS
