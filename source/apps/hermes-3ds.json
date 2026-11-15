@@ -1,0 +1,18 @@
+{
+	"github": "rndaom/Hermes3DS",
+	"title": "Hermes 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/rndaom/Hermes3DS/main/app/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/rndaom/Hermes3DS/main/app/meta/banner.png",
+	"unique_ids": [
+		1003069
+	],
+	"license": "mit",
+	"license_name": "MIT License"
+}
