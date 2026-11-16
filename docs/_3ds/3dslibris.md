@@ -11,29 +11,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14735148
+    size: 14735576
     size_str: 14 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-debug.3dsx
   3dslibris-debug.cia:
     size: 13452224
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5021452
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 67638122
+    size: 67638605
     size_str: 64 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14944996
+    size: 14946204
     size_str: 14 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris.3dsx
   3dslibris.cia:
-    size: 13648832
+    size: 13652928
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.0/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -57,112 +57,24 @@ systems:
 title: 3dslibris
 unique_ids:
 - '0x3D51B'
-update_notes: '<h2 dir="auto">3dslibris 3.2.0</h2>
+update_notes: '<h2 dir="auto">3dslibris 3.2.1</h2>
 
-  <p dir="auto">This update adds selectable control schemes (the asked one-handed),
-  and fixes opening books from library search and some more issues.</p>
-
-  <p dir="auto">I''m releasing this together with 3.1.2, so read the 3.1.2 release
-  notes for the full list of changes since 3.1.1.</p>
-
-  <h3 dir="auto">New</h3>
-
-  <ul dir="auto">
-
-  <li><a href="https://github.com/RigleGit/3dslibris/issues/183" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/183/hovercard">#183</a>: control
-  schemes. The settings <code class="notranslate">controls (vertical)</code> and <code
-  class="notranslate">controls (horizontal)</code> each choose between <code class="notranslate">Default</code>
-  and <code class="notranslate">One-handed</code>, so portrait and landscape can use
-  different schemes.
-
-  <ul dir="auto">
-
-  <li>In <code class="notranslate">One-handed</code>, a tap on D-Pad Left (vertical)
-  or D-Pad Up (horizontal) toggles the bookmark, and holding it enters link and image
-  selection. While selecting, the D-Pad moves the selection and D-Pad Right (vertical)
-  or D-Pad Down (horizontal) opens the selected link or image. L and R leave the selection,
-  and bookmark jumps move to the Circle Pad.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
+  <p dir="auto">This update fixes folder covers not showing when the image is placed
+  inside the folder.</p>
 
   <h3 dir="auto">Fixes and improvements</h3>
 
   <ul dir="auto">
 
-  <li>Library search: tapping or pressing A on an EPUB, MOBI or FB2 result now opens
-  the book (There was a bug that made it not work for some books).</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/185" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/185/hovercard">#185</a>: library
+  folders now show a cover when the image is inside the folder with the folder''s
+  name (<code class="notranslate">book/Foo/Foo.jpg</code>), in addition to next to
+  it (<code class="notranslate">book/Foo.jpg</code>). If both exist, the one next
+  to the folder is used. Supported types are <code class="notranslate">jpg</code>,
+  <code class="notranslate">jpeg</code> and <code class="notranslate">png</code>.</li>
 
-  <li>Settings: <code class="notranslate">reset settings</code> now also resets the
-  colour theme everywhere.</li>
-
-  <li>Library: tapping a book or folder now opens it right away instead of needing
-  a second tap.
-
-  <ul dir="auto">
-
-  <li>Touch and hold a cell to select it and see its full title on the top screen
-  without opening it; dragging off the cell cancels.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Layout improvements:
-
-  <ul dir="auto">
-
-  <li>Long titles and paths no longer run past their boxes.</li>
-
-  <li>Settings rows keep both lines inside the border.</li>
-
-  <li>Search results, the chapter index, book information and font file names wrap
-  their full text and grow or paginate to fit.</li>
-
-  <li>The library list shows up to three lines per title, and the selected list row
-  scrolls its title when it still does not fit.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Faster first opening of MOBI, FB2 and EPUB books</strong>: the progress
-  screen is repainted far less often, and MOBI and FB2 caches are written in larger
-  blocks. Measured my consoles:
-
-  <ul dir="auto">
-
-  <li><strong>Old 3DS</strong>: a 2.9 MB MOBI drops from 46.5 s to 20.8 s (<strong>−55%</strong>),
-  a 2 MB FB2 from 35.5 s to 15.9 s (<strong>−55%</strong>), a long EPUB from about
-  13 s to 9.8 s (<strong>−25%</strong>), and small MOBI and FB2 books open about 40%
-  faster (3.6 → 2.0 s and 2.6 → 1.6 s).</li>
-
-  <li><strong>New 3DS</strong>: the 2.9 MB MOBI drops from 16.5 s to 12.5 s (<strong>−24%</strong>),
-  a 10 MB MOBI from 45.8 s to 27.9 s (<strong>−39%</strong>), and small books open
-  about 25% faster.</li>
-
-  <li>Opening a book again from its cache still takes well under a second.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Very large MOBI books now open on the Old 3DS</strong>: previously,
-  large MOBI files (around 10 MB) caused the homebrew to crash on launch. Now, when
-  a MOBI file exceeds the Old 3DS memory, it is processed in chunks using a temporary
-  file on the SD card.
-
-  <ul dir="auto">
-
-  <li>This initial load is slow, but it works.</li>
-
-  </ul>
-
-  </li>
+  <li>Added this information to the README.</li>
 
   </ul>
 
@@ -184,9 +96,9 @@ update_notes: '<h2 dir="auto">3dslibris 3.2.0</h2>
   <p dir="auto">Thanks to everyone trying the builds and reporting issues. You can
   support the project with a ⭐ on GitHub or <a href="https://ko-fi.com/rigle" rel="nofollow">a
   coffee</a>.</p>'
-updated: '2026-11-12T16:20:37Z'
-version: v3.2.0
-version_title: v3.2.0
+updated: '2026-11-16T15:00:55Z'
+version: v3.2.1
+version_title: v3.2.1
 ---
 ### Installation instructions
 
