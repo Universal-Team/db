@@ -1,0 +1,16 @@
+{
+	"github": "ewanc26/indigo",
+	"title": "Indigo",
+	"description": "A native Bluesky client for the Nintendo 3DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/ewanc26/indigo/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/ewanc26/indigo/main/assets/banner.png",
+	"llm_generation": "yes",
+	"download_filter": "^indigo\\.3dsx$",
+	"long_description": "Indigo exists because apparently making a Wii U post to Bluesky was not enough.\n\nAfter forcing a PowerPC tri-core console to participate in the modern social web with [Cobalt](https://github.com/ewanc26/cobalt), I decided that the next reasonable target was a Nintendo 3DS: another machine with absolutely no business being a Bluesky client.\n\nThe goal is the same kind of hardware-first absurdity, but the implementation is deliberately different. Indigo is **not a port** of Cobalt. I am designing it around the 3DS's own hardware, input model and two-screen layout.\n\nThe project uses [Wolfram](https://github.com/ewanc26/wolfram), my C AT Protocol SDK, for protocol functionality. Indigo is scoped to the Bluesky app, not general AT Protocol use; accounts on custom PDSes are supported.\n\nIndigo installs to `sdmc:/3ds/indigo.3dsx` and runs from the Homebrew Menu. It needs a Bluesky account; signing in takes an app password, or a hosted sign-in node for browser sign-in. Status, and what has and has not been run on a real 3DS: https://github.com/ewanc26/indigo#status"
+}
