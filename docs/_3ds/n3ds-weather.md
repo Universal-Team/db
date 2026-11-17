@@ -36,19 +36,19 @@ A modern weather app for the New 3DS XL. The top screen is an animated **stereos
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>n3ds-weather.3dsx</summary>
+<ol>
+<li>Download <code>n3ds-weather.zip</code></li>
+<li>Extract <code>/n3ds-weather.3dsx</code> from the zip to <code>/3ds/n3ds-weather.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>n3ds-weather.cia</summary>
 <ol>
 <li>Download <code>n3ds-weather.zip</code></li>
 <li>Extract <code>/n3ds-weather.cia</code> from the zip to <code>/cias/n3ds-weather.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/n3ds-weather.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>n3ds-weather.3dsx</summary>
-<ol>
-<li>Download <code>n3ds-weather.zip</code></li>
-<li>Extract <code>/n3ds-weather.3dsx</code> from the zip to <code>/3ds/n3ds-weather.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
