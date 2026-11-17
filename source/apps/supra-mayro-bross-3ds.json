@@ -1,0 +1,15 @@
+{
+	"github": "Misakii-P/supra-mayro-bross-3ds",
+	"title": "Supra Mayro Bross 3DS",
+	"description": "resceu princes from bigger gumba (Supra Mayro Bross: Legend of the Lost Kingdom remake for the Nintendo 3DS)",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Misakii-P/supra-mayro-bross-3ds/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Misakii-P/supra-mayro-bross-3ds/refs/heads/main/banner.png",
+	"long_description": "\"Supra Mayro Bross - Legend of the Lost Kingdom is an emotional and exciting story of Mayro, as he goes on a minute long journey to defeat the Bigger Gumba.\" Supra Mayro Bross: Legend of the Lost Kingdom remake for the Nintendo 3DS with few changes, dual screen UI adaptation and new music.\n\nThis game has been rewritten from scratch by misakii-p in C for 3DS consoles. Assets have been taken from the original Flash game. (Except the new music and bottom screen art)"
+}
