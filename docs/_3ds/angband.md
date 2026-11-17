@@ -19,147 +19,136 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-270-g42cd156ac
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-280-g574b618c3
   downloads:
-    Angband-4.2.6-270-g42cd156ac-3ds.zip:
-      size: 24695299
+    Angband-4.2.6-280-g574b618c3-3ds.zip:
+      size: 24695825
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-270-g42cd156ac/Angband-4.2.6-270-g42cd156ac-3ds.zip
-    Angband-4.2.6-270-g42cd156ac-nds.zip:
-      size: 23331838
+      url: https://github.com/angband/angband/releases/download/4.2.6-280-g574b618c3/Angband-4.2.6-280-g574b618c3-3ds.zip
+    Angband-4.2.6-280-g574b618c3-nds.zip:
+      size: 23332037
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-270-g42cd156ac/Angband-4.2.6-270-g42cd156ac-nds.zip
-  update_notes: '<p dir="auto">The Windows executable in this release requires Windows
-    Vista rather than Windows XP.</p>
-
-    <h2 dir="auto">What''s Changed</h2>
+      url: https://github.com/angband/angband/releases/download/4.2.6-280-g574b618c3/Angband-4.2.6-280-g574b618c3-nds.zip
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Borg: resume handling combat messages after knockout by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6234158076" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6808"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6808/hovercard"
-    href="https://github.com/angband/angband/pull/6808">#6808</a></li>
-
-    <li>Borg: choose the safer item when checking emergency swaps <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c/hovercard"
-    href="https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c"><tt>bc67c09</tt></a></li>
-
-    <li>win(enhancement): show character level and status in open dialog by <a class="user-mention
+    <li>ci: migrate Windows release to UCRT64 and preserve 32-bit legacy by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6172364343" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6804"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6804/hovercard"
-    href="https://github.com/angband/angband/pull/6804">#6804</a></li>
+    data-id="6325508919" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6815"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6815/hovercard"
+    href="https://github.com/angband/angband/pull/6815">#6815</a></li>
 
-    <li>Separate use of TERM_XTRA_CLEAR from total_erase by <a class="user-mention
+    <li>Borg: keep the largest slay multiplier across equipment slots by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d/hovercard"
+    href="https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d"><tt>007bea9</tt></a></li>
+
+    <li>Borg: heal when in danger, as the healing-chance comments intend by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6353165224" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6818"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6818/hovercard"
+    href="https://github.com/angband/angband/pull/6818">#6818</a></li>
+
+    <li>Borg: check teleport landing zones with either kind of teleport by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6390279386" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6825"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6825/hovercard"
+    href="https://github.com/angband/angband/pull/6825">#6825</a></li>
+
+    <li>SDL2: add mechanism to retrieve or set values for controls by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6122271481" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6798"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6798/hovercard"
-    href="https://github.com/angband/angband/pull/6798">#6798</a></li>
+    data-id="6216256827" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6807"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6807/hovercard"
+    href="https://github.com/angband/angband/pull/6807">#6807</a></li>
 
-    <li>Tidy the ordering of the object files by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6128049251" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6800"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6800/hovercard"
-    href="https://github.com/angband/angband/pull/6800">#6800</a></li>
-
-    <li>Clear state from interrupted rest in textui_cmd_rest() by <a class="user-mention
+    <li>Resolve discarded const warnings on Ubuntu 26.04.1 by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6129512202" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6801"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6801/hovercard"
-    href="https://github.com/angband/angband/pull/6801">#6801</a></li>
+    data-id="6309179163" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6811"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6811/hovercard"
+    href="https://github.com/angband/angband/pull/6811">#6811</a></li>
 
-    <li>Mark commands used to continue a rest as background commands by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6129738456" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6802"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6802/hovercard"
-    href="https://github.com/angband/angband/pull/6802">#6802</a></li>
-
-    <li>Flush command queue when deep descent triggers by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6173486683" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6805"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6805/hovercard"
-    href="https://github.com/angband/angband/pull/6805">#6805</a></li>
-
-    <li>Have player_timed.txt configure which effects a complete rest checks for by
+    <li>Windows: do not show "Read Only" checkbox in the old-style open dialog by
     <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6175258881" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6806"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6806/hovercard"
-    href="https://github.com/angband/angband/pull/6806">#6806</a></li>
+    data-id="6310973902" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6812"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6812/hovercard"
+    href="https://github.com/angband/angband/pull/6812">#6812</a></li>
+
+    <li>Workflows: remove MSYS2/MINGW32 linking with external PNG library by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6311378769" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6813"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6813/hovercard"
+    href="https://github.com/angband/angband/pull/6813">#6813</a></li>
+
+    <li>workflows: have the DOS smoke test use xvfb by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6316728023" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6814"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6814/hovercard"
+    href="https://github.com/angband/angband/pull/6814">#6814</a></li>
+
+    <li>Be more consistent about trap display by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6339194532" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6816"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6816/hovercard"
+    href="https://github.com/angband/angband/pull/6816">#6816</a></li>
 
     </ul>
 
-    <h2 dir="auto">New Contributors</h2>
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3"><tt>4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3</tt></a></p>'
+  update_notes_md: '## What''s Changed
 
-    <ul dir="auto">
+    * ci: migrate Windows release to UCRT64 and preserve 32-bit legacy by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6815
 
-    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
-    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="6234158076" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6808"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6808/hovercard"
-    href="https://github.com/angband/angband/pull/6808">#6808</a></li>
+    * Borg: keep the largest slay multiplier across equipment slots by @diegoami in
+    https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d
 
-    </ul>
+    * Borg: heal when in danger, as the healing-chance comments intend by @diegoami
+    in https://github.com/angband/angband/pull/6818
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac"><tt>4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac</tt></a></p>'
-  update_notes_md: 'The Windows executable in this release requires Windows Vista
-    rather than Windows XP.
+    * Borg: check teleport landing zones with either kind of teleport by @diegoami
+    in https://github.com/angband/angband/pull/6825
 
+    * SDL2: add mechanism to retrieve or set values for controls by @backwardsEric
+    in https://github.com/angband/angband/pull/6807
 
-    ## What''s Changed
+    * Resolve discarded const warnings on Ubuntu 26.04.1 by @backwardsEric in https://github.com/angband/angband/pull/6811
 
-    * Borg: resume handling combat messages after knockout by @diegoami in https://github.com/angband/angband/pull/6808
+    * Windows: do not show "Read Only" checkbox in the old-style open dialog by @backwardsEric
+    in https://github.com/angband/angband/pull/6812
 
-    * Borg: choose the safer item when checking emergency swaps @diegoami in https://github.com/angband/angband/commit/bc67c099e32e26b5fdcbafecfae20326345dcb3c
+    * Workflows: remove MSYS2/MINGW32 linking with external PNG library by @backwardsEric
+    in https://github.com/angband/angband/pull/6813
 
-    * win(enhancement): show character level and status in open dialog by @klaasvanaarsen
-    in https://github.com/angband/angband/pull/6804
+    * workflows: have the DOS smoke test use xvfb by @backwardsEric in https://github.com/angband/angband/pull/6814
 
-    * Separate use of TERM_XTRA_CLEAR from total_erase by @backwardsEric in https://github.com/angband/angband/pull/6798
-
-    * Tidy the ordering of the object files by @backwardsEric in https://github.com/angband/angband/pull/6800
-
-    * Clear state from interrupted rest in textui_cmd_rest() by @backwardsEric in
-    https://github.com/angband/angband/pull/6801
-
-    * Mark commands used to continue a rest as background commands by @backwardsEric
-    in https://github.com/angband/angband/pull/6802
-
-    * Flush command queue when deep descent triggers by @backwardsEric in https://github.com/angband/angband/pull/6805
-
-    * Have player_timed.txt configure which effects a complete rest checks for by
-    @backwardsEric in https://github.com/angband/angband/pull/6806
+    * Be more consistent about trap display by @backwardsEric in https://github.com/angband/angband/pull/6816
 
 
-    ## New Contributors
 
-    * @diegoami made their first contribution in https://github.com/angband/angband/pull/6808
-
-
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-258-ge473720ed...4.2.6-270-g42cd156ac'
-  updated: '2026-11-10T14:39:56Z'
-  version: 4.2.6-270-g42cd156ac
-  version_title: 4.2.6-270-g42cd156ac
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3'
+  updated: '2026-11-17T12:15:04Z'
+  version: 4.2.6-280-g574b618c3
+  version_title: 4.2.6-280-g574b618c3
 source: https://github.com/angband/angband
 stars: 1583
 systems:
@@ -275,28 +264,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-270-g42cd156ac-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-270-g42cd156ac.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-280-g574b618c3-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-280-g574b618c3.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-280-g574b618c3.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-270-g42cd156ac-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.cia</code> from the zip to <code>/cias/Angband-4.2.6-270-g42cd156ac.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-280-g574b618c3-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-280-g574b618c3.cia</code> from the zip to <code>/cias/Angband-4.2.6-280-g574b618c3.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-270-g42cd156ac.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-280-g574b618c3.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-270-g42cd156ac.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-270-g42cd156ac-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-270-g42cd156ac.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-280-g574b618c3-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-280-g574b618c3.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
