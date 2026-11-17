@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 51659416
+    size: 52188468
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.53/tougelike.3dsx
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.57/tougelike.3dsx
   tougelike.cia:
-    size: 51946432
+    size: 52421568
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.53/tougelike.cia
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.57/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -42,7 +42,7 @@ screenshots:
 - description: 06_garage
   url: https://db.universal-team.net/assets/images/screenshots/tougelike/06_garage.png
 source: https://github.com/njlent/tougelike-3ds-pub
-stars: 15
+stars: 16
 systems:
 - 3DS
 title: Tougelike
@@ -52,136 +52,70 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
   racing roguelike on Japanese mountain roads, ported from the web game to the 3DS
   and 2DS. Race down touge passes in the dark, drift through the bends, weave through
   traffic, take down rivals and bosses, and build every run from module drafts. It
-  runs on the Old 3DS, New 3DS, 2DS and New 2DS, installs to the HOME Menu as a CIA,
-  runs from the Homebrew Launcher as a 3DSX, and opens in emulators as a .3ds.</p>
+  runs on the Old 3DS, 2DS and New 3DS, 2DS. - <a href="https://njlent.de/games/tougelike"
+  rel="nofollow">njlent.de/games/tougelike</a></p>
 
   <h2 dir="auto">What''s new</h2>
 
-  <h3 dir="auto">3DS 00.01.53</h3>
+  <h3 dir="auto">3DS 00.01.57</h3>
 
   <ul dir="auto">
 
-  <li>A New 3DS is no longer held at 30 frames a second where it cannot reach 60.
-  Each frame is shown as soon as it is ready, so the game runs at whatever the console
-  manages above 30. OPTIONS, VISUAL, FRAME RATE 30 still gives the even 30.</li>
+  <li>Corners no longer snap to the pixel grid unless you turn on OPTIONS, VISUAL,
+  VERTEX SNAP, so edges hold still instead of wobbling as things move. Without the
+  snap each picture gives the graphics chip about a tenth less work.</li>
+
+  <li>The CIA carries its version, 1.57.0, where every CIA since 00.01.25 said 1.0.0.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.52</h3>
+  <h3 dir="auto">3DS 00.01.56</h3>
 
   <ul dir="auto">
 
-  <li>On a New 3DS a race no longer changes its frame rate every half minute. The
-  game stepped up from 30 whenever a moment of light frames suggested more was in
-  reach, and stepped back a few seconds later. It now waits for a longer stretch of
-  them, and each try that fails makes the next one wait twice as long.</li>
+  <li>The game no longer freezes on a 3DS once loading reaches 100%, as it did since
+  00.01.54. Its 3D graphics broke a rule of the console''s graphics chip that emulators
+  do not check, and keeping to it gives the chip about a twentieth more work for each
+  picture.</li>
 
-  <li><code class="notranslate">tougelike.log</code> no longer counts time in the
-  HOME menu or asleep as loading.</li>
+  <li>On a real Old 3DS a race shows about 35 fps from 20 to 22 steps of the game,
+  where 00.01.45 showed 15 to 17.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.51</h3>
+  <h3 dir="auto">3DS 00.01.55</h3>
 
   <ul dir="auto">
 
-  <li>A race no longer hitches about once a second on an Old 3DS or 2DS. The signs,
-  lamps and posts beside the road were all placed again in a single frame each time.
-  What decides where they stand is now kept until they move on, and late in a long
-  run fewer than half as many frames take over a tenth of a second.</li>
-
-  <li>A car model that loads in the middle of a race holds the game for less time.
-  Its file is read in a third of the time it took.</li>
-
-  <li>A frame takes slightly less time to draw.</li>
+  <li>On slower devices such as phones, emulators like Azahar no longer run the game
+  in slow motion with the sound breaking up. In 00.01.54 they had to work out much
+  of each picture on the processor instead of the graphics card.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.50</h3>
+  <h3 dir="auto">3DS 00.01.54</h3>
 
   <ul dir="auto">
 
-  <li>Late in a run an Old 3DS or 2DS no longer stops for a tenth of a second every
-  three seconds. The bottom screen worked the whole run out again each time, and that
-  took longer with every part fitted.</li>
+  <li>The picture moves much more smoothly. While the game works out its next step,
+  the console draws the last one again from where the camera will be by then, so the
+  screen shows more pictures than the game takes steps. OPTIONS, VISUAL, SMOOTH FRAMES
+  turns this off.</li>
 
-  <li>A car model that has to load in the middle of a race no longer freezes it. The
-  load is spread over a few seconds of driving, and a third car of a kind is made
-  ready the same way.</li>
+  <li>In the emulator each step of the game takes less time than in 00.01.53, late
+  in a long run about two fifths less. The game''s script runs faster, and the markers
+  over rivals, the sprites and the HUD cost less.</li>
 
-  <li>Tunnels and the reservoir no longer hitch once a second while you drive past
-  them.</li>
+  <li>By the emulator''s count each picture gives the graphics chip about a sixth
+  less work, with nothing on the screen changed.</li>
 
-  <li>A New 3DS can now show more than 30 frames a second where it cannot hold 60.
-  FRAME RATE 30 in the options keeps the even 30.</li>
+  <li>Cars that are small on the screen are drawn with fewer triangles. Up close a
+  car looks as it did, and its lamps stay whole at any distance.</li>
 
-  </ul>
+  <li>Your headlights now light the trees, rails and other cars as one wide beam.
+  On the road itself you still see both.</li>
 
-  <h3 dir="auto">3DS 00.01.49</h3>
-
-  <ul dir="auto">
-
-  <li>The freeze as a landmark comes up beside the road is gone. Placing a shrine''s
-  or a lay-by''s trees and bushes held an Old 3DS or 2DS for a quarter to three quarters
-  of a second each time. The console''s second core now places them while you drive,
-  and they stand exactly where they did.</li>
-
-  <li>With SECOND CORE off in the options the same moment takes about a twentieth
-  of a second.</li>
-
-  <li>A car of a kind not seen yet in the run, and the cars parked at a landmark,
-  no longer hold an Old 3DS or 2DS for up to a tenth of a second the first time they
-  are drawn.</li>
-
-  </ul>
-
-  <h3 dir="auto">3DS 00.01.48</h3>
-
-  <ul dir="auto">
-
-  <li>Less stutter in a race on an Old 3DS or 2DS. A new car coming onto the road
-  held the game for over a tenth of a second, and one whose model had to be loaded
-  first for over a second. Cars are now made ready when their model loads, and loading
-  one is much shorter. The game also starts about seven seconds sooner there.</li>
-
-  <li>The cars are drawn with about a third fewer triangles and look the same, in
-  the garage too. The valley beyond the road is drawn only where you can see it. Together
-  a race has about a quarter less to draw, which takes work off the console''s graphics
-  chip.</li>
-
-  <li>Tunnels and the landmarks beside the road cost less while they are near, and
-  drifting costs a little less again.</li>
-
-  </ul>
-
-  <h3 dir="auto">3DS 00.01.47</h3>
-
-  <ul dir="auto">
-
-  <li>Drifting costs less. On an Old 3DS or 2DS the skid marks behind the car took
-  more of every frame the longer a drift went on. A race with a lot of drifting runs
-  about a twentieth faster.</li>
-
-  <li>The title screen and the garage run faster on an Old 3DS or 2DS, by about a
-  tenth of the work in each frame. They also no longer slow down, for minutes at times,
-  while a drifting rival waits out of sight for a bend to slide through.</li>
-
-  <li>tougelike.log on the SD card now says where the longest frames went, so the
-  next log can explain the stutter that this one could only count.</li>
-
-  </ul>
-
-  <h3 dir="auto">3DS 00.01.46</h3>
-
-  <ul dir="auto">
-
-  <li>The garage flickered. Stretches of the guard rail with its posts, the striped
-  barriers, and trees and bushes beside the road dropped out of the picture and snapped
-  back about once a second, and whatever stands behind them showed through. It showed
-  most on an Old 3DS or 2DS. They stay in the picture now.</li>
-
-  <li>The road and the ground at the far end of the garage''s view, in the top left
-  corner of the screen, were missing. They are drawn now.</li>
+  <li>Guard rails, posts and tree trunks no longer draw the faces nobody sees.</li>
 
   </ul>
 
@@ -213,9 +147,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>HOME Menu, installed with FBI</td>
 
-  <td>49.5 MB</td>
+  <td>50.0 MB</td>
 
-  <td><code class="notranslate">011515087335b9c5f2274f06715300abc320fe6756408665c5474cbc5977a346</code></td>
+  <td><code class="notranslate">678e08f6e1cf2081af06e835f4eb75bb228d9cdcf1f6ca1feb9edf8d33b15ee4</code></td>
 
   </tr>
 
@@ -225,9 +159,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>Homebrew Launcher</td>
 
-  <td>49.3 MB</td>
+  <td>49.8 MB</td>
 
-  <td><code class="notranslate">87cfebdc714a72c84d078bf18087b0e95f12f7454d20d11af6af4bd1090fd922</code></td>
+  <td><code class="notranslate">8bd61bd101e210a4c58b7e13158506cc5f517ba80482ea94c1783978b965e0a8</code></td>
 
   </tr>
 
@@ -237,9 +171,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>Emulators such as Azahar</td>
 
-  <td>49.5 MB</td>
+  <td>50.0 MB</td>
 
-  <td><code class="notranslate">096d80de36efa60a09f7005d6fcd4953d6685542787f58668e37b9e4ce80b6e4</code></td>
+  <td><code class="notranslate">1d6e13961a24f618c8601f8f0c06ff5962dc38aff271ab0c055b3ab36dc102b7</code></td>
 
   </tr>
 
@@ -282,7 +216,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <ul dir="auto">
 
-  <li>A Nintendo 3DS, 2DS, New 3DS or New 2DS with custom firmware (Luma3DS) to run
+  <li>A Nintendo  old 3DS, 2DS or New 3DS, 2DS with custom firmware (Luma3DS) to run
   homebrew.</li>
 
   <li>For sound, a DSP firmware dump at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>,
@@ -290,9 +224,10 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <li>About 60 MB free on the SD card.</li>
 
-  <li>A New 3DS aims for 60 fps and shows each frame as soon as it is ready where
-  it cannot hold that. An Old 3DS or 2DS aims for 30 and runs at 14 to 30, slowest
-  late in a long run. The speed-ups since 3DS 00.01.37 are still experimental.</li>
+  <li>A New 3DS aims for 60 fps and an Old 3DS or 2DS for 30. Between two steps of
+  the game the console draws the last one again from where the camera will be (OPTIONS,
+  VISUAL, SMOOTH FRAMES), so the screen shows more pictures than the game takes steps.
+  The speed-ups are still experimental.</li>
 
   </ul>
 
@@ -305,16 +240,16 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.53, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.53/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.57, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.57/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.53/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.57/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-14T00:36:50Z'
-version: v0.1.53
-version_title: Tougelike for Nintendo 3DS 00.01.53
+updated: '2026-11-16T17:54:34Z'
+version: v0.1.57
+version_title: Tougelike for Nintendo 3DS 00.01.57
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 

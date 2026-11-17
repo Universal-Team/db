@@ -11,13 +11,13 @@ description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
 downloads:
   cloudpoint.3dsx:
-    size: 3156688
+    size: 3179020
     size_str: 3 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.1/cloudpoint.3dsx
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.2/cloudpoint.3dsx
   cloudpoint.cia:
-    size: 2474944
+    size: 2487232
     size_str: 2 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.1/cloudpoint.cia
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.2/cloudpoint.cia
 github: dwalker109/cloudpoint
 icon: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png
 image: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png
@@ -26,67 +26,6 @@ layout: app
 license: mit
 license_name: MIT License
 llm_generation: minor
-prerelease:
-  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.9.2-beta.1
-  downloads:
-    cloudpoint.3dsx:
-      size: 3179084
-      size_str: 3 MiB
-      url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.2-beta.1/cloudpoint.3dsx
-    cloudpoint.cia:
-      size: 2487232
-      size_str: 2 MiB
-      url: https://github.com/dwalker109/cloudpoint/releases/download/0.9.2-beta.1/cloudpoint.cia
-  qr:
-    cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
-
-    <ul dir="auto">
-
-    <li>Cleanup of date types in use, new db migration and persistence code by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6252575600" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/184"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/184/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/184">#184</a></li>
-
-    <li>Expand install history checks to any suitable tmd file in the sdmc title content
-    dir by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6361631188" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/188"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/188/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/188">#188</a></li>
-
-    <li>Add keys held support with delay/repeat to title list scrolling by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6398237724" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/190"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/190/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/190">#190</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.9.1...0.9.2-beta.1"><tt>0.9.1...0.9.2-beta.1</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * Cleanup of date types in use, new db migration and persistence code by @dwalker109
-    in https://github.com/dwalker109/cloudpoint/pull/184
-
-    * Expand install history checks to any suitable tmd file in the sdmc title content
-    dir by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/188
-
-    * Add keys held support with delay/repeat to title list scrolling by @dwalker109
-    in https://github.com/dwalker109/cloudpoint/pull/190
-
-
-
-    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.9.1...0.9.2-beta.1'
-  updated: '2026-11-15T01:42:06Z'
-  version: 0.9.2-beta.1
-  version_title: 0.9.2-beta.1
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
@@ -96,55 +35,45 @@ systems:
 title: Cloudpoint
 unique_ids:
 - '0xFF001'
-update_notes: '<h2 dir="auto">What''s Changed</h2>
+update_notes: '<p dir="auto">A small release adding a fix I''ve been asked about a
+  few times; holding a pad direction on the title list now repeats the input, allowing
+  for easier navigating around the list. Also, better checking whether a title has
+  been newly installed (or reinstalled), and numerous code quality improvements.</p>
 
-  <p dir="auto">This is mainly a regression fix release to resolve problems with the
-  refresh modals misbehaving on launch. They work OK but seem to hang a bit and it
-  isn''t ideal on first run. They are now smooth and sensible again.</p>
-
-  <p dir="auto">Also quits trying to reconnect to the server if a fatal error is encountered
-  rather than just trying over and over again.</p>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Connect retries for ever even when connection is impossible by <a class="user-mention
+  <li>Cleanup of date types in use, new db migration and persistence code by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6174978159"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/180"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/180/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/180">#180</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6252575600"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/184"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/184/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/184">#184</a></li>
 
-  <li>Better control of refresh modal trigger and close by <a class="user-mention
+  <li>Expand install history checks to any suitable tmd file in the sdmc title content
+  dir by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6361631188"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/188"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/188/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/188">#188</a></li>
+
+  <li>Add keys held support with delay/repeat to title list scrolling by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6265774415"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/187"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/187/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/187">#187</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6398237724"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/190"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/190/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/190">#190</a></li>
 
   </ul>
 
-  <h3 dir="auto">Improvements</h3>
-
-  <ul dir="auto">
-
-  <li>Switch to native libctru FSUSER_GetSdmcCtrRootPath by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="6194465113"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/182"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/182/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/182">#182</a></li>
-
-  </ul>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.9.0...0.9.1"><tt>0.9.0...0.9.1</tt></a></p>'
-updated: '2026-11-08T00:24:01Z'
-version: 0.9.1
-version_title: 0.9.1
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.9.1...0.9.2"><tt>0.9.1...0.9.2</tt></a></p>'
+updated: '2026-11-16T22:13:09Z'
+version: 0.9.2
+version_title: 0.9.2
 ---
 Cloudpoint allows you to sync all of your saves (and extdata) between all of your 3DS & 2DS devices, 
 via a central server. Transfer progress between consoles effortlessly, the way you're probably used 
