@@ -24,16 +24,16 @@ image_length: 17026
 layout: app
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.3B
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.4
   downloads:
     TJAP_3DS.3dsx:
-      size: 10276240
+      size: 10263440
       size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3B/TJAP_3DS.3dsx
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 10441664
+      size: 10433472
       size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.3B/TJAP_3DS.cia
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">チェンジログ</h2>
@@ -42,26 +42,34 @@ prerelease:
 
     <li>音楽と譜面が少しズレるのを修正</li>
 
+    <li>風船音符や連打音符が正しく消えない不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
-    <li>Fixed the difference in timing between music and sheet music</li>
+    <li>Fixed the difference in timing between music and sheet music.</li>
+
+    <li>Fixed a bug where balloon notes and roll notes were not processed correctly.</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
 
     - 音楽と譜面が少しズレるのを修正
 
+    - 風船音符や連打音符が正しく消えない不具合の修正
+
 
     ## Changelog
 
-    - Fixed the difference in timing between music and sheet music'
+    - Fixed the difference in timing between music and sheet music.
+
+    - Fixed a bug where balloon notes and roll notes were not processed correctly.'
   updated: '2026-11-16T05:35:45Z'
-  version: v2.4.3B
-  version_title: TJAPlayer for 3DS v2.4.3(B)
+  version: v2.4.4
+  version_title: TJAPlayer for 3DS v2.4.4
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
