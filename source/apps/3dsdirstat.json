@@ -1,0 +1,22 @@
+{
+	"github": "Phibonacci/3dsDirStat",
+	"description": "Visualize and manage the space taken by files on your 3DS",
+	"author": "Phibonacci",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/Phibonacci/3dsDirStat/refs/heads/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/Phibonacci/3dsDirStat/refs/heads/main/assets/banner.png",
+	"unique_ids": [
+		1036624
+	],
+	"long_description": "See what takes up space on your Nintendo 3DS SD card, in the spirit of WinDirStat.\n\nYou can also delete files and directories directly from it.\n\n# AI disclaimer\n\nFull AI slop made in 1h. As perfect as I would have done it in 3 months of hard work. Enjoy.",
+	"license": "MIT",
+	"license_name": "MIT License",
+	"preinstall_message": "By installing this app you agree to contribute in the destruction of the entire planet by promoting AI investments."
+}
