@@ -1,0 +1,15 @@
+{
+	"github": "mgeuddlyii/3ds-ai-agent-tool",
+	"title": "3DS AI Agent Tool",
+	"description": "AI agent for New 3DS: multi-provider chat (DeepSeek / Zhipu / Kimi / Qwen / Doubao), 211-game offline guide model, voice input, .3gx plugin management. Direct to provider API, no server.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"unique_ids": [662529],
+	"download_filter": "(cia|3dsx)",
+	"icon": "https://raw.githubusercontent.com/mgeuddlyii/3ds-ai-agent-tool/main/icon.png"
+}
