@@ -34,6 +34,15 @@ systems:
 title: 3DS-DNS-Switcher
 unique_ids:
 - '0xBC8D4'
+update_notes: '<h2 dir="auto">What''s new</h2>
+
+  <ul dir="auto">
+
+  <li>The app''s unique ID was changed to avoid conflicts with other titles.</li>
+
+  <li>Fixed a typo in the README description.</li>
+
+  </ul>'
 updated: '2026-09-28T18:15:31Z'
 version: v1.1
 version_title: v1.1
