@@ -11,29 +11,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14735576
+    size: 14736156
     size_str: 14 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris-debug.3dsx
   3dslibris-debug.cia:
     size: 13452224
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5021452
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 67638605
+    size: 67641414
     size_str: 64 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14946204
+    size: 14946244
     size_str: 14 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris.3dsx
   3dslibris.cia:
     size: 13652928
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.1/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v3.2.2/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -57,24 +57,32 @@ systems:
 title: 3dslibris
 unique_ids:
 - '0x3D51B'
-update_notes: '<h2 dir="auto">3dslibris 3.2.1</h2>
+update_notes: '<h2 dir="auto">3dslibris 3.2.2</h2>
 
-  <p dir="auto">This update fixes folder covers not showing when the image is placed
-  inside the folder.</p>
+  <p dir="auto">This update makes the One-handed controls work fully from the D-Pad
+  when selecting links and images.</p>
 
   <h3 dir="auto">Fixes and improvements</h3>
 
   <ul dir="auto">
 
-  <li><a href="https://github.com/RigleGit/3dslibris/issues/185" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/185/hovercard">#185</a>: library
-  folders now show a cover when the image is inside the folder with the folder''s
-  name (<code class="notranslate">book/Foo/Foo.jpg</code>), in addition to next to
-  it (<code class="notranslate">book/Foo.jpg</code>). If both exist, the one next
-  to the folder is used. Supported types are <code class="notranslate">jpg</code>,
-  <code class="notranslate">jpeg</code> and <code class="notranslate">png</code>.</li>
+  <li><a href="https://github.com/RigleGit/3dslibris/issues/183" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/183/hovercard">#183</a>: with the
+  <code class="notranslate">One-handed</code> control scheme, the D-Pad key that starts
+  link/image selection (<code class="notranslate">D-Pad Left</code> in vertical, <code
+  class="notranslate">D-Pad Up</code> in horizontal) now also leaves it. Before, you
+  had to press <code class="notranslate">B</code>, <code class="notranslate">Y</code>,
+  <code class="notranslate">L</code> or <code class="notranslate">R</code>.</li>
 
-  <li>Added this information to the README.</li>
+  <li>With <code class="notranslate">One-handed</code>, that same D-Pad key also closes
+  the image viewer, so you can open an image and get back to the page without leaving
+  the D-Pad. Panning in that direction stays on the Circle Pad; the other D-Pad directions
+  still pan. <code class="notranslate">Y</code> and the on-screen back button work
+  as before, and the <code class="notranslate">Default</code> scheme is unchanged.</li>
+
+  <li>The app now reports its version correctly (3.2.1 still showed 3.2.0).</li>
+
+  <li>Updated the README.</li>
 
   </ul>
 
@@ -96,9 +104,9 @@ update_notes: '<h2 dir="auto">3dslibris 3.2.1</h2>
   <p dir="auto">Thanks to everyone trying the builds and reporting issues. You can
   support the project with a ⭐ on GitHub or <a href="https://ko-fi.com/rigle" rel="nofollow">a
   coffee</a>.</p>'
-updated: '2026-11-16T15:00:55Z'
-version: v3.2.1
-version_title: v3.2.1
+updated: '2026-11-19T07:58:17Z'
+version: v3.2.2
+version_title: v3.2.2
 ---
 ### Installation instructions
 
