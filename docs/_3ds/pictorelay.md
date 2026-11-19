@@ -10,9 +10,9 @@ description: Real online PictoChat between DS, 3DS, PC and Mobile
 download_page: https://github.com/ShinMikite/PictoRelay-3DS/releases
 downloads:
   PictoRelay.cia:
-    size: 3090368
+    size: 3091392
     size_str: 2 MiB
-    url: https://github.com/ShinMikite/PictoRelay-3DS/releases/download/v1.2.19/PictoRelay.cia
+    url: https://github.com/ShinMikite/PictoRelay-3DS/releases/download/v1.2.20/PictoRelay.cia
 github: ShinMikite/PictoRelay-3DS
 icon: https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/icon.png
 image: https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/banner.png
@@ -22,7 +22,7 @@ llm_generation: 'yes'
 qr:
   PictoRelay.cia: https://db.universal-team.net/assets/images/qr/pictorelay-cia.png
 source: https://github.com/ShinMikite/PictoRelay-3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: PictoRelay
@@ -32,18 +32,14 @@ update_notes: '<p dir="auto"><strong>What''s New?</strong></p>
 
   <ul dir="auto">
 
-  <li>Meet Picti! Say Picti to call her</li>
+  <li>Saved pads update</li>
 
-  <li>Ask Picti anything about PictoRelay</li>
-
-  <li>Play games with her: say Picti games</li>
-
-  <li>Pictle: colored letters on the keyboard</li>
+  <li>Minor UI changes</li>
 
   </ul>'
-updated: '2026-11-17T03:58:48Z'
-version: v1.2.19
-version_title: v1.2.19
+updated: '2026-11-19T04:02:23Z'
+version: v1.2.20
+version_title: v1.2.20
 website: https://pictorelay.com/3ds
 ---
 **Features:**
