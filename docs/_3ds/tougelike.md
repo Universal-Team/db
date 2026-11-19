@@ -52,8 +52,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
   racing roguelike on Japanese mountain roads, ported from the web game to the 3DS
   and 2DS. Race down touge passes in the dark, drift through the bends, weave through
   traffic, take down rivals and bosses, and build every run from module drafts. It
-  runs on the Old 3DS, 2DS and New 3DS, 2DS. - <a href="https://njlent.de/games/tougelike"
-  rel="nofollow">njlent.de/games/tougelike</a></p>
+  runs on the Old 3DS, 2DS and New 3DS, 2DS. - <a href="https://tougelike.com" rel="nofollow">tougelike.com</a></p>
 
   <h2 dir="auto">What''s new</h2>
 
