@@ -10,6 +10,7 @@
 	"unique_ids": [
 		1018928
 	],
+	"llm_generation": "yes",
 	"image": "https://raw.githubusercontent.com/kiyoshithekidd/TomodachiLife_3DS_SaveEditior/main/gfx/banner.png",
 	"icon": "https://raw.githubusercontent.com/kiyoshithekidd/TomodachiLife_3DS_SaveEditior/main/icon.png"
 }
