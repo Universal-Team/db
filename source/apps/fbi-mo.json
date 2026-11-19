@@ -1,0 +1,20 @@
+{
+	"github": "morrisonion/FBI-MO",
+	"description": "An updated version of FBI-NH that adds many features",
+	"author": "morrisonion",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/morrisonion/FBI-MO/refs/heads/master/meta/icon_3ds.png",
+	"image": "https://raw.githubusercontent.com/morrisonion/FBI-MO/refs/heads/master/meta/banner_3ds.png",
+	"unique_ids": [
+		1015809
+	],
+	"long_description": "# FBI-MO\n\nFBI-MO is an open source title manager for the 3DS. FBI(NH) was originally authored by Steveice10 and Nintendo Homebrew.\n\n# MO-Update\n\n* The MO update adds a theme store directly built into the app\n* Changes the accent color to a beautiful dark-green\n* +more features in future updates\n",
+	"preinstall_message": "If you have FBI installed, this will overwrite it"
+}
