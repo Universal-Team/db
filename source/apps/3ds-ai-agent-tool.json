@@ -1,0 +1,15 @@
+{
+	"github": "mgeuddlyii/3ds-ai-agent-tool",
+	"title": "3DS AI Agent Tool",
+	"description": "Chat client for New 3DS that talks to LLM providers directly (DeepSeek, Zhipu, Kimi, Qwen, Doubao). Voice input, on-console key management, .3gx plugin toggles. Beta.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"unique_ids": [662529],
+	"download_filter": "(cia|3dsx)",
+	"icon": "https://raw.githubusercontent.com/mgeuddlyii/3ds-ai-agent-tool/main/icon.png"
+}
