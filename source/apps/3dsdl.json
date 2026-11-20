@@ -1,0 +1,18 @@
+{
+	"github": "ankushKun/3dsDL",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/ankushKun/3dsDL/main/resources/icon-3dsdl.png",
+	"image": "https://raw.githubusercontent.com/ankushKun/3dsDL/main/resources/banner-3dsdl.png",
+	"unique_ids": [
+		251345
+	],
+	"long_description": "Getting a file onto a 3DS usually means powering it off, pulling the SD card and finding a card reader. 3dsDL skips all of that. Point the camera at a QR code, or type a direct link with the on-screen keyboard, pick a folder, and the file streams straight onto the SD card while the console stays on.\n\nIt's a modern take on [Multidownload](https://github.com/hax0kartik/Multidownload), the 2017 homebrew downloader, rebuilt around libcurl and mbedTLS with a new Citro2D interface.\n\n## Features\n\n- **📷 Scan or type:** Scan a QR code with the console camera, or enter a link with the 3DS keyboard. QR codes that aren't links are pointed out instead of ending the scan.\n- **🔒 Real HTTPS:** Certificates are checked against a bundled Mozilla CA store, redirects stay on HTTP and HTTPS, and plain `http://` links get a warning before you download.\n- **📊 Live progress:** Speed, time left, size and percentage while the file streams straight to the SD card, with free space checked before anything is written.\n- **⏯️ Resume and retry:** A dropped connection keeps what already arrived. Retry, or pick the download from History later, and it carries on from there, but only when the server confirms the file hasn't changed.\n- **🤝 Never clobbers your files:** If a file already exists you choose: **Rename** keeps both as `file (1).zip`, **Overwrite** replaces it with rollback protection, or **Cancel** leaves it alone. A finished download is never thrown away because of an awkward filename.\n- **📁 Folders made easy:** Presets for common places like `sdmc:/cias/` and `sdmc:/3ds/`, recent folders, a folder browser that can create new folders, or type any path.\n- **🕘 History:** The last 50 downloads, saved, failed or cancelled, with their links and where they went. Download again, resume or remove any of them.\n- **🗜️ Optional ZIP extraction:** Off by default. When you turn it on, 3dsDL offers to extract a downloaded `.zip` into the same folder or a new one, asks before overwriting, and refuses paths that would escape the folder.\n- **🌙 Stays awake:** Sleep mode is paused while a download or extraction runs, so closing the lid doesn't cut the Wi-Fi halfway through.\n- **🕐 Fixes the clock:** HTTPS fails when the console's date is wrong. 3dsDL compares the clock with internet time and sets it for the time zone you pick, and certificate errors say exactly why they happened.\n- **🎮 Buttons or touch:** A Citro2D interface that works with the D-Pad, Circle Pad, buttons or touch screen everywhere, including every dialog.\n- **🧪 Tested off the console:** The download engine, ZIP extraction and QR decoding run in automated tests against a local HTTP, HTTPS and NTP fixture server on every push.",
+	"website": "https://ankush.one/3dsDL",
+	"download_filter": ".(cia|3dsx)$"
+}
