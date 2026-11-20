@@ -10,13 +10,13 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro.cia:
-    size: 27816896
+    size: 27919296
     size_str: 26 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.6-base/Balatro.cia
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.7-base/Balatro.cia
   Balatro3DS.3dsx:
-    size: 17469929
+    size: 17503349
     size_str: 16 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.6-base/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v2.0.7-base/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   Balatro.cia: https://db.universal-team.net/assets/images/qr/balatro-cia.png
 source: https://github.com/idkhan/Balatro3DS
-stars: 213
+stars: 214
 systems:
 - 3DS
 title: Balatro3DS
@@ -37,23 +37,17 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
   style="max-width: 100%; height: auto; max-height: 300px;; aspect-ratio: 300 / 300;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
-  <p dir="auto">Scan this QR code using FBI to install the game<br>
-
-  Or you can use the .3dsx version by dropping it into your /3ds folder</p>
-
   <h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Improve Simplified Chinese terminology, native fonts and UI layout by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/the1ndex/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/the1ndex">@the1ndex</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5916472889"
-  data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/84"
-  data-hovercard-type="pull_request" data-hovercard-url="/idkhan/Balatro3DS/pull/84/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/pull/84">#84</a></li>
+  <li>Added an Italian translation <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/cliccato/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/cliccato">@cliccato</a></li>
 
-  <li>Mods can now create custom Decks and Editions</li>
+  <li>UI text now snaps to a grid</li>
+
+  <li>UI improvements</li>
 
   </ul>
 
@@ -61,33 +55,25 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <ul dir="auto">
 
-  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="5985274182" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/89"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/89/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/89">#89</a>, Smeared Joker now
-  debuffs both suits of a color</li>
+  <li>A lot of fixes.</li>
 
-  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="5952645161" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/87"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/87/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/87">#87</a> mod discard context</li>
+  <li>Updated card tooltips</li>
 
-  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="5937126168" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/85"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/85/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/85">#85</a>, game crashing after
-  returning to the main menu because atlases wouldn''t load properly</li>
+  <li>Fixed the Tooth boss</li>
 
-  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="5959717614" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/88"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/88/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/88">#88</a>, Joker display counting
-  cards held in hand even if they''re debuffed.</li>
+  <li>Fixed the lag on scene exit and load</li>
+
+  <li>All the issues highlighted in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="5894134400" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/80"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/80/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/80">#80</a></li>
+
+  <li>A bunch of parity checks and tests</li>
 
   </ul>'
-updated: '2026-10-24T23:39:29Z'
-version: v2.0.6-base
-version_title: Version 2.0.6
+updated: '2026-11-20T21:43:28Z'
+version: v2.0.7-base
+version_title: Version 2.0.7
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
