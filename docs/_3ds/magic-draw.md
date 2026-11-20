@@ -10,13 +10,13 @@ description: Super powerful drawing app for 3DS
 download_page: https://github.com/natsuneco/magic-draw/releases
 downloads:
   magic-draw.3dsx:
-    size: 553752
-    size_str: 540 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.1.0/magic-draw.3dsx
+    size: 554704
+    size_str: 541 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.2.0/magic-draw.3dsx
   magic-draw.cia:
     size: 631744
     size_str: 616 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.1.0/magic-draw.cia
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.2.0/magic-draw.cia
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
@@ -45,30 +45,30 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Added Eyedropper tool (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4920168165" data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/27"
-  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/27/hovercard"
-  href="https://github.com/natsuneco/magic-draw/issues/27">#27</a>)</li>
+  <li>Fixed vertically flipped PNG exports (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="5285143050" data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/33"
+  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/33/hovercard"
+  href="https://github.com/natsuneco/magic-draw/issues/33">#33</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="6215783185" data-permission-text="Title
+  is private" data-url="https://github.com/natsuneco/magic-draw/issues/37" data-hovercard-type="pull_request"
+  data-hovercard-url="/natsuneco/magic-draw/pull/37/hovercard" href="https://github.com/natsuneco/magic-draw/pull/37">#37</a>)</li>
 
-  <li>Added smooth zoom toggle feature</li>
-
-  <li>R Button Support for Overlay Menu (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4556055885" data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/22"
-  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/22/hovercard"
-  href="https://github.com/natsuneco/magic-draw/issues/22">#22</a>)</li>
-
-  <li>Fixed memory leaks related to open preview texture management in the project
-  loader</li>
-
-  <li>Fixed an issue where it freezes on a small canvas (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4078735687" data-permission-text="Title
-  is private" data-url="https://github.com/natsuneco/magic-draw/issues/19" data-hovercard-type="issue"
-  data-hovercard-url="/natsuneco/magic-draw/issues/19/hovercard" href="https://github.com/natsuneco/magic-draw/issues/19">#19</a>)</li>
+  <li>Switched brush size to diameter and fixed 1px pen drawing (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4620690322" data-permission-text="Title
+  is private" data-url="https://github.com/natsuneco/magic-draw/issues/24" data-hovercard-type="issue"
+  data-hovercard-url="/natsuneco/magic-draw/issues/24/hovercard" href="https://github.com/natsuneco/magic-draw/issues/24">#24</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="5649433691"
+  data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/35"
+  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/35/hovercard"
+  href="https://github.com/natsuneco/magic-draw/issues/35">#35</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="6215428985" data-permission-text="Title
+  is private" data-url="https://github.com/natsuneco/magic-draw/issues/36" data-hovercard-type="pull_request"
+  data-hovercard-url="/natsuneco/magic-draw/pull/36/hovercard" href="https://github.com/natsuneco/magic-draw/pull/36">#36</a>)</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v2.0.1...v2.1.0"><tt>v2.0.1...v2.1.0</tt></a></p>'
-updated: '2026-07-31T16:46:17Z'
-version: v2.1.0
-version_title: v2.1.0
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v2.1.0...v2.2.0"><tt>v2.1.0...v2.2.0</tt></a></p>'
+updated: '2026-11-20T06:54:13Z'
+version: v2.2.0
+version_title: v2.2.0
 ---
