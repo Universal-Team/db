@@ -1,0 +1,18 @@
+{
+	"github": "ThemezerNX/Themezer-3DS",
+	"author": "Themezer",
+	"description": "A theme manager written from scratch for the Nintendo 3DS",
+	"website": "https://themezer.net/3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		818720
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/ThemezerNX/Themezer-3DS/master/meta/icon.png",
+	"long_description": "A theme manager written from scratch for the Nintendo 3DS by Themezer. Install themes, splash screens and badges from your SD card, or find new ones on Themezer or ThemePlaza. Supports filtering, searching, scanning QR codes, or using an item's Quick ID."
+}
