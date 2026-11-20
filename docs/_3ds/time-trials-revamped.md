@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 1365700
+    size: 1365732
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -42,7 +42,7 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
 
   <blockquote>
 
-  <p dir="auto">Latest change: 11/13/2026</p>
+  <p dir="auto">Latest change: 11/19/2026</p>
 
   </blockquote>
 
@@ -61,6 +61,10 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
   <li>Reworked the online time trials waiting phase, it now shows who is waiting</li>
 
   <li>Custom music now gets auto disabled for time trial runs (only normal ones)</li>
+
+  <li>Fixed an issue where slipstreams/drafts would never start even outside of OTT</li>
+
+  <li>Fixed an issue where the rank up/down sound effect would play a random sound</li>
 
   </ul>
 

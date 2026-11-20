@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   cart_flasher.nds: https://db.universal-team.net/assets/images/qr/cart_flasher-nds.png
 source: https://github.com/tasken/cart-flasher
-stars: 5
+stars: 7
 systems:
 - DS
 title: cart-flasher

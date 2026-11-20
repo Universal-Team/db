@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 52188468
+    size: 52254800
     size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.57/tougelike.3dsx
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.67/tougelike.3dsx
   tougelike.cia:
-    size: 52421568
-    size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.57/tougelike.cia
+    size: 52474816
+    size_str: 50 MiB
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.67/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -56,65 +56,159 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">What''s new</h2>
 
-  <h3 dir="auto">3DS 00.01.57</h3>
+  <h3 dir="auto">Summary since 3DS 00.01.57</h3>
 
   <ul dir="auto">
 
-  <li>Corners no longer snap to the pixel grid unless you turn on OPTIONS, VISUAL,
-  VERTEX SNAP, so edges hold still instead of wobbling as things move. Without the
-  snap each picture gives the graphics chip about a tenth less work.</li>
+  <li>About 8% more steps a second on a n3DS/n2DS: SMOOTH FRAMES now starts off (adds
+  ~4 fps).</li>
 
-  <li>The CIA carries its version, 1.57.0, where every CIA since 00.01.25 said 1.0.0.</li>
+  <li>Shorter stalls. Late in a long run the longest one went from 1.3 seconds to
+  0.4 at o3DS speed, and getting a long-played save ready to write from 1.2 seconds
+  to under 0.4.</li>
+
+  <li>Fixed: running out of memory with a long-played save in OPTIONS, SAVE and in
+  the garage.</li>
+
+  <li>Fixed: a o3DS stalling every 600 frames while the game wrote its log.</li>
+
+  <li>Drafts, route choices and part offers show your CONDITION, so you can judge
+  a repair before you pick.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.56</h3>
+  <h3 dir="auto">3DS 00.01.67</h3>
 
   <ul dir="auto">
 
-  <li>The game no longer freezes on a 3DS once loading reaches 100%, as it did since
-  00.01.54. Its 3D graphics broke a rule of the console''s graphics chip that emulators
-  do not check, and keeping to it gives the chip about a twentieth more work for each
-  picture.</li>
+  <li>Drafts, route choices and part offers show your CONDITION at the top right,
+  beside your chips, so you can see how much a repair would help before you pick.</li>
 
-  <li>On a real Old 3DS a race shows about 35 fps from 20 to 22 steps of the game,
-  where 00.01.45 showed 15 to 17.</li>
+  <li>SPOOL''s multiplier is boost blue, as in the web game.</li>
+
+  <li>The combo''s timer bar sits clear below its number instead of touching it, and
+  the HAIRPIN warning under it moved down to make room.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.55</h3>
+  <h3 dir="auto">3DS 00.01.66</h3>
 
   <ul dir="auto">
 
-  <li>On slower devices such as phones, emulators like Azahar no longer run the game
-  in slow motion with the sound breaking up. In 00.01.54 they had to work out much
-  of each picture on the processor instead of the graphics card.</li>
+  <li>Leaving the garage with a long-played save could run out of memory. When memory
+  is short, the game now clears it up before it saves, which on an o3DS adds about
+  half a second to the save.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.54</h3>
+  <h3 dir="auto">3DS 00.01.65</h3>
 
   <ul dir="auto">
 
-  <li>The picture moves much more smoothly. While the game works out its next step,
-  the console draws the last one again from where the camera will be by then, so the
-  screen shows more pictures than the game takes steps. OPTIONS, VISUAL, SMOOTH FRAMES
-  turns this off.</li>
+  <li>SMOOTH FRAMES now starts off on a n3DS/n2DS, where its extra pictures cost the
+  game more steps than they add pictures. A choice you make in OPTIONS, VISUAL is
+  kept, and an o3DS/o2DS keeps it on unless you had turned it off.</li>
 
-  <li>In the emulator each step of the game takes less time than in 00.01.53, late
-  in a long run about two fifths less. The game''s script runs faster, and the markers
-  over rivals, the sprites and the HUD cost less.</li>
+  <li>The CIA''s version, as FBI shows it, is now 2.1.0. The old numbering stopped
+  at 1.63.</li>
 
-  <li>By the emulator''s count each picture gives the graphics chip about a sixth
-  less work, with nothing on the screen changed.</li>
+  </ul>
 
-  <li>Cars that are small on the screen are drawn with fewer triangles. Up close a
-  car looks as it did, and its lamps stay whole at any distance.</li>
+  <h3 dir="auto">3DS 00.01.63</h3>
 
-  <li>Your headlights now light the trees, rails and other cars as one wide beam.
-  On the road itself you still see both.</li>
+  <ul dir="auto">
 
-  <li>Guard rails, posts and tree trunks no longer draw the faces nobody sees.</li>
+  <li>Saving stops the game for much less time with a long-played save. at o3DS speed,
+  getting a save of about 250 runs ready to write went from 1.2 seconds to under 0.4,
+  every time the game saves. Writing it to the SD card takes as long as before.</li>
+
+  <li>The garage menu keeps responding while it brings in the car you stopped on.
+  at o3DS speed its slowest frames went from 0.3 seconds to about 0.1, and the car
+  arrives just as soon. Loading behind prompts and the results screen works the same
+  way now.</li>
+
+  <li>A new draft, route or part offer shows up before the game cleans up memory,
+  not after. The cleanup comes right after it appears, while the prompt usually doesn''t
+  take a pick yet.</li>
+
+  <li>tougelike.log''s upkeep line counts the saves and how long the longest took
+  to get ready and to write. A test build installed as a CIA also times another way
+  of getting memory ready for the graphics chip.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.62</h3>
+
+  <ul dir="auto">
+
+  <li>o3DS''s log showed the game stopping for about a fifth of a second every 600
+  frames, while it wrote tougelike.log to the SD card. The log now has a writer of
+  its own, and the game no longer waits for it.</li>
+
+  <li>Drafts, routes and part offers clean up memory much less often. A cleanup takes
+  about 0.4 seconds at o3DS speed and holds up the cursor, and they used to do one
+  every time they opened or changed.</li>
+
+  <li>tougelike.log adds a line under each row with the free memory, the cleanups
+  and the log''s own writing.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.61</h3>
+
+  <ul dir="auto">
+
+  <li>Scrolling the garage''s car list no longer loads every car you pass. The top
+  screen brings in the car the cursor stops on, or right away when you press A or
+  change tab.</li>
+
+  <li>The garage saves once, when you leave it, instead of after every upgrade, perk
+  or paint change. With a long-played save each of those saves froze the garage for
+  1.7 seconds in an emulator running at o3DS speed.</li>
+
+  <li>With a long-played save, OPTIONS, SAVE could run out of memory and stop the
+  game, on opening or on EXPORT TO SD and IMPORT FROM SD. It now needs much less memory,
+  and the screen says what it is doing while it works.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.60</h3>
+
+  <ul dir="auto">
+
+  <li>On an o3DS each step of the game should take a little less time. How much it
+  saves on a real console is not measured yet.</li>
+
+  <li>BENCHMARK''s census, and the measurements a test build takes at start, write
+  more figures on copying and flushing memory to tougelike.log.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.59</h3>
+
+  <ul dir="auto">
+
+  <li>Headlights and lamps cost the graphics chip less. A corner outside a light''s
+  beam or reach now skips that light''s sums, which in a late race is four in five
+  of them, and the picture stays exactly the same.</li>
+
+  <li>BENCHMARK adds a short census after its timed run. It draws pictures with one
+  part of the work left out at a time, so they look wrong for a few seconds, and writes
+  what each part costs to tougelike.log.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.58</h3>
+
+  <ul dir="auto">
+
+  <li>The test drive list, which the web game''s secret code opens on the title screen,
+  now starts with BENCHMARK. It drives the same late-game descent every time and shows
+  how fast your console ran it, on screen and in tougelike.log, and your save stays
+  as it was.</li>
+
+  <li>Holding SELECT while the game starts measures the console''s graphics chip and
+  second core and writes the figures to tougelike.log.</li>
 
   </ul>
 
@@ -148,7 +242,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>50.0 MB</td>
 
-  <td><code class="notranslate">678e08f6e1cf2081af06e835f4eb75bb228d9cdcf1f6ca1feb9edf8d33b15ee4</code></td>
+  <td><code class="notranslate">2b6ad9f90a88df730cee839a1a4d38ccbfae74a7fd14f1d91e4e9acb0a9d62fb</code></td>
 
   </tr>
 
@@ -160,7 +254,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>49.8 MB</td>
 
-  <td><code class="notranslate">8bd61bd101e210a4c58b7e13158506cc5f517ba80482ea94c1783978b965e0a8</code></td>
+  <td><code class="notranslate">5b88fe7a025f47b083011160822295fd7cceb93e427a113c1453b4be455182c3</code></td>
 
   </tr>
 
@@ -172,7 +266,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>50.0 MB</td>
 
-  <td><code class="notranslate">1d6e13961a24f618c8601f8f0c06ff5962dc38aff271ab0c055b3ab36dc102b7</code></td>
+  <td><code class="notranslate">249acec26b64a0114ced0b78102902f9ea4f0df5bbf5fac8d6b70a8a91cd32aa</code></td>
 
   </tr>
 
@@ -215,18 +309,17 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <ul dir="auto">
 
-  <li>A Nintendo  old 3DS, 2DS or New 3DS, 2DS with custom firmware (Luma3DS) to run
-  homebrew.</li>
+  <li>A Nintendo o3DS/o2DS or n3DS/n2DS with custom firmware (Luma3DS) to run homebrew.</li>
 
   <li>For sound, a DSP firmware dump at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>,
   made once with DSP1.</li>
 
   <li>About 60 MB free on the SD card.</li>
 
-  <li>A New 3DS aims for 60 fps and an Old 3DS or 2DS for 30. Between two steps of
-  the game the console draws the last one again from where the camera will be (OPTIONS,
-  VISUAL, SMOOTH FRAMES), so the screen shows more pictures than the game takes steps.
-  The speed-ups are still experimental.</li>
+  <li>A New 3DS aims for 60 fps and an o3DS/o2DS for 30. Between two steps of the
+  game the console draws the last one again from where the camera will be (OPTIONS,
+  VISUAL, SMOOTH FRAMES, which starts off on a n3DS), so the screen shows more pictures
+  than the game takes steps. The speed-ups are still experimental.</li>
 
   </ul>
 
@@ -239,16 +332,16 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.57, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.57/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.67, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.67/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.57/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.67/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-16T17:54:34Z'
-version: v0.1.57
-version_title: Tougelike for Nintendo 3DS 00.01.57
+updated: '2026-11-19T23:09:17Z'
+version: v0.1.67
+version_title: Tougelike for Nintendo 3DS 00.01.67
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 
