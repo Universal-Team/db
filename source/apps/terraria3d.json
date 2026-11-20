@@ -1,0 +1,37 @@
+{
+	"github": "mattvideoproductions/Terraria3D",
+	"author": "MattVidPro",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"plugin",
+		"game"
+	],
+	"description": "Adds layered stereoscopic 3D and quality-of-life improvements to Terraria (USA) using a Luma3DS plugin. Developed with Claude AI, directed and hardware-tested by MattVidPro.",
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/mattvideoproductions/Terraria3D/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/mattvideoproductions/Terraria3D/main/meta/banner.png",
+	"long_description": "A Luma3DS 3GX plugin for Terraria (USA), title ID **000400000016A900**, updated to **v5.6.0**. Adds layered stereoscopic depth, inventory sorting, larger stacks and other quality-of-life improvements.\n\nChoose **New 3DS** for New 3DS, New 3DS XL or New 2DS XL. Choose **Old 3DS** for the original 3DS, 3DS XL or 2DS. The Old 3DS build uses a lighter four-layer 3D implementation and a 30 fps lock. Both choices install to the same path; install only the build for your console. 2DS models can use compatible plugin features but cannot display stereoscopic 3D.\n\nRequires **Luma3DS v13.0 or newer**. Enable the plugin loader in the Rosalina menu, launch Terraria, then press **SELECT** for the plugin menu. You must provide your own copy of the game; no game files are included.\n\nDeveloped by Claude (Anthropic AI), with MattVidPro directing development and testing on real New 3DS and Old 3DS hardware. Unofficial fan mod, not affiliated with Re-Logic, 505 Games or Nintendo.",
+	"installed_files": [
+		"/luma/plugins/000400000016A900/Terraria3D.3gx"
+	],
+	"scripts": {
+		"New 3DS": [
+			{
+				"type": "downloadRelease",
+				"repo": "mattvideoproductions/Terraria3D",
+				"file": "Terraria3D.3gx",
+				"output": "/luma/plugins/000400000016A900/Terraria3D.3gx"
+			}
+		],
+		"Old 3DS": [
+			{
+				"type": "downloadRelease",
+				"repo": "mattvideoproductions/Terraria3D",
+				"file": "Terraria3D-Old3DS.3gx",
+				"output": "/luma/plugins/000400000016A900/Terraria3D.3gx"
+			}
+		]
+	}
+}
