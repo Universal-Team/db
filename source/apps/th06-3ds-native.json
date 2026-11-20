@@ -1,0 +1,17 @@
+{
+	"github": "Faveing2/th06-3ds-native",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Faveing2/th06-3ds-native/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Faveing2/th06-3ds-native/main/graphics/banner.png",
+	"unique_ids": [
+		45055
+	],
+	"long_description": "This project is a port of [GensokyoClub's Th06 Decomplilation](https://github.com/GensokyoClub/th06) to the 3ds using the Citro3d graphics library.",
+	"preinstall_message": "You will need to provide your own copy of Touhou 6 (v1.02h) and place it in sd:/th06/ (See github for more detailed instructions)"
+}
