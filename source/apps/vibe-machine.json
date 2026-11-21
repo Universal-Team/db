@@ -1,0 +1,16 @@
+{
+	"github": "noble1911/vibe-machine",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game",
+		"app",
+		"media"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/noble1911/vibe-machine/main/cia/icon.png",
+	"image": "https://raw.githubusercontent.com/noble1911/vibe-machine/main/docs/images/banner.png",
+	"website": "https://noble1911.github.io/vibe-machine/",
+	"wiki": "https://noble1911.github.io/vibe-machine/"
+}
