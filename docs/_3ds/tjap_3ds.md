@@ -23,6 +23,47 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.4A
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 10263492
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4A/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10433472
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4A/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li><code class="notranslate">#NEXTSONG</code>を使用して曲を変える際に音楽と譜面でズレが発生していたのを修正</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Fixed an issue where the music and sheet music were out of sync when changing
+    songs using <code class="notranslate">#NEXTSONG</code>.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - `#NEXTSONG`を使用して曲を変える際に音楽と譜面でズレが発生していたのを修正
+
+
+    ## Changelog
+
+    - Fixed an issue where the music and sheet music were out of sync when changing
+    songs using `#NEXTSONG`.'
+  updated: '2026-11-21T04:46:19Z'
+  version: v2.4.4A
+  version_title: TJAPlayer for 3DS v2.4.4(A)
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
