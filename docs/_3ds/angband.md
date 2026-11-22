@@ -150,7 +150,7 @@ prerelease:
   version: 4.2.6-280-g574b618c3
   version_title: 4.2.6-280-g574b618c3
 source: https://github.com/angband/angband
-stars: 1585
+stars: 1587
 systems:
 - 3DS
 - DS
