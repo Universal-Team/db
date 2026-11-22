@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.4A
   downloads:
     TJAP_3DS.3dsx:
-      size: 10263492
+      size: 10263564
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -42,6 +42,8 @@ prerelease:
 
     <li><code class="notranslate">#NEXTSONG</code>を使用して曲を変える際に音楽と譜面でズレが発生していたのを修正</li>
 
+    <li>段位道場において"以上"の条件が正しく判定されていなかった不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -51,16 +53,24 @@ prerelease:
     <li>Fixed an issue where the music and sheet music were out of sync when changing
     songs using <code class="notranslate">#NEXTSONG</code>.</li>
 
+    <li>Fixed a bug in Dan-i Dojo where the "more" condition was not being correctly
+    evaluated.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
     - `#NEXTSONG`を使用して曲を変える際に音楽と譜面でズレが発生していたのを修正
 
+    - 段位道場において"以上"の条件が正しく判定されていなかった不具合の修正
+
 
     ## Changelog
 
     - Fixed an issue where the music and sheet music were out of sync when changing
-    songs using `#NEXTSONG`.'
+    songs using `#NEXTSONG`.
+
+    - Fixed a bug in Dan-i Dojo where the "more" condition was not being correctly
+    evaluated.'
   updated: '2026-11-21T04:46:19Z'
   version: v2.4.4A
   version_title: TJAPlayer for 3DS v2.4.4(A)
