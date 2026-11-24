@@ -53,7 +53,7 @@ prerelease:
   version: v0.7-alpha
   version_title: v0.7-alpha
 source: https://github.com/elhobbs/prboom3ds
-stars: 111
+stars: 110
 systems:
 - 3DS
 title: prboom3ds

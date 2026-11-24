@@ -19,138 +19,213 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-280-g574b618c3
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-297-gc14fa18b0
   downloads:
-    Angband-4.2.6-280-g574b618c3-3ds.zip:
-      size: 24695825
+    Angband-4.2.6-297-gc14fa18b0-3ds.zip:
+      size: 24692606
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-280-g574b618c3/Angband-4.2.6-280-g574b618c3-3ds.zip
-    Angband-4.2.6-280-g574b618c3-nds.zip:
-      size: 23332037
+      url: https://github.com/angband/angband/releases/download/4.2.6-297-gc14fa18b0/Angband-4.2.6-297-gc14fa18b0-3ds.zip
+    Angband-4.2.6-297-gc14fa18b0-nds.zip:
+      size: 23332865
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-280-g574b618c3/Angband-4.2.6-280-g574b618c3-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-297-gc14fa18b0/Angband-4.2.6-297-gc14fa18b0-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>ci: migrate Windows release to UCRT64 and preserve 32-bit legacy by <a class="user-mention
+    <li>ci: Verify Windows release DLL dependencies before packaging by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6325508919" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6815"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6815/hovercard"
-    href="https://github.com/angband/angband/pull/6815">#6815</a></li>
+    data-id="6452456883" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6829"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6829/hovercard"
+    href="https://github.com/angband/angband/pull/6829">#6829</a></li>
 
-    <li>Borg: keep the largest slay multiplier across equipment slots by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d/hovercard"
-    href="https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d"><tt>007bea9</tt></a></li>
-
-    <li>Borg: heal when in danger, as the healing-chance comments intend by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    <li>borg: when the swap armour is a ring you have to pick a slot by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6353165224" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6818"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6818/hovercard"
-    href="https://github.com/angband/angband/pull/6818">#6818</a></li>
+    data-id="6454602427" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6831"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6831/hovercard"
+    href="https://github.com/angband/angband/pull/6831">#6831</a></li>
 
-    <li>Borg: check teleport landing zones with either kind of teleport by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/diegoami/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/diegoami">@diegoami</a>
+    <li>ci: Use xvfb-run for DOSBox-X smoke test to fix X11 race condition by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6390279386" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6825"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6825/hovercard"
-    href="https://github.com/angband/angband/pull/6825">#6825</a></li>
+    data-id="6456895668" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6834"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6834/hovercard"
+    href="https://github.com/angband/angband/pull/6834">#6834</a></li>
 
-    <li>SDL2: add mechanism to retrieve or set values for controls by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>win: clean up main-win.c and fix minor Win32 frontend bugs by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6216256827" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6807"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6807/hovercard"
-    href="https://github.com/angband/angband/pull/6807">#6807</a></li>
+    data-id="6513063964" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6842"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6842/hovercard"
+    href="https://github.com/angband/angband/pull/6842">#6842</a></li>
 
-    <li>Resolve discarded const warnings on Ubuntu 26.04.1 by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>borg: reincarnate issue using wrong keyset by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6309179163" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6811"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6811/hovercard"
-    href="https://github.com/angband/angband/pull/6811">#6811</a></li>
+    data-id="6532608402" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6845"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6845/hovercard"
+    href="https://github.com/angband/angband/pull/6845">#6845</a></li>
 
-    <li>Windows: do not show "Read Only" checkbox in the old-style open dialog by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>Borg: early escape by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6310973902" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6812"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6812/hovercard"
-    href="https://github.com/angband/angband/pull/6812">#6812</a></li>
+    data-id="6534360539" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6846"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6846/hovercard"
+    href="https://github.com/angband/angband/pull/6846">#6846</a></li>
 
-    <li>Workflows: remove MSYS2/MINGW32 linking with external PNG library by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6311378769" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6813"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6813/hovercard"
-    href="https://github.com/angband/angband/pull/6813">#6813</a></li>
-
-    <li>workflows: have the DOS smoke test use xvfb by <a class="user-mention notranslate"
+    <li>Refactor most of the monster lore functions by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6316728023" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6814"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6814/hovercard"
-    href="https://github.com/angband/angband/pull/6814">#6814</a></li>
+    data-id="6357402007" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6821"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6821/hovercard"
+    href="https://github.com/angband/angband/pull/6821">#6821</a></li>
 
-    <li>Be more consistent about trap display by <a class="user-mention notranslate"
+    <li>Skip an entry for "" in lore.txt by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6357919151" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6822"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6822/hovercard"
+    href="https://github.com/angband/angband/pull/6822">#6822</a></li>
+
+    <li>Update lore.txt and window.prf with death save by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="6339194532" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6816"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6816/hovercard"
-    href="https://github.com/angband/angband/pull/6816">#6816</a></li>
+    data-id="6361043615" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6823"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6823/hovercard"
+    href="https://github.com/angband/angband/pull/6823">#6823</a></li>
+
+    <li>SDL2: in dialog cleanup, zero out key structure components by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6404839319" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6826"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6826/hovercard"
+    href="https://github.com/angband/angband/pull/6826">#6826</a></li>
+
+    <li>Correct comment about name directives in lib/tiles/list.txt by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6429981172" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6827"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6827/hovercard"
+    href="https://github.com/angband/angband/pull/6827">#6827</a></li>
+
+    <li>Avoid discarded const warning for text_wcschr(). by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6445512979" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6828"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6828/hovercard"
+    href="https://github.com/angband/angband/pull/6828">#6828</a></li>
+
+    <li>Honor user interface boundary in debugging commands that use wiz_hack_map()
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6453445945" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6830"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6830/hovercard"
+    href="https://github.com/angband/angband/pull/6830">#6830</a></li>
+
+    <li>doxygen:  use more structure field markup in wizard.h and utility headers
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6456171709" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6833"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6833/hovercard"
+    href="https://github.com/angband/angband/pull/6833">#6833</a></li>
+
+    <li>workflows: tweak key timing for more reliable DOS smoke test by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6459697802" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6835"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6835/hovercard"
+    href="https://github.com/angband/angband/pull/6835">#6835</a></li>
+
+    <li>ui-term: clarify behavior of xtra_clear by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6476782419" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6837"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6837/hovercard"
+    href="https://github.com/angband/angband/pull/6837">#6837</a></li>
+
+    <li>doxygen: restructure comments in s*.h and t*.h to be more useful by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="6479088312" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6838"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6838/hovercard"
+    href="https://github.com/angband/angband/pull/6838">#6838</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3"><tt>4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-280-g574b618c3...4.2.6-297-gc14fa18b0"><tt>4.2.6-280-g574b618c3...4.2.6-297-gc14fa18b0</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * ci: migrate Windows release to UCRT64 and preserve 32-bit legacy by @klaasvanaarsen
-    in https://github.com/angband/angband/pull/6815
+    * ci: Verify Windows release DLL dependencies before packaging by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6829
 
-    * Borg: keep the largest slay multiplier across equipment slots by @diegoami in
-    https://github.com/angband/angband/commit/007bea95ca6979eaaadb13758266b4dde0fa2e4d
+    * borg: when the swap armour is a ring you have to pick a slot by @agoodman00
+    in https://github.com/angband/angband/pull/6831
 
-    * Borg: heal when in danger, as the healing-chance comments intend by @diegoami
-    in https://github.com/angband/angband/pull/6818
+    * ci: Use xvfb-run for DOSBox-X smoke test to fix X11 race condition by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6834
 
-    * Borg: check teleport landing zones with either kind of teleport by @diegoami
-    in https://github.com/angband/angband/pull/6825
+    * win: clean up main-win.c and fix minor Win32 frontend bugs by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6842
 
-    * SDL2: add mechanism to retrieve or set values for controls by @backwardsEric
-    in https://github.com/angband/angband/pull/6807
+    * borg: reincarnate issue using wrong keyset by @agoodman00 in https://github.com/angband/angband/pull/6845
 
-    * Resolve discarded const warnings on Ubuntu 26.04.1 by @backwardsEric in https://github.com/angband/angband/pull/6811
+    * Borg: early escape by @agoodman00 in https://github.com/angband/angband/pull/6846
 
-    * Windows: do not show "Read Only" checkbox in the old-style open dialog by @backwardsEric
-    in https://github.com/angband/angband/pull/6812
+    * Refactor most of the monster lore functions by @backwardsEric in https://github.com/angband/angband/pull/6821
 
-    * Workflows: remove MSYS2/MINGW32 linking with external PNG library by @backwardsEric
-    in https://github.com/angband/angband/pull/6813
+    * Skip an entry for "<player>" in lore.txt by @backwardsEric in https://github.com/angband/angband/pull/6822
 
-    * workflows: have the DOS smoke test use xvfb by @backwardsEric in https://github.com/angband/angband/pull/6814
+    * Update lore.txt and window.prf with death save by @backwardsEric in https://github.com/angband/angband/pull/6823
 
-    * Be more consistent about trap display by @backwardsEric in https://github.com/angband/angband/pull/6816
+    * SDL2: in dialog cleanup, zero out key structure components by @backwardsEric
+    in https://github.com/angband/angband/pull/6826
+
+    * Correct comment about name directives in lib/tiles/list.txt by @backwardsEric
+    in https://github.com/angband/angband/pull/6827
+
+    * Avoid discarded const warning for text_wcschr(). by @backwardsEric in https://github.com/angband/angband/pull/6828
+
+    * Honor user interface boundary in debugging commands that use wiz_hack_map()
+    by @backwardsEric in https://github.com/angband/angband/pull/6830
+
+    * doxygen:  use more structure field markup in wizard.h and utility headers by
+    @backwardsEric in https://github.com/angband/angband/pull/6833
+
+    * workflows: tweak key timing for more reliable DOS smoke test by @backwardsEric
+    in https://github.com/angband/angband/pull/6835
+
+    * ui-term: clarify behavior of xtra_clear by @backwardsEric in https://github.com/angband/angband/pull/6837
+
+    * doxygen: restructure comments in s*.h and t*.h to be more useful by @backwardsEric
+    in https://github.com/angband/angband/pull/6838
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-270-g42cd156ac...4.2.6-280-g574b618c3'
-  updated: '2026-11-17T12:15:04Z'
-  version: 4.2.6-280-g574b618c3
-  version_title: 4.2.6-280-g574b618c3
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-280-g574b618c3...4.2.6-297-gc14fa18b0'
+  updated: '2026-11-24T13:56:09Z'
+  version: 4.2.6-297-gc14fa18b0
+  version_title: 4.2.6-297-gc14fa18b0
 source: https://github.com/angband/angband
-stars: 1589
+stars: 1590
 systems:
 - 3DS
 - DS
@@ -264,28 +339,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-297-gc14fa18b0.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-280-g574b618c3-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-280-g574b618c3.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-280-g574b618c3.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-297-gc14fa18b0-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-297-gc14fa18b0.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-297-gc14fa18b0.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-297-gc14fa18b0.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-280-g574b618c3-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-280-g574b618c3.cia</code> from the zip to <code>/cias/Angband-4.2.6-280-g574b618c3.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-297-gc14fa18b0-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-297-gc14fa18b0.cia</code> from the zip to <code>/cias/Angband-4.2.6-297-gc14fa18b0.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-280-g574b618c3.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-297-gc14fa18b0.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-280-g574b618c3.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-297-gc14fa18b0.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-280-g574b618c3-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-280-g574b618c3.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-297-gc14fa18b0-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-297-gc14fa18b0.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
