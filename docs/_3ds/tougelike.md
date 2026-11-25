@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 52260920
-    size_str: 49 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.69/tougelike.3dsx
-  tougelike.cia:
-    size: 52478912
+    size: 52620504
     size_str: 50 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.69/tougelike.cia
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.71/tougelike.3dsx
+  tougelike.cia:
+    size: 52769728
+    size_str: 50 MiB
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.71/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -56,39 +56,41 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">What''s new</h2>
 
-  <h3 dir="auto">Summary since 3DS 00.01.67</h3>
+  <h3 dir="auto">Summary since 3DS 00.01.69</h3>
 
   <ul dir="auto">
 
-  <li>Fixed: a rare freeze in busy races that only the power button got you out of.</li>
+  <li>New: when a new version is out, the title screen says so. UPDATE in its menu
+  installs it over the CIA or the 3DSX, then restarts the game, and your saves stay
+  where they are. It needs Wi-Fi, and OPTIONS, GAME, CHECK FOR UPDATES turns it off.</li>
 
-  <li>Fixed: road and rock textures smearing into streaks at the sides and bottom
-  of the screen a few kilometres into a run.</li>
-
-  <li>The title screen and the CHANGELOG screen give tougelike.com for bug reports
-  and ideas.</li>
+  <li>New: the HOME Menu banner is an animated 3D scene of the HACHI 86 driving under
+  the Tougelike logo.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.69</h3>
+  <h3 dir="auto">3DS 00.01.71</h3>
 
   <ul dir="auto">
 
-  <li>A busy race could freeze the whole console, and only the power button got you
-  out. A rare mix of what was on screen stopped the 3DS''s graphics chip. A n3DS has
-  since driven the same busy late-game descent 20 times in a row without a freeze.</li>
-
-  <li>A few kilometres into a run, road and rock textures at the sides and bottom
-  of the screen no longer smear into streaks.</li>
+  <li>The HOME Menu banner is now a 3D scene of the HACHI 86 driving under the Tougelike
+  logo, seen from all round. It boosts away with a blue exhaust flame, and its exhaust
+  pops.</li>
 
   </ul>
 
-  <h3 dir="auto">3DS 00.01.68</h3>
+  <h3 dir="auto">3DS 00.01.70</h3>
 
   <ul dir="auto">
 
-  <li>The title screen and the CHANGELOG screen now give tougelike.com for bug reports
-  and ideas, in place of njlent.de/games/tougelike.</li>
+  <li>When a new version is out, the title screen says so and an orange UPDATE row
+  appears in its menu. The game asks once after it starts, only in the menus and never
+  during a race. OPTIONS, GAME, CHECK FOR UPDATES turns it off.</li>
+
+  <li>UPDATE downloads the new version and installs it over the HOME Menu version
+  or over tougelike.3dsx from the Homebrew Launcher, then starts the game again. The
+  download is checked against the release''s checksum before anything changes, and
+  your saves stay where they are.</li>
 
   </ul>
 
@@ -120,9 +122,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>HOME Menu, installed with FBI</td>
 
-  <td>50.0 MB</td>
+  <td>50.3 MB</td>
 
-  <td><code class="notranslate">124a261dfbc7a6ac78c0386fdec02eae022f28da3dd74a8394c9733eb3c80f76</code></td>
+  <td><code class="notranslate">2edfb62e7c687957e63fc936dca1b1134ff147842d205dbba2bfb66b1cf0d48e</code></td>
 
   </tr>
 
@@ -132,9 +134,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>Homebrew Launcher</td>
 
-  <td>49.8 MB</td>
+  <td>50.2 MB</td>
 
-  <td><code class="notranslate">efd51d3a7b3198658ffa1f0763c6f7d8cbc604f5ac587a3bf402d51f59e3bf48</code></td>
+  <td><code class="notranslate">55952ccc3b1f9bed9f4b4e296e9c122a0c11d5705e52a91ed2cf0e15a4e76b9a</code></td>
 
   </tr>
 
@@ -144,9 +146,9 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>Emulators such as Azahar</td>
 
-  <td>50.0 MB</td>
+  <td>50.3 MB</td>
 
-  <td><code class="notranslate">8779425290c6c1408023acaffa07f76652731456bfc535bff13843bbdb2a75d9</code></td>
+  <td><code class="notranslate">125573499b493046ac45335e477d575a329b81fa60bcbd65224f192257de08cc</code></td>
 
   </tr>
 
@@ -160,7 +162,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <li><strong>HOME Menu (CIA):</strong> copy <code class="notranslate">tougelike.cia</code>
   to the SD card, open FBI, choose SD, pick the file and install it. Tougelike then
-  has its own icon and banner on the HOME Menu.</li>
+  has its own icon, an animated 3D banner and a jingle on the HOME Menu.</li>
 
   <li><strong>Universal-Updater:</strong> find Tougelike in Universal-Updater and
   install the CIA or the 3DSX from there. It is <a href="https://db.universal-team.net/3ds/tougelike"
@@ -211,16 +213,16 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.69, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.69/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.71, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.71/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.69/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.71/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-24T01:05:26Z'
-version: v0.1.69
-version_title: Tougelike for Nintendo 3DS 00.01.69
+updated: '2026-11-25T21:17:59Z'
+version: v0.1.71
+version_title: Tougelike for Nintendo 3DS 00.01.71
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 
