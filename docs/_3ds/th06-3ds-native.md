@@ -31,7 +31,7 @@ preinstall_message: You will need to provide your own copy of Touhou 6 (v1.02h) 
 qr:
   th06-3ds-native.cia: https://db.universal-team.net/assets/images/qr/th06-3ds-native-cia.png
 source: https://github.com/Faveing2/th06-3ds-native
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: th06-3ds-native

@@ -225,7 +225,7 @@ prerelease:
   version: 4.2.6-297-gc14fa18b0
   version_title: 4.2.6-297-gc14fa18b0
 source: https://github.com/angband/angband
-stars: 1590
+stars: 1591
 systems:
 - 3DS
 - DS

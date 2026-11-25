@@ -22,7 +22,7 @@ license: other
 license_name: Other
 llm_generation: minor
 source: https://github.com/KaliLugu/Minicraft3DS
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: Minicraft3DS

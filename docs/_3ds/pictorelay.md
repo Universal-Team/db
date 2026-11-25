@@ -10,9 +10,9 @@ description: Real online PictoChat between DS, 3DS, PC and Mobile
 download_page: https://github.com/ShinMikite/PictoRelay-3DS/releases
 downloads:
   PictoRelay.cia:
-    size: 4444096
-    size_str: 4 MiB
-    url: https://github.com/ShinMikite/PictoRelay-3DS/releases/download/v1.3.1/PictoRelay.cia
+    size: 6772672
+    size_str: 6 MiB
+    url: https://github.com/ShinMikite/PictoRelay-3DS/releases/download/v1.4.1/PictoRelay.cia
 github: ShinMikite/PictoRelay-3DS
 icon: https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/icon.png
 image: https://raw.githubusercontent.com/ShinMikite/PictoRelay-3DS/main/banner.png
@@ -32,16 +32,12 @@ update_notes: '<p dir="auto"><strong>What''s New?</strong></p>
 
   <ul dir="auto">
 
-  <li>UI changes</li>
-
-  <li>Performance Fixes</li>
-
-  <li>Connection Fixes</li>
+  <li>Rare crash fix</li>
 
   </ul>'
-updated: '2026-11-23T07:27:42Z'
-version: v1.3.1
-version_title: v1.3.1
+updated: '2026-11-25T01:17:42Z'
+version: v1.4.1
+version_title: v1.4.1
 website: https://pictorelay.com/3ds
 ---
 **Features:**
