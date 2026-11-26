@@ -11,13 +11,13 @@ download_filter: ^tougelike\.(cia|3dsx)$
 download_page: https://github.com/njlent/tougelike-3ds-pub/releases
 downloads:
   tougelike.3dsx:
-    size: 52620504
+    size: 52621268
     size_str: 50 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.71/tougelike.3dsx
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.72/tougelike.3dsx
   tougelike.cia:
     size: 52769728
     size_str: 50 MiB
-    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.71/tougelike.cia
+    url: https://github.com/njlent/tougelike-3ds-pub/releases/download/v0.1.72/tougelike.cia
 github: njlent/tougelike-3ds-pub
 icon: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/icon.png
 image: https://raw.githubusercontent.com/njlent/tougelike-3ds-pub/main/assets/banner.png
@@ -42,7 +42,7 @@ screenshots:
 - description: 06_garage
   url: https://db.universal-team.net/assets/images/screenshots/tougelike/06_garage.png
 source: https://github.com/njlent/tougelike-3ds-pub
-stars: 22
+stars: 23
 systems:
 - 3DS
 title: Tougelike
@@ -66,6 +66,21 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <li>New: the HOME Menu banner is an animated 3D scene of the HACHI 86 driving under
   the Tougelike logo.</li>
+
+  <li>Fixed: a long race in heavy traffic could run out of memory and stop with "null"
+  on the bottom screen. It happened on a n3DS started from the HOME Menu right after
+  FBI, where the game got only an o3DS''s memory; after a restart it had all of it.
+  The game now keeps fewer car models when memory runs low.</li>
+
+  </ul>
+
+  <h3 dir="auto">3DS 00.01.72</h3>
+
+  <ul dir="auto">
+
+  <li>A long race in heavy traffic could run the game out of memory and stop it with
+  "null" on the bottom screen. The game now keeps fewer car models loaded when memory
+  runs low, so more of the cars around you look alike.</li>
 
   </ul>
 
@@ -124,7 +139,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>50.3 MB</td>
 
-  <td><code class="notranslate">2edfb62e7c687957e63fc936dca1b1134ff147842d205dbba2bfb66b1cf0d48e</code></td>
+  <td><code class="notranslate">93df63d40ed5bc1b036da2ab8bd67da76e8f4af362fbd425f666f0e37b97649e</code></td>
 
   </tr>
 
@@ -136,7 +151,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>50.2 MB</td>
 
-  <td><code class="notranslate">55952ccc3b1f9bed9f4b4e296e9c122a0c11d5705e52a91ed2cf0e15a4e76b9a</code></td>
+  <td><code class="notranslate">298ed8e5a1fd07cd6a4ad57c0b733ab5457e9063789808ead287deed4f925c1c</code></td>
 
   </tr>
 
@@ -148,7 +163,7 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <td>50.3 MB</td>
 
-  <td><code class="notranslate">125573499b493046ac45335e477d575a329b81fa60bcbd65224f192257de08cc</code></td>
+  <td><code class="notranslate">7853d5a8f0d76d466ccbfda643e660819546146d42640d744b4387ef48be3b7a</code></td>
 
   </tr>
 
@@ -213,16 +228,16 @@ update_notes: '<p dir="auto"><strong>Tougelike for Nintendo 3DS</strong> is the 
 
   <h2 dir="auto">Version</h2>
 
-  <p dir="auto">3DS 00.01.71, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
-  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.71/CHANGELOG.md">CHANGELOG.md</a>.</p>
+  <p dir="auto">3DS 00.01.72, built on Tougelike 00.22.41 (upstream commit <code class="notranslate">16b4edf</code>).
+  Full history: <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.72/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
   <p dir="auto">Tougelike by Noel Justin Lent (njlent). Copying or sharing this build
   needs the author''s permission, so link to this page instead. The licence is in
-  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.71/LICENSE">LICENSE</a>
+  <a href="https://github.com/njlent/tougelike-3ds-pub/blob/v0.1.72/LICENSE">LICENSE</a>
   and in the game under LICENCE.</p>'
-updated: '2026-11-25T21:17:59Z'
-version: v0.1.71
-version_title: Tougelike for Nintendo 3DS 00.01.71
+updated: '2026-11-25T23:19:09Z'
+version: v0.1.72
+version_title: Tougelike for Nintendo 3DS 00.01.72
 ---
 Tougelike is a night racing roguelike set on Japanese mountain roads. Navigate through challenging terrain, avoid obstacles, and survive the night in this fast-paced adventure.
 
