@@ -1,0 +1,14 @@
+{
+	"github": "dodosiiii/Pixelnaute",
+	"author": "dodosiiii",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/dodosiiii/Pixelnaute/main/assets/icon.png",
+	"long_description": "Pixelnaute est un navigateur web expérimental pour New Nintendo 3DS et New Nintendo 2DS XL. Il est conçu pour rester léger et afficher des pages web avec un moteur HTML/CSS natif simplifié.\n\nPixelnaute est un projet en développement. Il peut ouvrir certaines pages, mais ne remplace pas un navigateur moderne : les sites complexes, les applications web et les pages protégées par des défis JavaScript peuvent ne pas fonctionner.",
+	"license_name": "Pixelnaute Attribution License (custom)"
+}
