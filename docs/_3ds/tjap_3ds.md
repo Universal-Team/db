@@ -23,6 +23,45 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.4B
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 10263960
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10433472
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>特定の条件下で一部ノーツの描画がされない不具合の修正</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Fixed a bug that some notes were not drawn under certain conditions</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 特定の条件下で一部ノーツの描画がされない不具合の修正
+
+
+    ## Changelog
+
+    - Fixed a bug that some notes were not drawn under certain conditions'
+  updated: '2026-11-27T04:01:59Z'
+  version: v2.4.4B
+  version_title: TJAPlayer for 3DS v2.4.4(B)
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
