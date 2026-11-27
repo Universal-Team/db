@@ -1,0 +1,18 @@
+{
+	"github": "zando95/CTR-3D",
+	"description": "Crash Team Racing for Nintendo 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/zando95/CTR-3D/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/zando95/CTR-3D/main/meta/banner.png",
+	"unique_ids": [
+		1034045
+	],
+	"long_description": "CTR 3D is a Nintendo 3DS port of the PS1 game CTR: Crash Team Racing. It's built on top of ctr-native, a PC port based on the decompilation work done by the community. It adds everything you'd expect in a 3DS port: a minimap on the bottom screen, widescreen compatibility, stereoscopic 3D effect. Runs at a locked 30fps on New 3DS. Very playable on older 3DS models too.\n\nAdds a playable Nitros Oxide, extra difficulties, and a few easter eggs, but gameplay remains faithful to the original.\n\nSupports French, German, Dutch, Spanish, and Italian.",
+	"preinstall_message": "This download does not include any game files. In order to play CTR 3D, please legally obtain a raw NTSC-U disc image .bin of Crash Team Racing (PS1). Place this in your SD card at /3ds/ctr_native/assets/ctr-u.bin"
+}
