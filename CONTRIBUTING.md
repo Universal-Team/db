@@ -15,7 +15,7 @@ Any app requests must conform to the following rules before they can be added to
 1. Any forks of existing apps must achieve a different goal/target audience than their base app
     - Ideally, forks that only add "more functionality" or different translations should be Pull Requests into the original project's repository rather than being a separate app.
     - If the project that you're forking doesn't have translations, chances are it's not needed.
-1. App must be for the 3DS or DS (e.g. not a VC inject)
+1. App must be for the 3DS or DS (e.g. not a VC inject), with testing on original hardware (testing only on emulators such as "Azahar" is insufficient)
 1. LLM generated content must be properly declared
    - Any app found to have deliberately misdeclared LLM usage may be removed, if LLM usage changes after submission please just notify the maintainers
 
