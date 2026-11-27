@@ -73,7 +73,7 @@ prerelease:
   version: v0.3.4
   version_title: Minecraft3D v0.3.4
 source: https://github.com/mattvideoproductions/Minecraft3D
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: Minecraft3D

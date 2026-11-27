@@ -21,7 +21,7 @@ image_length: 413
 layout: app
 llm_generation: unknown
 source: https://github.com/TheHighTide/GameTipper3DS
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Game Tipper

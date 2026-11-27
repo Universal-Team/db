@@ -31,7 +31,7 @@ preinstall_message: 'You must provide your own dump of the US v1.0 of the game a
 qr:
   BanjoRecompiled3D-3ds.cia: https://db.universal-team.net/assets/images/qr/banjorecompiled3d-3ds-cia.png
 source: https://github.com/oneup03/BanjoRecomp3D
-stars: 34
+stars: 35
 systems:
 - 3DS
 title: 'Banjo: Recompiled 3D'

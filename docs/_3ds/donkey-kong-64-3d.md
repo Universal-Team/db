@@ -31,7 +31,7 @@ preinstall_message: 'You must provide your own dump of the US version of the gam
 qr:
   DK64Recompiled3D-3ds.cia: https://db.universal-team.net/assets/images/qr/dk64recompiled3d-3ds-cia.png
 source: https://github.com/oneup03/Donkey-Kong-64-3D
-stars: 29
+stars: 30
 systems:
 - 3DS
 title: Donkey Kong 64 3D
