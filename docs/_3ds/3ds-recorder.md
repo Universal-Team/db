@@ -49,7 +49,7 @@ screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3ds-recorder/settings.png
 source: https://github.com/BolgarMaxym97/3ds-recorder
-stars: 128
+stars: 129
 systems:
 - 3DS
 title: 3DS Recorder
