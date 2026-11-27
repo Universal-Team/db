@@ -1,11 +1,11 @@
 
 {
-	"github": "Unitendo/aurorachat-3ds",
-	"author": "Startendo",
+	"github": "googtendo/aurorachat-3ds",
+	"author": "googtendo",
 	"systems": ["3DS"],
 	"categories": ["app"],
-  	"unique_ids": [765906],
-	"image": "https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png",
-	"icon": "https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png",
+  	"unique_ids": [6850],
+	"image": "https://raw.githubusercontent.com/googtendo/aurorachat-3ds/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/googtendo/aurorachat-3ds/main/meta/icon.png",
 	"long_description": "A chatting app primarily for Homebrewed Nintendo consoles."
 }
