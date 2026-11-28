@@ -36,6 +36,16 @@
 					"includePrereleases": true
 				}
 			]
+		},
+		"[sysplugin] ModMenu.0.3nx": {
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "Blurro/MENU-Sysplugin-3DS",
+					"file": "ModMenu.0.3nx",
+					"output": "/luma/plugins/ModMenu.0.3nx"
+				}
+			]
 		}
 	}
 }
