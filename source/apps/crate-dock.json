@@ -1,0 +1,34 @@
+{
+  "title": "Crate Dock",
+  "author": "ZadenZ",
+  "description": "Warehouse sorting chaos: sort the crate stream into the right bins across 10 levels and an Endless mode, then bend your brain in Rack Jam, a sliding-rack puzzle mode with 12 levels and star ratings. Native 3DS port of the Save Point arcade game.",
+  "long_description": "Crate Dock is two games in one. In belt sorting, crates ride in from the right and you tap the touch-screen bin that matches the front crate's color - rainbow crates fit any bin. Fill a bin to ship it; a wrong bin or a crate rolling off the end costs a life. Clear the shipping quota across 10 LEVELS, or ride the ever-faster ENDLESS belt for a best score.\n\nRack Jam is the puzzle half: tap a rack, then tap where to move its top crates, and seal racks of 4 matching crates. 12 levels with star ratings (beat par for 3 stars) plus an endless mode with a move budget and 3 hearts.\n\nFeatures:\n- Progress, unlocks and best scores save to the SD card\n- Physical controls mirror the touch screen (D-Pad plus A to sort)\n- Synthesized effects and a belt-mode music loop\n\nThe .cia installs to the Home Menu; the .3dsx runs from the Homebrew Launcher, and both share one save file.",
+  "version": "1.0",
+  "created": "2026-10-15T00:00:00Z",
+  "updated": "2026-10-15T00:00:00Z",
+  "systems": [
+    "3DS"
+  ],
+  "categories": [
+    "game"
+  ],
+  "unique_ids": [
+    353575
+  ],
+  "icon": "https://db.universal-team.net/assets/images/icons/crate-dock.png",
+  "image": "https://db.universal-team.net/assets/images/images/crate-dock.png",
+  "website": "https://zadenz.com/savepoint/crate-dock",
+  "download_page": "https://zadenz.com/savepoint/crate-dock",
+  "downloads": {
+    "crate_dock.cia": {
+      "url": "https://zadenz.com/downloads/crate_dock.cia",
+      "size": 729024,
+      "size_str": "711.94 KB"
+    },
+    "crate_dock.3dsx": {
+      "url": "https://zadenz.com/downloads/crate_dock.3dsx",
+      "size": 552708,
+      "size_str": "539.75 KB"
+    }
+  }
+}
