@@ -1,0 +1,18 @@
+{
+	"github": "ankushKun/3dsDL",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/ankushKun/3dsDL/main/resources/icon-3dsdl.png",
+	"image": "https://raw.githubusercontent.com/ankushKun/3dsDL/main/resources/banner-3dsdl.png",
+	"unique_ids": [
+		251345
+	],
+	"long_description": "3dsDL puts files on the SD card while the console stays on, with no card reader and no computer. Scan a QR code, type a link or send one from your phone, and it saves the file, installs it if it's a CIA, and lets you manage what's on the card. It's built to replace FBI, which is no longer maintained, and it looks and feels like the console's own system software.\n\nIt grew out of [Multidownload](https://github.com/hax0kartik/Multidownload) by hax0kartik, and follows FBI's install sequence, seed handling and remote install protocol.\n\n## Features\n\n- **Downloads:** verified HTTPS, split across up to four connections when the server allows it, with resume after a dropped connection, Google Drive links that skip Drive's virus-scan page, and a queue for scanning many QR codes in a row.\n- **Installs:** CIAs and Azahar's compressed `.zcia` files with their seeds, streamed straight into the install service when the SD card is too full to keep a copy. A batch carries on past a CIA that fails and names what went wrong at the end.\n- **Receive:** links from a phone on the same Wi-Fi, from websites (after asking) and from FBI's `servefiles.py`, `sendurls.py` and Boop.\n- **SD card from a browser:** a Finder-style page to upload, download, move, copy and delete files, edit them in a code editor, and install uploaded CIAs, with no FTP app. Also answers at `http://3ds.local/`, and Always Allow remembers a browser so it isn't asked again.\n- **Files:** a file manager with favourites, options sheets, a picture viewer, a text editor, a hex view and SHA-256 checks.\n- **Archives:** extracts ZIP, 7z, RAR and tar files, refusing paths that would leave the folder.\n- **Titles:** one list of installed software, each game with its update, DLC, tickets and extra data, and a page to launch it, back up its saves, export its ticket or delete it. What's left of software that's gone sits at the end.\n- **Saves:** save data and extra data backup, restore and browsing, compatible with Checkpoint's backups.\n- **Lid closed:** downloads, installs and transfers keep going with the lid shut, and the notification LED shows amber for a question, blue while working, then green or red for how it went.\n- **Updates:** updates itself from GitHub releases, checking each download against its SHA-256 checksum.\n- **Crash reports:** a session log and a crash report on the SD card, ready to attach to a bug report.\n\nSee the [guide](https://github.com/ankushKun/3dsDL/blob/main/docs/USAGE.md) for how each part works, the controls and the settings.",
+	"website": "https://ankush.one/3dsDL",
+	"download_filter": ".(cia|3dsx)$"
+}
