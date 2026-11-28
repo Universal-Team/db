@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   slider3ds.cia: https://db.universal-team.net/assets/images/qr/slider3ds-cia.png
 source: https://github.com/randomerz/Slider3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Slider3DS

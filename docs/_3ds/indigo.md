@@ -11,9 +11,9 @@ download_filter: ^indigo\.3dsx$
 download_page: https://github.com/ewanc26/indigo/releases
 downloads:
   indigo.3dsx:
-    size: 1692468
+    size: 1696404
     size_str: 1 MiB
-    url: https://github.com/ewanc26/indigo/releases/download/v0.17.0/indigo.3dsx
+    url: https://github.com/ewanc26/indigo/releases/download/v0.18.1/indigo.3dsx
 github: ewanc26/indigo
 icon: https://raw.githubusercontent.com/ewanc26/indigo/main/assets/icon.png
 image: https://raw.githubusercontent.com/ewanc26/indigo/main/assets/banner.png
@@ -44,14 +44,18 @@ update_notes: '<h3 dir="auto">Fixed</h3>
 
   <ul dir="auto">
 
-  <li>Build fixes: added missing types, function declarations, and struct members
-  in app.h and related files. (<a href="https://github.com/ewanc26/indigo/pull/135"
-  data-hovercard-type="pull_request" data-hovercard-url="/ewanc26/indigo/pull/135/hovercard">#135</a>)</li>
+  <li>Saving, pinning or removing a feed can no longer erase your Bluesky preferences.
+  If Indigo could not read your current preferences first, it wrote back a list holding
+  only the feed change, which replaced everything else the account had saved: muted
+  words, other feeds, label and adult-content choices. It now refuses and reports
+  the failure. A newly saved feed also carries the <code class="notranslate">id</code>
+  every saved feed must have. (<a href="https://github.com/ewanc26/indigo/pull/148"
+  data-hovercard-type="pull_request" data-hovercard-url="/ewanc26/indigo/pull/148/hovercard">#148</a>)</li>
 
   </ul>'
-updated: '2026-11-11T12:20:25Z'
-version: v0.17.0
-version_title: Indigo 0.17.0
+updated: '2026-11-28T00:27:29Z'
+version: v0.18.1
+version_title: Indigo 0.18.1
 ---
 Indigo exists because apparently making a Wii U post to Bluesky was not enough.
 
