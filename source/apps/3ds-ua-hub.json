@@ -1,0 +1,20 @@
+{
+	"github": "BolgarMaxym97/3ds-ua-hub",
+	"title": "3DS UA Hub",
+	"author": "Max Bolhar",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		736674
+	],
+	"description": "Українізатори ігор для Nintendo 3DS в одному застосунку.",
+	"long_description": "Каталог українських перекладів ігор для Nintendo 3DS / 2DS: встановлення одним натиском, оновлення й видалення. Застосунок сам знаходить гру на консолі, вибирає варіант перекладу під її регіон, ставить файли й вмикає патчі ігор у Luma.\n\nПереклади-патчі лягають на SD-карту (luma/titles), гра лишається вашою. Окремі програми (CIA) ставляться поруч з оригіналом. Кожен файл звіряється з підписаним каталогом, завантаження докачується після обриву Wi-Fi, а встановлення доводиться до кінця або повертається назад після вимкнення живлення.\n\nПотрібна Luma3DS v8.0 або новіша і Wi-Fi.",
+	"website": "https://github.com/BolgarMaxym97/3ds-ua-hub",
+	"icon": "https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua-hub/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/BolgarMaxym97/3ds-ua-hub/main/assets/banner.png",
+	"llm_generation": "yes"
+}
