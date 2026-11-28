@@ -1,0 +1,17 @@
+{
+	"github": "BreadChaser/BreadBox",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/BreadChaser/BreadBox/v0.9.1/apps/breadbox/icon.png",
+	"image": "https://raw.githubusercontent.com/BreadChaser/BreadBox/v0.9.1/apps/breadbox/banner.png",
+	"unique_ids": [
+		723723
+	],
+	"long_description": "BreadBox is a multi-system emulator with its own front end. It currently supports PS1 and GBA, with more systems planned.\n",
+	"download_filter": "BreadBox\\.(cia|3dsx)$"
+}
