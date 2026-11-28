@@ -40,7 +40,7 @@ screenshots:
 - description: Installing
   url: https://db.universal-team.net/assets/images/screenshots/cia-installer/installing.png
 source: https://github.com/Zachary-Rude/CIA-Installer
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: CIA Installer
