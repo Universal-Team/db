@@ -10,58 +10,19 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10263608
+    size: 10263960
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10433472
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.4.4B
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 10263960
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10433472
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.4.4B/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>特定の条件下で一部ノーツの描画がされない不具合の修正</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Fixed a bug that some notes were not drawn under certain conditions</li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - 特定の条件下で一部ノーツの描画がされない不具合の修正
-
-
-    ## Changelog
-
-    - Fixed a bug that some notes were not drawn under certain conditions'
-  updated: '2026-11-27T04:01:59Z'
-  version: v2.4.4B
-  version_title: TJAPlayer for 3DS v2.4.4(B)
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -80,9 +41,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">#NEXTSONG</code>を使用して曲を変える際に音楽と譜面でズレが発生していたのを修正</li>
+  <li>特定の条件下で一部ノーツの描画がされない不具合の修正</li>
 
-  <li>段位道場において"以上"の条件が正しく判定されていなかった不具合の修正</li>
+  <li>配点が指定されている時に配点方式が指定されていない場合は自動で選ぶ様にしました。</li>
 
   </ul>
 
@@ -90,16 +51,15 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where the music and sheet music were out of sync when changing
-  songs using <code class="notranslate">#NEXTSONG</code>.</li>
+  <li>Fixed a bug that some notes were not drawn under certain conditions</li>
 
-  <li>Fixed a bug in Dan-i Dojo where the "more" condition was not being correctly
-  evaluated.</li>
+  <li>If a scoring system is not specified when a scoring system is given, it will
+  now be selected automatically.</li>
 
   </ul>'
-updated: '2026-11-21T04:46:19Z'
-version: v2.4.4A
-version_title: TJAPlayer for 3DS v2.4.4(A)
+updated: '2026-11-27T04:01:59Z'
+version: v2.4.4B
+version_title: TJAPlayer for 3DS v2.4.4(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

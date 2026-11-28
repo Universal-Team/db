@@ -11,9 +11,9 @@ download_filter: ^indigo\.3dsx$
 download_page: https://github.com/ewanc26/indigo/releases
 downloads:
   indigo.3dsx:
-    size: 1696404
+    size: 1740788
     size_str: 1 MiB
-    url: https://github.com/ewanc26/indigo/releases/download/v0.18.1/indigo.3dsx
+    url: https://github.com/ewanc26/indigo/releases/download/v0.21.0/indigo.3dsx
 github: ewanc26/indigo
 icon: https://raw.githubusercontent.com/ewanc26/indigo/main/assets/icon.png
 image: https://raw.githubusercontent.com/ewanc26/indigo/main/assets/banner.png
@@ -40,22 +40,20 @@ stars: 0
 systems:
 - 3DS
 title: Indigo
-update_notes: '<h3 dir="auto">Fixed</h3>
+update_notes: '<h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Saving, pinning or removing a feed can no longer erase your Bluesky preferences.
-  If Indigo could not read your current preferences first, it wrote back a list holding
-  only the feed change, which replaced everything else the account had saved: muted
-  words, other feeds, label and adult-content choices. It now refuses and reports
-  the failure. A newly saved feed also carries the <code class="notranslate">id</code>
-  every saved feed must have. (<a href="https://github.com/ewanc26/indigo/pull/148"
-  data-hovercard-type="pull_request" data-hovercard-url="/ewanc26/indigo/pull/148/hovercard">#148</a>)</li>
+  <li>A profile''s avatar is covered when a label on the account asks for it, for
+  example graphic media from a labeler you subscribe to. The image is not downloaded;
+  a flat square is drawn in its place, and the status line says "Avatar hidden: ".
+  Banners are not drawn by Indigo, so they are not covered. (<a href="https://github.com/ewanc26/indigo/issues/147"
+  data-hovercard-type="issue" data-hovercard-url="/ewanc26/indigo/issues/147/hovercard">#147</a>)</li>
 
   </ul>'
-updated: '2026-11-28T00:27:29Z'
-version: v0.18.1
-version_title: Indigo 0.18.1
+updated: '2026-11-28T07:20:59Z'
+version: v0.21.0
+version_title: Indigo 0.21.0
 ---
 Indigo exists because apparently making a Wii U post to Bluesky was not enough.
 
