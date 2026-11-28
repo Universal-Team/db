@@ -1,0 +1,18 @@
+{
+	"github": "patausx/seance",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"media"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/patausx/seance/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/patausx/seance/main/assets/branding/banner.png",
+	"unique_ids": [
+		387790
+	],
+	"long_description": "seance is a hands-on modular sequencer and live instrument where you chain synths, samples, mic recordings, and effects in any order. draw your own modulation, sequence evolving patterns with per-step locks, and twist or resample the mix while it plays!",
+	"download_filter": "^seance\\.(cia|3dsx)$"
+}
